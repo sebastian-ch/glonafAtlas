@@ -1,10 +1,12 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com"> 
+    <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
+-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
+
     <title>Continent View</title>
 
     <style>
@@ -66,6 +68,7 @@
             background-color: #111;
             color: whitesmoke;
         }
+
         .closebtn1 {
             position: absolute;
             top: 0;
@@ -109,7 +112,7 @@
         }
 
         .panel p {
-           /* border: 1px solid red; */
+            /* border: 1px solid red; */
         }
 
         div.tooltip {
@@ -215,7 +218,6 @@
 
 
     <script>
-        
         console.log(familylist.length)
         setFamilySearch()
         var tooltip = d3.select("body").append("div")
@@ -308,7 +310,7 @@
                             break;
                         case 8:
                             return justSa()
-                            break;     
+                            break;
                         default:
                             return console.log('hi')
                     }
