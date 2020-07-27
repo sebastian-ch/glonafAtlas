@@ -1,0 +1,363 @@
+OBJIDsic,LAT,LON,GeodAREA,taxCount,region_id,code,name,island,tdwg4,tdwg4_name,tdwg3,tdwg2,tdwg1,tdwg1_name,country_IS,country,tnorm,completeness,completeness_judge,ref_id,yearGDP,GDPpcRegion
+"32",-7.94351256894,-14.3670313752,99.3572999942,"158","664",SHN.AC,Ascension Island,"1",ASC-OO,Ascension,ASC,"28","2",Africa,SHN,"Saint Helena, Ascension and Tristan da Cunha",159.022,"2","2","50","2010","34266.97"
+"84",49.3268600551,-2.2912801596,213.607523094,"449","415",JEY_GGY,Channel Islands,"1",FRA-CI,Channel Is.,FRA,"12","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the),210.199,"1","2","116","2010","34266.97"
+"91",-12.1635968872,96.873308684,20.607283165,"56","198",CCK.MA,Cocos (Keeling) Main Atoll,"1",CKI-OO,Cocos (Keeling) Is.,CKI,"42","4",Asia-Tropical,CCK,Cocos (Keeling) Islands (the),271.749,"2","2","122","2010","41107.48"
+"102",39.6991045205,-31.1052231489,17.1153039779,"366","992",PRT.AZO.COR,Corvo,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal,2138.437,"3","2","2388","2010","19785.70"
+"124",-27.1205073284,-109.356493613,168.13181343,"2","1252",CHL.EAS,"Easter Island, Chile","1",EAS-OO,Easter Is.,EAS,"61","6",Pacific,CHL,Chile,1.19,"1","2","2385","2010","12526.56"
+"130",-1.37839895469,-89.6787036292,64.1142317907,"10","971",ECU.GAL.ESP,EspaΓ±ola,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,15.597,"3","2","52",,uninhabited
+"132",38.5782174948,-28.7013323675,173.090853442,"911","990",PRT.AZO.FAI,Faial,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal,526.313,"3","2","2388","2010","19785.70"
+"138",-0.38573445823,-91.5129368405,649.105927898,"6","972",ECU.GAL.FER,Fernandina,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,0.924,"3","2","52",,uninhabited
+"145",-1.29360294796,-90.4352912912,178.028983683,"124","973",ECU.GAL.FLO,Floreana,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,69.652,"3","2","52","2005","15568.00"
+"146",39.4419501885,-31.2024897483,140.982426384,"621","991",PRT.AZO.FLO,Flores,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal,440.48,"3","2","2388","2010","19785.70"
+"151",23.8497920751,-166.2621009,0.25048569727,"24","747",USA.HI.FFS,French Frigate Shoals,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),9581.385,"3","2","56",,uninhabited
+"158",0.32522902443,-89.9567609797,15.3831596921,"1","974",ECU.GAL.GEN,Genovesa,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,6.501,"3","2","52",,uninhabited
+"160",39.0522937062,-28.011327294,60.6915247988,"608","987",PRT.AZO.GRA,Graciosa,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal,1001.787,"3","2","2388","2010","19785.70"
+"171",19.5980836236,-155.518374985,10457.2162114,"958","748",USA.HI.HAW,Hawai'i (Big Island),"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),9.161,"3","2","56","2010","43046.84"
+"202",-0.55929258786,-91.1843439533,4726.573482,"164","975",ECU.GAL.ISA,Isabela,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,3.47,"3","2","52","2005","15568.00"
+"211",-33.70984557,-79.8560274418,109.512821144,"5","1234",CHL.JNF,Juan Fernandez Islands,"1",JNF-OO,Juan FernΒ ndez Is.,JNF,"85","8",Southern America,CHL,Chile,4.566,"1","2","2385","2010","12526.56"
+"213",21.6541437138,-160.541486522,0.74776611583,"12","750",USA.HI.KAR,Ka'ula Rock,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),1604.78,"3","2","56",,uninhabited
+"214",20.5476115268,-156.609340602,116.658525066,"144","749",USA.HI.KAH,Kaho'olawe,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),123.437,"3","2","56",,uninhabited
+"222",22.058363066,-159.524241043,1442.95150339,"722","751",USA.HI.KAU,Kaua'i,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),50.036,"3","2","56","2010","43047.00"
+"227",-29.3809352614,-177.987079871,34.4167316796,"151","901",NZL.KEI,Kermadec Islands,"1",KER-OO,Kermadec Is.,KER,"51","5",Australasia,NZL,New Zealand,438.74,"3","0","2400",,uninhabited
+"801",-19.9956837945,-158.114431777,29.4757657489,"134","292",COK.AT,"Atiu, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),454.611,"2","2","2419","2010","12653.00"
+"802",-21.9281267223,-157.919429454,48.5408656075,"160","293",COK.MA,"Mangaia, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),329.619,"2","2","2419","2010","12653.00"
+"803",-20.1611701676,-157.341429319,20.4195036506,"154","294",COK.MAU,"Mauke, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),754.181,"2","2","2419","2010","12653.00"
+"804",-19.2688006005,-158.937152731,7.46602407972,"16","295",COK.ME,"Manuae, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),214.304,"2","2","2419",,uninhabited
+"805",-10.4199021621,-161.00126823,7.9795859838,"42","296",COK.MI,"Manihiki, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the),526.343,"2","2","2419","2010","12653.00"
+"806",-19.8671266883,-157.702197566,24.6957382393,"105","297",COK.MIT,"Mitiaro, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),425.175,"2","2","2419","2010","12653.00"
+"807",-11.5605937154,-165.414581366,1.16153729708,"20","298",COK.NAS,"Nassau, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the),1721.856,"2","2","2419","2010","12653.00"
+"808",-18.0601270781,-163.15227335,2.12327294067,"29","299",COK.PAL,"Palmerston, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),1365.816,"2","2","2419","2010","12653.00"
+"809",-8.98802355399,-157.980508606,17.6328949243,"40","300",COK.PEN,"Penrhyn, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the),226.849,"2","2","2419","2010","12653.00"
+"810",-10.8838152019,-165.845369779,4.09425582597,"40","301",COK.PUK,"Pukapuka, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the),976.979,"2","2","2419","2010","12653.00"
+"811",-21.2346232782,-159.777546117,69.107189475,"222","302",COK.RA,"Rarotonga, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),321.24,"2","2","2419","2010","12653.00"
+"232",28.3928209595,-178.293975017,0.85221067062,"40","752",USA.HI.KUR,Kure,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),4693.675,"3","2","56",,uninhabited
+"243",-21.121661534,55.5381806943,2642.07979318,"760","925",FRA.REU,Reunion,"1",REU-OO,Rβunion,REU,"29","2",Africa,REU,Rβunion,28.765,"3","2","2393","2010","31299.30"
+"537",-14.172184028,-169.66373061,7.73429053857,"104","30",ASM.OFU,Ofu,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa,1344.661,"2","2","138","2010","41376.00"
+"538",-14.178550932,-169.620375353,7.2701186902,"46","31",ASM.OLO,Olosega,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa,632.727,"2","2","138","2010","41376.00"
+"539",-11.0558763561,-171.078438558,3.71050343407,"38","32",ASM.SWA,Swains,"1",TOK-SW,Swains I.,TOK,"60","6",Pacific,ASM,American Samoa,1024.12,"2","2","138","2010","41376.00"
+"540",-14.2420445121,-169.468213637,59.6163391251,"154","33",ASM.TAU,Tau,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa,258.318,"2","2","138","2010","41376.00"
+"541",-14.3003342515,-170.717618208,142.877457238,"200","34",ASM.TUA,Tutuila,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa,139.98,"2","2","138","2010","41376.00"
+"545",-28.6733105226,113.830992672,0.15559242138,"15","38",AUS.AI,"Alexander Island (Australia, not Antarctica)","1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,9640.572,"2","2","84",,uninhabited
+"547",-28.4753642101,113.785944494,0.06916290987,"14","40",AUS.BI,Beacon Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,20242.063,"1","2","84",,uninhabited
+"548",-19.014715449,152.124754183,3.95083533286,"5","41",AUS.CSIT,Coral Sea Islands Territory,"1",QLD-CS,Coral Sea Is. Territory,QLD,"50","5",Australasia,AUS,Australia,126.556,"2","2","123",,uninhabited
+"549",-28.4366510864,113.728120199,3.31783197105,"27","42",AUS.EWI,East Wallabi Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,813.784,"2","2","84",,uninhabited
+"550",-28.6674558307,113.828145415,0.0444972052,"5","43",AUS.GI,Gilbert Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,11236.661,"2","2","84",,uninhabited
+"551",-28.8865725253,113.859678278,0.23889188596,"11","44",AUS.GUI,Gun Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,4604.593,"2","2","84",,uninhabited
+"552",-28.6737718422,113.852452017,0.06053859202,"51","45",AUS.HI,Helms Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,84243.783,"2","2","84",,uninhabited
+"553",-28.8007608702,114.03977213,0.33588399824,"1","46",AUS.HUI,Hummock Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,297.722,"2","2","84",,uninhabited
+"554",-28.6888147393,113.862786793,0.1782911258,"10","47",AUS.LEI,Leo Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,5608.804,"1","2","84",,uninhabited
+"782",19.2005045674,109.74159077,33998.7685495,"315","273",CHN.46,Hainan,"1",CHH-OO,Hainan,CHH,"36","3",Asia-Temperate,CHN,China,0.927,"2","2","2408","2010","7746.07"
+"800",-18.8668385902,-159.776500355,20.4275724387,"98","291",COK.AI,"Aitutaki, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),479.744,"2","2","2419","2010","12653.00"
+"1100",-10.4716346956,-138.639836424,95.2878353514,"214","562",PYF.MI.FHI,"Fatu Hiva, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,224.583,"2","2","2375","2010","23583.00"
+"1101",-9.43680734675,-138.926493737,0.59343086645,"7","563",PYF.MI.FHU,"Fatu Huku, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,1179.581,"2","2","2375",,uninhabited
+"1102",-7.91764125559,-140.569691248,8.41008100743,"27","564",PYF.MI.HA,"Hatutaa, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,321.043,"2","2","2375",,uninhabited
+"1103",-9.77477747876,-139.013921903,319.393502395,"281","565",PYF.MI.HO,"Hiva Oa, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,87.979,"2","2","2375","2010","23583.00"
+"1104",-9.98529150538,-138.829614855,20.1036483149,"45","566",PYF.MI.MO,"Mohotani, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,223.84,"2","2","2375",,uninhabited
+"1105",-8.86623902754,-140.139322512,346.61942925,"299","567",PYF.MI.NH,"Nuku Hiva, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,86.262,"2","2","2375","2010","23583.00"
+"1106",-9.94498826259,-139.088563738,71.9068031273,"135","568",PYF.MI.TA,"Tahuata, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,187.743,"2","2","2375","2010","23583.00"
+"1107",-8.90932310343,-139.551963724,91.6311399955,"203","569",PYF.MI.UH,"Ua Huka, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,221.54,"2","2","2375","2010","23583.00"
+"1108",-9.3978570695,-140.073941947,108.789259183,"183","570",PYF.MI.UP,"Ua Pou, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,168.215,"2","2","2375","2010","23583.00"
+"1109",-23.927746037,-130.740043384,2.90403044171,"2","571",PYF.OE,"Oeno, French Polynesia","1",PIT-OO,Pitcairn Is.,PIT,"61","6",Pacific,PCN,Pitcairn,68.87,"1","2","40",,uninhabited
+"1132",-15.8436630697,-148.255586332,30.7521367089,"56","594",PYF.TA.MAK,"Makatea, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,182.101,"2","2","40","2010","23583.00"
+"1133",-14.3980841865,-145.949288026,24.7941548646,"3","595",PYF.TA.MAN,"Manihi, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,12.1,"1","2","40","2010","23583.00"
+"1134",-21.4739118876,-136.396177886,8.49539098905,"1","596",PYF.TA.MAO,"Matureivavao, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,11.771,"1","2","40",,uninhabited
+"1135",-21.8494026582,-138.891970986,21.2965648557,"2","597",PYF.TA.MOR,"Moruroa, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,9.391,"1","2","40",,uninhabited
+"1138",-16.1583345942,-146.348840964,25.3566396043,"17","600",PYF.TA.NIA,"Niau, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,67.044,"1","2","40","2010","23583.00"
+"1139",-15.1436604725,-147.570159127,98.7693782731,"9","601",PYF.TA.RAN,"Rangiroa, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,9.112,"1","2","40","2010","23583.00"
+"1140",-15.741945926,-144.631571948,6.14400086068,"1","603",PYF.TA.TAI,"Taiaro, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,16.276,"1","2","40","2010","23583.00"
+"247",20.8349945464,-156.927065885,366.604163668,"403","753",USA.HI.LAE,LΓ�na'i,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),109.928,"3","2","56","2010","43047.00"
+"249",25.7686890239,-171.734887774,2.92094893033,"12","754",USA.HI.LAY,Laysan,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),410.825,"3","2","56",,uninhabited
+"251",22.0201003056,-160.095764674,1.28218787021,"40","755",USA.HI.LEH,Lehua,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),3119.668,"3","2","56",,uninhabited
+"258",26.0639531499,-173.965922309,1.59354471908,"3","756",USA.HI.LIS,Lisianski,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),188.26,"3","2","56",,uninhabited
+"277",20.7904146321,-156.336777025,1894.10590315,"918","757",USA.HI.MAU,Maui,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),48.466,"3","2","56","2010","43047.00"
+"286",28.2080499329,-177.367191123,6.43351937511,"124","758",USA.HI.MID,Midway,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),1927.405,"3","2","56",,uninhabited
+"288",21.1331726782,-157.014517575,680.421601482,"522","759",USA.HI.MOL,Moloka'i,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),76.717,"3","2","56","2010","43047.00"
+"307",21.8966425852,-160.151830603,197.312532182,"99","761",USA.HI.NII,Ni'ihau,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),50.174,"3","2","56","2010","43047.00"
+"309",23.0604558943,-161.922525282,0.65231128283,"6","760",USA.HI.NIH,Nihoa,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),919.806,"3","2","56",,uninhabited
+"321",21.4586744323,-157.973392913,1560.18447198,"1012","762",USA.HI.OAH,O'ahu,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),64.864,"3","2","56","2010","43047.00"
+"356",27.8227755735,-175.798245491,0.29384643614,"10","763",USA.HI.PEH,Pearl & Hermes,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),3403.138,"3","2","56",,uninhabited
+"359",38.4694729615,-28.3335729551,444.974158068,"702","989",PRT.AZO.PIC,Pico,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal,157.762,"3","2","2388","2010","19785.70"
+"361",0.58684476502,-90.7570247691,60.3307837305,"8","977",ECU.GAL.PNT,Pinta,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,13.26,"3","2","52",,uninhabited
+"362",-0.61081051893,-90.6657908732,18.0691753134,"3","978",ECU.GAL.PNZ,PinzΓ³n,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,16.603,"3","2","52",,uninhabited
+"373",-19.7163243523,63.4234673494,98.146524732,"289","1233",MUS.RO,Rodrigues (Mauritius),"1",ROD-OO,Rodrigues,ROD,"29","2",Africa,MUS,Mauritius,294.458,"3","2","2393","2010","7772.10"
+"386",-0.8267980169,-89.4305601114,559.977663651,"196","979",ECU.GAL.CRI,San CristΓ³bal,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,35.001,"3","2","52","2005","15568.00"
+"396",-0.62724753263,-90.3584055979,987.094157507,"228","980",ECU.GAL.CRU,Santa Cruz,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,23.098,"1","2","2385","2005","15568.00"
+"397",-0.8184286674,-90.0587735666,25.1516016879,"1","981",ECU.GAL.SFE,Santa FΓ©,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,3.976,"3","2","52",,uninhabited
+"399",36.9713337021,-25.0998229246,96.8918334048,"865","984",PRT.AZO.MAR,Santa Maria,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal,892.748,"3","2","2388","2010","19785.70"
+"403",-0.26624540728,-90.7125462493,577.099751153,"40","982",ECU.GAL.SAN,Santiago,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,6.931,"3","2","52",,uninhabited
+"405",38.637234313,-28.0292361553,243.780704561,"614","988",PRT.AZO.JOR,SΓ£o Jorge,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal,251.866,"3","2","2388","2010","19785.70"
+"406",37.7954000209,-25.4818912421,744.721488156,"915","985",PRT.AZO.MIG,SΓ£o Miguel,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal,122.865,"3","2","2388","2010","19785.70"
+"431",17.7328595919,-64.7684563079,219.681367592,"3","1303",USA.VI.STC,St. Croix (Virgin Islands),"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.),1.366,"2","2","101","2010","41376.00"
+"432",-15.9594056606,-5.70849369246,168.128007826,"252","668",SHN.SH,St Helena,"1",STH-OO,St.Helena,STH,"28","2",Africa,SHN,"Saint Helena, Ascension and Tristan da Cunha",149.886,"2","2","72","2010","34266.97"
+"433",18.3383534594,-64.7367581147,52.0734160954,"2","1302",USA.VI.STJ,St. John (Virgin Islands),"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.),3.841,"2","2","101","2010","41376.00"
+"435",18.3435284256,-64.9286941704,76.2068100752,"3","1301",USA.VI.STT,St. Thomas (Virgin Islands),"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.),3.937,"2","2","101","2010","41376.00"
+"453",38.7239011109,-27.2122999424,400.562027459,"827","986",PRT.AZO.TER,Terceira,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal,206.46,"3","2","2388","2010","19785.70"
+"508",12.5156257974,-69.9756401303,199.567242351,"32","1",ABW,Aruba,"1",ARU-OO,Aruba,ARU,"81","8",Southern America,ABW,Aruba,16.035,"2","1","130","2010","24289.10"
+"510",18.2147363201,-63.0543983672,74.9280184692,"70","3",AIA,Anguilla,"1",LEE-AG,Anguilla,LEE,"81","8",Southern America,AIA,Anguilla,93.423,"2","1","1","2010","19478.00"
+"534",-54.3297767879,-67.426286695,20884.1343962,"150","27",ARG.TF,Tierra del Fuego,"1",AGS-TF,Tierra del Fuego (Argentina),AGS,"85","8",Southern America,ARG,Argentina,0.718,"1","2","2385","2005","22277.00"
+"536",-14.2840392329,-170.553463672,1.74340419344,"89","29",ASM.AUU,Aunuu,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa,5104.955,"2","2","138","2010","41376.00"
+"555",-28.4722703677,113.774264788,0.19209215982,"10","48",AUS.LI,"Long Island, Houtman Abrolhos","1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,5205.835,"1","2","84",,uninhabited
+"556",-28.727121147,113.787169618,0.09637916159,"22","49",AUS.LRI,Little Rat Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,22826.511,"1","2","84",,uninhabited
+"557",-28.7453395615,113.814293868,0.11838833165,"10","50",AUS.MI,Morley Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,8446.778,"2","2","84",,uninhabited
+"558",-28.9086441032,113.912473878,0.24559520752,"7","51",AUS.MII,Middle Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,2850.218,"2","2","84",,uninhabited
+"559",-28.8972413742,113.898108461,0.05765913151,"2","52",AUS.MUI,Murray Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,3468.661,"2","2","84","2010","56521.66"
+"560",-28.8631920097,113.996967061,0.11671393625,"6","53",AUS.NEI,Newman Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,5140.774,"2","2","84",,uninhabited
+"561",-28.3000205228,113.595684533,1.87297968671,"24","54",AUS.NI,"North Island, Houtman Abrolhos","1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,1281.381,"1","2","84","2010","56521.66"
+"564",-31.5530145164,159.077160367,17.4657953399,"263","58",AUS.NSW.LHI,Lord Howe Island,"1",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia,1505.8,"3","2","2411","2010","41107.48"
+"576",-28.945625793,113.972258202,2.34779263093,"19","70",AUS.PEI,Pelsaert Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,809.271,"2","2","84",,uninhabited
+"577",-28.4543578047,113.727412234,0.06795873876,"26","71",AUS.PI,Pigeon Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,38258.509,"1","2","84",,uninhabited
+"593",-28.7142881009,113.784625456,0.69741822353,"30","87",AUS.RI,Rat Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,4301.58,"1","2","84",,uninhabited
+"598",-35.8279977801,137.240283167,4417.68102885,"303","92",AUS.SA.KI,Kangaroo Island,"1",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia,6.859,"3","2","23","2010","36571.53"
+"607",-28.6827090334,113.833422499,0.16572339006,"13","101",AUS.SEI,Serventy Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,7844.397,"2","2","84",,uninhabited
+"608",-28.4591271445,113.716336085,0.18663425341,"8","102",AUS.SI,Seagull Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,4286.459,"1","2","84",,uninhabited
+"609",-28.7134550998,113.838665504,0.35027447978,"5","103",AUS.SUI,Suomi Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,1427.452,"2","2","84",,uninhabited
+"611",-54.6284044441,158.86393549,134.305202842,"3","105",AUS.TAS.MI,Macquarie Island,"1",TAS-OO,Tasmania,TAS,"50","5",Australasia,AUS,Australia,2.234,"3","2","44","2010","32602.00"
+"612",-28.8646782675,113.976698436,0.12612102717,"10","106",AUS.UMI,Uncle Margie Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,7928.892,"2","2","84",,uninhabited
+"639",-28.6709367244,113.877351705,0.09612830725,"8","134",AUS.WHI,White Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,8322.21,"2","2","84",,uninhabited
+"640",-28.7507676404,113.806094283,0.16415708505,"11","135",AUS.WI,Wooded Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,6700.899,"2","2","84",,uninhabited
+"641",-28.4650403183,113.69469028,6.42657738889,"24","136",AUS.WWI,West Wallabi Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia,373.449,"1","2","84",,uninhabited
+"647",17.4908423446,-62.9762829294,23.4369022801,"36","142",BES.EUS,Sint Eustatius,"1",LEE-NL,Netherlands Leeward Is.,LEE,"81","8",Southern America,ANT,Netherlands Antilles,153.604,"2","1","130","2010","18090.40"
+"648",17.631469265,-63.237527582,14.3533045642,"38","143",BES.SAB,Saba,"1",LEE-NL,Netherlands Leeward Is.,LEE,"81","8",Southern America,ANT,Netherlands Antilles,264.747,"2","1","130","2010","18090.40"
+"651",24.259785887,-76.6441079271,13377.8224764,"46","146",BHS,Bahamas,"1",BAH-OO,Bahamas,BAH,"81","8",Southern America,BHS,Bahamas (the),0.344,"2","1","64","2010","21940.70"
+"652",17.9019776455,-62.8296981691,21.9044757609,"79","147",BLM,Saint Barthelemy,"1",LEE-SM,St.Martin-St.Barthβlβmy,LEE,"81","8",Southern America,GLP,Guadeloupe,360.657,"2","1","1","2010","31299.30"
+"661",32.3160877892,-64.7396071092,21.4625582919,"315","150",BMU,Bermuda,"1",BER-OO,Bermuda,BER,"81","8",Southern America,BMU,Bermuda,1467.672,"1","2","2363","2010","88207.30"
+"671",-20.5082090378,-29.3032673595,11.8035656785,"34","160",BRA.ES.TMZ,Trindade and Martin Vaz,"1",BZL-ES,Espirito Santo,BZL,"84","8",Southern America,BRA,Brazil,288.049,"2","2","5",,uninhabited
+"691",13.1722621606,-59.5563895583,434.639682616,"243","180",BRB,Barbados,"1",WIN-BA,Barbados,WIN,"81","8",Southern America,BRB,Barbados,55.908,"2","1","1","2010","15854.40"
+"704",46.396226687,-63.2446040328,5974.82960227,"423","193",CAN.PE,Prince Edward Island,"1",PEI-OO,Prince Edward I.,PEI,"72","7",Northern America,CAN,Canada,7.08,"3","0","1997","2010","27838.00"
+"706",43.9453784438,-59.9068226564,31.7877683019,"79","195",CAN.SI,Sable Island,"1",NSC-OO,Nova Scotia,NSC,"72","7",Northern America,CAN,Canada,248.523,"3","2","2373","2010","29686.43"
+"709",-11.832575625,96.8241222648,3.35891405113,"12","199",CCK.NKI,Cocos (Keeling) North Keeling Island,"1",CKI-OO,Cocos (Keeling) Is.,CKI,"42","4",Asia-Tropical,CCK,Cocos (Keeling) Islands (the),357.258,"2","2","122",,uninhabited
+"711",50.199003726,154.982814006,8.90383291263,"1","616",RUS.KI.ANT,"Antsiferova, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),11.231,"1","2","19",,uninhabited
+"715",-33.7674839183,-80.7919702355,56.7227508973,"118","205",CHL.ASI,"Alejandro Selkirk Island, Juan Fernadez Islands","1",JNF-OO,Juan FernΒ ndez Is.,JNF,"85","8",Southern America,CHL,Chile,208.029,"3","1","82","2010","12526.56"
+"751",-33.6478286206,-78.8489840684,52.7900702501,"191","242",CHL.RCI,"Robinso Crusoe Island, Juan Fernandez Islands","1",JNF-OO,Juan FernΒ ndez Is.,JNF,"85","8",Southern America,CHL,Chile,361.81,"3","1","82","2010","12526.56"
+"753",-33.7064561671,-78.9423628718,2.65002626861,"25","244",CHL.SCI,"Santa Clara Island, Juan Fernadez Islands","1",JNF-OO,Juan FernΒ ndez Is.,JNF,"85","8",Southern America,CHL,Chile,943.387,"3","1","82",,uninhabited
+"758",-53.6260851396,-69.5162011145,21530.4078116,"65","249",CHL.TI,Tierra del Fuego,"1",CLS-MG,Magellanes,CLS,"85","8",Southern America,CHL,Chile,0.302,"1","2","2385","2010","12527.00"
+"812",-10.0173556381,-161.09226604,4.85807417668,"36","303",COK.RAK,"Rakahanga, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the),741.034,"2","2","2419","2010","12653.00"
+"813",-13.2505952414,-163.126821694,1.81625090561,"8","304",COK.SUW,"Suwarrow, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the),440.468,"2","2","2419",,uninhabited
+"814",-19.8125129963,-158.289025879,1.12133505592,"3","305",COK.TAK,"Takutea, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),267.538,"2","2","2419",,uninhabited
+"816",-11.8927559832,43.6759222334,1716.24581925,"3","307",COM,Comoros,"1",COM-CO,Comoros,COM,"29","2",Africa,COM,Comoros (the),0.175,"1","2","139","2010","759.30"
+"817",15.9361402422,-23.9672397663,3883.14270751,"84","308",CPV,Cape Verde,"1",CVI-OO,Cape Verde,CVI,"21","2",Africa,CPV,Cabo Verde,2.163,"1","2","139","2010","3413.30"
+"820",12.193377872,-68.9715439221,437.711431201,"47","311",CUW,Curacao,"1",NLA-CU,Curaβ‘ao,NLA,"81","8",Southern America,ANT,Netherlands Antilles,10.738,"2","1","130","2010","20001.00"
+"821",-10.485344073,105.636553044,139.609934491,"176","312",CXR,Christmas Island,"1",XMS-OO,Christmas I.,XMS,"42","4",Asia-Tropical,CXR,Christmas Island,126.066,"2","2","32","2010","41107.48"
+"822",19.4254361892,-80.8735849078,280.407433128,"239","313",CYM,Cayman Islands,"1",CAY-OO,Cayman Is.,CAY,"81","8",Southern America,CYM,Cayman Islands (the),85.233,"2","1","1","2010","58857.00"
+"823",35.0799676754,33.2577488568,9927.83514642,"143","314",CYP,Cyprus,"1",CYP-OO,Cyprus,CYP,"34","3",Asia-Temperate,CYP,Cyprus,1.44,"2","2","29","2010","30438.90"
+"827",15.4345515847,-61.3499878056,754.214180857,"203","318",DMA,Dominica,"1",WIN-DO,Dominica,WIN,"81","8",Southern America,DMA,Dominica,26.915,"2","1","1","2010","6926.80"
+"836",39.5596774142,2.89990332606,5099.94324327,"184","326",ESP.BAL,Balearic Islands,"1",BAL-OO,Baleares,BAL,"12","1",Europe,ESP,Spain,3.608,"2","2","2322","2010","31876.00"
+"837",28.3366251493,-15.6740472089,7555.95992268,"409","327",ESP.CI,Canary Islands,"1",CNY-OO,Canary Is.,CNY,"21","2",Africa,ESP,Spain,5.413,"1","2","139","2010","25512.00"
+"841",-18.3284020454,-178.692399733,1.44245649233,"1","332",FJI.AIW,"Aiwa, Lau Islands","1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji,69.326,"2","2","43",,uninhabited
+"842",-18.2110926902,-178.789865465,62.1058478822,"32","333",FJI.LAK,"Lakeba, Lau Islands","1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji,51.525,"2","2","43","2010","3649.40"
+"843",-18.1456888986,178.587081868,0.82385363357,"36","334",FJI.NAS,"Nasoata, Fiji Islands","1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji,4369.708,"3","2","124",,uninhabited
+"844",-17.9783223333,-179.05240823,19.3412394516,"17","335",FJI.NAY,"Nayau, Lau Islands","1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji,87.895,"2","2","43",,
+"845",-12.5031652792,177.080374967,47.2096760736,"246","336",FJI.ROT,Rotuma,"1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji,521.08,"2","2","83","2010","3649.40"
+"847",-46.3417160894,51.5543811202,364.475038449,"59","337",FRA.CI,Crozet Islands,"1",CRZ-OO,Crozet Is.,CRZ,"90","9",Antarctic,ATF,French Southern Territories (the),16.188,"3","2","44","2010","31299.30"
+"848",10.3028559667,-109.216859853,10.0972408009,"16","338",FRA.CLI,Clipperton Island,"1",CPI-CL,Clipperton I.,CPI,"80","8",Southern America,PYF,French Polynesia,158.459,"2","2","107",,uninhabited
+"849",42.1517317134,9.10555865088,8739.2111855,"401","339",FRA.COR,Corsica,"1",COR-OO,Corse,COR,"12","1",Europe,FRA,France,4.589,"3","2","29","2010","31299.30"
+"850",-49.2933720959,69.4939434286,8689.90896691,"69","341",FRA.KI,Kerguelen Islands,"1",KEG-OO,Kerguelen,KEG,"90","9",Antarctic,ATF,French Southern Territories (the),0.794,"3","2","44","2010","31299.30"
+"851",62.0412317639,-6.92983192379,712.620443831,"28","342",FRO,Faroe Islands,"1",FOR-OO,F?royar,FOR,"10","1",Europe,FRO,Faroe Islands (the),3.929,"2","2","29","2010","46412.50"
+"853",-7.33932910265,72.4342634637,37.3177976465,"133","344",GBR.DG,Diego Garcia,"1",CGS-OO,Chagos Archipelago,CGS,"29","2",Africa,IOT,British Indian Ocean Territory (the),356.398,"2","1","137","2010","34266.97"
+"857",52.3368436527,-3.76161340365,20951.4224374,"878","348",GBR.WAL,Wales,"1",GRB-OO,Great Britain,GRB,"10","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the),4.191,"3","2","106","2010","25630.00"
+"861",15.9321136664,-61.2685686791,159.86040914,"31","352",GLP.MG,Maria Galante,"1",LEE-GU,Guadeloupe,LEE,"81","8",Southern America,GLP,Guadeloupe,19.392,"2","1","1","2010","21780.00"
+"866",12.1137476821,-61.6837760659,316.624460488,"157","358",GRD,Grenada,"1",WIN-GR,Grenada,WIN,"81","8",Southern America,GRD,Grenada,49.586,"2","1","1","2010","7366.60"
+"869",13.4435366078,144.77703828,549.410644206,"866","361",GUM,Guam,"1",MRN-GU,Guam,MRN,"62","6",Pacific,GUM,Guam,157.623,"2","2","103","2010","41376.00"
+"874",18.8428991626,-73.0463618956,686.552103742,"114","365",HTI.GO,Gonave,"1",HAI-HA,Haiti,HAI,"81","8",Southern America,HTI,Haiti,16.605,"2","1","1","2005","1269.05"
+"875",20.0449226196,-72.7891242505,182.494749966,"114","366",HTI.TI,"Tortuga Island, Haiti","1",HAI-HA,Haiti,HAI,"81","8",Southern America,HTI,Haiti,62.468,"2","1","1","2005","1269.05"
+"878",54.2284069053,-4.53784753357,576.92268581,"408","369",IMN,Isle of Man,"1",GRB-OO,Great Britain,GRB,"10","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the),70.72,"1","2","116","2010","34266.97"
+"879",11.1513172375,92.9687572312,7219.12148186,"96","370",IND.AAN,Andaman and Nicobar,"1",000-03,Andaman and Nicobar,"3","41","4",Asia-Tropical,IND,India,1.33,"2","2","2415","2010","3477.00"
+"895",9.44684464827,72.9019697252,37.8541913341,"17","386",IND.LAK,Lakshadweep,"1",LDV-OO,Laccadive Is.,LDV,"40","4",Asia-Tropical,IND,India,44.909,"2","2","2415","2010","3477.00"
+"913",65.0974312227,-15.0367210612,15507.2035022,"42","404",ISL.IAU,"East province, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland,0.271,"3","0","134","2010","41695.90"
+"914",64.591330004,-18.3409488983,17424.8978104,"6","405",ISL.IMI,"Central Highlands, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland,0.034,"3","0","134","2010","41695.90"
+"915",65.6070681664,-18.1939896558,24646.2028563,"48","406",ISL.INO,"North province, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland,0.195,"3","0","134","2010","41695.90"
+"916",65.8068755236,-22.7503826288,6937.52677103,"32","407",ISL.INV,"North-West province, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland,0.461,"3","0","134","2010","41695.90"
+"917",63.900233719,-19.8030819059,9931.31471387,"49","408",ISL.ISU,"South province, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland,0.493,"3","0","134","2010","41695.90"
+"918",64.6887033301,-21.8828830329,10470.6330894,"51","409",ISL.IVE,"Westprovince, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland,0.487,"3","0","134","2010","41695.90"
+"921",40.0902244385,9.03622355657,23784.2012987,"120","412",ITA.SAR,Sardinia,"1",SAR-OO,Sardegna,SAR,"12","1",Europe,ITA,Italy,0.505,"1","2","2377","2010","28380.92"
+"922",37.587634527,14.1554966646,25453.6253133,"146","413",ITA.SIC,Sicily,"1",SIC-SI,Sicilia,SIC,"13","1",Europe,ITA,Italy,0.574,"2","2","29","2010","28380.92"
+"923",18.1570714175,-77.3104844786,10992.9789499,"23","414",JAM,Jamaica,"1",JAM-OO,Jamaica,JAM,"81","8",Southern America,JAM,Jamaica,0.209,"2","1","64","2010","4917.00"
+"928",1.85073687788,-157.353406313,468.965917162,"1","419",KIR.KII,"Kiritimati, Northern Line Islands","1",LIN-KI,Kiribati Line Is.,LIN,"61","6",Pacific,KIR,Kiribati,0.213,"1","2","135","2010","1539.10"
+"929",5.88168184916,-162.074218294,4.2916069452,"8","420",KIR.PAL,"Palmyra, Norther Line Islands","1",LIN-KI,Kiribati Line Is.,LIN,"61","6",Pacific,KIR,Kiribati,186.41,"1","2","135",,uninhabited
+"930",-2.81264105214,-171.673013768,12.2830755812,"47","421",KIR.PI.CA,"Canton, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati,382.64,"2","2","118","2010","1539.10"
+"931",-3.12749195243,-171.085398472,6.56324208675,"6","422",KIR.PI.EB,"Enderbury, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati,91.418,"2","2","118",,uninhabited
+"932",-4.67478001462,-174.522235657,4.99799539249,"11","423",KIR.PI.GA,"Gardner, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati,220.088,"2","2","118",,uninhabited
+"933",-4.51477122346,-172.18303896,8.0994500899,"22","424",KIR.PI.HU,"Hull, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati,271.623,"2","2","118",,uninhabited
+"934",-3.59521943725,-174.12274095,0.66126928727,"1","425",KIR.PI.MK,"McKean, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati,151.224,"2","2","118",,uninhabited
+"935",-4.45540069052,-171.244439721,9.03161762584,"11","426",KIR.PI.SY,"Sydney, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati,121.794,"2","2","118",,uninhabited
+"936",3.85110559835,-159.296777328,31.1907567295,"5","427",KIR.TAB,Tabueran,"1",LIN-KI,Kiribati Line Is.,LIN,"61","6",Pacific,KIR,Kiribati,16.03,"1","2","135","2010","1539.10"
+"937",4.68379800823,-160.379609174,14.7026036895,"4","428",KIR.TER,"Teraina, Norther Line Islands","1",LIN-KI,Kiribati Line Is.,LIN,"61","6",Pacific,KIR,Kiribati,27.206,"1","2","135","2010","1539.10"
+"938",17.3392274285,-62.7650594627,171.759943643,"104","429",KNA.KI,Saint Kitts,"1",LEE-SK,St.Kitts-Nevis,LEE,"81","8",Southern America,KNA,Saint Kitts and Nevis,60.55,"2","1","1","2010","13227.00"
+"939",17.1503601177,-62.5864697899,95.468543001,"23","430",KNA.NE,Nevis,"1",LEE-SK,St.Kitts-Nevis,LEE,"81","8",Southern America,KNA,Saint Kitts and Nevis,24.092,"2","1","1","2010","13227.00"
+"944",13.8984333606,-60.9667735281,614.172141096,"294","435",LCA,Saint Lucia,"1",WIN-SL,St.Lucia,WIN,"81","8",Southern America,LCA,Saint Lucia,47.869,"2","1","1","2010","7059.60"
+"979",18.7917510998,-110.975065551,135.995697992,"47","469",MEX.SOC,Socorro,"1",MXI-RG,Revillagigedo Is.,MXI,"79","7",Northern America,MEX,Mexico,34.56,"2","2","76","2010","11940.00"
+"1300",18.403234569,-75.0136181539,5.17264671994,"30","784",USA.NI,Navassa Island,"1",HAI-NI,Navassa I.,HAI,"81","8",Southern America,UMI,United States Minor Outlying Islands (the),579.974,"3","0","14",,uninhabited
+"987",11.1272259024,166.433006505,5.15518265672,"8","477",MHL.AA,Ailinginae Atoll,"1",MRS-OO,Marshall Is.,MRS,"62","6",Pacific,MHL,Marshall Islands (the),155.184,"2","2","104",,uninhabited
+"988",11.4977411742,162.296158314,10.1582011062,"21","478",MHL.ENI,"Eniwetok, Mashall Islands","1",MRS-OO,Marshall Is.,MRS,"62","6",Pacific,MHL,Marshall Islands (the),206.73,"2","2","115","2010","3126.52"
+"989",7.11907417352,171.21602431,22.2783885153,"15","479",MHL.MA,"Majuro Atoll, Marshall Islands","1",MRS-OO,Marshall Is.,MRS,"62","6",Pacific,MHL,Marshall Islands (the),67.33,"2","2","131","2010","3126.52"
+"990",11.2942113296,166.875865504,11.3616901786,"35","480",MHL.RA,Rongelap Atoll,"1",MRS-OO,Marshall Is.,MRS,"62","6",Pacific,MHL,Marshall Islands (the),308.053,"2","2","104",,uninhabited
+"993",35.8905226177,14.4419224618,294.394649465,"105","483",MLT,Malta,"1",SIC-MA,Malta,SIC,"13","1",Europe,MLT,Malta,35.666,"2","2","29","2010","19694.10"
+"994",17.5996081654,145.832866593,13.8598013107,"71","484",MNP.AG,"Alamagan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),512.273,"2","2","103",,uninhabited
+"995",18.7722076476,145.668424314,46.9022905535,"72","485",MNP.AH,"Agrihan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),153.511,"2","2","103",,uninhabited
+"996",19.6831171211,145.419244598,18.8455634758,"16","486",MNP.AI,"Asuncion Island, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),84.901,"2","2","103",,uninhabited
+"997",14.8524524206,145.558807068,7.55291954689,"33","487",MNP.AJ,"Aguijan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),436.917,"2","2","103",,uninhabited
+"998",16.3522456795,145.676875965,35.131149659,"55","488",MNP.AT,"Anatahan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),156.556,"2","2","103",,uninhabited
+"999",20.5449115984,144.8937948,2.78860589505,"1","489",MNP.FP,"Farallon de Pajaros, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),35.86,"2","2","103",,uninhabited
+"1000",17.3097820322,145.841330985,4.58141330181,"11","490",MNP.GG,"Guguan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),240.101,"2","2","103",,uninhabited
+"1001",20.0214906482,145.224531711,4.0766771144,"16","491",MNP.MI,"Maug Islands, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),392.477,"2","2","103",,uninhabited
+"1002",18.1163545289,145.766700634,48.0368839171,"101","492",MNP.PA,"Pagan, Mariana Islands","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),210.255,"2","2","103",,uninhabited
+"1003",14.1574354359,145.214092501,89.6881227565,"246","493",MNP.RO,"Rota, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),274.284,"2","2","103","2010","41376.00"
+"1004",16.7045096484,145.779158668,5.10864724263,"40","494",MNP.SG,"Sarigan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),782.986,"2","2","103",,uninhabited
+"1005",15.1891289838,145.753963446,122.542460883,"236","495",MNP.SP,"Saipan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),192.586,"2","2","103","2010","41376.00"
+"1006",15.013350542,145.631566135,103.632954926,"217","496",MNP.TI,"Tinian, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),209.393,"2","2","103","2010","41376.00"
+"1018",16.7394520104,-62.1896849557,100.645737018,"23","508",MSR,Montserrat,"1",LEE-MO,Montserrat,LEE,"81","8",Southern America,MSR,Montserrat,22.852,"2","2","105","2010","11650.00"
+"1019",14.6527468193,-61.0181145119,1114.85631682,"347","509",MTQ,Martinique,"1",WIN-MA,Martinique,WIN,"81","8",Southern America,MTQ,Martinique,31.125,"2","1","1","2010","31299.30"
+"1020",-20.2518657056,57.8707666407,2144.89428132,"746","510",MUS,Mauritius,"1",MAU-OO,Mauritius,MAU,"29","2",Africa,MUS,Mauritius,34.78,"3","2","2393","2010","7772.10"
+"1026",-29.0325793274,167.952265575,37.8765603163,"273","516",NFK,Norfolk Island,"1",NFK-NI,Norfolk I.,NFK,"50","5",Australasia,NFK,Norfolk Island,720.762,"3","2","51","2010","33394.10"
+"1031",70.9407212855,-8.5660462814,1.90539943216,"6","521",NOR.JM,Jan Mayen,"1",SVA-OO,Svalbard,SVA,"10","1",Europe,SJM,Svalbard and Jan Mayen,314.895,"3","1","46","2010","36582.98"
+"1032",78.9534002074,22.98493194,1639.43510499,"6","522",NOR.SVA,Svalbard,"1",SVA-OO,Svalbard,SVA,"10","1",Europe,SJM,Svalbard and Jan Mayen,0.366,"2","2","29","2010","36582.98"
+"1034",-0.52847048405,166.934483675,22.1509387772,"18","524",NRU,Nauru,"1",NRU-OO,Nauru,NRU,"60","6",Pacific,NRU,Nauru,81.261,"2","2","2374","2010","6233.90"
+"1036",-50.7364843077,166.097263294,599.919353376,"60","526",NZL.AUC,Auckland Islands,"1",ATP-OO,Antipodean Is.,ATP,"51","5",Australasia,NZL,New Zealand,10.001,"2","2","2364",,uninhabited
+"1037",-43.9384848553,-176.525216047,819.510817549,"584","527",NZL.CI,Chatham Islands,"1",CTM-OO,Chatham Is.,CTM,"51","5",Australasia,NZL,New Zealand,71.262,"3","0","2400","2010","33394.10"
+"1071",18.2220098761,-66.4681479584,8970.47221826,"985","533",PRI,Puerto Rico,"1",PUE-OO,Puerto Rico,PUE,"81","8",Southern America,PRI,Puerto Rico,10.98,"2","2","101","2010","26435.70"
+"1075",32.507628076,-16.5088338161,13.973606469,"16","536",PRT.DES,Desertas,"1",MDR-OO,Madeira,MDR,"21","2",Africa,PRT,Portugal,114.502,"3","2","15",,uninhabited
+"1076",32.7463372486,-16.9991297002,740.937731316,"889","537",PRT.MAD,Madeira,"1",MDR-OO,Madeira,MDR,"21","2",Africa,PRT,Portugal,119.983,"1","2","139","2010","19785.70"
+"1077",33.0691804206,-16.3421739085,40.3314766049,"101","539",PRT.PSA,Porto Santo,"1",MDR-OO,Madeira,MDR,"21","2",Africa,PRT,Portugal,250.425,"3","2","15","2010","19785.70"
+"1078",30.1122634366,-15.9192277095,4.84837792457,"17","540",PRT.SIS,Salvage Islands,"1",SEL-OO,Selvagens,SEL,"21","2",Africa,PRT,Portugal,350.633,"3","2","15",,uninhabited
+"1079",-23.1662213913,-135.035578095,0.92096106979,"12","541",PYF.AGA,"Agakauitai, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,1302.987,"1","2","40",,uninhabited
+"1081",-21.8093324091,-154.702433616,2.04598830748,"3","543",PYF.AI.MAR,"Maria, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia,146.628,"1","2","40",,uninhabited
+"1082",-23.8679509699,-147.652582736,19.1116700614,"77","544",PYF.AI.RAI,"Raivavae, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia,402.895,"2","2","40","2010","23583.00"
+"1083",-22.6488383503,-152.805734208,8.42686443898,"89","545",PYF.AI.RIM,"Rimatara, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia,1056.146,"2","2","40","2010","23583.00"
+"1084",-22.4749259648,-151.345840618,34.6606038711,"90","546",PYF.AI.RUR,"Rurutu, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia,259.661,"2","2","40","2010","23583.00"
+"1085",-23.3725999192,-149.479618236,48.4967219841,"68","547",PYF.AI.TUB,"Tubuai, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia,140.216,"2","2","40","2010","23583.00"
+"1086",-15.8140970798,-154.522842436,3.65763059829,"1","548",PYF.BEL,"Bellingshausen, French Polynesia","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,27.34,"1","2","40",,uninhabited
+"1087",-27.6060139506,-144.346834983,48.2552644712,"33","549",PYF.BI.RAP,"Rapa, French Polynesia (Bass Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia,68.386,"2","2","40","2010","23583.00"
+"1088",-23.1874352991,-134.913815361,2.70980737771,"16","550",PYF.GI.AKA,"Akamaru, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,590.448,"1","2","40","2010","23583.00"
+"1089",-23.1320047739,-134.903556449,1.82651991281,"15","551",PYF.GI.AUK,"Aukena, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,821.234,"1","2","40","2010","23583.00"
+"1092",-23.1097407409,-134.970756686,15.7245745121,"41","554",PYF.GI.MAN,"Mangareva, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,260.738,"2","2","40","2010","23583.00"
+"1093",-23.1471991349,-135.039577744,5.59326349142,"20","555",PYF.GI.TAR,"Taravai, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,357.573,"1","2","40","2010","23583.00"
+"1094",-23.1463843867,-134.851373368,0.03298894782,"1","556",PYF.GI.TAU,"Tauna, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,3031.318,"1","2","40",,uninhabited
+"1095",-23.1648624949,-134.852518378,0.10229090121,"1","557",PYF.GI.TEK,"Tekava, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,977.604,"1","2","40",,uninhabited
+"1096",-23.3460038992,-134.479890841,21.8105688751,"1","558",PYF.GI.TEM,"Temoe, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,4.585,"1","2","40",,uninhabited
+"1097",-23.1097581321,-134.852534052,0.92760585528,"1","559",PYF.GI.TRO,"Tarauru Roa, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,107.804,"1","2","40",,uninhabited
+"1098",-24.3767258715,-128.322888119,44.5527779804,"4","560",PYF.HE,"Henderson, French Polynesia","1",PIT-OO,Pitcairn Is.,PIT,"61","6",Pacific,PCN,Pitcairn,8.978,"1","2","40",,uninhabited
+"1099",-7.99628693432,-140.687405994,41.0649331821,"47","561",PYF.MI.EI,"Eiao, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,114.453,"2","2","2375",,uninhabited
+"1110",-25.0696468912,-130.106262679,4.91753279713,"25","572",PYF.PC,"Pitcairn, French Polynesia","1",PIT-OO,Pitcairn Is.,PIT,"61","6",Pacific,PCN,Pitcairn,508.385,"1","2","40","2010","23583.00"
+"1111",-16.4940458275,-151.738948654,32.7461894514,"29","573",PYF.SI.BOR,"Bora Bora, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,88.56,"1","2","40","2010","23583.00"
+"1112",-16.7464708775,-151.002510045,82.0542533698,"24","574",PYF.SI.HUA,"Huahine, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,29.249,"1","2","40","2010","23583.00"
+"1113",-17.65707106,-150.628686959,13.090723292,"5","575",PYF.SI.MAI,"Maiao, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,38.195,"1","2","40","2010","23583.00"
+"1114",-16.4421547547,-152.265035055,13.4647999826,"106","576",PYF.SI.MAU,"Maupiti, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,787.238,"2","2","41","2010","23583.00"
+"1115",-17.8752697375,-148.067523464,2.51904435549,"12","577",PYF.SI.MEH,"Mehetia, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,476.371,"1","2","40",,uninhabited
+"1116",-17.5290550675,-149.833709179,134.378689848,"111","578",PYF.SI.MOO,"Moorea, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,82.602,"2","2","40","2010","23583.00"
+"1117",-16.8017706178,-153.944045452,5.99023132554,"1","579",PYF.SI.MOP,"Mopelia, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,16.694,"1","2","40","2010","23583.00"
+"1118",-16.822011602,-151.436886069,173.617486149,"84","580",PYF.SI.RAI,"Raiatea, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,48.382,"2","2","40","2010","23583.00"
+"1119",-16.62298511,-151.493670905,94.9049606014,"35","581",PYF.SI.TAH,"Tahaa, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,36.879,"2","2","40","2010","23583.00"
+"1120",-17.0045201557,-149.566609574,6.2454616871,"4","582",PYF.SI.TET,"Tetiaroa, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,64.047,"1","2","40","2010","23583.00"
+"1121",-17.6774861898,-149.400752999,1053.129908,"207","583",PYF.SI.THI,"Tahiti, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,19.656,"2","2","40","2010","23583.00"
+"1122",-16.2620429866,-151.816122842,11.1487322119,"3","584",PYF.SI.TUP,"Tupai, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,26.909,"1","2","40",,uninhabited
+"1126",-15.9866663606,-140.133244259,15.6449887469,"1","588",PYF.TA.FAK,"Fakahina, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,6.392,"1","2","40","2010","23583.00"
+"1127",-22.2400463527,-138.746419455,11.9311345006,"1","589",PYF.TA.FAN,"Fangataufa, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,8.381,"1","2","40",,uninhabited
+"1128",-18.2565410518,-140.86958345,46.3268167557,"4","590",PYF.TA.HAO,"Hao, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,8.634,"1","2","40","2010","23583.00"
+"1130",-15.7296557484,-146.709510067,20.24603332,"1","592",PYF.TA.KAU,"Kaukura, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,4.939,"1","2","40","2010","23583.00"
+"1141",-21.3055475413,-136.74675043,4.15483582289,"1","605",PYF.TA.TEN,"Tenararo, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,24.068,"1","2","40",,uninhabited
+"1142",-21.3450416839,-136.542968221,5.93850385207,"3","606",PYF.TA.TGA,"Tenarunga, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,50.518,"1","2","40",,uninhabited
+"1143",-15.0053187482,-148.16513776,36.9385967124,"11","607",PYF.TA.TIK,"Tikehau, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,29.779,"1","2","40","2010","23583.00"
+"1144",-14.6287357776,-145.206439466,18.9142103058,"2","604",PYF.TA.TAO,"Takapoto, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,10.574,"1","2","40","2010","23583.00"
+"1146",-14.1019964162,-141.42881178,2.6735062777,"2","610",PYF.TA.TNO,"Tepoto North, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,74.808,"1","2","40","2010","23583.00"
+"1147",-15.8536367191,-146.01805669,16.5137485199,"3","611",PYF.TA.TOA,"Toau, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,18.167,"1","2","40","2010","23583.00"
+"1148",-21.3326308913,-136.653017717,5.47008741703,"2","612",PYF.TA.VAH,"Vahanga, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,36.562,"1","2","40",,uninhabited
+"1152",43.369245274,146.003121113,2.35192871503,"16","617",RUS.KI.ANU,"Anuchina, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),680.293,"2","2","47",,uninhabited
+"1153",43.4173004295,146.162069894,0.60167642418,"2","618",RUS.KI.DEM,"Demina, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),332.405,"2","2","47",,uninhabited
+"1154",48.945145568,153.953924085,33.0687880133,"2","619",RUS.KI.EKA,"Ekarma, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),6.048,"1","2","19",,uninhabited
+"1155",45.075980014,147.877230762,3175.90582415,"19","620",RUS.KI.ITU,"Iturup, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),0.598,"2","2","121","2010","18744.00"
+"1156",47.3369913582,152.47776072,71.4407240824,"1","621",RUS.KI.KET,"Ketoi, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),1.4,"2","2","121",,uninhabited
+"1157",49.1207136429,154.525752898,77.8117507754,"2","622",RUS.KI.KHA,"Kharimkotan, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),2.57,"2","2","120",,uninhabited
+"1158",44.1732766441,145.947089955,1488.29032457,"24","623",RUS.KI.KUR,"Kunashir, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),1.613,"2","2","121","2010","18744.00"
+"1159",49.7763977965,154.436318329,50.9060690466,"2","624",RUS.KI.MAK,"Makanrushi, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),3.929,"1","2","19",,uninhabited
+"1160",48.0805212035,153.216013786,52.0083386341,"3","625",RUS.KI.MAT,"Matua, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),5.768,"2","2","121",,uninhabited
+"1161",50.3729474129,155.722644462,2035.09509766,"3","626",RUS.KI.PAR,"Paramushir, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),0.147,"2","2","121","2010","18744.00"
+"1162",43.6309243216,146.323888978,10.4994024837,"10","627",RUS.KI.POL,"Polonskogo, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),95.244,"2","2","47",,uninhabited
+"1163",46.9480300547,151.995743206,339.363793304,"8","628",RUS.KI.SHI,"Shimushir, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),2.357,"2","2","121",,uninhabited
+"1164",43.8008614618,146.738906475,250.323585114,"19","629",RUS.KI.SHN,"Shikotan, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),7.59,"2","2","121","2010","18744.00"
+"1165",50.7396882634,156.355594146,385.234740463,"2","630",RUS.KI.SHU,"Shumushu, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),0.519,"2","2","121","2010","18744.00"
+"1166",43.3834701809,145.892793584,0.11970481294,"3","631",RUS.KI.STO,"Storozhevoy, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),2506.165,"2","2","47",,uninhabited
+"1167",43.4387131314,145.916814618,13.200736921,"20","632",RUS.KI.TAN,"Tanfilyeva, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),151.507,"2","2","47",,uninhabited
+"1168",45.9056751248,149.949228541,1423.21508938,"1","633",RUS.KI.URU,"Urup, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),0.07,"2","2","121",,uninhabited
+"1169",47.5232802351,152.820443438,5.4704253609,"1","634",RUS.KI.USH,"Ushishir, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),18.28,"2","2","121",,uninhabited
+"1170",43.4221793189,146.063616298,10.5123877061,"16","635",RUS.KI.YUR,"Yuri, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),152.201,"2","2","47",,uninhabited
+"1171",43.5079600716,146.136127527,58.6063017524,"22","636",RUS.KI.ZEJ,"Zeleny, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the),37.539,"2","2","47",,uninhabited
+"1196",1.35659815167,103.820131243,673.696799675,"223","662",SGP,Singapore,"1",MLY-SI,Singapore,MLY,"42","4",Asia-Tropical,SGP,Singapore,33.101,"2","2","24","2010","46596.70"
+"1198",-40.3188113253,-9.94232256375,72.1056955652,"12","665",SHN.GI,Gough Island,"1",TDC-OO,Tristan da Cunha,TDC,"90","9",Antarctic,SHN,"Saint Helena, Ascension and Tristan da Cunha",16.642,"2","2","132","2010","34266.97"
+"1199",-37.3005024967,-12.6780652915,14.7043149864,"19","666",SHN.II,Inaccessible Island,"1",TDC-OO,Tristan da Cunha,TDC,"90","9",Antarctic,SHN,"Saint Helena, Ascension and Tristan da Cunha",129.214,"2","2","132",,uninhabited
+"1200",-37.4245351885,-12.4838800128,3.46303916978,"5","667",SHN.NI,Nightingale,"1",TDC-OO,Tristan da Cunha,TDC,"90","9",Antarctic,SHN,"Saint Helena, Ascension and Tristan da Cunha",144.382,"2","2","132",,uninhabited
+"1201",-37.1124427522,-12.2851029602,98.0586909095,"83","669",SHN.TC,Tristan da Cunha,"1",TDC-OO,Tristan da Cunha,TDC,"90","9",Antarctic,SHN,"Saint Helena, Ascension and Tristan da Cunha",84.643,"2","2","132","2010","34266.97"
+"1204",46.9302045587,-56.3061270088,255.234391609,"199","672",SPM,Saint Pierre and Miquelon,"1",NFL-SP,St.Pierre-Miquelon,NFL,"72","7",Northern America,SPM,Saint Pierre and Miquelon,77.968,"3","0","1997","2010","31299.30"
+"1211",18.0628547302,-63.0610944794,94.17492756,"35","679",SXM,Sint Maarten,"1",LEE-NL,Netherlands Leeward Is.,LEE,"81","8",Southern America,ANT,Netherlands Antilles,37.165,"2","1","130","2010","31299.30"
+"1212",-4.88012684534,53.3867928597,0.06989501538,"2","680",SYC.AFB,"African Banks, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,2861.434,"3","1","49",,uninhabited
+"1213",-9.4254833429,46.3688140689,164.227088468,"53","681",SYC.ALD,"Aldabra, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,32.272,"3","1","49",,uninhabited
+"1214",-7.00618449332,52.7264768759,1.92966384939,"27","682",SYC.ALP,"Alphonse, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,1399.207,"3","1","49","2010","10805.10"
+"1215",-4.21257091387,55.6665693344,0.8338684406,"40","683",SYC.ARI,"Aride, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,4796.92,"3","1","49","2010","10805.10"
+"1216",-9.73086526443,46.5115120379,12.07709085,"35","684",SYC.ASS,"Assumption, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,289.805,"3","1","49","2010","10805.10"
+"1217",-10.0866035551,47.7417225241,10.9570703973,"32","685",SYC.AST,"Astove, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,292.049,"3","1","49",,uninhabited
+"1218",-3.72020925513,55.2054870165,1.03496927402,"91","686",SYC.BIR,"Bird, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,8792.532,"2","2","53","2010","10805.10"
+"1219",-4.25860835154,55.6733566699,0.061403558,"1","687",SYC.BOI,"Booby Island, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,1628.57,"3","1","49",,uninhabited
+"1220",-4.31219654102,55.8653632299,0.0370753624,"2","688",SYC.COC,"Cocos, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,5394.418,"3","1","49",,uninhabited
+"1221",-7.12963718239,56.2799942758,9.98385983661,"54","689",SYC.COE,"Coetivy, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,540.873,"3","1","49","2010","10805.10"
+"1222",-4.66376746921,55.3659916657,0.7036500834,"38","690",SYC.CON,"Conception, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,5400.411,"2","2","53","2010","10805.10"
+"1223",-9.72632340293,47.573175224,6.27331611165,"26","691",SYC.COS,"Cosmoledo, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,414.454,"3","1","49",,uninhabited
+"1224",-4.33123068189,55.6628579546,0.4339959122,"86","692",SYC.COU,"Cousin, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,19815.855,"2","2","53",,uninhabited
+"1225",-4.35073594705,55.6477239631,0.31873122768,"3","693",SYC.CSE,"Cousine, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,941.232,"3","1","49","2010","10805.10"
+"1226",-4.28281780975,55.7252336692,3.34934537257,"111","694",SYC.CUR,"Curieuse, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,3314.08,"2","2","53",,uninhabited
+"1227",-5.41573065518,53.2984640917,1.75554917788,"52","695",SYC.DAR,"Darros, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,2962.036,"3","1","49","2010","10805.10"
+"1228",-3.8058352787,55.6666413843,1.67381312225,"94","696",SYC.DEN,"Denis, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,5615.92,"2","2","53",,uninhabited
+"1229",-5.68939570715,53.669040189,4.3624986167,"26","697",SYC.DES,"Desroches, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,595.989,"3","1","49","2010","10805.10"
+"1230",-6.23487558137,53.0434223888,0.49932720334,"15","698",SYC.DNO,"Desnoefs, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,3004.042,"3","1","49",,uninhabited
+"1231",-10.1593208733,51.1655659972,9.13084026684,"39","699",SYC.FAR,"Farquhar, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,427.124,"3","1","49","2010","10805.10"
+"1232",-4.32806083757,55.8748652878,2.88402955408,"69","700",SYC.FEL,"Felicite, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,2392.486,"2","2","53","2010","10805.10"
+"1233",-4.58633319167,55.941317502,2.2996071877,"101","701",SYC.FRE,"Fregate, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,4392.054,"3","1","49","2010","10805.10"
+"1234",-4.28991463364,55.8691056854,0.88943828864,"60","702",SYC.GSO,"Grande Soeur, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,6745.831,"2","2","53",,uninhabited
+"1235",-4.63478271976,55.5004498803,1.13199508698,"27","703",SYC.IAC,"Ile au Cerf, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,2385.169,"3","1","49","2010","10805.10"
+"1236",-4.65965622905,55.5259403272,2.14009481974,"34","704",SYC.IAN,"Ile Anonyme, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,1588.715,"3","1","49",,uninhabited
+"1237",-4.6265988028,55.5082167586,0.24521208368,"21","705",SYC.ILO,"Ile Longue, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,8564.015,"3","1","49","2010","10805.10"
+"1238",-4.60718456626,55.5010580178,1.46107400507,"67","706",SYC.ISA,"Ile St Anne, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,4585.668,"3","1","49",,uninhabited
+"1239",-4.68586599157,55.4335808802,0.04575418594,"2","707",SYC.IVM,"Ile aux Vaches Marines, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,4371.185,"3","1","49",,uninhabited
+"1240",-4.36089469325,55.8378782957,10.5736914941,"77","708",SYC.LDI,"La Digue, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,728.222,"3","1","49","2010","10805.10"
+"1241",-4.67644340825,55.4672799831,163.012831295,"290","709",SYC.MAH,"Mahe, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,177.9,"3","1","49","2010","10805.10"
+"1242",-4.34199659553,55.9211002893,1.07254157802,"70","710",SYC.MAR,"Marianne, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,6526.554,"2","2","53",,uninhabited
+"1243",-6.17923314702,53.1438968969,0.69476691481,"29","711",SYC.MLO,"Marie-Louise, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,4174.062,"3","1","49","2010","10805.10"
+"1244",-4.39299610902,55.2445725234,2.12434218435,"160","712",SYC.NOI,"North Island, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,7531.743,"2","2","53","2010","10805.10"
+"1245",-5.86369111617,55.3846625558,0.5641773671,"21","713",SYC.PLA,"Platte, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,3722.234,"3","1","49","2010","10805.10"
+"1246",-5.7609208545,53.3063415916,3.45751131002,"40","714",SYC.POI,"Poivre, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,1156.901,"3","1","49","2010","10805.10"
+"1247",-4.32387974155,55.7301449723,39.3214655982,"104","715",SYC.PRA,"Praslin, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,264.487,"3","1","49","2010","10805.10"
+"1248",-9.53196010943,50.9869176658,1.3304688644,"7","716",SYC.PRO,"Providence, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,526.13,"3","1","49","2010","10805.10"
+"1249",-4.28818192586,55.85551649,0.51615613171,"2","717",SYC.PSO,"Petit Soeur, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,387.48,"3","1","49",,uninhabited
+"1250",-4.58228305954,55.7636094349,0.29616630402,"2","718",SYC.REC,"Recifs, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,675.296,"3","1","49",,uninhabited
+"1251",-5.11664110791,53.3123364913,0.31456635436,"25","719",SYC.REM,"Remire, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,7947.449,"3","1","49","2010","10805.10"
+"1252",-7.15671817372,52.7381340313,0.72164858588,"4","720",SYC.SFR,"St Francois, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,554.286,"3","1","49",,uninhabited
+"1253",-4.48721069943,55.2306648807,20.5509433112,"133","721",SYC.SIL,"Silhouette, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,647.172,"3","1","49","2010","10805.10"
+"1254",-5.43712136091,53.3581190508,1.58177684279,"16","722",SYC.SJO,"St Joseph, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,1011.521,"3","1","49",,uninhabited
+"1255",-9.33168443265,50.7275142695,1.87770580577,"10","723",SYC.STP,"St Pierre, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,532.565,"3","1","49",,uninhabited
+"1256",-4.67404354442,55.4013248793,0.8631560638,"51","724",SYC.THE,"Therese, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles,5908.549,"2","2","53",,uninhabited
+"1260",-19.8567095378,-174.821605035,763.417221681,"296","728",TON,Tonga,"1",TON-OO,Tonga,TON,"60","6",Pacific,TON,Tonga,38.773,"2","2","114","2010","3552.60"
+"1284",16.7407444591,-169.528419384,5.51373731571,"8","768",USA.JI,Johnston Island,"1",HAW-JI,Johnston I.,HAW,"63","6",Pacific,UMI,United States Minor Outlying Islands (the),145.092,"2","2","42",,uninhabited
+"1322",12.8392298432,-61.2838108742,49.148394068,"63","806",VCT.GR,The Grenadines,"1",WIN-SV,St.Vincent,WIN,"81","8",Southern America,VCT,Saint Vincent and the Grenadines,128.183,"2","1","1","2010","6233.00"
+"1323",13.2513090001,-61.1889752258,348.619378971,"205","807",VCT.SV,Saint Vincent,"1",WIN-SV,St.Vincent,WIN,"81","8",Southern America,VCT,Saint Vincent and the Grenadines,58.803,"2","1","1","2010","6233.00"
+"1325",18.7269167319,-64.3373807535,40.2429077729,"4","809",VGB.AN,"Anegada, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British),9.94,"1","2","27","2010","32839.90"
+"1326",18.4764014066,-64.5706190413,3.53063165243,"85","810",VGB.GI,"Guana Island, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British),2407.501,"2","1","1","2010","32839.90"
+"1327",18.4465061333,-64.7468530432,9.20592359659,"9","811",VGB.JD,"Jost van Dyke, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British),97.763,"2","1","1","2010","32839.90"
+"1328",18.4240743275,-64.6200639425,65.1710143701,"200","812",VGB.TO,"Tortola, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British),306.885,"2","2","101","2010","32839.90"
+"1329",18.4758549511,-64.3992164751,23.9049856345,"109","813",VGB.VG,"Virgin Gorda, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British),455.972,"2","2","101","2010","32839.90"
+"1330",-14.0139231693,-171.399702211,0.12025403555,"18","814",WSM.FAU,Fanuatapu,"1",SAM-WS,Samoa,SAM,"60","6",Pacific,WSM,Samoa,14968.313,"1","2","136",,uninhabited
+"1331",-14.0222586548,-171.415598891,0.25566655614,"60","815",WSM.NAA,Namua,"1",SAM-WS,Samoa,SAM,"60","6",Pacific,WSM,Samoa,23468.068,"1","2","136",,uninhabited
+"1332",-14.0732736965,-171.410055826,0.37142124792,"16","816",WSM.NUA,Nuulua,"1",SAM-WS,Samoa,SAM,"60","6",Pacific,WSM,Samoa,4307.777,"1","2","136",,uninhabited
+"1333",-14.0636023041,-171.42274608,1.26696832791,"47","817",WSM.NUE,Nuutela,"1",SAM-WS,Samoa,SAM,"60","6",Pacific,WSM,Samoa,3709.643,"1","2","136",,uninhabited
+"1340",-46.9060031953,37.7407887284,295.303161627,"12","824",ZAF.MI,Marion Island,"1",MPE-OO,Marion-Prince Edward Is.,MPE,"90","9",Antarctic,ZAF,South Africa,4.064,"3","2","44","2010","8659.27"
+"1205",0.45698584302,6.73658831057,1142.07681891,"384","673",STP,Sao Tome and Principe,"1",000-06,Sao Tome and Principe,GGI,"23","2",Africa,STP,Sao Tome and Principe,33.623,"1","2","139","2010","1128.00"
+"1344",-46.6295123557,37.9204683737,50.080966991,"3","828",ZAF.PEI,"Prince Edward Island, South Africa","1",MPE-OO,Marion-Prince Edward Is.,MPE,"90","9",Antarctic,ZAF,South Africa,5.99,"3","2","44",,uninhabited
+"1197",-54.3579816091,-36.7186258327,3614.60256291,"31","663",SGS.SGI,South Georgia Island,"1",SGE-OO,South Georgia,SGE,"90","9",Antarctic,SGS,South Georgia and the South Sandwich Islands,0.858,"3","2","44","2010","34266.97"
+"1024",-21.2946141897,165.671849775,19230.9899216,"64","514",NCL,New Caledonia,"1",NWC-OO,New Caledonia,NWC,"60","6",Pacific,NCL,New Caledonia,0.333,"1","2","85","2010","36789.00"
+"1316",17.9716993865,-64.8027737055,362.160620471,"406","800",USA.VI,United States Virgin Islands,"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.),112.105,"1","2","2350","2010","41376.00"
+"646",12.1838282257,-68.2901468601,285.90412947,"38","141",BES.BON,Bonaire,"1",NLA-BO,Bonaire,NLA,"81","8",Southern America,ANT,Netherlands Antilles,13.291,"2","1","130","2010","18090.40"
+"543",17.0778428757,-61.7974498962,283.691438612,"183","36",ATG.AN,Antigua,"1",LEE-AB,Antigua-Barbuda,LEE,"81","8",Southern America,ATG,Antigua and Barbuda,64.507,"2","1","1","2010","13017.30"
+"544",17.6340021554,-61.7966762426,151.252842569,"43","37",ATG.BA,Barbuda,"1",LEE-AB,Antigua-Barbuda,LEE,"81","8",Southern America,ATG,Antigua and Barbuda,28.429,"2","1","1","2010","13017.30"
+"871",-53.0929514502,73.5169400367,360.538386297,"1","363",HMD.HI,Heard Island,"1",HMD-OO,Heard-McDonald Is.,HMD,"90","9",Antarctic,HMD,Heard Island and McDonald Islands,0.277,"3","2","44",,uninhabited
+"546",-12.265762279,123.078300815,17.8360198213,"4","39",AUS.AR,Ashmore Reef,"1",WAU-AC,Ashmore-Cartier Is.,WAU,"50","5",Australasia,AUS,Australia,22.427,"2","2","66",,uninhabited
+"1389",-12.8239914776,45.1439209442,371.423619576,"1","999",FRA.MAY,Mayotte,"1",COM-MA,Mayotte,COM,"29","2",Africa,MYT,Mayotte,0.269,"1","2","139",,
+"1400",3.37168093579,73.2521383766,140.457108653,"20","1001",MDV,Maldives,"1",MDV-OO,Maldives,MDV,"40","4",Asia-Tropical,MDV,Maldives,14.239,"1","2","139",,
+"1509",12.9518552331,-81.5231873268,52.3637328685,"33","1136",COL.SPS,"Department of San AndrΓ©s, Providencia y Santa Catalina, Colombia","1",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,63.021,"2","2","2344",,
+"1530",-46.9797800756,167.902646293,1618.92426135,"209","1258",NZL.STI,New Zealand Stewart Island,"1",NZS-OO,New Zealand South,NZS,"51","5",Australasia,NZL,New Zealand,12.91,"3","0","2400",,

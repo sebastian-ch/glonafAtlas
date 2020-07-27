@@ -1,0 +1,279 @@
+OBJIDsic,LAT,LON,GeodAREA,taxCount,region_id,code,name,island,tdwg4,tdwg4_name,tdwg3,tdwg2,tdwg1,tdwg1_name,country_IS,country,completeness,completeness_judge,ref_id,tnorm
+"17",-55.1467207476,-68.6306921128,9039.16178594,"9","201",CHL.AC,AntΓ‘rtica Chilena,"0",CLS-MG,Magellanes,CLS,"85","8",Southern America,CHL,Chile,"2","0","45",0.100
+"34",-27.3685402993,-69.9016201753,77960.0851663,"1","1222",CHL.RAT,"RegiΓ³n de Atacama, Chile","0",CLN-AT,Atacama,CLN,"85","8",Southern America,CHL,Chile,"1","2","2385",0.001
+"36",-46.2939080349,-73.3534143889,75989.6714513,"4","1230",CHL.RAI,"RegiΓ³n AisΓ©n del General Carlos IbΓ‘Γ±ez del Campo, Chile","0",CLS-AI,Aisβn,CLS,"85","8",Southern America,CHL,Chile,"1","2","2385",0.005
+"44",-37.1792511626,-72.2668674508,35967.1880203,"10","1227",CHL.RBI,"RegiΓ³n del BΓ­o BΓ­o, Chile","0",CLC-BI,BiobΒ‘o,CLC,"85","8",Southern America,CHL,Chile,"1","2","2385",0.028
+"83",-33.1401967642,-70.7879093186,1855.14172231,"23","209",CHL.CB,Chacabuco,"0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",1.240
+"100",-30.6245820104,-70.8870213261,39560.649242,"7","1223",CHL.RCO,"RegiΓ³n de Coquimbo, Chile","0",CLC-CO,Coquimbo,CLC,"85","8",Southern America,CHL,Chile,"1","2","2385",0.018
+"130",-1.37839895469,-89.6787036292,64.1142317907,"10","971",ECU.GAL.ESP,EspaΓ±ola,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,"3","2","52",15.597
+"138",-0.38573445823,-91.5129368405,649.105927898,"6","972",ECU.GAL.FER,Fernandina,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,"3","2","52",0.924
+"145",-1.29360294796,-90.4352912912,178.028983683,"124","973",ECU.GAL.FLO,Floreana,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,"3","2","52",69.652
+"158",0.32522902443,-89.9567609797,15.3831596921,"1","974",ECU.GAL.GEN,Genovesa,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,"3","2","52",6.501
+"202",-0.55929258786,-91.1843439533,4726.573482,"164","975",ECU.GAL.ISA,Isabela,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,"3","2","52",3.470
+"211",-33.70984557,-79.8560274418,109.512821144,"5","1234",CHL.JNF,Juan Fernandez Islands,"1",JNF-OO,Juan FernΒ ndez Is.,JNF,"85","8",Southern America,CHL,Chile,"1","2","2385",4.566
+"254",-34.4432912063,-71.0480257528,15857.7792917,"5","1225",CHL.RLI,"RegiΓ³n del Libertador General Bernardo O'Higgins, Chile","0",CLC-OH,O'Higgins,CLC,"85","8",Southern America,CHL,Chile,"1","2","2385",0.032
+"261",-41.3205439501,-72.871548169,60912.8375617,"9","1229",CHL.RLL,"RegiΓ³n de Los Lagos, Chile","0",CLS-LL,Los Lagos,CLS,"85","8",Southern America,CHL,Chile,"1","2","2385",0.015
+"265",-52.6007905696,-71.6985610155,102367.748986,"7","1231",CHL.RMG,"RegiΓ³n de Magallanes y de la AntΓ‘rtica Chilena, Chile","0",CLS-MG,Magellanes,CLS,"85","8",Southern America,CHL,Chile,"1","2","2385",0.007
+"278",-35.5761517328,-71.4165191586,29065.7122772,"7","1226",CHL.RMU,"RegiΓ³n del Maule, Chile","0",CLC-MA,Maule,CLC,"85","8",Southern America,CHL,Chile,"1","2","2385",0.024
+"354",-23.2341752743,-58.3894953233,400345.583136,"176","919",PRY,Paraguay,"0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"2","2","2330",0.044
+"361",0.58684476502,-90.7570247691,60.3307837305,"8","977",ECU.GAL.PNT,Pinta,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,"3","2","52",13.260
+"362",-0.61081051893,-90.6657908732,18.0691753134,"3","978",ECU.GAL.PNZ,PinzΓ³n,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,"3","2","52",16.603
+"386",-0.8267980169,-89.4305601114,559.977663651,"196","979",ECU.GAL.CRI,San CristΓ³bal,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,"3","2","52",35.001
+"396",-0.62724753263,-90.3584055979,987.094157507,"228","980",ECU.GAL.CRU,Santa Cruz,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,"1","2","2385",23.098
+"397",-0.8184286674,-90.0587735666,25.1516016879,"1","981",ECU.GAL.SFE,Santa FΓ©,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,"3","2","52",3.976
+"401",-33.6112447808,-70.6438395192,15824.3582004,"9","1232",CHL.RSA,"RegiΓ³n Metropolitana de Santiago, Chile","0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile,"1","2","2385",0.057
+"403",-0.26624540728,-90.7125462493,577.099751153,"40","982",ECU.GAL.SAN,Santiago,"1",GAL-OO,GalΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,"3","2","52",6.931
+"431",17.7328595919,-64.7684563079,219.681367592,"3","1303",USA.VI.STC,St. Croix (Virgin Islands),"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.),"2","2","101",1.366
+"433",18.3383534594,-64.7367581147,52.0734160954,"2","1302",USA.VI.STJ,St. John (Virgin Islands),"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.),"2","2","101",3.841
+"435",18.3435284256,-64.9286941704,76.2068100752,"3","1301",USA.VI.STT,St. Thomas (Virgin Islands),"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.),"2","2","101",3.937
+"451",-19.7028877025,-69.4790073211,57071.9631294,"2","1220",CHL.RTA,"RegiΓ³n de TarapacΓ‘ and Arica and Parinacota, Chile","0",CLN-TA,Tarapaca,CLN,"85","8",Southern America,CHL,Chile,"1","2","2385",0.004
+"480",-32.7932900825,-70.9779690415,16073.2921689,"12","1224",CHL.RVA,"RegiΓ³n de ValparaΓ­so, Chile","0",CLC-VA,ValparaΒ‘so,CLC,"85","8",Southern America,CHL,Chile,"1","2","2385",0.075
+"506",17.2176675394,-88.6847669885,22093.3325088,"62","149",BLZ,Belize,"0",BLZ-OO,Belize,BLZ,"80","8",Southern America,BLZ,Belize,"2","2","60",0.281
+"508",12.5156257974,-69.9756401303,199.567242351,"32","1",ABW,Aruba,"1",ARU-OO,Aruba,ARU,"81","8",Southern America,ABW,Aruba,"2","1","130",16.035
+"510",18.2147363201,-63.0543983672,74.9280184692,"70","3",AIA,Anguilla,"1",LEE-AG,Anguilla,LEE,"81","8",Southern America,AIA,Anguilla,"2","1","1",93.423
+"512",-36.6789876974,-60.5585125697,306120.746779,"466","5",ARG.BA,Buenos Aires,"0",AGE-BA,Buenos Aires,AGE,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.152
+"513",-27.2855741844,-66.9958949743,99181.1145277,"96","6",ARG.CA,Catamarca,"0",AGW-CA,Catamarca,AGW,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.097
+"514",-26.3975795398,-60.7590122535,99216.2211416,"70","7",ARG.CHA,Chaco,"0",AGE-CH,Chaco,AGE,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.071
+"515",-43.7985073064,-68.491417015,221723.657423,"177","8",ARG.CHU,Chubut,"0",AGS-CB,Chubut,AGS,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.080
+"516",-32.0951515807,-63.7714081503,167757.100382,"214","9",ARG.CO,CΓ³rdoba,"0",AGE-CD,CΒ’rdoba,AGE,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.128
+"517",-28.7646900198,-57.7920314202,88605.6193095,"109","10",ARG.COR,Corrientes,"0",AGE-CN,Corrientes,AGE,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.123
+"518",-34.6179053893,-58.45074934,178.283718287,"118","11",ARG.DF,Ciudad de Buenos Aires,"0",AGE-DF,Argentina Distrito Federal,AGE,"85","8",Southern America,ARG,Argentina,"1","2","2385",66.187
+"519",-32.0436570051,-59.203674794,78050.9279929,"215","12",ARG.ER,Entre RΓ­os,"0",AGE-ER,Entre RΒ‘os,AGE,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.275
+"520",-24.9018032693,-59.931291572,76146.2297757,"49","13",ARG.FO,Formosa,"0",AGE-FO,Formosa,AGE,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.064
+"521",-23.310865581,-65.7673049282,53048.8779094,"115","14",ARG.JU,Jujuy,"0",AGW-JU,Jujuy,AGW,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.217
+"522",-37.1328710079,-65.445506681,142697.412623,"202","15",ARG.LP,La Pampa,"0",AGE-LP,La Pampa,AGE,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.142
+"523",-29.6737729438,-67.1685423466,91671.7812262,"75","16",ARG.LR,La Rioja,"0",AGW-LR,La Rioja,AGW,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.082
+"524",-34.5983291502,-68.6084088819,151240.493609,"207","17",ARG.ME,Mendoza,"0",AGW-ME,Mendoza,AGW,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.137
+"525",-26.8673688784,-54.6481947994,30135.6674839,"90","18",ARG.MI,Misiones,"0",AGE-MI,Misiones,AGE,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.299
+"526",-38.6403839561,-70.125154683,93570.5264995,"207","19",ARG.NE,NeuquΓ©n,"0",AGS-NE,Neuquβn,AGS,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.221
+"527",-40.3997280559,-67.236884008,202999.232241,"246","20",ARG.RN,RΓ­o Negro,"0",AGS-RN,Rio Negro,AGS,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.121
+"528",-24.2898012151,-64.8243212444,155920.926002,"145","21",ARG.SA,Salta,"0",AGW-SA,Salta,AGW,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.093
+"529",-48.792658402,-69.8896361787,238778.420289,"143","22",ARG.SC,Santa Cruz,"0",AGS-SC,Santa Cruz,AGS,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.060
+"530",-27.7268267333,-63.2936858529,135049.621546,"76","23",ARG.SE,Santiago del Estero,"0",AGW-SE,Santiago del Estero,AGW,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.056
+"531",-30.694642986,-60.9450208285,133705.591223,"128","24",ARG.SF,Santa Fe,"0",AGE-SF,Santa Fβ,AGE,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.096
+"532",-30.8153462481,-68.8716681779,86778.1421381,"94","25",ARG.SJ,San Juan,"0",AGW-SJ,San Juan,AGW,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.108
+"533",-33.7564853708,-66.0287261044,77386.86837,"100","26",ARG.SL,San Luis,"0",AGW-SL,San Luis,AGW,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.129
+"534",-54.3297767879,-67.426286695,20884.1343962,"150","27",ARG.TF,Tierra del Fuego,"1",AGS-TF,Tierra del Fuego (Argentina),AGS,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.718
+"535",-26.9432062803,-65.3781708612,23071.491941,"143","28",ARG.TU,TucumΓ‘n,"0",AGW-TU,Tucuman,AGW,"85","8",Southern America,ARG,Argentina,"1","2","2385",0.620
+"647",17.4908423446,-62.9762829294,23.4369022801,"36","142",BES.EUS,Sint Eustatius,"1",LEE-NL,Netherlands Leeward Is.,LEE,"81","8",Southern America,ANT,Netherlands Antilles,"2","1","130",153.604
+"648",17.631469265,-63.237527582,14.3533045642,"38","143",BES.SAB,Saba,"1",LEE-NL,Netherlands Leeward Is.,LEE,"81","8",Southern America,ANT,Netherlands Antilles,"2","1","130",264.747
+"651",24.259785887,-76.6441079271,13377.8224764,"46","146",BHS,Bahamas,"1",BAH-OO,Bahamas,BAH,"81","8",Southern America,BHS,Bahamas (the),"2","1","64",0.344
+"652",17.9019776455,-62.8296981691,21.9044757609,"79","147",BLM,Saint Barthelemy,"1",LEE-SM,St.Martin-St.Barthβlβmy,LEE,"81","8",Southern America,GLP,Guadeloupe,"2","1","1",360.657
+"661",32.3160877892,-64.7396071092,21.4625582919,"315","150",BMU,Bermuda,"1",BER-OO,Bermuda,BER,"81","8",Southern America,BMU,Bermuda,"1","2","2363",1467.672
+"662",-16.7238514399,-64.6619195453,1086984.30886,"223","151",BOL,Bolivia,"0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of),"2","2","21",0.021
+"663",-9.30119223777,-70.4828950823,152051.124112,"91","152",BRA.AC,Acre,"0",BZN-AC,Acre,BZN,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.060
+"664",-9.51302297903,-36.6255343546,28065.1210458,"94","153",BRA.AL,Alagoas,"0",BZE-AL,Alagoas,BZE,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.335
+"666",1.4484930112,-51.9611066844,139442.497704,"60","155",BRA.AP,AmapΓ‘,"0",BZN-AP,AmapΒ ,BZN,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.043
+"667",-12.4750057069,-41.7044700985,559875.444108,"281","156",BRA.BA,Bahia,"0",BZE-BA,Bahia,BZE,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.050
+"669",-15.7712368945,-47.7897522019,5847.80588663,"172","158",BRA.DF,Distrito Federal,"0",BZC-DF,Brazilia Distrito Federal,BZC,"84","8",Southern America,BRA,Brazil,"1","1","2413",2.941
+"670",-19.5730280318,-40.6676236187,45774.2290803,"189","159",BRA.ES,EspΓ­rito Santo,"0",BZL-ES,Espirito Santo,BZL,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.413
+"671",-20.5082090378,-29.3032673595,11.8035656785,"34","160",BRA.ES.TMZ,Trindade and Martin Vaz,"1",BZL-ES,Espirito Santo,BZL,"84","8",Southern America,BRA,Brazil,"2","2","5",288.049
+"672",-16.0058813628,-49.5921261465,342797.819437,"152","161",BRA.GO,GoiΓ‘s,"0",BZC-GO,GoiΒ s,BZC,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.044
+"673",-5.08983324895,-45.2900703011,325989.325077,"108","162",BRA.MA,MaranhΓ£o,"0",BZE-MA,Maranhao,BZE,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.033
+"674",-18.4517927053,-44.6734108883,586645.754749,"297","163",BRA.MG,Minas Gerais,"0",BZL-MG,Minas Gerais,BZL,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.051
+"675",-20.3358486856,-54.8366662189,355799.904467,"163","164",BRA.MS,Mato Grosso do Sul,"0",BZC-MS,Mato Grosso do Sul,BZC,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.046
+"676",-12.9642818584,-55.9226392906,903625.58118,"126","165",BRA.MT,Mato Grosso,"0",BZC-MT,Mato Grosso,BZC,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.014
+"677",-4.03779959136,-53.1259448945,1234357.82823,"126","166",BRA.PA,ParΓ‘,"0",BZN-PA,ParΒ ,BZN,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.010
+"678",-7.11898127088,-36.8232829003,56576.0394113,"146","167",BRA.PB,ParaΓ­ba,"0",BZE-PB,ParaΒ‘ba,BZE,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.258
+"679",-8.32952117879,-37.992896041,97564.3195016,"219","168",BRA.PE,Pernambuco,"0",BZE-PE,Pernambuco,BZE,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.224
+"681",-24.6326832759,-51.6295665807,198696.62778,"382","170",BRA.PR,ParanΓ‘,"0",BZS-PR,ParanΒ ,BZS,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.192
+"682",-22.1899567029,-42.6656364762,43919.3539903,"311","171",BRA.RJ,Rio de Janeiro,"0",BZL-RJ,Rio de Janeiro,BZL,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.708
+"683",-5.84216350387,-36.6816358299,52800.5246242,"111","172",BRA.RN,Rio Grande do Norte,"0",BZE-RN,Rio Grande do Norte,BZE,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.210
+"684",-10.9203466747,-62.8440691137,238433.198792,"61","173",BRA.RO,RondΓ΄nia,"0",BZN-RO,Rondβnia,BZN,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.026
+"685",2.06906081623,-61.401111931,224900.829702,"64","174",BRA.RR,Roraima,"0",BZN-RM,Roraima,BZN,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.028
+"686",-29.7356952269,-53.3199339291,272283.090074,"333","175",BRA.RS,Rio Grande do Sul,"0",BZS-RS,Rio Grande do Sul,BZS,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.122
+"687",-27.2482161183,-50.4861164979,95097.1047599,"334","176",BRA.SC,Santa Catarina,"0",BZS-SC,Santa Catarina,BZS,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.351
+"688",-10.5791622496,-37.4471280533,21396.1688921,"86","177",BRA.SE,Sergipe,"0",BZE-SE,Sergipe,BZE,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.402
+"689",-22.2595614085,-48.7222959088,247633.965766,"402","178",BRA.SP,SΓ£o Paulo,"0",BZL-SP,S?o Paulo,BZL,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.162
+"690",-10.1183255988,-48.3234784837,276461.720417,"58","179",BRA.TO,Tocantins,"0",BZN-TO,Tocantins,BZN,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.021
+"691",13.1722621606,-59.5563895583,434.639682616,"243","180",BRB,Barbados,"1",WIN-BA,Barbados,WIN,"81","8",Southern America,BRB,Barbados,"2","1","1",55.908
+"712",-45.4350401812,-73.687389763,35661.1281684,"54","202",CHL.AI,AisΓ©n,"0",CLS-AI,Aisβn,CLS,"85","8",Southern America,CHL,Chile,"2","0","45",0.151
+"714",-18.7524236219,-69.9015322335,7911.12473235,"85","204",CHL.AR,Arica,"0",CLN-TA,Tarapaca,CLN,"85","8",Southern America,CHL,Chile,"2","0","45",1.074
+"715",-33.7674839183,-80.7919702355,56.7227508973,"118","205",CHL.ASI,"Alejandro Selkirk Island, Juan Fernadez Islands","1",JNF-OO,Juan FernΒ ndez Is.,JNF,"85","8",Southern America,CHL,Chile,"3","1","82",208.029
+"716",-37.6857264949,-73.3258262043,5652.3292913,"97","206",CHL.AU,Arauco,"0",CLC-BI,BiobΒ‘o,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",1.716
+"717",-37.5124674451,-71.961765265,14348.8042583,"139","207",CHL.BI,BiobΓ­o,"0",CLC-BI,BiobΒ‘o,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",0.969
+"718",-34.2925788278,-70.6920975444,7095.60654264,"61","208",CHL.CA,Cachapoal,"0",CLC-OH,O'Higgins,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",0.860
+"720",-34.3260468392,-71.7802760397,3300.92792897,"57","210",CHL.CC,Cardenal Caro,"0",CLC-OH,O'Higgins,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",1.727
+"721",-33.6788011173,-70.1501813203,5988.59813379,"46","211",CHL.CD,Cordillera,"0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",0.768
+"722",-42.6251647293,-73.8917319003,8464.40655998,"152","212",CHL.CE,ChiloΓ©,"0",CLS-LL,Los Lagos,CLS,"85","8",Southern America,CHL,Chile,"2","0","45",1.796
+"723",-31.7000279971,-71.0177271034,10239.461233,"92","213",CHL.CH,Choapa,"0",CLC-CO,Coquimbo,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",0.898
+"724",-45.0961073072,-71.8403359935,9891.52723662,"6","214",CHL.CI,Coihaique,"0",CLS-AI,Aisβn,CLS,"85","8",Southern America,CHL,Chile,"2","0","45",0.061
+"725",-34.7086685099,-71.0675844917,5461.19172036,"100","215",CHL.CL,Colchagua,"0",CLC-OH,O'Higgins,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",1.831
+"726",-36.8923455532,-72.8870100827,3373.05599157,"232","216",CHL.CN,ConcepciΓ³n,"0",CLC-BI,BiobΒ‘o,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",6.878
+"727",-27.52940299,-69.9153407151,31235.1936134,"55","217",CHL.CO,CopiapΓ³,"0",CLN-AT,Atacama,CLN,"85","8",Southern America,CHL,Chile,"2","0","45",0.176
+"728",-47.9429070366,-73.7656283776,23032.379188,"3","218",CHL.CP,CapitΓ‘n Prat,"0",CLS-AI,Aisβn,CLS,"85","8",Southern America,CHL,Chile,"2","0","45",0.013
+"729",-35.9409697779,-72.3696532767,2833.44651852,"81","219",CHL.CQ,Cauquenes,"0",CLC-MA,Maule,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",2.859
+"730",-38.9183118249,-72.438265311,18724.6745676,"252","221",CHL.CT,CautΓ­n,"0",CLC-LA,La Araucania,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",1.346
+"731",-35.0905160735,-71.1453239647,7318.24412979,"158","222",CHL.CU,CuricΓ³,"0",CLC-MA,Maule,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",2.159
+"732",-22.7605713011,-68.2226600408,42102.0729829,"45","223",CHL.EL,El Loa,"0",CLN-AN,Antofagasta,CLN,"85","8",Southern America,CHL,Chile,"2","0","45",0.107
+"733",-29.8384761322,-70.7437907339,16892.0624198,"86","224",CHL.EQ,Elqui,"0",CLC-CO,Coquimbo,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",0.509
+"734",-46.5711463115,-72.3266084432,7165.57280031,"6","225",CHL.GC,General Carrera,"0",CLS-AI,Aisβn,CLS,"85","8",Southern America,CHL,Chile,"2","0","45",0.084
+"735",-28.7964948443,-70.5504660769,18174.4714386,"84","226",CHL.HU,Huasco,"0",CLN-AT,Atacama,CLN,"85","8",Southern America,CHL,Chile,"2","0","45",0.462
+"736",-20.2017560668,-69.4102145472,40112.3590385,"41","227",CHL.IE,Iquique,"0",CLN-TA,Tarapaca,CLN,"85","8",Southern America,CHL,Chile,"2","0","45",0.102
+"737",-32.7982845923,-70.3522733299,3227.46516207,"83","228",CHL.LA,Los Andes,"0",CLC-VA,ValparaΒ‘so,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",2.572
+"738",-41.3674802647,-72.817439244,14394.204024,"95","229",CHL.LL,Llanquihue,"0",CLS-LL,Los Lagos,CLS,"85","8",Southern America,CHL,Chile,"2","0","45",0.660
+"739",-30.7883896617,-70.9711297764,12429.1008452,"111","230",CHL.LM,LimarΓ­,"0",CLC-CO,Coquimbo,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",0.893
+"740",-36.0291119259,-71.4693719704,9339.6174763,"140","231",CHL.LN,Linares,"0",CLC-MA,Maule,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",1.499
+"741",-33.753900481,-71.1758508007,5147.9505893,"4","232",CHL.ME,Melipilla,"0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",0.078
+"742",-53.0572928211,-71.6345902136,34067.9235726,"241","233",CHL.MG,Magallanes,"0",CLS-MG,Magellanes,CLS,"85","8",Southern America,CHL,Chile,"1","2","2333",0.707
+"743",-33.788002758,-70.7003436946,870.613487984,"24","234",CHL.MI,Maipo,"0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",2.757
+"744",-38.2222432751,-71.9912864949,13939.5618989,"202","235",CHL.ML,Malleco,"0",CLC-LA,La Araucania,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",1.449
+"745",-36.641884331,-71.9700417242,12593.0193269,"207","236",CHL.NU,Γuble,"0",CLC-BI,BiobΒ‘o,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",1.644
+"746",-40.6974763695,-73.0470555399,9484.88484376,"129","237",CHL.OS,Osorno,"0",CLS-LL,Los Lagos,CLS,"85","8",Southern America,CHL,Chile,"2","0","45",1.360
+"747",-32.3201698266,-71.0258589671,4242.06314118,"78","238",CHL.PE,Petorca,"0",CLC-VA,ValparaΒ‘so,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",1.839
+"748",-42.9791935593,-72.4861003215,10411.1916743,"4","239",CHL.PL,Palena,"0",CLS-LL,Los Lagos,CLS,"85","8",Southern America,CHL,Chile,"2","0","45",0.038
+"749",-18.2991266524,-69.4171122315,9048.41115648,"9","240",CHL.PR,Parinacota,"0",CLN-TA,Tarapaca,CLN,"85","8",Southern America,CHL,Chile,"2","0","45",0.099
+"750",-32.8717519213,-71.2133941877,1725.21167573,"166","241",CHL.QU,Quillota,"0",CLC-VA,ValparaΒ‘so,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",9.622
+"751",-33.6478286206,-78.8489840684,52.7900702501,"191","242",CHL.RCI,"Robinso Crusoe Island, Juan Fernandez Islands","1",JNF-OO,Juan FernΒ ndez Is.,JNF,"85","8",Southern America,CHL,Chile,"3","1","82",361.810
+"752",-33.6558682711,-71.5721345462,1688.2454464,"130","243",CHL.SA,San Antonio,"0",CLC-VA,ValparaΒ‘so,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",7.700
+"753",-33.7064561671,-78.9423628718,2.65002626861,"25","244",CHL.SCI,"Santa Clara Island, Juan Fernadez Islands","1",JNF-OO,Juan FernΒ ndez Is.,JNF,"85","8",Southern America,CHL,Chile,"3","1","82",943.387
+"754",-32.6030736843,-70.7316627354,2793.56812028,"73","245",CHL.SF,San Felipe de Aconcagua,"0",CLC-VA,ValparaΒ‘so,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",2.613
+"755",-33.3038434915,-70.5044438972,1419.8974784,"294","246",CHL.SG,Santiago,"0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",20.706
+"756",-35.5379158429,-71.3960948428,11064.1856212,"151","247",CHL.TC,Talca,"0",CLC-MA,Maule,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",1.365
+"757",-33.6286794624,-70.8237109516,542.122803193,"9","248",CHL.TG,Talagante,"0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",1.660
+"758",-53.6260851396,-69.5162011145,21530.4078116,"65","249",CHL.TI,Tierra del Fuego,"1",CLS-MG,Magellanes,CLS,"85","8",Southern America,CHL,Chile,"1","2","2385",0.302
+"759",-22.0492379181,-69.6021954238,16505.5902776,"11","250",CHL.TO,Tocopilla,"0",CLN-AN,Antofagasta,CLN,"85","8",Southern America,CHL,Chile,"2","0","45",0.067
+"760",-50.8603943445,-73.903516441,37969.3198954,"90","251",CHL.UE,Γltima Esperanza,"0",CLS-MG,Magellanes,CLS,"85","8",Southern America,CHL,Chile,"2","0","45",0.237
+"761",-39.9829532824,-72.5589872379,18158.1925237,"219","252",CHL.VD,Valdivia,"0",CLS-LL,Los Lagos,CLS,"85","8",Southern America,CHL,Chile,"2","0","45",1.206
+"762",-33.1691805849,-71.4286984897,2396.73674361,"241","253",CHL.VP,ValparaΓ­so,"0",CLC-VA,ValparaΒ‘so,CLC,"85","8",Southern America,CHL,Chile,"2","0","45",10.055
+"815",3.90941307586,-73.083842042,1135117.86432,"596","306",COL,Colombia,"0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.053
+"818",9.96934862467,-84.1820871651,52681.8114277,"283","309",CRI,Costa Rica,"0",COS-OO,Costa Rica,COS,"80","8",Southern America,CRI,Costa Rica,"3","0","55",0.537
+"820",12.193377872,-68.9715439221,437.711431201,"47","311",CUW,Curacao,"1",NLA-CU,Curaβ‘ao,NLA,"81","8",Southern America,ANT,Netherlands Antilles,"2","1","130",10.738
+"822",19.4254361892,-80.8735849078,280.407433128,"239","313",CYM,Cayman Islands,"1",CAY-OO,Cayman Is.,CAY,"81","8",Southern America,CYM,Cayman Islands (the),"2","1","1",85.233
+"827",15.4345515847,-61.3499878056,754.214180857,"203","318",DMA,Dominica,"1",WIN-DO,Dominica,WIN,"81","8",Southern America,DMA,Dominica,"2","1","1",26.915
+"829",18.9096215387,-70.491078707,47120.0358092,"66","320",DOM,Dominican Republic,"1",DOM-OO,Dominican Republic,DOM,"81","8",Southern America,DOM,Dominican Republic (the),"2","1","64",0.140
+"848",10.3028559667,-109.216859853,10.0972408009,"16","338",FRA.CLI,Clipperton Island,"1",CPI-CL,Clipperton I.,CPI,"80","8",Southern America,PYF,French Polynesia,"2","2","107",158.459
+"861",15.9321136664,-61.2685686791,159.86040914,"31","352",GLP.MG,Maria Galante,"1",LEE-GU,Guadeloupe,LEE,"81","8",Southern America,GLP,Guadeloupe,"2","1","1",19.392
+"866",12.1137476821,-61.6837760659,316.624460488,"157","358",GRD,Grenada,"1",WIN-GR,Grenada,WIN,"81","8",Southern America,GRD,Grenada,"2","1","1",49.586
+"868",3.92862091003,-53.2456816049,83360.8680083,"255","360",GUF,French Guiana,"0",FRG-OO,French Guiana,FRG,"82","8",Southern America,GUF,French Guiana,"2","2","2390",0.306
+"870",4.77707848626,-58.9814437011,209432.705813,"104","362",GUY,Guyana,"0",GUY-OO,Guyana,GUY,"82","8",Southern America,GUY,Guyana,"2","2","2390",0.050
+"874",18.8428991626,-73.0463618956,686.552103742,"114","365",HTI.GO,Gonave,"1",HAI-HA,Haiti,HAI,"81","8",Southern America,HTI,Haiti,"2","1","1",16.605
+"875",20.0449226196,-72.7891242505,182.494749966,"114","366",HTI.TI,"Tortuga Island, Haiti","1",HAI-HA,Haiti,HAI,"81","8",Southern America,HTI,Haiti,"2","1","1",62.468
+"923",18.1570714175,-77.3104844786,10992.9789499,"23","414",JAM,Jamaica,"1",JAM-OO,Jamaica,JAM,"81","8",Southern America,JAM,Jamaica,"2","1","64",0.209
+"938",17.3392274285,-62.7650594627,171.759943643,"104","429",KNA.KI,Saint Kitts,"1",LEE-SK,St.Kitts-Nevis,LEE,"81","8",Southern America,KNA,Saint Kitts and Nevis,"2","1","1",60.550
+"939",17.1503601177,-62.5864697899,95.468543001,"23","430",KNA.NE,Nevis,"1",LEE-SK,St.Kitts-Nevis,LEE,"81","8",Southern America,KNA,Saint Kitts and Nevis,"2","1","1",24.092
+"944",13.8984333606,-60.9667735281,614.172141096,"294","435",LCA,Saint Lucia,"1",WIN-SL,St.Lucia,WIN,"81","8",Southern America,LCA,Saint Lucia,"2","1","1",47.869
+"1300",18.403234569,-75.0136181539,5.17264671994,"30","784",USA.NI,Navassa Island,"1",HAI-NI,Navassa I.,HAI,"81","8",Southern America,UMI,United States Minor Outlying Islands (the),"3","0","14",579.974
+"1018",16.7394520104,-62.1896849557,100.645737018,"23","508",MSR,Montserrat,"1",LEE-MO,Montserrat,LEE,"81","8",Southern America,MSR,Montserrat,"2","2","105",22.852
+"1019",14.6527468193,-61.0181145119,1114.85631682,"347","509",MTQ,Martinique,"1",WIN-MA,Martinique,WIN,"81","8",Southern America,MTQ,Martinique,"2","1","1",31.125
+"1028",12.8399092065,-85.0302439397,129202.388666,"702","518",NIC,Nicaragua,"0",NIC-OO,Nicaragua,NIC,"80","8",Southern America,NIC,Nicaragua,"2","2","39",0.543
+"1067",8.50718722335,-80.1026626594,74135.1887527,"194","529",PAN,Panama,"0",PAN-OO,PanamΒ ,PAN,"80","8",Southern America,PAN,Panama,"1","2","2362",0.262
+"1071",18.2220098761,-66.4681479584,8970.47221826,"985","533",PRI,Puerto Rico,"1",PUE-OO,Puerto Rico,PUE,"81","8",Southern America,PRI,Puerto Rico,"2","2","101",10.980
+"1206",4.11600919492,-55.9190751914,142529.31146,"101","674",SUR,Suriname,"0",SUR-OO,Surinam,SUR,"82","8",Southern America,SUR,Suriname,"2","2","2390",0.071
+"1211",18.0628547302,-63.0610944794,94.17492756,"35","679",SXM,Sint Maarten,"1",LEE-NL,Netherlands Leeward Is.,LEE,"81","8",Southern America,ANT,Netherlands Antilles,"2","1","130",37.165
+"1257",-26.2607025495,-69.4639157381,28550.4844284,"8","220",CHL.CR,ChaΓ±aral,"0",CLN-AT,Atacama,CLN,"85","8",Southern America,CHL,Chile,"2","0","45",0.028
+"1267",-32.7982107538,-56.0171550655,177345.12371,"190","735",URY,Uruguay,"0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"2","1","57",0.107
+"1322",12.8392298432,-61.2838108742,49.148394068,"63","806",VCT.GR,The Grenadines,"1",WIN-SV,St.Vincent,WIN,"81","8",Southern America,VCT,Saint Vincent and the Grenadines,"2","1","1",128.183
+"1323",13.2513090001,-61.1889752258,348.619378971,"205","807",VCT.SV,Saint Vincent,"1",WIN-SV,St.Vincent,WIN,"81","8",Southern America,VCT,Saint Vincent and the Grenadines,"2","1","1",58.803
+"1324",7.12087424997,-66.1780469386,909729.999257,"104","808",VEN,Venezuela,"0",VEN-OO,Venezuela,VEN,"82","8",Southern America,VEN,Venezuela (Bolivarian Republic of),"2","2","90",0.011
+"1325",18.7269167319,-64.3373807535,40.2429077729,"4","809",VGB.AN,"Anegada, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British),"1","2","27",9.940
+"1326",18.4764014066,-64.5706190413,3.53063165243,"85","810",VGB.GI,"Guana Island, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British),"2","1","1",2407.501
+"1327",18.4465061333,-64.7468530432,9.20592359659,"9","811",VGB.JD,"Jost van Dyke, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British),"2","1","1",97.763
+"1328",18.4240743275,-64.6200639425,65.1710143701,"200","812",VGB.TO,"Tortola, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British),"2","2","101",306.885
+"1329",18.4758549511,-64.3992164751,23.9049856345,"109","813",VGB.VG,"Virgin Gorda, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British),"2","2","101",455.972
+"668",-5.10290094043,-39.6231601922,149490.595545,"155","157",BRA.CE,CearΓ‘,"0",BZE-CE,CearΒ ,BZE,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.104
+"680",-7.40795284947,-42.9850656711,252176.731256,"110","169",BRA.PI,PiauΓ­,"0",BZE-PI,PiauΒ‘,BZE,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.044
+"665",-4.18918209033,-64.7190265504,1566066.00805,"153","154",BRA.AM,Amazonas,"0",BZN-AM,Amazonas,BZN,"84","8",Southern America,BRA,Brazil,"1","1","2413",0.010
+"19",-24.2666682806,-69.5676669991,65937.3997514,"75","203",CHL.AN,Antofagasta,"0",CLN-AN,Antofagasta,CLN,"85","8",Southern America,CHL,Chile,"2","0","45",0.114
+"713",-23.4693972529,-69.1199155671,124545.063073,"3","1221",CHL.RAN,"RegiΓ³n de Antofagasta, Chile","0",CLN-AN,Antofagasta,CLN,"85","8",Southern America,CHL,Chile,"1","2","2385",0.002
+"819",21.6201255937,-79.0352254268,109977.74157,"547","310",CUB,Cuba,"1",CUB-OO,Cuba,CUB,"81","8",Southern America,CUB,Cuba,"2","2","91",0.497
+"1316",17.9716993865,-64.8027737055,362.160620471,"406","800",USA.VI,United States Virgin Islands,"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.),"1","2","2350",112.105
+"646",12.1838282257,-68.2901468601,285.90412947,"38","141",BES.BON,Bonaire,"1",NLA-BO,Bonaire,NLA,"81","8",Southern America,ANT,Netherlands Antilles,"2","1","130",13.291
+"543",17.0778428757,-61.7974498962,283.691438612,"183","36",ATG.AN,Antigua,"1",LEE-AB,Antigua-Barbuda,LEE,"81","8",Southern America,ATG,Antigua and Barbuda,"2","1","1",64.507
+"544",17.6340021554,-61.7966762426,151.252842569,"43","37",ATG.BA,Barbuda,"1",LEE-AB,Antigua-Barbuda,LEE,"81","8",Southern America,ATG,Antigua and Barbuda,"2","1","1",28.429
+"1402",-1.55438594569,-71.4917860763,107462.795659,"30","1111",COL.AMA,"Department of Amazonas, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.028
+"1404",4.68044302151,-69.4152022876,100754.833511,"24","1142",COL.VIC,"Department of Vichada, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.024
+"1405",0.77600731614,-73.9860593701,90141.7851021,"27","1118",COL.CAQ,"Department of CaquetΓ‘, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.030
+"1406",3.31878712338,-72.9661480055,85325.5674783,"60","1130",COL.MET,"Department of Meta, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.070
+"1409",2.70987363159,-68.8239904672,68819.307443,"13","1125",COL.GUA,"Department of GuainΓ­a, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.019
+"1412",6.91041669307,-75.5916971063,63163.0203612,"162","1112",COL.ANT,"Department of Antioquia, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.256
+"1413",1.89760487582,-72.1267888112,55592.2102551,"18","1126",COL.GUV,"Department of Guaviare, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.032
+"1414",0.60107212223,-70.5679998008,53242.2515318,"13","1141",COL.VAU,"Department of VaupΓ©s, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.024
+"1416",5.98735732716,-76.9711185316,45230.1655677,"52","1122",COL.CHO,"Department of ChocΓ³, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.115
+"1418",5.36855767808,-71.622889764,44621.9340473,"26","1119",COL.CAS,"Department of Casanare, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.058
+"1425",-0.73270142836,-76.9043720742,33840.302599,"116","1157",ECU.NAP,"Department of Napo, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",0.343
+"1427",1.56254760315,-77.8673882397,31952.2231118,"101","1131",COL.NAR,"Department of NariΓ±o, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.316
+"1428",6.67539406755,-73.5150153634,30283.8737988,"115","1137",COL.SAN,"Department of Santander, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.380
+"1429",-1.70752831744,-76.8732465365,29723.329054,"36","1158",ECU.PAS,"Department of Pastaza, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",0.121
+"1430",2.38624019002,-76.8572483775,29163.7507039,"73","1120",COL.CAU,"Department of Cauca, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.250
+"1431",8.71290746692,-74.5144571541,26034.5703753,"45","1115",COL.BOL,"Department of BolΓ­var, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.173
+"1432",6.54783282825,-70.9546202842,25337.8420175,"20","1113",COL.ARA,"Department of Arauca, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.079
+"1434",8.350557443,-75.7995984042,24920.8902466,"41","1123",COL.COR,"Department of CΓ³rdoba, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.165
+"1435",4.76467035881,-74.1257222417,24448.6198572,"190","1124",COL.CUN,"Department of Cundinamarca, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.777
+"1436",-2.56254928702,-78.0057505088,24054.8665308,"38","1156",ECU.MOR,"Department of Morona.Santiago, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",0.158
+"1437",0.45125981177,-75.8776753,24034.9363351,"52","1133",COL.PUT,"Department of Putumayo, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.216
+"1439",4.04415197125,-75.2661708622,23409.0655495,"91","1139",COL.TOL,"Department of Tolima, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.389
+"1440",5.75953218789,-73.1217634694,23375.9636608,"120","1116",COL.BOY,"Department of BoyacΓ‘, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.513
+"1441",9.51846203168,-73.5362646193,22917.2170069,"40","1121",COL.CES,"Department of Cesar, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.175
+"1442",8.07747320589,-72.8893280005,22805.6643022,"58","1132",COL.NOR,"Department of Norte de Santander, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.254
+"1444",3.8688554772,-76.5317450311,22001.9488441,"54","1140",COL.VAL,"Department of Valle del Cauca, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.245
+"1445",10.1891182674,-74.2646526217,21546.6236049,"87","1129",COL.MAG,"Department of Magdalena, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.404
+"1448",11.4565871519,-72.455167,21012.196134,"41","1128",COL.GUJ,"Department of La Guajira, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.195
+"1449",-24.1649821196,-56.646779059,20887.9269045,"2","1176",PRY.SAN,"Department of San Pedro, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.010
+"1450",2.53903899478,-75.6398868117,20301.1134597,"78","1127",COL.HUI,"Department of Huila, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.384
+"1451",-2.12346509431,-80.0134694751,20143.0243603,"127","1151",ECU.GUA,"Department of Guayas, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",0.630
+"1452",-0.75216503972,-80.1346407008,19333.5176251,"58","1155",ECU.MAN,"Department of ManabΓ­, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",0.300
+"1453",-22.8387608748,-57.1193132692,18772.9342874,"1","1169",PRY.CON,"Department of ConceptiΓ³n, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.005
+"1454",-0.01534098825,-76.5628746409,18045.2598299,"19","1160",ECU.SUC,"Department of SucumbΓ­os, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",0.105
+"1459",-32.0393762624,-55.8070052821,15673.5072886,"1","1219",URY.TAC,"Department of TacuarembΓ³, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.006
+"1460",0.71611741675,-79.2157364699,15538.363516,"63","1150",ECU.ESM,"Department of Esmeraldas, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",0.405
+"1461",-24.2275723048,-55.2186060684,15031.96595,"1","1167",PRY.CAN,"Department of CanindeyΓΊ, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.007
+"1463",-25.3880538843,-54.9532222314,14127.407181,"3","1163",PRY.ALT,"Department of Alto ParanΓ‘, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.021
+"1464",-0.15303837609,-78.7810987127,13685.237492,"301","1159",ECU.PIC,"Department of Pichincha, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",2.199
+"1465",-32.0325231742,-57.3794699926,13346.5597205,"5","1211",URY.PAY,"Department of PaysandΓΊ, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.037
+"1466",-32.40241198,-54.3749164194,13186.9926989,"3","1203",URY.CER,"Department of Cerro Largo, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.023
+"1467",-25.186728185,-55.8827311822,12902.3286413,"1","1165",PRY.CAG,"Department of CaaguazΓΊ, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.008
+"1468",-22.8758077148,-56.062649511,12536.9810106,"1","1164",PRY.AMA,"Department of Amambay, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.008
+"1469",-32.9353403471,-56.1079013883,12406.8952606,"2","1205",URY.DUR,"Department of Durazno, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.016
+"1470",-33.8680570036,-55.0086885286,11519.2132096,"1","1208",URY.LAV,"Department of Lavelleja, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.009
+"1471",-26.7599885605,-57.9024067171,11449.7726788,"3","1174",PRY.NEE,"Department of ΓeembucΓΊ, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.026
+"1472",-4.08873967456,-79.6545513382,11108.6785561,"123","1153",ECU.LOJ,"Department of Loja, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",1.107
+"1473",-33.9432173913,-54.0229585019,10885.8733043,"2","1214",URY.ROC,"Department of Rocha, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.018
+"1474",9.06298149435,-75.122765619,10807.5383105,"16","1138",COL.SUC,"Department of Sucre, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.148
+"1475",-33.7032774354,-55.9019424669,10728.9272238,"8","1207",URY.FLA,"Department of Florida, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.075
+"1476",-4.16932060825,-78.9021559333,10581.5790682,"12","1162",ECU.ZAM,"Department of Zamora.Chinchipe, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",0.113
+"1477",-31.6474950856,-55.0344094503,9792.02337103,"1","1213",URY.RIV,"Department of Rivera, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.010
+"1479",-26.2348560172,-56.0589068618,9544.0147976,"1","1166",PRY.CAZ,"Department of CaazapΓ‘, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.010
+"1482",-33.4778612499,-57.7643254117,8817.18819761,"4","1217",URY.SOR,"Department of Soriano, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.045
+"1483",-32.7172568632,-57.4663688202,8812.75356081,"5","1212",URY.RIO,"Department of RΓ­o Negro, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.057
+"1484",-26.0394267245,-57.1299272778,8719.09932826,"2","1175",PRY.PAR,"Department of ParaguarΓ­, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.023
+"1485",-3.01380939018,-79.1464598558,8006.24374364,"121","1143",ECU.AZU,"Department of Azuay, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",1.511
+"1486",5.33202802908,-75.338999118,7554.4311227,"68","1117",COL.CAL,"Department of Caldas, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",0.900
+"1487",-1.34418467069,-79.4869341777,7224.2670878,"155","1154",ECU.RIO,"Department of Los.RΓ­os, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",2.146
+"1488",-1.96847659877,-78.7159369316,6485.6577359,"99","1147",ECU.CHI,"Department of Chimborazo, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",1.526
+"1489",-34.112193846,-57.6785388609,6361.95028689,"2","1204",URY.COL,"Department of Colonia, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.031
+"1490",-0.86112605113,-78.8550448548,6011.48219956,"86","1148",ECU.COT,"Department of Cotopaxi, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",1.431
+"1491",-3.50803630675,-79.8262305075,5817.06135754,"39","1149",ECU.ORO,"Department of El.Oro, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",0.670
+"1492",-34.2739589198,-56.7456696057,5467.80442014,"3","1216",URY.SAN,"Department of San JosΓ©, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.055
+"1494",-34.546991538,-54.8618690062,5079.08506902,"3","1209",URY.MAL,"Department of Maldonado, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.059
+"1495",-34.5191627647,-55.9586914675,4852.64028632,"8","1202",URY.CAN,"Department of Canelones, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",0.165
+"1496",-25.1918616258,-56.9458057149,4798.03087552,"3","1170",PRY.COR,"Department of Cordillera, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.063
+"1497",0.40588163464,-78.3558581666,4793.90355031,"133","1152",ECU.IMB,"Department of Imbabura, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",2.774
+"1499",10.7171216107,-74.9031763855,4415.24111552,"45","1114",COL.ATL,"Department of AtlΓ‘ntico, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",1.019
+"1500",5.06808208193,-75.9214494926,4038.30094702,"47","1135",COL.RIS,"Department of Risaralda, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",1.164
+"1501",-1.59053574527,-79.1023180913,3930.27066567,"65","1144",ECU.BOL,"Department of BolΓ­var, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",1.654
+"1502",-25.8229880157,-56.2953976923,3824.32817989,"2","1171",PRY.GUA,"Department of GuairΓ‘, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.052
+"1503",0.74040502982,-78.0486456658,3553.29105292,"73","1146",ECU.CAR,"Department of Carchi, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",2.054
+"1504",-1.29086710914,-78.5047157366,3380.50693872,"151","1161",ECU.TUN,"Department of Tungurahua, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",4.467
+"1505",-2.52945565035,-79.0244380128,3323.00029257,"55","1145",ECU.CAN,"Department of CaΓ±ar, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador,"2","2","2402",1.655
+"1506",-25.5348950285,-57.4936061547,2418.5384157,"4","1168",PRY.CEN,"Department of Central, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.165
+"1507",4.47823350882,-75.6901825951,1730.56637558,"64","1134",COL.QUI,"Department of QuindΓ­o, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",3.698
+"1508",-34.8258180563,-56.226730211,474.527509005,"14","1210",URY.MON,"Department of Montevideo, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay,"1","2","2385",2.950
+"1509",12.9518552331,-81.5231873268,52.3637328685,"33","1136",COL.SPS,"Department of San AndrΓ©s, Providencia y Santa Catalina, Colombia","1",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia,"2","2","2344",63.021
+"1510",-38.69563794,-72.2799324075,34415.7249987,"10","1228",CHL.RAR,"RegiΓ³n de La AraucanΓ­a, Chile","0",CLC-LA,La Araucania,CLC,"85","8",Southern America,CHL,Chile,"1","2","2385",0.029
+"1511",6.21331337584,-63.486329669,239937.849508,"52","1235",VEN.BOL,"State of BolΓ­var, Venezuela","0",VEN-OO,Venezuela,VEN,"82","8",Southern America,VEN,Venezuela (Bolivarian Republic of),"2","2","2390",0.022
+"1512",3.41241095035,-65.936888829,183048.343213,"36","1236",VEN.AMZ,"State of Amazonas, Venezuela","0",VEN-OO,Venezuela,VEN,"82","8",Southern America,VEN,Venezuela (Bolivarian Republic of),"2","2","2390",0.020
+"1513",8.75975375419,-61.3299421479,40024.2853773,"34","1237",VEN.AMC,"State of Delta Amacuro, Venezuela","0",VEN-OO,Venezuela,VEN,"82","8",Southern America,VEN,Venezuela (Bolivarian Republic of),"2","2","2390",0.085
+"1514",-17.2942248489,-61.4609874433,355513.510679,"396","1238",BOL.SCR,"Region de Santa Cruz, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of),"2","2","2394",0.111
+"1515",-13.856611537,-65.1538497647,219769.43631,"164","1239",BOL.BEN,"Region del Beni, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of),"2","2","2394",0.075
+"1516",-15.2230014019,-68.1255193973,131113.905252,"667","1240",BOL.LPA,"Region de La Paz, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of),"2","2","2394",0.509
+"1517",-20.538050434,-66.7266715509,119436.445571,"56","1241",BOL.POT,"Region de PotosΓ­, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of),"2","2","2394",0.047
+"1518",-11.0912582204,-67.3177183275,63449.0272949,"77","1242",BOL.PAN,"Region de Pando, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of),"2","2","2394",0.121
+"1519",-17.2321648402,-65.6329173216,54260.0728663,"346","1243",BOL.COC,"Region de Cochabamba, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of),"2","2","2394",0.638
+"1520",-18.6261856549,-67.6914076439,51674.9262629,"37","1244",BOL.ORU,"Region de Oruro, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of),"2","2","2394",0.072
+"1521",-20.0386605337,-64.2902396761,50870.5640067,"144","1245",BOL.CHU,"Region de Chuquisaca, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of),"2","2","2394",0.283
+"1522",-21.5925861012,-63.8830757039,37305.0968697,"135","1246",BOL.TAR,"Region de Tarija, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of),"2","2","2394",0.362
+"1524",-21.9042389749,-61.0581687416,88569.0903681,"1","1248",PRY.BOQ,"BoquerΓ³n, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2397",0.001
+"1525",-20.5897684288,-59.4100090395,77727.6987062,"3","1249",PRY.ALP,"Alto Paraguay, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2385",0.004
+"1526",-23.6127727629,-58.6859651084,73175.163872,"1","1250",PRY.HAY,"Presidente Hayes, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay,"1","2","2397",0.001
+"1068",-9.15438848311,-74.3780645707,1289866.40009,"366","530",PER,Peru,"0",PER-OO,Peru,PER,"83","8",Southern America,PER,Peru,"2","2","2420",0.028

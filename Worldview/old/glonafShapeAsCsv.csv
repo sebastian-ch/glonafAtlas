@@ -1,0 +1,1030 @@
+OBJIDsic,LAT,LON,GeodAREA,taxCount,region_id,code,name,island,tdwg4,tdwg4_name,tdwg3,tdwg2,tdwg1,tdwg1_name,country_IS,country
+"2",33.83518805040,66.00674197220,641083.81833000004,"47","908",AFG,Afghanistan,"0",AFG-OO,Afghanistan,AFG,"34","3",Asia-Temperate,AFG,Afghanistan
+"5",52.61111376100,82.62185147540,170808.15597399999,"222","643",RUS.SIB.AK,Altay,"0",ALT-OO,Altay,ALT,"30","3",Asia-Temperate,RUS,Russian Federation (the)
+"17",-55.14672074760,-68.63069211280,9039.16178594000,"9","201",CHL.AC,Antártica Chilena,"0",CLS-MG,Magellanes,CLS,"85","8",Southern America,CHL,Chile
+"26",40.28620004540,44.94739356470,29669.49070730000,"400","909",ARM,Armenia,"0",TCS-AR,Armenia,TCS,"33","3",Asia-Temperate,ARM,Armenia
+"32",-7.94351256894,-14.36703137520,99.35729999420,"158","664",SHN.AC,Ascension Island,"1",ASC-OO,Ascension,ASC,"28","2",Africa,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+"34",-27.36854029930,-69.90162017530,77960.08516630001,"1","1222",CHL.RAT,"Región de Atacama, Chile","0",CLN-AT,Atacama,CLN,"85","8",Southern America,CHL,Chile
+"36",-46.29390803490,-73.35341438890,75989.67145130000,"4","1230",CHL.RAI,"Región Aisén del General Carlos Ibáñez del Campo, Chile","0",CLS-AI,Ais‚n,CLS,"85","8",Southern America,CHL,Chile
+"40",23.87430780980,90.25983306970,135413.85704999999,"65","922",BGD,Bangladesh,"0",BAN-OO,Bangladesh,BAN,"40","4",Asia-Tropical,BGD,Bangladesh
+"44",-37.17925116260,-72.26686745080,35967.18802030000,"10","1227",CHL.RBI,"Región del Bío Bío, Chile","0",CLC-BI,Biob¡o,CLC,"85","8",Southern America,CHL,Chile
+"60",47.56021742780,16.53955464930,3940.52946059000,"166","910",AUT.BUR,Burgenland,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria
+"83",-33.14019676420,-70.78790931860,1855.14172231000,"23","209",CHL.CB,Chacabuco,"0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile
+"84",49.32686005510,-2.29128015960,213.60752309400,"449","415",JEY_GGY,Channel Islands,"1",FRA-CI,Channel Is.,FRA,"12","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the)
+"91",-12.16359688720,96.87330868400,20.60728316500,"56","198",CCK.MA,Cocos (Keeling) Main Atoll,"1",CKI-OO,Cocos (Keeling) Is.,CKI,"42","4",Asia-Tropical,CCK,Cocos (Keeling) Islands (the)
+"100",-30.62458201040,-70.88702132610,39560.64924200000,"7","1223",CHL.RCO,"Región de Coquimbo, Chile","0",CLC-CO,Coquimbo,CLC,"85","8",Southern America,CHL,Chile
+"102",39.69910452050,-31.10522314890,17.11530397790,"366","992",PRT.AZO.COR,Corvo,"1",AZO-OO,A‡“res,AZO,"21","2",Africa,PRT,Portugal
+"124",-27.12050732840,-109.35649361300,168.13181343000,"2","1252",CHL.EAS,"Easter Island, Chile","1",EAS-OO,Easter Is.,EAS,"61","6",Pacific,CHL,Chile
+"129",1.69399772861,10.36051156750,26574.90550280000,"341","356",GNQ,Equatorial Guinea,"0",EQG-OO,Equatorial Guinea,EQG,"23","2",Africa,GNQ,Equatorial Guinea
+"130",-1.37839895469,-89.67870362920,64.11423179070,"10","971",ECU.GAL.ESP,Española,"1",GAL-OO,Gal pagos,GAL,"83","8",Southern America,ECU,Ecuador
+"132",38.57821749480,-28.70133236750,173.09085344200,"911","990",PRT.AZO.FAI,Faial,"1",AZO-OO,A‡“res,AZO,"21","2",Africa,PRT,Portugal
+"138",-0.38573445823,-91.51293684050,649.10592789800,"6","972",ECU.GAL.FER,Fernandina,"1",GAL-OO,Gal pagos,GAL,"83","8",Southern America,ECU,Ecuador
+"145",-1.29360294796,-90.43529129120,178.02898368300,"124","973",ECU.GAL.FLO,Floreana,"1",GAL-OO,Gal pagos,GAL,"83","8",Southern America,ECU,Ecuador
+"146",39.44195018850,-31.20248974830,140.98242638400,"621","991",PRT.AZO.FLO,Flores,"1",AZO-OO,A‡“res,AZO,"21","2",Africa,PRT,Portugal
+"151",23.84979207510,-166.26210090000,0.25048569727,"24","747",USA.HI.FFS,French Frigate Shoals,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"154",13.43274783680,-15.48813544740,9933.26468519000,"11","994",GAM,Gambia,"0",GAM-OO,"Gambia, The",GAM,"22","2",Africa,GMB,Gambia (the)
+"158",0.32522902443,-89.95676097970,15.38315969210,"1","974",ECU.GAL.GEN,Genovesa,"1",GAL-OO,Gal pagos,GAL,"83","8",Southern America,ECU,Ecuador
+"160",39.05229370620,-28.01132729400,60.69152479880,"608","987",PRT.AZO.GRA,Graciosa,"1",AZO-OO,A‡“res,AZO,"21","2",Africa,PRT,Portugal
+"171",19.59808362360,-155.51837498500,10457.21621140000,"958","748",USA.HI.HAW,Hawai'i (Big Island),"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"198",32.73773588270,54.20015633180,1679310.40685999999,"35","900",IRN,Iran (Islamic Republic of),"0",IRN-OO,Iran,IRN,"34","3",Asia-Temperate,IRN,Iran (Islamic Republic of)
+"202",-0.55929258786,-91.18434395330,4726.57348200000,"164","975",ECU.GAL.ISA,Isabela,"1",GAL-OO,Gal pagos,GAL,"83","8",Southern America,ECU,Ecuador
+"211",-33.70984557000,-79.85602744180,109.51282114400,"5","1234",CHL.JNF,Juan Fernandez Islands,"1",JNF-OO,Juan Fern ndez Is.,JNF,"85","8",Southern America,CHL,Chile
+"213",21.65414371380,-160.54148652200,0.74776611583,"12","750",USA.HI.KAR,Ka'ula Rock,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"214",20.54761152680,-156.60934060200,116.65852506600,"144","749",USA.HI.KAH,Kaho'olawe,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"220",46.77492259250,13.92672773650,9522.47912026000,"179","915",AUT.CAR,Kärnten,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria
+"222",22.05836306600,-159.52424104300,1442.95150339000,"722","751",USA.HI.KAU,Kaua'i,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"227",-29.38093526140,-177.98707987100,34.41673167960,"151","901",NZL.KEI,Kermadec Islands,"1",KER-OO,Kermadec Is.,KER,"51","5",Australasia,NZL,New Zealand
+"778",30.97331631810,112.26126796800,185933.99075100000,"294","269",CHN.42,Hubei,"0",CHC-HU,Hubei,CHC,"36","3",Asia-Temperate,CHN,China
+"779",27.61613098740,111.70227719800,211019.22783100000,"296","270",CHN.43,Hunan,"0",CHS-HN,Hunan,CHS,"36","3",Asia-Temperate,CHN,China
+"780",23.35174704660,113.41189198500,176103.82933400001,"548","271",CHN.44,Guangdong,"0",CHS-GD,Guangdong,CHS,"36","3",Asia-Temperate,CHN,China
+"781",23.83136205770,108.78548320600,236481.94633800001,"430","272",CHN.45,Guangxi,"0",CHS-GX,Guangxi,CHS,"36","3",Asia-Temperate,CHN,China
+"801",-19.99568379450,-158.11443177700,29.47576574890,"134","292",COK.AT,"Atiu, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the)
+"802",-21.92812672230,-157.91942945400,48.54086560750,"160","293",COK.MA,"Mangaia, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the)
+"803",-20.16117016760,-157.34142931900,20.41950365060,"154","294",COK.MAU,"Mauke, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the)
+"804",-19.26880060050,-158.93715273100,7.46602407972,"16","295",COK.ME,"Manuae, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the)
+"805",-10.41990216210,-161.00126823000,7.97958598380,"42","296",COK.MI,"Manihiki, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the)
+"806",-19.86712668830,-157.70219756600,24.69573823930,"105","297",COK.MIT,"Mitiaro, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the)
+"807",-11.56059371540,-165.41458136600,1.16153729708,"20","298",COK.NAS,"Nassau, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the)
+"808",-18.06012707810,-163.15227335000,2.12327294067,"29","299",COK.PAL,"Palmerston, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the)
+"809",-8.98802355399,-157.98050860600,17.63289492430,"40","300",COK.PEN,"Penrhyn, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the)
+"810",-10.88381520190,-165.84536977900,4.09425582597,"40","301",COK.PUK,"Pukapuka, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the)
+"811",-21.23462327820,-159.77754611700,69.10718947500,"222","302",COK.RA,"Rarotonga, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the)
+"232",28.39282095950,-178.29397501700,0.85221067062,"40","752",USA.HI.KUR,Kure,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"243",-21.12166153400,55.53818069430,2642.07979318000,"760","925",FRA.REU,Reunion,"1",REU-OO,R‚union,REU,"29","2",Africa,REU,R‚union
+"537",-14.17218402800,-169.66373061000,7.73429053857,"104","30",ASM.OFU,Ofu,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa
+"538",-14.17855093200,-169.62037535300,7.27011869020,"46","31",ASM.OLO,Olosega,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa
+"539",-11.05587635610,-171.07843855800,3.71050343407,"38","32",ASM.SWA,Swains,"1",TOK-SW,Swains I.,TOK,"60","6",Pacific,ASM,American Samoa
+"540",-14.24204451210,-169.46821363700,59.61633912510,"154","33",ASM.TAU,Tau,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa
+"541",-14.30033425150,-170.71761820800,142.87745723800,"200","34",ASM.TUA,Tutuila,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa
+"542",-70.38823085350,-64.04120445580,85861.47665110001,"2","35",ATA,Antarctica,"0",ANT-OO,Antarctica,ANT,"91","9",Antarctic,ATA,Antarctica
+"545",-28.67331052260,113.83099267200,0.15559242138,"15","38",AUS.AI,"Alexander Island (Australia, not Antarctica)","1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"547",-28.47536421010,113.78594449400,0.06916290987,"14","40",AUS.BI,Beacon Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"548",-19.01471544900,152.12475418300,3.95083533286,"5","41",AUS.CSIT,Coral Sea Islands Territory,"1",QLD-CS,Coral Sea Is. Territory,QLD,"50","5",Australasia,AUS,Australia
+"549",-28.43665108640,113.72812019900,3.31783197105,"27","42",AUS.EWI,East Wallabi Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"550",-28.66745583070,113.82814541500,0.04449720520,"5","43",AUS.GI,Gilbert Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"551",-28.88657252530,113.85967827800,0.23889188596,"11","44",AUS.GUI,Gun Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"552",-28.67377184220,113.85245201700,0.06053859202,"51","45",AUS.HI,Helms Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"553",-28.80076087020,114.03977213000,0.33588399824,"1","46",AUS.HUI,Hummock Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"554",-28.68881473930,113.86278679300,0.17829112580,"10","47",AUS.LEI,Leo Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"782",19.20050456740,109.74159077000,33998.76854950000,"315","273",CHN.46,Hainan,"1",CHH-OO,Hainan,CHH,"36","3",Asia-Temperate,CHN,China
+"783",30.07217147800,107.87608930300,81807.57020459999,"108","274",CHN.50,Chongqing,"0",CHC-CQ,Chongqing,CHC,"36","3",Asia-Temperate,CHN,China
+"784",30.51149878300,103.48197423300,562857.50970900001,"374","275",CHN.51,Sichuan,"0",CHC-SC,Sichuan,CHC,"36","3",Asia-Temperate,CHN,China
+"785",26.80880502780,106.87118015800,175981.13091700000,"342","276",CHN.52,Guizhou,"0",CHC-GZ,Guizhou,CHC,"36","3",Asia-Temperate,CHN,China
+"786",24.97672576640,101.48741801400,383166.86915699998,"580","277",CHN.53,Yunnan,"0",CHC-YN,Yunnan,CHC,"36","3",Asia-Temperate,CHN,China
+"787",44.06255527140,113.85625204500,1150969.24249000009,"200","278",CHN.55,Nei Mongol,"0",CHI-NM,Nei Mongol,CHI,"36","3",Asia-Temperate,CHN,China
+"788",35.15769073500,108.86129637900,203508.67247799999,"242","279",CHN.61,Shaanxi,"0",CHN-SA,Shaanxi,CHN,"36","3",Asia-Temperate,CHN,China
+"789",37.73736527780,101.22297142400,380492.25667799998,"211","280",CHN.62,Gansu,"0",CHN-GS,Gansu,CHN,"36","3",Asia-Temperate,CHN,China
+"790",35.77335967770,96.04682991720,734170.01465000003,"163","281",CHN.63,Qinghai,"0",CHQ-OO,Qinghai,CHQ,"36","3",Asia-Temperate,CHN,China
+"791",37.27331198340,106.15374386100,51931.74262190000,"142","282",CHN.64,Ningxia Hui,"0",CHI-NX,Ningxia,CHI,"36","3",Asia-Temperate,CHN,China
+"792",22.41099475060,114.17872543700,1011.40784640000,"247","283",CHN.91,Hongkong,"0",CHS-HK,Hong Kong,CHS,"36","3",Asia-Temperate,HKG,Hong Kong
+"793",22.19849751430,113.54574467800,8.71512212737,"118","284",CHN.92,Macau,"0",CHS-MA,Macau,CHS,"36","3",Asia-Temperate,MAC,Macao
+"794",41.12317643680,85.25102031320,1631798.97157000005,"221","285",CHN.SIN,Xinjiang Uygur,"0",CHX-OO,Xinjiang,CHX,"36","3",Asia-Temperate,CHN,China
+"795",31.71209216210,88.11853236700,1133869.63180000009,"210","286",CHN.TIB,Xizang,"0",CHT-OO,Tibet,CHT,"36","3",Asia-Temperate,CHN,China
+"796",7.63130984478,-5.56410959172,319718.58733399998,"306","287",CIV,Cote d'Ivoire,"0",IVO-OO,Ivory Coast,IVO,"22","2",Africa,CIV,C“te d'Ivoire
+"797",5.69117031525,12.75525967520,464396.48844300001,"362","288",CMR,Cameroon,"0",CMN-OO,Cameroon,CMN,"23","2",Africa,CMR,Cameroon
+"798",-2.87813552553,23.65422435470,2326430.62005000003,"681","289",COD,Democratic Republic of the Congo,"0",ZAI-OO,Zaire,ZAI,"23","2",Africa,COD,Congo (the Democratic Republic of the)
+"799",-0.83168788884,15.22722973760,343925.15839400003,"67","290",COG,Congo,"0",CON-OO,Congo,CON,"23","2",Africa,COG,Congo (the)
+"800",-18.86683859020,-159.77650035500,20.42757243870,"98","291",COK.AI,"Aitutaki, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the)
+"1100",-10.47163469560,-138.63983642400,95.28783535140,"214","562",PYF.MI.FHI,"Fatu Hiva, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia
+"1101",-9.43680734675,-138.92649373700,0.59343086645,"7","563",PYF.MI.FHU,"Fatu Huku, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia
+"1102",-7.91764125559,-140.56969124800,8.41008100743,"27","564",PYF.MI.HA,"Hatutaa, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia
+"1103",-9.77477747876,-139.01392190300,319.39350239500,"281","565",PYF.MI.HO,"Hiva Oa, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia
+"1104",-9.98529150538,-138.82961485500,20.10364831490,"45","566",PYF.MI.MO,"Mohotani, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia
+"1105",-8.86623902754,-140.13932251200,346.61942925000,"299","567",PYF.MI.NH,"Nuku Hiva, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia
+"1106",-9.94498826259,-139.08856373800,71.90680312730,"135","568",PYF.MI.TA,"Tahuata, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia
+"1107",-8.90932310343,-139.55196372400,91.63113999550,"203","569",PYF.MI.UH,"Ua Huka, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia
+"1108",-9.39785706950,-140.07394194700,108.78925918300,"183","570",PYF.MI.UP,"Ua Pou, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia
+"1109",-23.92774603700,-130.74004338400,2.90403044171,"2","571",PYF.OE,"Oeno, French Polynesia","1",PIT-OO,Pitcairn Is.,PIT,"61","6",Pacific,PCN,Pitcairn
+"1132",-15.84366306970,-148.25558633200,30.75213670890,"56","594",PYF.TA.MAK,"Makatea, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1133",-14.39808418650,-145.94928802600,24.79415486460,"3","595",PYF.TA.MAN,"Manihi, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1134",-21.47391188760,-136.39617788600,8.49539098905,"1","596",PYF.TA.MAO,"Matureivavao, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1135",-21.84940265820,-138.89197098600,21.29656485570,"2","597",PYF.TA.MOR,"Moruroa, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1138",-16.15833459420,-146.34884096400,25.35663960430,"17","600",PYF.TA.NIA,"Niau, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1139",-15.14366047250,-147.57015912700,98.76937827310,"9","601",PYF.TA.RAN,"Rangiroa, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1140",-15.74194592600,-144.63157194800,6.14400086068,"1","603",PYF.TA.TAI,"Taiaro, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"247",20.83499454640,-156.92706588500,366.60416366800,"403","753",USA.HI.LAE,Läna'i,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"249",25.76868902390,-171.73488777400,2.92094893033,"12","754",USA.HI.LAY,Laysan,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"251",22.02010030560,-160.09576467400,1.28218787021,"40","755",USA.HI.LEH,Lehua,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"254",-34.44329120630,-71.04802575280,15857.77929170000,"5","1225",CHL.RLI,"Región del Libertador General Bernardo O'Higgins, Chile","0",CLC-OH,O'Higgins,CLC,"85","8",Southern America,CHL,Chile
+"258",26.06395314990,-173.96592230900,1.59354471908,"3","756",USA.HI.LIS,Lisianski,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"261",-41.32054395010,-72.87154816900,60912.83756170000,"9","1229",CHL.RLL,"Región de Los Lagos, Chile","0",CLS-LL,Los Lagos,CLS,"85","8",Southern America,CHL,Chile
+"264",62.70939748130,153.98585406800,463345.76079600002,"231","639",RUS.MAG,Magadan region,"0",MAG-OO,Magadan,MAG,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"265",-52.60079056960,-71.69856101550,102367.74898600001,"7","1231",CHL.RMG,"Región de Magallanes y de la Antártica Chilena, Chile","0",CLS-MG,Magellanes,CLS,"85","8",Southern America,CHL,Chile
+"277",20.79041463210,-156.33677702500,1894.10590315000,"918","757",USA.HI.MAU,Maui,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"278",-35.57615173280,-71.41651915860,29065.71227720000,"7","1226",CHL.RMU,"Región del Maule, Chile","0",CLC-MA,Maule,CLC,"85","8",Southern America,CHL,Chile
+"286",28.20804993290,-177.36719112300,6.43351937511,"124","758",USA.HI.MID,Midway,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"288",21.13317267820,-157.01451757500,680.42160148200,"522","759",USA.HI.MOL,Moloka'i,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"290",46.82798176390,103.07526243200,1561385.77563000005,"26","902",MNG,Mongolia,"0",MON-OO,Mongolia,MON,"37","3",Asia-Temperate,MNG,Mongolia
+"307",21.89664258520,-160.15183060300,197.31253218200,"99","761",USA.HI.NII,Ni'ihau,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"308",48.27696915600,15.74932289950,19101.33908390000,"211","912",AUT.LOW,Niederösterreich,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria
+"309",23.06045589430,-161.92252528200,0.65231128283,"6","760",USA.HI.NIH,Nihoa,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"320",-32.98793098300,148.61895797500,80467.67010490000,"694","57",AUS.NSW.CWS,Central Western Slopes,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"321",21.45867443230,-157.97339291300,1560.18447198000,"1012","762",USA.HI.OAH,O'ahu,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"323",48.14692222140,13.96953178070,12067.65932560000,"188","913",AUT.UPP,Oberösterreich,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria
+"329",20.61553326500,56.11539394540,309610.34385100001,"47","528",OMN,Oman,"0",OMA-OO,Oman,OMA,"35","3",Asia-Temperate,OMN,Oman
+"353",-6.46720713245,145.17971881900,456691.85837500001,"125","921",PNG,Papua New Guinea,"1",000-34,Papua New Guinea,"29","43","4",Asia-Tropical,PNG,Papua New Guinea
+"354",-23.23417527430,-58.38949532330,400345.58313599997,"176","919",PRY,Paraguay,"0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"356",27.82277557350,-175.79824549100,0.29384643614,"10","763",USA.HI.PEH,Pearl & Hermes,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the)
+"359",38.46947296150,-28.33357295510,444.97415806800,"702","989",PRT.AZO.PIC,Pico,"1",AZO-OO,A‡“res,AZO,"21","2",Africa,PRT,Portugal
+"361",0.58684476502,-90.75702476910,60.33078373050,"8","977",ECU.GAL.PNT,Pinta,"1",GAL-OO,Gal pagos,GAL,"83","8",Southern America,ECU,Ecuador
+"362",-0.61081051893,-90.66579087320,18.06917531340,"3","978",ECU.GAL.PNZ,Pinzón,"1",GAL-OO,Gal pagos,GAL,"83","8",Southern America,ECU,Ecuador
+"373",-19.71632435230,63.42346734940,98.14652473200,"289","1233",MUS.RO,Rodrigues (Mauritius),"1",ROD-OO,Rodrigues,ROD,"29","2",Africa,MUS,Mauritius
+"382",47.38668822680,13.09109587060,7135.10874552000,"157","916",AUT.SAL,Salzburg,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria
+"386",-0.82679801690,-89.43056011140,559.97766365100,"196","979",ECU.GAL.CRI,San Cristóbal,"1",GAL-OO,Gal pagos,GAL,"83","8",Southern America,ECU,Ecuador
+"396",-0.62724753263,-90.35840559790,987.09415750700,"228","980",ECU.GAL.CRU,Santa Cruz,"1",GAL-OO,Gal pagos,GAL,"83","8",Southern America,ECU,Ecuador
+"397",-0.81842866740,-90.05877356660,25.15160168790,"1","981",ECU.GAL.SFE,Santa Fé,"1",GAL-OO,Gal pagos,GAL,"83","8",Southern America,ECU,Ecuador
+"399",36.97133370210,-25.09982292460,96.89183340480,"865","984",PRT.AZO.MAR,Santa Maria,"1",AZO-OO,A‡“res,AZO,"21","2",Africa,PRT,Portugal
+"401",-33.61124478080,-70.64383951920,15824.35820040000,"9","1232",CHL.RSA,"Región Metropolitana de Santiago, Chile","0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile
+"403",-0.26624540728,-90.71254624930,577.09975115300,"40","982",ECU.GAL.SAN,Santiago,"1",GAL-OO,Gal pagos,GAL,"83","8",Southern America,ECU,Ecuador
+"405",38.63723431300,-28.02923615530,243.78070456100,"614","988",PRT.AZO.JOR,São Jorge,"1",AZO-OO,A‡“res,AZO,"21","2",Africa,PRT,Portugal
+"406",37.79540002090,-25.48189124210,744.72148815600,"915","985",PRT.AZO.MIG,São Miguel,"1",AZO-OO,A‡“res,AZO,"21","2",Africa,PRT,Portugal
+"431",17.73285959190,-64.76845630790,219.68136759200,"3","1303",USA.VI.STC,St. Croix (Virgin Islands),"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.)
+"432",-15.95940566060,-5.70849369246,168.12800782600,"252","668",SHN.SH,St Helena,"1",STH-OO,St.Helena,STH,"28","2",Africa,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+"433",18.33835345940,-64.73675811470,52.07341609540,"2","1302",USA.VI.STJ,St. John (Virgin Islands),"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.)
+"435",18.34352842560,-64.92869417040,76.20681007520,"3","1301",USA.VI.STT,St. Thomas (Virgin Islands),"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.)
+"436",47.27844361880,15.01160665070,16431.11587540000,"187","914",AUT.STY,Steiermark,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria
+"451",-19.70288770250,-69.47900732110,57071.96312940000,"2","1220",CHL.RTA,"Región de Tarapacá and Arica and Parinacota, Chile","0",CLN-TA,Tarapaca,CLN,"85","8",Southern America,CHL,Chile
+"453",38.72390111090,-27.21229994240,400.56202745900,"827","986",PRT.AZO.TER,Terceira,"1",AZO-OO,A‡“res,AZO,"21","2",Africa,PRT,Portugal
+"457",47.19516709850,11.50005895110,12599.83030920000,"152","917",AUT.TYR,Tirol,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria
+"463",39.06841555130,35.18735082980,779323.19718300004,"172","889",TUR,Turkey,"0",000-29,Turkey,"28","102","0",mixed,TUR,Turkey
+"471",23.92450748590,54.34541243830,67901.70893230000,"8","920",ARE,United Arab Emirates,"0",GST-UA,United Arab Emirates,GST,"35","3",Asia-Temperate,ARE,United Arab Emirates (the)
+"480",-32.79329008250,-70.97796904150,16073.29216890000,"12","1224",CHL.RVA,"Región de Valparaíso, Chile","0",CLC-VA,Valpara¡so,CLC,"85","8",Southern America,CHL,Chile
+"484",-36.85676118510,144.30883840700,227944.88000199999,"1539","107",AUS.VIC,Australia Victoria,"0",VIC-OO,Victoria,VIC,"50","5",Australasia,AUS,Australia
+"490",47.25072205700,9.89903218655,2686.01279949000,"125","918",AUT.VOR,Vorarlberg,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria
+"495",22.24592772960,4.78067715154,6832540.61983999982,"1","993",ESH,Western Sahara,"0",WSA-OO,Western Sahara,WSA,"20","2",Africa,ESH,Western Sahara*
+"499",48.22556078690,16.39523850060,461.01724058000,"182","911",AUT.VIE,Wien,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria
+"506",17.21766753940,-88.68476698850,22093.33250880000,"62","149",BLZ,Belize,"0",BLZ-OO,Belize,BLZ,"80","8",Southern America,BLZ,Belize
+"508",12.51562579740,-69.97564013030,199.56724235100,"32","1",ABW,Aruba,"1",ARU-OO,Aruba,ARU,"81","8",Southern America,ABW,Aruba
+"509",-12.29947711840,17.53796482350,1248577.78869000007,"364","2",AGO,Angola,"0",ANG-OO,Angola,ANG,"26","2",Africa,AGO,Angola
+"510",18.21473632010,-63.05439836720,74.92801846920,"70","3",AIA,Anguilla,"1",LEE-AG,Anguilla,LEE,"81","8",Southern America,AIA,Anguilla
+"511",41.15151371330,20.06536611450,28836.22341040000,"108","4",ALB,Albania,"0",ALB-OO,Albania,ALB,"13","1",Europe,ALB,Albania
+"512",-36.67898769740,-60.55851256970,306120.74677899998,"466","5",ARG.BA,Buenos Aires,"0",AGE-BA,Buenos Aires,AGE,"85","8",Southern America,ARG,Argentina
+"513",-27.28557418440,-66.99589497430,99181.11452770000,"96","6",ARG.CA,Catamarca,"0",AGW-CA,Catamarca,AGW,"85","8",Southern America,ARG,Argentina
+"514",-26.39757953980,-60.75901225350,99216.22114160001,"70","7",ARG.CHA,Chaco,"0",AGE-CH,Chaco,AGE,"85","8",Southern America,ARG,Argentina
+"515",-43.79850730640,-68.49141701500,221723.65742300000,"177","8",ARG.CHU,Chubut,"0",AGS-CB,Chubut,AGS,"85","8",Southern America,ARG,Argentina
+"516",-32.09515158070,-63.77140815030,167757.10038200000,"214","9",ARG.CO,Córdoba,"0",AGE-CD,C¢rdoba,AGE,"85","8",Southern America,ARG,Argentina
+"517",-28.76469001980,-57.79203142020,88605.61930950001,"109","10",ARG.COR,Corrientes,"0",AGE-CN,Corrientes,AGE,"85","8",Southern America,ARG,Argentina
+"518",-34.61790538930,-58.45074934000,178.28371828700,"118","11",ARG.DF,Ciudad de Buenos Aires,"0",AGE-DF,Argentina Distrito Federal,AGE,"85","8",Southern America,ARG,Argentina
+"519",-32.04365700510,-59.20367479400,78050.92799290000,"215","12",ARG.ER,Entre Ríos,"0",AGE-ER,Entre R¡os,AGE,"85","8",Southern America,ARG,Argentina
+"520",-24.90180326930,-59.93129157200,76146.22977570001,"49","13",ARG.FO,Formosa,"0",AGE-FO,Formosa,AGE,"85","8",Southern America,ARG,Argentina
+"521",-23.31086558100,-65.76730492820,53048.87790940000,"115","14",ARG.JU,Jujuy,"0",AGW-JU,Jujuy,AGW,"85","8",Southern America,ARG,Argentina
+"522",-37.13287100790,-65.44550668100,142697.41262300001,"202","15",ARG.LP,La Pampa,"0",AGE-LP,La Pampa,AGE,"85","8",Southern America,ARG,Argentina
+"523",-29.67377294380,-67.16854234660,91671.78122619999,"75","16",ARG.LR,La Rioja,"0",AGW-LR,La Rioja,AGW,"85","8",Southern America,ARG,Argentina
+"524",-34.59832915020,-68.60840888190,151240.49360900000,"207","17",ARG.ME,Mendoza,"0",AGW-ME,Mendoza,AGW,"85","8",Southern America,ARG,Argentina
+"525",-26.86736887840,-54.64819479940,30135.66748390000,"90","18",ARG.MI,Misiones,"0",AGE-MI,Misiones,AGE,"85","8",Southern America,ARG,Argentina
+"526",-38.64038395610,-70.12515468300,93570.52649950000,"207","19",ARG.NE,Neuquén,"0",AGS-NE,Neuqu‚n,AGS,"85","8",Southern America,ARG,Argentina
+"527",-40.39972805590,-67.23688400800,202999.23224099999,"246","20",ARG.RN,Río Negro,"0",AGS-RN,Rio Negro,AGS,"85","8",Southern America,ARG,Argentina
+"528",-24.28980121510,-64.82432124440,155920.92600199999,"145","21",ARG.SA,Salta,"0",AGW-SA,Salta,AGW,"85","8",Southern America,ARG,Argentina
+"529",-48.79265840200,-69.88963617870,238778.42028900000,"143","22",ARG.SC,Santa Cruz,"0",AGS-SC,Santa Cruz,AGS,"85","8",Southern America,ARG,Argentina
+"530",-27.72682673330,-63.29368585290,135049.62154600001,"76","23",ARG.SE,Santiago del Estero,"0",AGW-SE,Santiago del Estero,AGW,"85","8",Southern America,ARG,Argentina
+"531",-30.69464298600,-60.94502082850,133705.59122300000,"128","24",ARG.SF,Santa Fe,"0",AGE-SF,Santa F‚,AGE,"85","8",Southern America,ARG,Argentina
+"532",-30.81534624810,-68.87166817790,86778.14213810000,"94","25",ARG.SJ,San Juan,"0",AGW-SJ,San Juan,AGW,"85","8",Southern America,ARG,Argentina
+"533",-33.75648537080,-66.02872610440,77386.86837000000,"100","26",ARG.SL,San Luis,"0",AGW-SL,San Luis,AGW,"85","8",Southern America,ARG,Argentina
+"534",-54.32977678790,-67.42628669500,20884.13439620000,"150","27",ARG.TF,Tierra del Fuego,"1",AGS-TF,Tierra del Fuego (Argentina),AGS,"85","8",Southern America,ARG,Argentina
+"535",-26.94320628030,-65.37817086120,23071.49194100000,"143","28",ARG.TU,Tucumán,"0",AGW-TU,Tucuman,AGW,"85","8",Southern America,ARG,Argentina
+"536",-14.28403923290,-170.55346367200,1.74340419344,"89","29",ASM.AUU,Aunuu,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa
+"555",-28.47227036770,113.77426478800,0.19209215982,"10","48",AUS.LI,"Long Island, Houtman Abrolhos","1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"556",-28.72712114700,113.78716961800,0.09637916159,"22","49",AUS.LRI,Little Rat Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"557",-28.74533956150,113.81429386800,0.11838833165,"10","50",AUS.MI,Morley Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"558",-28.90864410320,113.91247387800,0.24559520752,"7","51",AUS.MII,Middle Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"559",-28.89724137420,113.89810846100,0.05765913151,"2","52",AUS.MUI,Murray Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"560",-28.86319200970,113.99696706100,0.11671393625,"6","53",AUS.NEI,Newman Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"561",-28.30002052280,113.59568453300,1.87297968671,"24","54",AUS.NI,"North Island, Houtman Abrolhos","1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"562",-33.67974482530,150.80651351400,17699.64259260000,"1127","55",AUS.NSW.CC,Central Coast,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"563",-33.66517028600,149.80189999400,21809.90222240000,"696","56",AUS.NSW.CT,Central Tablelands,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"564",-31.55301451640,159.07716036700,17.46579533990,"263","58",AUS.NSW.LHI,Lord Howe Island,"1",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"565",-30.59616909490,152.43763427000,55050.17009260000,"969","59",AUS.NSW.NC,North Coast,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"566",-30.42327151210,142.97471978200,124729.64695900001,"230","60",AUS.NSW.NFWP,North Far Western Plains,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"567",-30.47245686720,151.57801925600,31361.76057080000,"525","61",AUS.NSW.NT,Northern Tablelands,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"568",-30.30006787310,147.41323258000,150780.31610699999,"426","62",AUS.NSW.NWP,North Western Plains,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"569",-30.57420612770,150.32687978100,44298.13808750000,"635","63",AUS.NSW.NWS,North Western Slopes,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"570",-36.14570327880,149.97931000400,12213.70999680000,"533","64",AUS.NSW.SC,South Coast,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"571",-33.16150870930,142.61138071000,77487.67841540001,"206","65",AUS.NSW.SFWP,South Far Western Plains,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"572",-35.71505669790,149.06978662200,39307.20888520000,"677","66",AUS.NSW.ST,Southern Tablelands,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"573",-33.82365431520,145.38518109700,115847.60559399999,"496","67",AUS.NSW.SWP,South Western Plains,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"574",-35.25731429360,147.32199862700,31386.20757060000,"530","68",AUS.NSW.SWS,South Western Slopes,"0",NSW-NS,New South Wales,NSW,"50","5",Australasia,AUS,Australia
+"575",-19.41515139790,133.36627204100,1348721.71880999999,"432","69",AUS.NT,Northern Territory,"0",NTA-OO,Northern Territory,NTA,"50","5",Australasia,AUS,Australia
+"576",-28.94562579300,113.97225820200,2.34779263093,"19","70",AUS.PEI,Pelsaert Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"577",-28.45435780470,113.72741223400,0.06795873876,"26","71",AUS.PI,Pigeon Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"578",-19.46667317600,140.88083630500,262690.94617900002,"233","72",AUS.QNS.BK,Burke,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"579",-25.73292831160,151.29060771100,30143.37533530000,"419","73",AUS.QNS.BN,Burnett,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"580",-15.77245391200,143.32563303200,261612.17128700000,"750","74",AUS.QNS.CO,Cook,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"581",-27.61675175820,150.78602200100,66195.36825889999,"616","75",AUS.QNS.DD,Darling Downs,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"582",-23.13863532710,140.42575344200,218338.21521299999,"80","76",AUS.QNS.GN,Gregory North,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"583",-26.53821994090,141.69385075500,129433.87544600001,"72","77",AUS.QNS.GS,Gregory South,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"584",-24.04322634160,148.79788017200,123851.15372500000,"399","78",AUS.QNS.LE,Leichhardt,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"585",-27.42191532550,147.96365574700,100257.00773800000,"259","79",AUS.QNS.MA,Maranoa,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"586",-23.43570144410,144.56911434100,142876.61818500000,"196","80",AUS.QNS.MI,Mitchell,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"587",-27.43627659660,152.67874067200,21909.02504890000,"1003","81",AUS.QNS.MO,Moreton,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"588",-19.60585196570,146.06749431100,84932.73678430000,"602","82",AUS.QNS.NK,North Kennedy,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"589",-23.55159707370,150.56562267500,36534.70046890000,"548","83",AUS.QNS.PC,Port Curtis,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"590",-21.97099309190,147.04951451100,80892.73740290001,"481","84",AUS.QNS.SK,South Kennedy,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"591",-27.07381825410,145.15395855300,146248.86313600000,"218","85",AUS.QNS.WA,Warrego,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"592",-25.61909377930,152.45412656700,21977.05805750000,"629","86",AUS.QNS.WB,Wide Bay,"0",QLD-QU,Queensland,QLD,"50","5",Australasia,AUS,Australia
+"593",-28.71428810090,113.78462545600,0.69741822353,"30","87",AUS.RI,Rat Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"594",-31.67000331940,140.08572929500,56670.60805610000,"155","88",AUS.SA.EA,Eastern,"0",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"595",-32.79388224000,135.44859271100,84871.51140030001,"471","89",AUS.SA.EP,Eyre Peninsula,"0",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"596",-31.44229867970,138.59937998200,37808.18923660000,"365","90",AUS.SA.FR,Flinders Ranges,"0",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"597",-31.01187676890,135.62698046200,95288.70888789999,"128","91",AUS.SA.GT,Gairdner-Torrens,"0",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"598",-35.82799778010,137.24028316700,4417.68102885000,"303","92",AUS.SA.KI,Kangaroo Island,"1",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"599",-28.04895881920,137.45405280000,318077.40396299999,"126","93",AUS.SA.LE,Lake Eyre,"0",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"600",-34.27894447100,140.03602940100,47087.64529260000,"563","94",AUS.SA.MU,Murray,"0",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"601",-33.75193906530,138.56739567000,14894.18222140000,"553","95",AUS.SA.NL,Northern Lofty,"0",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"602",-30.81439489100,130.90465333500,62826.18422460000,"81","96",AUS.SA.NU,Nullarbor,"0",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"603",-28.03057119190,131.46008852700,217545.17193099999,"56","97",AUS.SA.NW,North-Western,"0",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"604",-36.59229659850,140.33445147800,29079.87438160000,"640","98",AUS.SA.SE,South-Eastern,"0",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"605",-35.07609925040,138.72186704300,7425.09145699000,"1039","99",AUS.SA.SL,Southern Lofty,"0",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"606",-34.41230512350,137.65224584100,8414.53873371000,"371","100",AUS.SA.YP,Yorke Peninsula,"0",SOA-OO,South Australia,SOA,"50","5",Australasia,AUS,Australia
+"607",-28.68270903340,113.83342249900,0.16572339006,"13","101",AUS.SEI,Serventy Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"608",-28.45912714450,113.71633608500,0.18663425341,"8","102",AUS.SI,Seagull Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"609",-28.71345509980,113.83866550400,0.35027447978,"5","103",AUS.SUI,Suomi Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"610",-42.02118872110,146.59146788200,64363.40037480000,"877","104",AUS.TAS,Tasmania,"1",TAS-OO,Tasmania,TAS,"50","5",Australasia,AUS,Australia
+"611",-54.62840444410,158.86393549000,134.30520284200,"3","105",AUS.TAS.MI,Macquarie Island,"1",TAS-OO,Tasmania,TAS,"50","5",Australasia,AUS,Australia
+"612",-28.86467826750,113.97669843600,0.12612102717,"10","106",AUS.UMI,Uncle Margie Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"613",-31.23579523990,117.38399346900,95171.03304640000,"893","108",AUS.WA.AW,Avon Wheatbelt,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"614",-24.33303708360,114.57035367900,83770.94672830000,"255","109",AUS.WA.CAR,Carnarvon,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"615",-17.22622627910,126.67724162900,76755.87466110000,"169","110",AUS.WA.CK,Central Kimberley,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"616",-31.37993619080,121.43561296600,129122.09332000000,"366","111",AUS.WA.COO,Coolgardie,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"617",-25.26777042810,127.96020709400,47032.05366470000,"27","112",AUS.WA.CR,Central Ranges,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"618",-18.14797961120,123.40351616600,83711.36084620000,"290","113",AUS.WA.DL,Dampierland,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"619",-33.89490083040,120.53597141700,29067.93201410000,"627","114",AUS.WA.ESP,Esperance Plains,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"620",-24.71753281760,118.73224240000,180752.55299100000,"75","115",AUS.WA.GAS,Gascoyne,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"621",-24.35597388430,125.95745171400,156290.05287300001,"9","116",AUS.WA.GD,Gibson Desert,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"622",-21.03185001640,124.86636774000,295408.28727799997,"28","117",AUS.WA.GSD,Great Sandy Desert,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"623",-28.49714463080,114.91195285000,38958.71755590000,"606","118",AUS.WA.GSP,Geraldton Sandplains,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"624",-28.04735772000,125.56258851200,217942.01061800000,"18","119",AUS.WA.GVD,Great Victoria Desert,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"625",-31.95607997390,127.50369752000,10429.50352350000,"87","120",AUS.WA.HAM,Hampton,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"626",-33.42762596930,116.55658730300,45079.54802770000,"1389","121",AUS.WA.JF,Jarrah Forest,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"627",-23.96394167740,122.30505952000,110899.17375700000,"29","122",AUS.WA.LSD,Little Sandy Desert,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"628",-33.03471906570,120.60368692400,73949.65348710000,"451","123",AUS.WA.MAL,Mallee,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"629",-27.80739207210,119.55533475300,281205.57263800001,"214","124",AUS.WA.MUR,Murchison,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"630",-15.40422079990,126.12861784100,83889.20425929999,"254","125",AUS.WA.NK,Northern Kimberley,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"631",-30.66267366920,126.52642072800,137360.41221099999,"112","126",AUS.WA.NUL,Nullarbor,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"632",-18.32783133840,127.44321384900,54978.83222500000,"125","127",AUS.WA.OVP,Ord Victoria Plain,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"633",-21.91006557540,118.54331856200,178531.94502600000,"199","128",AUS.WA.PIL,Pilbara,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"634",-31.61971319220,115.69620882000,15124.28825130000,"1635","129",AUS.WA.SWA,Swan Coastal Plain,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"635",-19.81655550550,128.27706366300,30155.66542060000,"18","130",AUS.WA.TAN,Tanami,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"636",-15.74526652310,128.46763401800,18724.34872950000,"329","131",AUS.WA.VB,Victoria Bonaparte,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"637",-34.57926358030,116.22284366100,8441.53225866000,"927","132",AUS.WA.WAR,Warren,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"638",-28.49078253140,116.59955161500,42542.89549410000,"167","133",AUS.WA.YAL,Yalgoo,"0",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"639",-28.67093672440,113.87735170500,0.09612830725,"8","134",AUS.WHI,White Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"640",-28.75076764040,113.80609428300,0.16415708505,"11","135",AUS.WI,Wooded Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"641",-28.46504031830,113.69469028000,6.42657738889,"24","136",AUS.WWI,West Wallabi Island,"1",WAU-WA,Western Australia,WAU,"50","5",Australasia,AUS,Australia
+"643",-3.34033792828,29.90175456120,26979.61620420000,"272","138",BDI,Burundi,"0",BUR-OO,Burundi,BUR,"23","2",Africa,BDI,Burundi
+"644",50.62572609020,4.69006376553,30819.58443510000,"518","139",BEL,Belgium,"0",BGM-BE,Belgium,BGM,"11","1",Europe,BEL,Belgium
+"645",9.63219495254,2.33832055117,118026.77638500000,"440","140",BEN,Benin,"0",BEN-OO,Benin,BEN,"22","2",Africa,BEN,Benin
+"647",17.49084234460,-62.97628292940,23.43690228010,"36","142",BES.EUS,Sint Eustatius,"1",LEE-NL,Netherlands Leeward Is.,LEE,"81","8",Southern America,ANT,Netherlands Antilles
+"648",17.63146926500,-63.23752758200,14.35330456420,"38","143",BES.SAB,Saba,"1",LEE-NL,Netherlands Leeward Is.,LEE,"81","8",Southern America,ANT,Netherlands Antilles
+"649",12.26478641800,-1.74782469944,272979.85902400000,"234","144",BFA,Burkina Faso,"0",BKN-OO,Burkina,BKN,"22","2",Africa,BFA,Burkina Faso
+"650",42.76852258220,25.21751262450,112760.69848799999,"666","145",BGR,Bulgaria,"0",BUL-OO,Bulgaria,BUL,"13","1",Europe,BGR,Bulgaria
+"651",24.25978588700,-76.64410792710,13377.82247640000,"46","146",BHS,Bahamas,"1",BAH-OO,Bahamas,BAH,"81","8",Southern America,BHS,Bahamas (the)
+"652",17.90197764550,-62.82969816910,21.90447576090,"79","147",BLM,Saint Barthelemy,"1",LEE-SM,St.Martin-St.Barth‚l‚my,LEE,"81","8",Southern America,GLP,Guadeloupe
+"653",53.53174564060,28.04025005950,206790.58740600001,"192","148",BLR,Belarus,"0",BLR-OO,Belarus,BLR,"14","1",Europe,BLR,Belarus
+"661",32.31608778920,-64.73960710920,21.46255829190,"315","150",BMU,Bermuda,"1",BER-OO,Bermuda,BER,"81","8",Southern America,BMU,Bermuda
+"662",-16.72385143990,-64.66191954530,1086984.30885999999,"223","151",BOL,Bolivia,"0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of)
+"663",-9.30119223777,-70.48289508230,152051.12411199999,"91","152",BRA.AC,Acre,"0",BZN-AC,Acre,BZN,"84","8",Southern America,BRA,Brazil
+"664",-9.51302297903,-36.62553435460,28065.12104580000,"94","153",BRA.AL,Alagoas,"0",BZE-AL,Alagoas,BZE,"84","8",Southern America,BRA,Brazil
+"666",1.44849301120,-51.96110668440,139442.49770400001,"60","155",BRA.AP,Amapá,"0",BZN-AP,Amap ,BZN,"84","8",Southern America,BRA,Brazil
+"667",-12.47500570690,-41.70447009850,559875.44410800003,"281","156",BRA.BA,Bahia,"0",BZE-BA,Bahia,BZE,"84","8",Southern America,BRA,Brazil
+"669",-15.77123689450,-47.78975220190,5847.80588663000,"172","158",BRA.DF,Distrito Federal,"0",BZC-DF,Brazilia Distrito Federal,BZC,"84","8",Southern America,BRA,Brazil
+"670",-19.57302803180,-40.66762361870,45774.22908030000,"189","159",BRA.ES,Espírito Santo,"0",BZL-ES,Espirito Santo,BZL,"84","8",Southern America,BRA,Brazil
+"671",-20.50820903780,-29.30326735950,11.80356567850,"34","160",BRA.ES.TMZ,Trindade and Martin Vaz,"1",BZL-ES,Espirito Santo,BZL,"84","8",Southern America,BRA,Brazil
+"672",-16.00588136280,-49.59212614650,342797.81943700003,"152","161",BRA.GO,Goiás,"0",BZC-GO,Goi s,BZC,"84","8",Southern America,BRA,Brazil
+"673",-5.08983324895,-45.29007030110,325989.32507700002,"108","162",BRA.MA,Maranhão,"0",BZE-MA,Maranhao,BZE,"84","8",Southern America,BRA,Brazil
+"674",-18.45179270530,-44.67341088830,586645.75474899996,"297","163",BRA.MG,Minas Gerais,"0",BZL-MG,Minas Gerais,BZL,"84","8",Southern America,BRA,Brazil
+"675",-20.33584868560,-54.83666621890,355799.90446699999,"163","164",BRA.MS,Mato Grosso do Sul,"0",BZC-MS,Mato Grosso do Sul,BZC,"84","8",Southern America,BRA,Brazil
+"676",-12.96428185840,-55.92263929060,903625.58117999998,"126","165",BRA.MT,Mato Grosso,"0",BZC-MT,Mato Grosso,BZC,"84","8",Southern America,BRA,Brazil
+"677",-4.03779959136,-53.12594489450,1234357.82823000010,"126","166",BRA.PA,Pará,"0",BZN-PA,Par ,BZN,"84","8",Southern America,BRA,Brazil
+"678",-7.11898127088,-36.82328290030,56576.03941130000,"146","167",BRA.PB,Paraíba,"0",BZE-PB,Para¡ba,BZE,"84","8",Southern America,BRA,Brazil
+"679",-8.32952117879,-37.99289604100,97564.31950160000,"219","168",BRA.PE,Pernambuco,"0",BZE-PE,Pernambuco,BZE,"84","8",Southern America,BRA,Brazil
+"681",-24.63268327590,-51.62956658070,198696.62778000001,"382","170",BRA.PR,Paraná,"0",BZS-PR,Paran ,BZS,"84","8",Southern America,BRA,Brazil
+"682",-22.18995670290,-42.66563647620,43919.35399030000,"311","171",BRA.RJ,Rio de Janeiro,"0",BZL-RJ,Rio de Janeiro,BZL,"84","8",Southern America,BRA,Brazil
+"683",-5.84216350387,-36.68163582990,52800.52462420000,"111","172",BRA.RN,Rio Grande do Norte,"0",BZE-RN,Rio Grande do Norte,BZE,"84","8",Southern America,BRA,Brazil
+"684",-10.92034667470,-62.84406911370,238433.19879200001,"61","173",BRA.RO,Rondônia,"0",BZN-RO,Rond“nia,BZN,"84","8",Southern America,BRA,Brazil
+"685",2.06906081623,-61.40111193100,224900.82970199999,"64","174",BRA.RR,Roraima,"0",BZN-RM,Roraima,BZN,"84","8",Southern America,BRA,Brazil
+"686",-29.73569522690,-53.31993392910,272283.09007400001,"333","175",BRA.RS,Rio Grande do Sul,"0",BZS-RS,Rio Grande do Sul,BZS,"84","8",Southern America,BRA,Brazil
+"687",-27.24821611830,-50.48611649790,95097.10475990000,"334","176",BRA.SC,Santa Catarina,"0",BZS-SC,Santa Catarina,BZS,"84","8",Southern America,BRA,Brazil
+"688",-10.57916224960,-37.44712805330,21396.16889210000,"86","177",BRA.SE,Sergipe,"0",BZE-SE,Sergipe,BZE,"84","8",Southern America,BRA,Brazil
+"689",-22.25956140850,-48.72229590880,247633.96576600001,"402","178",BRA.SP,São Paulo,"0",BZL-SP,S?o Paulo,BZL,"84","8",Southern America,BRA,Brazil
+"690",-10.11832559880,-48.32347848370,276461.72041700000,"58","179",BRA.TO,Tocantins,"0",BZN-TO,Tocantins,BZN,"84","8",Southern America,BRA,Brazil
+"691",13.17226216060,-59.55638955830,434.63968261600,"243","180",BRB,Barbados,"1",WIN-BA,Barbados,WIN,"81","8",Southern America,BRB,Barbados
+"692",-22.18123830830,23.80660437190,578232.14259900001,"442","181",BWA,Botswana,"0",BOT-OO,Botswana,BOT,"27","2",Africa,BWA,Botswana
+"693",6.57166284505,20.49211971730,617326.72342900001,"61","182",CAF,Central African Republic,"0",CAF-OO,Central African Republic,CAF,"23","2",Africa,CAF,Central African Republic (the)
+"694",55.20101749970,-114.47017278700,654934.75634600001,"365","183",CAN.AB,Alberta,"0",ABT-OO,Alberta,ABT,"71","7",Northern America,CAN,Canada
+"695",55.02814827600,-124.46358375400,769353.69298499997,"1824","184",CAN.BC,British Columbia,"0",BRC-OO,British Columbia,BRC,"71","7",Northern America,CAN,Canada
+"696",54.28410359110,-61.96251218170,286972.23477699998,"131","185",CAN.LB,Labrador,"0",LAB-OO,Labrador,LAB,"72","7",Northern America,CAN,Canada
+"697",54.92638413950,-97.43011393560,650438.20911199995,"370","186",CAN.MB,Manitoba,"0",MAN-OO,Manitoba,MAN,"71","7",Northern America,CAN,Canada
+"698",46.62889117170,-66.37178692150,72787.34291830000,"607","187",CAN.NB,New Brunswick,"0",NBR-OO,New Brunswick,NBR,"72","7",Northern America,CAN,Canada
+"700",45.15119008330,-63.30329345400,55176.20961770000,"684","189",CAN.NS,Nova Scotia,"0",NSC-OO,Nova Scotia,NSC,"72","7",Northern America,CAN,Canada
+"701",66.35829408160,-118.99557711600,1352704.85638000001,"120","190",CAN.NT,Northwest Territories,"0",NWT-OO,Northwest Territories,NWT,"70","7",Northern America,CAN,Canada
+"702",68.78152676710,-92.47285394850,1740317.47616000008,"14","191",CAN.NU,Nunavut,"0",NUN-OO,Nunavut,NUN,"70","7",Northern America,CAN,Canada
+"703",50.06707859410,-85.82891808970,1077573.08710999996,"1153","192",CAN.ON,Ontario,"0",ONT-OO,Ontario,ONT,"72","7",Northern America,CAN,Canada
+"704",46.39622668700,-63.24460403280,5974.82960227000,"423","193",CAN.PE,Prince Edward Island,"1",PEI-OO,Prince Edward I.,PEI,"72","7",Northern America,CAN,Canada
+"705",53.38104492420,-71.75618834990,1513005.96616000007,"907","194",CAN.QU,Québec,"0",QUE-OO,Qu‚bec,QUE,"72","7",Northern America,CAN,Canada
+"706",43.94537844380,-59.90682265640,31.78776830190,"79","195",CAN.SI,Sable Island,"1",NSC-OO,Nova Scotia,NSC,"72","7",Northern America,CAN,Canada
+"707",54.41901963570,-105.89005629200,651955.25469700003,"384","196",CAN.SK,Saskatchewan,"0",SAS-OO,Saskatchewan,SAS,"71","7",Northern America,CAN,Canada
+"708",63.74589249340,-135.35680717000,464753.84575300000,"164","197",CAN.YT,Yukon,"0",YUK-OO,Yukon,YUK,"70","7",Northern America,CAN,Canada
+"709",-11.83257562500,96.82412226480,3.35891405113,"12","199",CCK.NKI,Cocos (Keeling) North Keeling Island,"1",CKI-OO,Cocos (Keeling) Is.,CKI,"42","4",Asia-Tropical,CCK,Cocos (Keeling) Islands (the)
+"710",46.79895688040,8.21535369786,41435.79758730000,"170","200",CHE,Switzerland,"0",SWI-OO,Switzerland,SWI,"11","1",Europe,CHE,Switzerland
+"711",50.19900372600,154.98281400600,8.90383291263,"1","616",RUS.KI.ANT,"Antsiferova, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"712",-45.43504018120,-73.68738976300,35661.12816840000,"54","202",CHL.AI,Aisén,"0",CLS-AI,Ais‚n,CLS,"85","8",Southern America,CHL,Chile
+"714",-18.75242362190,-69.90153223350,7911.12473235000,"85","204",CHL.AR,Arica,"0",CLN-TA,Tarapaca,CLN,"85","8",Southern America,CHL,Chile
+"715",-33.76748391830,-80.79197023550,56.72275089730,"118","205",CHL.ASI,"Alejandro Selkirk Island, Juan Fernadez Islands","1",JNF-OO,Juan Fern ndez Is.,JNF,"85","8",Southern America,CHL,Chile
+"716",-37.68572649490,-73.32582620430,5652.32929130000,"97","206",CHL.AU,Arauco,"0",CLC-BI,Biob¡o,CLC,"85","8",Southern America,CHL,Chile
+"717",-37.51246744510,-71.96176526500,14348.80425830000,"139","207",CHL.BI,Biobío,"0",CLC-BI,Biob¡o,CLC,"85","8",Southern America,CHL,Chile
+"718",-34.29257882780,-70.69209754440,7095.60654264000,"61","208",CHL.CA,Cachapoal,"0",CLC-OH,O'Higgins,CLC,"85","8",Southern America,CHL,Chile
+"719",15.34212459760,18.66713612730,1271745.01175000006,"199","725",TCD,Chad,"0",CHA-OO,Chad,CHA,"24","2",Africa,TCD,Chad
+"720",-34.32604683920,-71.78027603970,3300.92792897000,"57","210",CHL.CC,Cardenal Caro,"0",CLC-OH,O'Higgins,CLC,"85","8",Southern America,CHL,Chile
+"721",-33.67880111730,-70.15018132030,5988.59813379000,"46","211",CHL.CD,Cordillera,"0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile
+"722",-42.62516472930,-73.89173190030,8464.40655998000,"152","212",CHL.CE,Chiloé,"0",CLS-LL,Los Lagos,CLS,"85","8",Southern America,CHL,Chile
+"723",-31.70002799710,-71.01772710340,10239.46123300000,"92","213",CHL.CH,Choapa,"0",CLC-CO,Coquimbo,CLC,"85","8",Southern America,CHL,Chile
+"724",-45.09610730720,-71.84033599350,9891.52723662000,"6","214",CHL.CI,Coihaique,"0",CLS-AI,Ais‚n,CLS,"85","8",Southern America,CHL,Chile
+"725",-34.70866850990,-71.06758449170,5461.19172036000,"100","215",CHL.CL,Colchagua,"0",CLC-OH,O'Higgins,CLC,"85","8",Southern America,CHL,Chile
+"726",-36.89234555320,-72.88701008270,3373.05599157000,"232","216",CHL.CN,Concepción,"0",CLC-BI,Biob¡o,CLC,"85","8",Southern America,CHL,Chile
+"727",-27.52940299000,-69.91534071510,31235.19361340000,"55","217",CHL.CO,Copiapó,"0",CLN-AT,Atacama,CLN,"85","8",Southern America,CHL,Chile
+"728",-47.94290703660,-73.76562837760,23032.37918800000,"3","218",CHL.CP,Capitán Prat,"0",CLS-AI,Ais‚n,CLS,"85","8",Southern America,CHL,Chile
+"729",-35.94096977790,-72.36965327670,2833.44651852000,"81","219",CHL.CQ,Cauquenes,"0",CLC-MA,Maule,CLC,"85","8",Southern America,CHL,Chile
+"730",-38.91831182490,-72.43826531100,18724.67456760000,"252","221",CHL.CT,Cautín,"0",CLC-LA,La Araucania,CLC,"85","8",Southern America,CHL,Chile
+"731",-35.09051607350,-71.14532396470,7318.24412979000,"158","222",CHL.CU,Curicó,"0",CLC-MA,Maule,CLC,"85","8",Southern America,CHL,Chile
+"732",-22.76057130110,-68.22266004080,42102.07298290000,"45","223",CHL.EL,El Loa,"0",CLN-AN,Antofagasta,CLN,"85","8",Southern America,CHL,Chile
+"733",-29.83847613220,-70.74379073390,16892.06241980000,"86","224",CHL.EQ,Elqui,"0",CLC-CO,Coquimbo,CLC,"85","8",Southern America,CHL,Chile
+"734",-46.57114631150,-72.32660844320,7165.57280031000,"6","225",CHL.GC,General Carrera,"0",CLS-AI,Ais‚n,CLS,"85","8",Southern America,CHL,Chile
+"735",-28.79649484430,-70.55046607690,18174.47143860000,"84","226",CHL.HU,Huasco,"0",CLN-AT,Atacama,CLN,"85","8",Southern America,CHL,Chile
+"736",-20.20175606680,-69.41021454720,40112.35903850000,"41","227",CHL.IE,Iquique,"0",CLN-TA,Tarapaca,CLN,"85","8",Southern America,CHL,Chile
+"737",-32.79828459230,-70.35227332990,3227.46516207000,"83","228",CHL.LA,Los Andes,"0",CLC-VA,Valpara¡so,CLC,"85","8",Southern America,CHL,Chile
+"738",-41.36748026470,-72.81743924400,14394.20402400000,"95","229",CHL.LL,Llanquihue,"0",CLS-LL,Los Lagos,CLS,"85","8",Southern America,CHL,Chile
+"739",-30.78838966170,-70.97112977640,12429.10084520000,"111","230",CHL.LM,Limarí,"0",CLC-CO,Coquimbo,CLC,"85","8",Southern America,CHL,Chile
+"740",-36.02911192590,-71.46937197040,9339.61747630000,"140","231",CHL.LN,Linares,"0",CLC-MA,Maule,CLC,"85","8",Southern America,CHL,Chile
+"741",-33.75390048100,-71.17585080070,5147.95058930000,"4","232",CHL.ME,Melipilla,"0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile
+"742",-53.05729282110,-71.63459021360,34067.92357260000,"241","233",CHL.MG,Magallanes,"0",CLS-MG,Magellanes,CLS,"85","8",Southern America,CHL,Chile
+"743",-33.78800275800,-70.70034369460,870.61348798400,"24","234",CHL.MI,Maipo,"0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile
+"744",-38.22224327510,-71.99128649490,13939.56189890000,"202","235",CHL.ML,Malleco,"0",CLC-LA,La Araucania,CLC,"85","8",Southern America,CHL,Chile
+"745",-36.64188433100,-71.97004172420,12593.01932690000,"207","236",CHL.NU,Ñuble,"0",CLC-BI,Biob¡o,CLC,"85","8",Southern America,CHL,Chile
+"746",-40.69747636950,-73.04705553990,9484.88484376000,"129","237",CHL.OS,Osorno,"0",CLS-LL,Los Lagos,CLS,"85","8",Southern America,CHL,Chile
+"747",-32.32016982660,-71.02585896710,4242.06314118000,"78","238",CHL.PE,Petorca,"0",CLC-VA,Valpara¡so,CLC,"85","8",Southern America,CHL,Chile
+"748",-42.97919355930,-72.48610032150,10411.19167430000,"4","239",CHL.PL,Palena,"0",CLS-LL,Los Lagos,CLS,"85","8",Southern America,CHL,Chile
+"749",-18.29912665240,-69.41711223150,9048.41115648000,"9","240",CHL.PR,Parinacota,"0",CLN-TA,Tarapaca,CLN,"85","8",Southern America,CHL,Chile
+"750",-32.87175192130,-71.21339418770,1725.21167573000,"166","241",CHL.QU,Quillota,"0",CLC-VA,Valpara¡so,CLC,"85","8",Southern America,CHL,Chile
+"751",-33.64782862060,-78.84898406840,52.79007025010,"191","242",CHL.RCI,"Robinso Crusoe Island, Juan Fernandez Islands","1",JNF-OO,Juan Fern ndez Is.,JNF,"85","8",Southern America,CHL,Chile
+"752",-33.65586827110,-71.57213454620,1688.24544640000,"130","243",CHL.SA,San Antonio,"0",CLC-VA,Valpara¡so,CLC,"85","8",Southern America,CHL,Chile
+"753",-33.70645616710,-78.94236287180,2.65002626861,"25","244",CHL.SCI,"Santa Clara Island, Juan Fernadez Islands","1",JNF-OO,Juan Fern ndez Is.,JNF,"85","8",Southern America,CHL,Chile
+"754",-32.60307368430,-70.73166273540,2793.56812028000,"73","245",CHL.SF,San Felipe de Aconcagua,"0",CLC-VA,Valpara¡so,CLC,"85","8",Southern America,CHL,Chile
+"755",-33.30384349150,-70.50444389720,1419.89747840000,"294","246",CHL.SG,Santiago,"0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile
+"756",-35.53791584290,-71.39609484280,11064.18562120000,"151","247",CHL.TC,Talca,"0",CLC-MA,Maule,CLC,"85","8",Southern America,CHL,Chile
+"757",-33.62867946240,-70.82371095160,542.12280319300,"9","248",CHL.TG,Talagante,"0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile
+"758",-53.62608513960,-69.51620111450,21530.40781160000,"65","249",CHL.TI,Tierra del Fuego,"1",CLS-MG,Magellanes,CLS,"85","8",Southern America,CHL,Chile
+"759",-22.04923791810,-69.60219542380,16505.59027760000,"11","250",CHL.TO,Tocopilla,"0",CLN-AN,Antofagasta,CLN,"85","8",Southern America,CHL,Chile
+"760",-50.86039434450,-73.90351644100,37969.31989540000,"90","251",CHL.UE,Última Esperanza,"0",CLS-MG,Magellanes,CLS,"85","8",Southern America,CHL,Chile
+"761",-39.98295328240,-72.55898723790,18158.19252370000,"219","252",CHL.VD,Valdivia,"0",CLS-LL,Los Lagos,CLS,"85","8",Southern America,CHL,Chile
+"762",-33.16918058490,-71.42869848970,2396.73674361000,"241","253",CHL.VP,Valparaíso,"0",CLC-VA,Valpara¡so,CLC,"85","8",Southern America,CHL,Chile
+"763",40.17535816870,116.40536651400,16553.13979520000,"192","254",CHN.11,Beijing,"0",CHN-BJ,Beijing,CHN,"36","3",Asia-Temperate,CHN,China
+"764",39.28502489560,117.30842321100,11270.16979320000,"113","255",CHN.12,Tianjin,"0",CHN-TJ,Tianjin,CHN,"36","3",Asia-Temperate,CHN,China
+"765",39.53577595850,116.11314153200,186863.51530100001,"298","256",CHN.13,Hebei,"0",CHN-HB,Hebei,CHN,"36","3",Asia-Temperate,CHN,China
+"766",37.56876260920,112.28486572100,156215.83653500001,"202","257",CHN.14,Shanxi,"0",CHN-SX,Shanxi,CHN,"36","3",Asia-Temperate,CHN,China
+"767",41.29800513490,122.61282406500,146939.36963599999,"262","258",CHN.21,Liaoning,"0",CHM-LN,Liaoning,CHM,"36","3",Asia-Temperate,CHN,China
+"768",43.67297949890,126.18730863700,191793.67651500000,"211","259",CHN.22,Jilin,"0",CHM-JL,Jilin,CHM,"36","3",Asia-Temperate,CHN,China
+"769",47.86638699520,127.75243183200,451525.55690299999,"223","260",CHN.23,Heilongjiang,"0",CHM-HJ,Heilongjiang,CHM,"36","3",Asia-Temperate,CHN,China
+"770",31.16986046670,121.40899918500,5820.52348656000,"144","261",CHN.31,Shanghai,"0",CHS-SH,Shanghai,CHS,"36","3",Asia-Temperate,CHN,China
+"771",32.97757645740,119.43935744600,99516.48204839999,"387","262",CHN.32,Jiangsu,"0",CHS-JS,Jiangsu,CHS,"36","3",Asia-Temperate,CHN,China
+"772",29.16551062880,120.05258378600,99600.43381720000,"238","263",CHN.33,Zhejiang,"0",CHS-ZJ,Zhejiang,CHS,"36","3",Asia-Temperate,CHN,China
+"773",31.82027049110,117.22725912500,140130.39736400000,"319","264",CHN.34,Anhui,"0",CHS-AH,Anhui,CHS,"36","3",Asia-Temperate,CHN,China
+"774",26.07362081300,117.96610349200,120775.66070100000,"466","265",CHN.35,Fujian,"0",CHS-FJ,Fujian,CHS,"36","3",Asia-Temperate,CHN,China
+"775",27.61680983640,115.71540867800,167600.84077600000,"338","266",CHN.36,Jiangxi,"0",CHS-JX,Jiangxi,CHS,"36","3",Asia-Temperate,CHN,China
+"776",36.34577867990,118.13896593100,155421.42241800000,"279","267",CHN.37,Shandong,"0",CHN-SD,Shandong,CHN,"36","3",Asia-Temperate,CHN,China
+"777",33.87842875450,113.60701094800,166002.32938899999,"270","268",CHN.41,Henan,"0",CHS-HE,Henan,CHS,"36","3",Asia-Temperate,CHN,China
+"812",-10.01735563810,-161.09226604000,4.85807417668,"36","303",COK.RAK,"Rakahanga, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the)
+"813",-13.25059524140,-163.12682169400,1.81625090561,"8","304",COK.SUW,"Suwarrow, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the)
+"814",-19.81251299630,-158.28902587900,1.12133505592,"3","305",COK.TAK,"Takutea, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the)
+"815",3.90941307586,-73.08384204200,1135117.86431999994,"596","306",COL,Colombia,"0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"816",-11.89275598320,43.67592223340,1716.24581925000,"3","307",COM,Comoros,"1",COM-CO,Comoros,COM,"29","2",Africa,COM,Comoros (the)
+"817",15.93614024220,-23.96723976630,3883.14270751000,"84","308",CPV,Cape Verde,"1",CVI-OO,Cape Verde,CVI,"21","2",Africa,CPV,Cabo Verde
+"818",9.96934862467,-84.18208716510,52681.81142770000,"283","309",CRI,Costa Rica,"0",COS-OO,Costa Rica,COS,"80","8",Southern America,CRI,Costa Rica
+"820",12.19337787200,-68.97154392210,437.71143120100,"47","311",CUW,Curacao,"1",NLA-CU,Cura‡ao,NLA,"81","8",Southern America,ANT,Netherlands Antilles
+"821",-10.48534407300,105.63655304400,139.60993449100,"176","312",CXR,Christmas Island,"1",XMS-OO,Christmas I.,XMS,"42","4",Asia-Tropical,CXR,Christmas Island
+"822",19.42543618920,-80.87358490780,280.40743312800,"239","313",CYM,Cayman Islands,"1",CAY-OO,Cayman Is.,CAY,"81","8",Southern America,CYM,Cayman Islands (the)
+"823",35.07996767540,33.25774885680,9927.83514642000,"143","314",CYP,Cyprus,"1",CYP-OO,Cyprus,CYP,"34","3",Asia-Temperate,CYP,Cyprus
+"824",49.73244820520,15.31410310200,78758.85953340000,"254","315",CZE,Czech Republic,"0",CZE-CZ,Czech Republic,CZE,"11","1",Europe,CZE,Czech Republic (the)
+"827",15.43455158470,-61.34998780560,754.21418085700,"203","318",DMA,Dominica,"1",WIN-DO,Dominica,WIN,"81","8",Southern America,DMA,Dominica
+"828",55.96475267180,10.04171140910,41293.81630300000,"436","319",DNK,Denmark,"0",DEN-OO,Denmark,DEN,"10","1",Europe,DNK,Denmark
+"829",18.90962153870,-70.49107870700,47120.03580920000,"66","320",DOM,Dominican Republic,"1",DOM-OO,Dominican Republic,DOM,"81","8",Southern America,DOM,Dominican Republic (the)
+"830",28.16180158890,2.62661464336,2315003.17476999993,"227","321",DZA,Algeria,"0",ALG-OO,Algeria,ALG,"20","2",Africa,DZA,Algeria
+"833",26.50386465420,29.86695425490,997022.26756900002,"220","324",EGY,Egypt,"0",EGY-OO,Egypt,EGY,"20","2",Africa,EGY,Egypt
+"834",15.34407532980,38.83732758060,119576.28123500000,"70","325",ERI,Eritrea,"0",ERI-OO,Eritrea,ERI,"24","2",Africa,ERI,Eritrea
+"836",39.55967741420,2.89990332606,5099.94324327000,"184","326",ESP.BAL,Balearic Islands,"1",BAL-OO,Baleares,BAL,"12","1",Europe,ESP,Spain
+"837",28.33662514930,-15.67404720890,7555.95992268000,"409","327",ESP.CI,Canary Islands,"1",CNY-OO,Canary Is.,CNY,"21","2",Africa,ESP,Spain
+"838",58.67413630080,25.52761650030,45932.12778750000,"126","329",EST,Estonia,"0",BLT-ES,Estonia,BLT,"14","1",Europe,EST,Estonia
+"839",8.61862318494,39.62778381850,1129403.89736999990,"697","330",ETH,Ethiopia,"0",ETH-OO,Ethiopia,ETH,"24","2",Africa,ETH,Ethiopia
+"840",64.52001552140,26.28931981850,332312.82244000002,"125","331",FIN,Finland,"0",FIN-OO,Finland,FIN,"10","1",Europe,FIN,Finland
+"841",-18.32840204540,-178.69239973300,1.44245649233,"1","332",FJI.AIW,"Aiwa, Lau Islands","1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji
+"842",-18.21109269020,-178.78986546500,62.10584788220,"32","333",FJI.LAK,"Lakeba, Lau Islands","1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji
+"843",-18.14568889860,178.58708186800,0.82385363357,"36","334",FJI.NAS,"Nasoata, Fiji Islands","1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji
+"844",-17.97832233330,-179.05240823000,19.34123945160,"17","335",FJI.NAY,"Nayau, Lau Islands","1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji
+"845",-12.50316527920,177.08037496700,47.20967607360,"246","336",FJI.ROT,Rotuma,"1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji
+"847",-46.34171608940,51.55438112020,364.47503844900,"59","337",FRA.CI,Crozet Islands,"1",CRZ-OO,Crozet Is.,CRZ,"90","9",Antarctic,ATF,French Southern Territories (the)
+"848",10.30285596670,-109.21685985300,10.09724080090,"16","338",FRA.CLI,Clipperton Island,"1",CPI-CL,Clipperton I.,CPI,"80","8",Southern America,PYF,French Polynesia
+"849",42.15173171340,9.10555865088,8739.21118550000,"401","339",FRA.COR,Corsica,"1",COR-OO,Corse,COR,"12","1",Europe,FRA,France
+"850",-49.29337209590,69.49394342860,8689.90896691000,"69","341",FRA.KI,Kerguelen Islands,"1",KEG-OO,Kerguelen,KEG,"90","9",Antarctic,ATF,French Southern Territories (the)
+"851",62.04123176390,-6.92983192379,712.62044383100,"28","342",FRO,Faroe Islands,"1",FOR-OO,F?royar,FOR,"10","1",Europe,FRO,Faroe Islands (the)
+"852",-0.59750677376,11.79304391950,261815.27254000001,"114","343",GAB,Gabon,"0",GAB-OO,Gabon,GAB,"23","2",Africa,GAB,Gabon
+"853",-7.33932910265,72.43426346370,37.31779764650,"133","344",GBR.DG,Diego Garcia,"1",CGS-OO,Chagos Archipelago,CGS,"29","2",Africa,IOT,British Indian Ocean Territory (the)
+"854",52.58979366340,-1.46106775997,130795.51108100000,"1438","345",GBR.ENG,England,"1",GRB-OO,Great Britain,GRB,"10","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the)
+"855",54.61202133130,-6.69118577575,14084.64034700000,"391","346",GBR.NIR,Northern Ireland,"1",IRE-NI,Northern Ireland,IRE,"10","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the)
+"856",56.83967215390,-4.19064510204,79411.83982420000,"904","347",GBR.SCO,Scotland,"1",GRB-OO,Great Britain,GRB,"10","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the)
+"857",52.33684365270,-3.76161340365,20951.42243740000,"878","348",GBR.WAL,Wales,"1",GRB-OO,Great Britain,GRB,"10","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the)
+"858",42.17513280320,43.52987720260,69746.30242219999,"149","349",GEO,Georgia,"0",TCS-GR,Georgia,TCS,"33","3",Asia-Temperate,GEO,Georgia
+"859",7.93321638298,-1.21594794485,239300.80588100001,"507","350",GHA,Ghana,"0",GHA-OO,Ghana,GHA,"22","2",Africa,GHA,Ghana
+"860",10.43018565560,-10.92749832700,244529.00580700001,"93","351",GIN,Guinea,"0",GUI-OO,Guinea,GUI,"22","2",Africa,GIN,Guinea
+"861",15.93211366640,-61.26856867910,159.86040914000,"31","352",GLP.MG,Maria Galante,"1",LEE-GU,Guadeloupe,LEE,"81","8",Southern America,GLP,Guadeloupe
+"862",12.15600985860,-14.34732697580,15015.87099730000,"27","353",GNB.EA,GNB_East,"0",GNB-OO,Guinea-Bissau,GNB,"22","2",Africa,GNB,Guinea-Bissau
+"863",12.22104996250,-15.63729002490,11226.30479240000,"40","354",GNB.NO,GNB_North,"0",GNB-OO,Guinea-Bissau,GNB,"22","2",Africa,GNB,Guinea-Bissau
+"864",11.45452732340,-15.21266237560,7015.50182470000,"30","355",GNB.SO,GNB_South,"0",GNB-OO,Guinea-Bissau,GNB,"22","2",Africa,GNB,Guinea-Bissau
+"865",39.11847122430,22.88660604970,125655.86850100000,"140","357",GRC,Greece,"0",GRC-OO,Greece,GRC,"13","1",Europe,GRC,Greece
+"866",12.11374768210,-61.68377606590,316.62446048800,"157","358",GRD,Grenada,"1",WIN-GR,Grenada,WIN,"81","8",Southern America,GRD,Grenada
+"867",76.18221279340,-43.66655440880,248822.58036699999,"146","359",GRL,Greenland,"1",GNL-OO,Greenland,GNL,"70","7",Northern America,GRL,Greenland
+"868",3.92862091003,-53.24568160490,83360.86800830001,"255","360",GUF,French Guiana,"0",FRG-OO,French Guiana,FRG,"82","8",Southern America,GUF,French Guiana
+"869",13.44353660780,144.77703828000,549.41064420600,"866","361",GUM,Guam,"1",MRN-GU,Guam,MRN,"62","6",Pacific,GUM,Guam
+"870",4.77707848626,-58.98144370110,209432.70581300001,"104","362",GUY,Guyana,"0",GUY-OO,Guyana,GUY,"82","8",Southern America,GUY,Guyana
+"873",45.05116284180,16.41177999170,55888.90974980000,"99","364",HRV,Croatia,"0",YUG-CR,Croatia,YUG,"13","1",Europe,HRV,Croatia
+"874",18.84289916260,-73.04636189560,686.55210374200,"114","365",HTI.GO,Gonave,"1",HAI-HA,Haiti,HAI,"81","8",Southern America,HTI,Haiti
+"875",20.04492261960,-72.78912425050,182.49474996600,"114","366",HTI.TI,"Tortuga Island, Haiti","1",HAI-HA,Haiti,HAI,"81","8",Southern America,HTI,Haiti
+"876",47.16774391020,19.42556480130,92352.59698859999,"146","367",HUN,Hungary,"0",HUN-OO,Hungary,HUN,"11","1",Europe,HUN,Hungary
+"877",-2.21665027366,117.25763828000,1839025.06019999995,"513","368",IDN,Indonesia,"1",000-02,Indonesia,"2","42","4",Asia-Tropical,IDN,Indonesia
+"878",54.22840690530,-4.53784753357,576.92268581000,"408","369",IMN,Isle of Man,"1",GRB-OO,Great Britain,GRB,"10","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the)
+"879",11.15131723750,92.96875723120,7219.12148186000,"96","370",IND.AAN,Andaman and Nicobar,"1",000-03,Andaman and Nicobar,"3","41","4",Asia-Tropical,IND,India
+"880",16.60548500480,79.58387118210,275155.64314200002,"228","371",IND.ANP,Andhra Pradesh,"0",IND-AP,Andhra Pradesh,IND,"40","4",Asia-Tropical,IND,India
+"881",28.03293309900,94.66280961870,81998.09342470000,"137","372",IND.ARP,Arunachal Pradesh,"0",EHM-AP,Arunachal Pradesh,EHM,"40","4",Asia-Tropical,IND,India
+"882",26.34300830780,92.83112196140,79091.14196050000,"152","373",IND.ASS,Assam,"0",ASS-AS,Assam,ASS,"40","4",Asia-Tropical,IND,India
+"883",25.63183390110,85.59508524220,97526.40046910000,"144","374",IND.BIH,Bihar,"0",IND-BI,Bihar,IND,"40","4",Asia-Tropical,IND,India
+"884",30.72600505480,76.77180662180,134.87835078500,"127","375",IND.CHA,Chandigarh,"0",IND-CH,Chandigarh,IND,"40","4",Asia-Tropical,IND,India
+"885",21.21922037230,82.07289787960,139988.69362700000,"121","376",IND.CHH,Chhattisgarh,"0",IND-CT,Chattisgarh,IND,"40","4",Asia-Tropical,IND,India
+"886",28.63905449180,77.09834831510,1274.49397679000,"142","377",IND.DEL,Delhi,"0",IND-DE,Delhi,IND,"40","4",Asia-Tropical,IND,India
+"887",15.35804263760,74.08016349790,4187.15283430000,"181","378",IND.GOA,Goa,"0",IND-GO,Goa,IND,"40","4",Asia-Tropical,IND,India
+"888",22.70424998920,71.55557968330,185027.68369500001,"160","379",IND.GUJ,Gujarat,"0",IND-GU,Gujarat,IND,"40","4",Asia-Tropical,IND,India
+"889",29.19227361860,76.32412736590,44082.64049680000,"152","380",IND.HAR,Haryana,"0",IND-HA,Haryana,IND,"40","4",Asia-Tropical,IND,India
+"890",31.91168469030,77.25175558370,55172.86640850000,"556","381",IND.HIP,Himachal Pradesh,"0",WHM-HP,Himachal Pradesh,WHM,"40","4",Asia-Tropical,IND,India
+"891",33.75325157820,76.62426867390,106213.81902400000,"192","382",IND.JAK,Jammu and Kashmir,"0",WHM-JK,Jammu-Kashmir,WHM,"40","4",Asia-Tropical,IND,India
+"892",23.61929154070,85.58854041380,75639.88286920000,"117","383",IND.JHA,Jharkhand,"0",IND-JK,Jharkhand,IND,"40","4",Asia-Tropical,IND,India
+"893",14.68680578540,76.18477094950,189305.07630399999,"271","384",IND.KAR,Karnataka,"0",IND-KT,Karnataka,IND,"40","4",Asia-Tropical,IND,India
+"894",10.46811544020,76.40430792230,38568.60145110000,"289","385",IND.KER,Kerala,"0",IND-KE,Kerala,IND,"40","4",Asia-Tropical,IND,India
+"895",9.44684464827,72.90196972520,37.85419133410,"17","386",IND.LAK,Lakshadweep,"1",LDV-OO,Laccadive Is.,LDV,"40","4",Asia-Tropical,IND,India
+"896",19.45063339110,76.13270733160,313051.21774599998,"282","387",IND.MAH,Maharashtra,"0",IND-MR,Maharashtra,IND,"40","4",Asia-Tropical,IND,India
+"897",24.72499855640,93.88361053650,21738.27384220000,"134","388",IND.MAN,Manipur,"0",ASS-MA,Manipur,ASS,"40","4",Asia-Tropical,IND,India
+"898",23.54505726570,78.27098626980,305277.76603499998,"151","389",IND.MAP,Madhya Pradesh,"0",IND-MP,Madhya Pradesh,IND,"40","4",Asia-Tropical,IND,India
+"899",25.53515762320,91.28010583760,22508.78515000000,"149","390",IND.MEG,Meghalaya,"0",ASS-ME,Meghalaya,ASS,"40","4",Asia-Tropical,IND,India
+"900",23.29786842310,92.83094006860,20868.58001800000,"129","391",IND.MIZ,Mizoram,"0",ASS-MI,Mizoram,ASS,"40","4",Asia-Tropical,IND,India
+"901",26.04626890260,94.44981551690,16649.49287700000,"134","392",IND.NAG,Nagaland,"0",ASS-NA,Nagaland,ASS,"40","4",Asia-Tropical,IND,India
+"902",20.56648135380,84.50430744380,148980.50513999999,"198","393",IND.ODI,Orissa,"0",IND-OR,Orissa,IND,"40","4",Asia-Tropical,IND,India
+"903",11.96964528360,79.94634780890,557.93532525200,"134","394",IND.PUD,Puducherry,"0",000-09,Puducherry,IND,"40","4",Asia-Tropical,IND,India
+"904",30.84672605250,75.41506172690,50989.26461970000,"160","395",IND.PUN,Punjab,"0",IND-PU,Punjab,IND,"40","4",Asia-Tropical,IND,India
+"905",26.58574656650,73.84910769010,341998.73598699999,"169","396",IND.RAJ,Rajasthan,"0",IND-RA,Rajasthan,IND,"40","4",Asia-Tropical,IND,India
+"906",27.56326806630,88.46628062470,7259.68587234000,"157","397",IND.SIK,Sikkim,"0",EHM-SI,Sikkim,EHM,"40","4",Asia-Tropical,IND,India
+"907",11.00564064570,78.40453499810,130124.46076500000,"331","398",IND.TAN,Tamil Nadu,"0",IND-TN,Tamil Nadu,IND,"40","4",Asia-Tropical,IND,India
+"908",23.74051584640,91.73500665150,10445.53350040000,"127","399",IND.TRI,Tripura,"0",ASS-TR,Tripura,ASS,"40","4",Asia-Tropical,IND,India
+"911",23.79838606000,87.99161694340,85283.61821390000,"192","402",IND.WBE,West Bengal,"0",IND-WB,West Bengal,IND,"40","4",Asia-Tropical,IND,India
+"913",65.09743122270,-15.03672106120,15507.20350220000,"42","404",ISL.IAU,"East province, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland
+"914",64.59133000400,-18.34094889830,17424.89781040000,"6","405",ISL.IMI,"Central Highlands, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland
+"915",65.60706816640,-18.19398965580,24646.20285630000,"48","406",ISL.INO,"North province, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland
+"916",65.80687552360,-22.75038262880,6937.52677103000,"32","407",ISL.INV,"North-West province, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland
+"917",63.90023371900,-19.80308190590,9931.31471387000,"49","408",ISL.ISU,"South province, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland
+"918",64.68870333010,-21.88288303290,10470.63308940000,"51","409",ISL.IVE,"Westprovince, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland
+"919",31.44395983890,34.99603398680,21900.92832180000,"103","410",ISR,Israel,"0",PAL-IS,Israel,PAL,"34","3",Asia-Temperate,ISR,Israel
+"920",43.52479010620,12.16244901140,250408.92657400001,"492","411",ITA.ITA,Italy (mainland),"0",ITA-IT,Italy,ITA,"13","1",Europe,ITA,Italy
+"921",40.09022443850,9.03622355657,23784.20129870000,"120","412",ITA.SAR,Sardinia,"1",SAR-OO,Sardegna,SAR,"12","1",Europe,ITA,Italy
+"922",37.58763452700,14.15549666460,25453.62531330000,"146","413",ITA.SIC,Sicily,"1",SIC-SI,Sicilia,SIC,"13","1",Europe,ITA,Italy
+"923",18.15707141750,-77.31048447860,10992.97894990000,"23","414",JAM,Jamaica,"1",JAM-OO,Jamaica,JAM,"81","8",Southern America,JAM,Jamaica
+"925",37.55117739360,137.97834761000,373508.03402999998,"3300","416",JPN,Japan,"1",000-04,Japan,"4","38","3",Asia-Temperate,JPN,Japan
+"926",0.51708499814,37.84942417760,582172.82754500001,"433","417",KEN,Kenya,"0",KEN-OO,Kenya,KEN,"25","2",Africa,KEN,Kenya
+"927",41.47631824860,74.59198788280,200947.02343500001,"74","418",KGZ,Kyrgyzstan,"0",KGZ-OO,Kirgizistan,KGZ,"32","3",Asia-Temperate,KGZ,Kyrgyzstan
+"928",1.85073687788,-157.35340631300,468.96591716200,"1","419",KIR.KII,"Kiritimati, Northern Line Islands","1",LIN-KI,Kiribati Line Is.,LIN,"61","6",Pacific,KIR,Kiribati
+"929",5.88168184916,-162.07421829400,4.29160694520,"8","420",KIR.PAL,"Palmyra, Norther Line Islands","1",LIN-KI,Kiribati Line Is.,LIN,"61","6",Pacific,KIR,Kiribati
+"930",-2.81264105214,-171.67301376800,12.28307558120,"47","421",KIR.PI.CA,"Canton, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati
+"931",-3.12749195243,-171.08539847200,6.56324208675,"6","422",KIR.PI.EB,"Enderbury, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati
+"932",-4.67478001462,-174.52223565700,4.99799539249,"11","423",KIR.PI.GA,"Gardner, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati
+"933",-4.51477122346,-172.18303896000,8.09945008990,"22","424",KIR.PI.HU,"Hull, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati
+"934",-3.59521943725,-174.12274095000,0.66126928727,"1","425",KIR.PI.MK,"McKean, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati
+"935",-4.45540069052,-171.24443972100,9.03161762584,"11","426",KIR.PI.SY,"Sydney, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati
+"936",3.85110559835,-159.29677732800,31.19075672950,"5","427",KIR.TAB,Tabueran,"1",LIN-KI,Kiribati Line Is.,LIN,"61","6",Pacific,KIR,Kiribati
+"937",4.68379800823,-160.37960917400,14.70260368950,"4","428",KIR.TER,"Teraina, Norther Line Islands","1",LIN-KI,Kiribati Line Is.,LIN,"61","6",Pacific,KIR,Kiribati
+"938",17.33922742850,-62.76505946270,171.75994364300,"104","429",KNA.KI,Saint Kitts,"1",LEE-SK,St.Kitts-Nevis,LEE,"81","8",Southern America,KNA,Saint Kitts and Nevis
+"939",17.15036011770,-62.58646978990,95.46854300100,"23","430",KNA.NE,Nevis,"1",LEE-SK,St.Kitts-Nevis,LEE,"81","8",Southern America,KNA,Saint Kitts and Nevis
+"940",36.40255020850,127.85655698800,94888.95538630000,"310","431",KOR,"Korea, Republic of","0",KOR-SK,South Korea,KOR,"38","3",Asia-Temperate,KOR,Korea (the Republic of)
+"941",18.50164891990,103.75808186700,230316.15142700000,"212","432",LAO,Lao People's Democratic Republic,"0",LAO-OO,Laos,LAO,"41","4",Asia-Tropical,LAO,Lao People's Democratic Republic (the)
+"942",6.44204415416,-9.31068120748,95175.56716209999,"157","433",LBR,Liberia,"0",LBR-OO,Liberia,LBR,"22","2",Africa,LBR,Liberia
+"943",27.02894338410,18.02259361030,1619009.66008000006,"48","434",LBY,Libyan Arab Jamahiriya,"0",LBY-OO,Libya,LBY,"20","2",Africa,LBY,Libya
+"944",13.89843336060,-60.96677352810,614.17214109600,"294","435",LCA,Saint Lucia,"1",WIN-SL,St.Lucia,WIN,"81","8",Southern America,LCA,Saint Lucia
+"945",47.14246317050,9.55380476669,162.03906452300,"78","436",LIE,Liechtenstein,"0",AUT-LI,Liechtenstein,AUT,"11","1",Europe,LIE,Liechtenstein
+"946",7.61591460669,80.70316285820,66291.21045450000,"394","437",LKA,Sri Lanka,"1",SRL-OO,Sri Lanka,SRL,"40","4",Asia-Tropical,LKA,Sri Lanka
+"947",-29.58313666300,28.22271734970,30736.70391960000,"580","438",LSO,Lesotho,"0",LES-OO,Lesotho,LES,"27","2",Africa,LSO,Lesotho
+"948",55.33567070450,23.89812086210,65010.34816210000,"259","439",LTU,Lithuania,"0",BLT-LI,Lithuania,BLT,"14","1",Europe,LTU,Lithuania
+"949",49.77982031920,6.11020389040,2585.61475212000,"105","440",LUX,Luxembourg,"0",BGM-LU,Luxembourg,BGM,"11","1",Europe,LUX,Luxembourg
+"950",56.85753504390,24.92942572990,64643.17930570000,"281","441",LVA,Latvia,"0",BLT-LA,Latvia,BLT,"14","1",Europe,LVA,Latvia
+"951",31.89640609250,-6.32364022716,405714.67007599998,"177","442",MAR,Morocco,"0",MOR-MO,Morocco,MOR,"20","2",Africa,MAR,Morocco
+"952",47.19387078660,28.47393053830,33687.77366240000,"193","443",MDA,Republic of Moldova,"0",UKR-MO,Moldova,UKR,"14","1",Europe,MDA,Moldova (the Republic of)
+"953",-19.37316753000,46.70599831330,592983.88362700003,"667","444",MDG,Madagascar,"1",MDG-OO,Madagascar,MDG,"29","2",Africa,MDG,Madagascar
+"954",22.01078717700,-102.36249261000,5594.61598074000,"174","445",MEX.AGU,Aguascalientes,"0",MXE-AG,Aguascalientes,MXE,"79","7",Northern America,MEX,Mexico
+"955",30.54053814410,-115.09397475400,72650.42321240000,"265","923",MEX.BCN,Baja California Norte,"0",MXN-BC,Baja California,MXN,"79","7",Northern America,MEX,Mexico
+"957",18.87245360500,-90.43316779350,50080.89966260000,"307","447",MEX.CAM,Campeche,"0",MXT-CA,Campeche,MXT,"79","7",Northern America,MEX,Mexico
+"958",28.80302878270,-106.44431441700,247593.30364000000,"323","448",MEX.CHH,Chihuahua,"0",MXE-CU,Chihuahua,MXE,"79","7",Northern America,MEX,Mexico
+"959",16.49897344030,-92.46528040760,73520.51734250000,"666","449",MEX.CHP,Chiapas,"0",MXT-CI,Chiapas,MXT,"79","7",Northern America,MEX,Mexico
+"960",27.30662413550,-102.03355851400,150595.72494499999,"343","450",MEX.COA,Coahuila,"0",MXE-CO,Coahuila,MXE,"79","7",Northern America,MEX,Mexico
+"961",19.13708757910,-103.91796556300,5729.71398284000,"243","451",MEX.COL,Colima,"0",MXS-CL,Colima,MXS,"79","7",Northern America,MEX,Mexico
+"963",24.93519454080,-104.92001471300,120423.34660900000,"230","453",MEX.DUR,Durango,"0",MXE-DU,Durango,MXE,"79","7",Northern America,MEX,Mexico
+"964",17.66699337290,-99.90206443780,64416.73628800000,"326","454",MEX.GRO,Guerrero,"0",MXS-GR,Guerrero,MXS,"79","7",Northern America,MEX,Mexico
+"965",20.89368729820,-101.02138070800,30381.97365910000,"260","455",MEX.GUA,Guanajuato,"0",MXE-GU,Guanajuato,MXE,"79","7",Northern America,MEX,Mexico
+"966",20.47151682460,-98.87126642160,21220.49297850000,"396","456",MEX.HID,Hidalgo,"0",MXE-HI,Hidalgo,MXE,"79","7",Northern America,MEX,Mexico
+"967",20.59861141080,-103.62211004700,79627.71757230000,"497","457",MEX.JAL,Jalisco,"0",MXS-JA,Jalisco,MXS,"79","7",Northern America,MEX,Mexico
+"969",19.21104080270,-101.87953236900,59437.24302740000,"517","459",MEX.MIC,Michoacán,"0",MXS-MI,Michoac n,MXS,"79","7",Northern America,MEX,Mexico
+"970",18.75814263960,-99.06933492910,4992.12318605000,"444","460",MEX.MOR,Morelos,"0",MXC-MO,Morelos,MXC,"79","7",Northern America,MEX,Mexico
+"971",21.84917476550,-104.91380184700,27409.52709650000,"291","461",MEX.NAY,Nayarit,"0",MXS-NA,Nayarit,MXS,"79","7",Northern America,MEX,Mexico
+"972",25.57736525820,-99.95914578540,65042.98300980000,"354","462",MEX.NLE,Nuevo León,"0",MXE-NL,Nuevo Le¢n,MXE,"79","7",Northern America,MEX,Mexico
+"973",16.95948232980,-96.43132438920,92407.49742380000,"548","463",MEX.OAX,Oaxaca,"0",MXS-OA,Oaxaca,MXS,"79","7",Northern America,MEX,Mexico
+"974",19.00160734860,-97.88534474820,34260.21579190000,"468","464",MEX.PUE,Puebla,"0",MXC-PU,Puebla,MXC,"79","7",Northern America,MEX,Mexico
+"975",20.84466112610,-99.84649852070,12061.30512730000,"374","465",MEX.QUE,Querétaro,"0",MXE-QU,Quer‚taro,MXE,"79","7",Northern America,MEX,Mexico
+"976",19.55845820070,-88.25512890830,51058.60401580000,"248","466",MEX.ROO,Quintana Roo,"0",MXT-QR,Quintana Roo,MXT,"79","7",Northern America,MEX,Mexico
+"977",25.02178602370,-107.48280192000,57519.81022150000,"321","467",MEX.SIN,Sinaloa,"0",MXN-SI,Sinaloa,MXN,"79","7",Northern America,MEX,Mexico
+"978",22.61557812610,-100.43823394600,63980.51528200000,"434","468",MEX.SLP,San Luis Potosí,"0",MXE-SL,San Luis Potos¡,MXE,"79","7",Northern America,MEX,Mexico
+"979",18.79175109980,-110.97506555100,135.99569799200,"47","469",MEX.SOC,Socorro,"1",MXI-RG,Revillagigedo Is.,MXI,"79","7",Northern America,MEX,Mexico
+"980",29.71292697410,-110.81636799800,180607.05937300000,"342","470",MEX.SON,Sonora,"0",MXN-SO,Sonora,MXN,"79","7",Northern America,MEX,Mexico
+"981",17.94630432890,-92.57568898900,24003.17769400000,"313","471",MEX.TAB,Tabasco,"0",MXT-TB,Tabasco,MXT,"79","7",Northern America,MEX,Mexico
+"982",24.29819320200,-98.62181033670,79328.62018339999,"365","472",MEX.TAM,Tamaulipas,"0",MXE-TA,Tamaulipas,MXE,"79","7",Northern America,MEX,Mexico
+"1290",45.38715753460,-69.23046468160,84386.10039530000,"933","774",USA.ME,Maine,"0",MAI-OO,Maine,MAI,"75","7",Northern America,USA,United States of America (the)
+"1291",44.88047543920,-85.73613836810,250775.92452000000,"1131","775",USA.MI,Michigan,"0",MIC-OO,Michigan,MIC,"75","7",Northern America,USA,United States of America (the)
+"1292",46.34788237920,-94.19905799880,225001.88491399999,"633","776",USA.MN,Minnesota,"0",MIN-OO,Minnesota,MIN,"74","7",Northern America,USA,United States of America (the)
+"1293",38.37431054160,-92.49047835280,180413.83822800001,"944","777",USA.MO,Missouri,"0",MSO-OO,Missouri,MSO,"74","7",Northern America,USA,United States of America (the)
+"1294",32.75758366000,-89.67307909120,123923.49857100000,"826","778",USA.MS,Mississippi,"0",MSI-OO,Mississippi,MSI,"78","7",Northern America,USA,United States of America (the)
+"1295",47.03183597840,-109.63795879400,379494.62697099999,"592","779",USA.MT,Montana,"0",MNT-OO,Montana,MNT,"73","7",Northern America,USA,United States of America (the)
+"1296",35.55126489790,-79.38738655080,127892.55275000000,"1143","780",USA.NC,North Carolina,"0",NCA-OO,North Carolina,NCA,"78","7",Northern America,USA,United States of America (the)
+"1297",47.44746532960,-100.45935551600,182562.36950500001,"344","781",USA.ND,North Dakota,"0",NDA-OO,North Dakota,NDA,"74","7",Northern America,USA,United States of America (the)
+"1298",41.52782156040,-99.79240896170,200135.01471500000,"500","782",USA.NE,Nebraska,"0",NEB-OO,Nebraska,NEB,"74","7",Northern America,USA,United States of America (the)
+"1299",43.69056636930,-71.57908530980,24194.34446740000,"718","783",USA.NH,New Hampshire,"0",NWH-OO,New Hampshire,NWH,"75","7",Northern America,USA,United States of America (the)
+"1300",18.40323456900,-75.01361815390,5.17264671994,"30","784",USA.NI,Navassa Island,"1",HAI-NI,Navassa I.,HAI,"81","8",Southern America,UMI,United States Minor Outlying Islands (the)
+"1301",40.19292620790,-74.66485125060,19713.43827320000,"1229","785",USA.NJ,New Jersey,"0",NWJ-OO,New Jersey,NWJ,"75","7",Northern America,USA,United States of America (the)
+"1302",34.42302640210,-106.10771656500,315098.67375800002,"577","786",USA.NM,New Mexico,"0",NWM-OO,New Mexico,NWM,"77","7",Northern America,USA,United States of America (the)
+"1303",39.35822493360,-116.65208920300,286612.21425999998,"447","787",USA.NV,Nevada,"0",NEV-OO,Nevada,NEV,"76","7",Northern America,USA,United States of America (the)
+"1304",42.99648630120,-75.69648515400,136923.37568200001,"1674","788",USA.NY,New York,"0",NWY-OO,New York,NWY,"75","7",Northern America,USA,United States of America (the)
+"1305",40.41573623850,-82.70740722640,116428.02261400000,"1189","789",USA.OH,Ohio,"0",OHI-OO,Ohio,OHI,"75","7",Northern America,USA,United States of America (the)
+"1306",35.58437604040,-97.50972269790,181141.22407900001,"574","790",USA.OK,Oklahoma,"0",OKL-OO,Oklahoma,OKL,"74","7",Northern America,USA,United States of America (the)
+"1307",43.94020972710,-120.54103128400,251314.58227300001,"1157","791",USA.OR,Oregon,"0",ORE-OO,Oregon,ORE,"73","7",Northern America,USA,United States of America (the)
+"1308",40.89848407640,-77.84132464000,119356.87511399999,"1454","792",USA.PA,Pennsylvania,"0",PEN-OO,Pennsylvania,PEN,"75","7",Northern America,USA,United States of America (the)
+"1309",41.68479785230,-71.55987025330,2735.74372131000,"717","793",USA.RI,Rhode Island,"0",RHO-OO,Rhode I.,RHO,"75","7",Northern America,USA,United States of America (the)
+"983",19.41487432700,-98.13760021240,4078.93457416000,"188","473",MEX.TLA,Tlaxcala,"0",MXC-TL,Tlaxcala,MXC,"79","7",Northern America,MEX,Mexico
+"984",19.37462843080,-96.40308243400,71073.18343070000,"745","474",MEX.VER,Veracruz,"0",MXG-VC,Veracruz,MXG,"79","7",Northern America,MEX,Mexico
+"985",20.77811789620,-88.94097997370,37855.78627430000,"297","475",MEX.YUC,Yucatán,"0",MXT-YU,Yucat n,MXT,"79","7",Northern America,MEX,Mexico
+"986",23.30917677230,-102.69962878800,74817.18297579999,"233","476",MEX.ZAC,Zacatecas,"0",MXE-ZA,Zacatecas,MXE,"79","7",Northern America,MEX,Mexico
+"987",11.12722590240,166.43300650500,5.15518265672,"8","477",MHL.AA,Ailinginae Atoll,"1",MRS-OO,Marshall Is.,MRS,"62","6",Pacific,MHL,Marshall Islands (the)
+"988",11.49774117420,162.29615831400,10.15820110620,"21","478",MHL.ENI,"Eniwetok, Mashall Islands","1",MRS-OO,Marshall Is.,MRS,"62","6",Pacific,MHL,Marshall Islands (the)
+"989",7.11907417352,171.21602431000,22.27838851530,"15","479",MHL.MA,"Majuro Atoll, Marshall Islands","1",MRS-OO,Marshall Is.,MRS,"62","6",Pacific,MHL,Marshall Islands (the)
+"990",11.29421132960,166.87586550400,11.36169017860,"35","480",MHL.RA,Rongelap Atoll,"1",MRS-OO,Marshall Is.,MRS,"62","6",Pacific,MHL,Marshall Islands (the)
+"991",41.59307856030,21.69955515130,25327.60879150000,"6","481",MKD,The former Yugoslav Republic of Macedonia,"0",YUG-MA,Macedonia,YUG,"13","1",Europe,MKD,Macedonia (the former Yugoslav Republic of)
+"992",17.34774497680,-3.52228927293,1256003.59005000000,"82","482",MLI,Mali,"0",MLI-OO,Mali,MLI,"22","2",Africa,MLI,Mali
+"993",35.89052261770,14.44192246180,294.39464946500,"105","483",MLT,Malta,"1",SIC-MA,Malta,SIC,"13","1",Europe,MLT,Malta
+"994",17.59960816540,145.83286659300,13.85980131070,"71","484",MNP.AG,"Alamagan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"995",18.77220764760,145.66842431400,46.90229055350,"72","485",MNP.AH,"Agrihan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"996",19.68311712110,145.41924459800,18.84556347580,"16","486",MNP.AI,"Asuncion Island, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"997",14.85245242060,145.55880706800,7.55291954689,"33","487",MNP.AJ,"Aguijan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"998",16.35224567950,145.67687596500,35.13114965900,"55","488",MNP.AT,"Anatahan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"999",20.54491159840,144.89379480000,2.78860589505,"1","489",MNP.FP,"Farallon de Pajaros, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"1000",17.30978203220,145.84133098500,4.58141330181,"11","490",MNP.GG,"Guguan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"1001",20.02149064820,145.22453171100,4.07667711440,"16","491",MNP.MI,"Maug Islands, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"1002",18.11635452890,145.76670063400,48.03688391710,"101","492",MNP.PA,"Pagan, Mariana Islands","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"1003",14.15743543590,145.21409250100,89.68812275650,"246","493",MNP.RO,"Rota, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"1004",16.70450964840,145.77915866800,5.10864724263,"40","494",MNP.SG,"Sarigan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"1005",15.18912898380,145.75396344600,122.54246088300,"236","495",MNP.SP,"Saipan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"1006",15.01335054200,145.63156613500,103.63295492600,"217","496",MNP.TI,"Tinian, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the)
+"1007",-13.07106911560,36.46216180730,128705.49129799999,"68","497",MOZ.A,Nassa,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1008",-19.03983459190,33.43244239490,62852.44264830000,"96","498",MOZ.B,Manica,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1009",-23.32010812100,32.80027552060,75562.59710990000,"89","499",MOZ.G,Gaza,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1010",-22.80878564580,34.50918783280,68116.29907769999,"34","500",MOZ.I,Inhambane,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1011",-25.54200859570,32.44933461080,23673.72724880000,"325","501",MOZ.L,Maputo,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1012",-14.96365802430,39.25697442820,78281.88069789999,"34","502",MOZ.N,Nampula,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1013",-12.45871029150,39.36694245260,78151.93316340000,"17","503",MOZ.P,Cabo Delgado,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1014",-16.65950033580,36.98677094910,102689.06421200000,"44","504",MOZ.Q,Zambezia,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1015",-19.05274315550,34.67834078920,67345.31852830001,"84","505",MOZ.S,Sofala,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1016",-15.52172964660,32.76520558450,100961.88652800000,"73","506",MOZ.T,Tete,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1017",20.25646738020,-10.33285221270,1037775.53848999995,"76","507",MRT,Mauritania,"0",MTN-OO,Mauritania,MTN,"22","2",Africa,MRT,Mauritania
+"1018",16.73945201040,-62.18968495570,100.64573701800,"23","508",MSR,Montserrat,"1",LEE-MO,Montserrat,LEE,"81","8",Southern America,MSR,Montserrat
+"1019",14.65274681930,-61.01811451190,1114.85631682000,"347","509",MTQ,Martinique,"1",WIN-MA,Martinique,WIN,"81","8",Southern America,MTQ,Martinique
+"1020",-20.25186570560,57.87076664070,2144.89428132000,"746","510",MUS,Mauritius,"1",MAU-OO,Mauritius,MAU,"29","2",Africa,MUS,Mauritius
+"1021",-13.19710377140,34.28833370340,116981.58080900001,"56","511",MWI,Malawi,"0",MLW-OO,Malawi,MLW,"26","2",Africa,MWI,Malawi
+"1023",-22.13868212030,17.21857593760,825516.90401599999,"767","513",NAM,Namibia,"0",NAM-OO,Namibia,NAM,"27","2",Africa,NAM,Namibia
+"1025",17.42061222600,9.40502513468,1181786.90839000000,"41","515",NER,Niger,"0",NGR-OO,Niger,NGR,"22","2",Africa,NER,Niger (the)
+"1026",-29.03257932740,167.95226557500,37.87656031630,"273","516",NFK,Norfolk Island,"1",NFK-NI,Norfolk I.,NFK,"50","5",Australasia,NFK,Norfolk Island
+"1027",9.59431755284,8.10129900687,909687.28707399999,"218","517",NGA,Nigeria,"0",NGA-OO,Nigeria,NGA,"22","2",Africa,NGA,Nigeria
+"1028",12.83990920650,-85.03024393970,129202.38866600000,"702","518",NIC,Nicaragua,"0",NIC-OO,Nicaragua,NIC,"80","8",Southern America,NIC,Nicaragua
+"1029",52.23467872650,5.62264364879,34534.71883730000,"256","519",NLD,Netherlands,"0",NET-OO,Netherlands,NET,"11","1",Europe,NLD,Netherlands (the)
+"1031",70.94072128550,-8.56604628140,1.90539943216,"6","521",NOR.JM,Jan Mayen,"1",SVA-OO,Svalbard,SVA,"10","1",Europe,SJM,Svalbard and Jan Mayen
+"1032",78.95340020740,22.98493194000,1639.43510499000,"6","522",NOR.SVA,Svalbard,"1",SVA-OO,Svalbard,SVA,"10","1",Europe,SJM,Svalbard and Jan Mayen
+"1033",28.24958119450,83.93456070360,148042.51620600000,"350","523",NPL,Nepal,"0",NEP-OO,Nepal,NEP,"40","4",Asia-Tropical,NPL,Nepal
+"1034",-0.52847048405,166.93448367500,22.15093877720,"18","524",NRU,Nauru,"1",NRU-OO,Nauru,NRU,"60","6",Pacific,NRU,Nauru
+"1035",-41.82952219760,171.47068595900,268494.58257400000,"1775","525",NZL,New Zealand,"1",000-05,New Zealand,"5","51","5",Australasia,NZL,New Zealand
+"1036",-50.73648430770,166.09726329400,599.91935337600,"60","526",NZL.AUC,Auckland Islands,"1",ATP-OO,Antipodean Is.,ATP,"51","5",Australasia,NZL,New Zealand
+"1037",-43.93848485530,-176.52521604700,819.51081754900,"584","527",NZL.CI,Chatham Islands,"1",CTM-OO,Chatham Is.,CTM,"51","5",Australasia,NZL,New Zealand
+"1067",8.50718722335,-80.10266265940,74135.18875270001,"194","529",PAN,Panama,"0",PAN-OO,Panam ,PAN,"80","8",Southern America,PAN,Panama
+"1069",11.81427071620,122.89618345000,279862.07204000000,"653","531",PHL,Philippines,"1",PHI-OO,Philippines,PHI,"42","4",Asia-Tropical,PHL,Philippines (the)
+"1070",52.12218074200,19.41712936630,313468.49305799999,"391","532",POL,Poland,"0",POL-OO,Poland,POL,"11","1",Europe,POL,Poland
+"1071",18.22200987610,-66.46814795840,8970.47221826000,"985","533",PRI,Puerto Rico,"1",PUE-OO,Puerto Rico,PUE,"81","8",Southern America,PRI,Puerto Rico
+"1072",40.14335779100,127.18385814500,122851.46294500001,"116","534",PRK,"Korea, Democratic People's Republic of","0",KOR-NK,North Korea,KOR,"38","3",Asia-Temperate,PRK,Korea (the Democratic People's Republic of)
+"1075",32.50762807600,-16.50883381610,13.97360646900,"16","536",PRT.DES,Desertas,"1",MDR-OO,Madeira,MDR,"21","2",Africa,PRT,Portugal
+"1076",32.74633724860,-16.99912970020,740.93773131600,"889","537",PRT.MAD,Madeira,"1",MDR-OO,Madeira,MDR,"21","2",Africa,PRT,Portugal
+"1077",33.06918042060,-16.34217390850,40.33147660490,"101","539",PRT.PSA,Porto Santo,"1",MDR-OO,Madeira,MDR,"21","2",Africa,PRT,Portugal
+"1078",30.11226343660,-15.91922770950,4.84837792457,"17","540",PRT.SIS,Salvage Islands,"1",SEL-OO,Selvagens,SEL,"21","2",Africa,PRT,Portugal
+"1079",-23.16622139130,-135.03557809500,0.92096106979,"12","541",PYF.AGA,"Agakauitai, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1081",-21.80933240910,-154.70243361600,2.04598830748,"3","543",PYF.AI.MAR,"Maria, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia
+"1082",-23.86795096990,-147.65258273600,19.11167006140,"77","544",PYF.AI.RAI,"Raivavae, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia
+"1083",-22.64883835030,-152.80573420800,8.42686443898,"89","545",PYF.AI.RIM,"Rimatara, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia
+"1084",-22.47492596480,-151.34584061800,34.66060387110,"90","546",PYF.AI.RUR,"Rurutu, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia
+"1085",-23.37259991920,-149.47961823600,48.49672198410,"68","547",PYF.AI.TUB,"Tubuai, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia
+"1086",-15.81409707980,-154.52284243600,3.65763059829,"1","548",PYF.BEL,"Bellingshausen, French Polynesia","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1087",-27.60601395060,-144.34683498300,48.25526447120,"33","549",PYF.BI.RAP,"Rapa, French Polynesia (Bass Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia
+"1088",-23.18743529910,-134.91381536100,2.70980737771,"16","550",PYF.GI.AKA,"Akamaru, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1089",-23.13200477390,-134.90355644900,1.82651991281,"15","551",PYF.GI.AUK,"Aukena, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1092",-23.10974074090,-134.97075668600,15.72457451210,"41","554",PYF.GI.MAN,"Mangareva, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1093",-23.14719913490,-135.03957774400,5.59326349142,"20","555",PYF.GI.TAR,"Taravai, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1094",-23.14638438670,-134.85137336800,0.03298894782,"1","556",PYF.GI.TAU,"Tauna, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1095",-23.16486249490,-134.85251837800,0.10229090121,"1","557",PYF.GI.TEK,"Tekava, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1096",-23.34600389920,-134.47989084100,21.81056887510,"1","558",PYF.GI.TEM,"Temoe, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1097",-23.10975813210,-134.85253405200,0.92760585528,"1","559",PYF.GI.TRO,"Tarauru Roa, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1098",-24.37672587150,-128.32288811900,44.55277798040,"4","560",PYF.HE,"Henderson, French Polynesia","1",PIT-OO,Pitcairn Is.,PIT,"61","6",Pacific,PCN,Pitcairn
+"1099",-7.99628693432,-140.68740599400,41.06493318210,"47","561",PYF.MI.EI,"Eiao, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia
+"1110",-25.06964689120,-130.10626267900,4.91753279713,"25","572",PYF.PC,"Pitcairn, French Polynesia","1",PIT-OO,Pitcairn Is.,PIT,"61","6",Pacific,PCN,Pitcairn
+"1111",-16.49404582750,-151.73894865400,32.74618945140,"29","573",PYF.SI.BOR,"Bora Bora, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1112",-16.74647087750,-151.00251004500,82.05425336980,"24","574",PYF.SI.HUA,"Huahine, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1113",-17.65707106000,-150.62868695900,13.09072329200,"5","575",PYF.SI.MAI,"Maiao, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1114",-16.44215475470,-152.26503505500,13.46479998260,"106","576",PYF.SI.MAU,"Maupiti, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1115",-17.87526973750,-148.06752346400,2.51904435549,"12","577",PYF.SI.MEH,"Mehetia, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1116",-17.52905506750,-149.83370917900,134.37868984800,"111","578",PYF.SI.MOO,"Moorea, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1117",-16.80177061780,-153.94404545200,5.99023132554,"1","579",PYF.SI.MOP,"Mopelia, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1118",-16.82201160200,-151.43688606900,173.61748614900,"84","580",PYF.SI.RAI,"Raiatea, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1119",-16.62298511000,-151.49367090500,94.90496060140,"35","581",PYF.SI.TAH,"Tahaa, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1120",-17.00452015570,-149.56660957400,6.24546168710,"4","582",PYF.SI.TET,"Tetiaroa, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1121",-17.67748618980,-149.40075299900,1053.12990800000,"207","583",PYF.SI.THI,"Tahiti, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1122",-16.26204298660,-151.81612284200,11.14873221190,"3","584",PYF.SI.TUP,"Tupai, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia
+"1126",-15.98666636060,-140.13324425900,15.64498874690,"1","588",PYF.TA.FAK,"Fakahina, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1127",-22.24004635270,-138.74641945500,11.93113450060,"1","589",PYF.TA.FAN,"Fangataufa, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1128",-18.25654105180,-140.86958345000,46.32681675570,"4","590",PYF.TA.HAO,"Hao, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1130",-15.72965574840,-146.70951006700,20.24603332000,"1","592",PYF.TA.KAU,"Kaukura, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1141",-21.30554754130,-136.74675043000,4.15483582289,"1","605",PYF.TA.TEN,"Tenararo, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1142",-21.34504168390,-136.54296822100,5.93850385207,"3","606",PYF.TA.TGA,"Tenarunga, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1143",-15.00531874820,-148.16513776000,36.93859671240,"11","607",PYF.TA.TIK,"Tikehau, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1144",-14.62873577760,-145.20643946600,18.91421030580,"2","604",PYF.TA.TAO,"Takapoto, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1146",-14.10199641620,-141.42881178000,2.67350627770,"2","610",PYF.TA.TNO,"Tepoto North, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1147",-15.85363671910,-146.01805669000,16.51374851990,"3","611",PYF.TA.TOA,"Toau, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1148",-21.33263089130,-136.65301771700,5.47008741703,"2","612",PYF.TA.VAH,"Vahanga, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia
+"1149",25.30994762290,51.18957185880,10598.60800580000,"127","613",QAT,Qatar,"0",GST-QA,Qatar,GST,"35","3",Asia-Temperate,QAT,Qatar
+"1150",45.84646591330,24.95698436520,237672.17338699999,"110","614",ROU,Romania,"0",ROM-OO,Romania,ROM,"13","1",Europe,ROU,Romania
+"1151",54.82637815240,137.32255556300,786643.81612199999,"931","615",RUS.KHA,Khabarovsk,"0",KHA-OO,Khabarovsk,KHA,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1152",43.36924527400,146.00312111300,2.35192871503,"16","617",RUS.KI.ANU,"Anuchina, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1153",43.41730042950,146.16206989400,0.60167642418,"2","618",RUS.KI.DEM,"Demina, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1154",48.94514556800,153.95392408500,33.06878801330,"2","619",RUS.KI.EKA,"Ekarma, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1155",45.07598001400,147.87723076200,3175.90582415000,"19","620",RUS.KI.ITU,"Iturup, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1156",47.33699135820,152.47776072000,71.44072408240,"1","621",RUS.KI.KET,"Ketoi, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1157",49.12071364290,154.52575289800,77.81175077540,"2","622",RUS.KI.KHA,"Kharimkotan, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1158",44.17327664410,145.94708995500,1488.29032457000,"24","623",RUS.KI.KUR,"Kunashir, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1159",49.77639779650,154.43631832900,50.90606904660,"2","624",RUS.KI.MAK,"Makanrushi, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1160",48.08052120350,153.21601378600,52.00833863410,"3","625",RUS.KI.MAT,"Matua, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1161",50.37294741290,155.72264446200,2035.09509766000,"3","626",RUS.KI.PAR,"Paramushir, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1162",43.63092432160,146.32388897800,10.49940248370,"10","627",RUS.KI.POL,"Polonskogo, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1163",46.94803005470,151.99574320600,339.36379330400,"8","628",RUS.KI.SHI,"Shimushir, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1164",43.80086146180,146.73890647500,250.32358511400,"19","629",RUS.KI.SHN,"Shikotan, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1165",50.73968826340,156.35559414600,385.23474046300,"2","630",RUS.KI.SHU,"Shumushu, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1166",43.38347018090,145.89279358400,0.11970481294,"3","631",RUS.KI.STO,"Storozhevoy, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1167",43.43871313140,145.91681461800,13.20073692100,"20","632",RUS.KI.TAN,"Tanfilyeva, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1168",45.90567512480,149.94922854100,1423.21508938000,"1","633",RUS.KI.URU,"Urup, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1169",47.52328023510,152.82044343800,5.47042536090,"1","634",RUS.KI.USH,"Ushishir, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1170",43.42217931890,146.06361629800,10.51238770610,"16","635",RUS.KI.YUR,"Yuri, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1171",43.50796007160,146.13612752700,58.60630175240,"22","636",RUS.KI.ZEJ,"Zeleny, Kuril Islands","1",KUR-OO,Kuril Is.,KUR,"31","3",Asia-Temperate,RUS,Russian Federation (the)
+"1172",60.00463365180,31.68093836440,84805.45551889999,"173","637",RUS.LN,Leningrad,"0",RUW-OO,Northwest European Russia,RUW,"14","1",Europe,RUS,Russian Federation (the)
+"1173",52.64626573400,39.13306549680,24203.66692870000,"156","638",RUS.LP,Lipetsk,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the)
+"1174",54.37113417080,44.47254180680,25997.82334130000,"164","640",RUS.MR,Mordovia,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the)
+"1175",55.65807642270,37.64702179570,46880.08442160000,"857","641",RUS.MS,Moskva,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the)
+"1176",54.32837016070,40.62439362580,39767.99263910000,"141","642",RUS.RZ,Ryazan,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the)
+"1178",50.73059212130,87.03321894640,92523.36362680000,"279","644",RUS.SIB.AR,Altai Republic,"0",ALT-OO,Altay,ALT,"30","3",Asia-Temperate,RUS,Russian Federation (the)
+"1179",57.09641794910,106.35779858700,773669.71722600004,"216","645",RUS.SIB.IO,Irkutsk,"0",IRK-OO,Irkutsk,IRK,"30","3",Asia-Temperate,RUS,Russian Federation (the)
+"1180",67.07509529860,95.96843873060,2289880.40320000006,"68","646",RUS.SIB.KK,Krasnoyarsk,"0",KRA-OO,Krasnoyarsk,KRA,"30","3",Asia-Temperate,RUS,Russian Federation (the)
+"1181",54.79443882980,87.22304312940,95162.75094640000,"190","647",RUS.SIB.KR,Kemerovo,"0",WSB-OO,West Siberia,WSB,"30","3",Asia-Temperate,RUS,Russian Federation (the)
+"1182",55.28324641600,79.76697602630,177820.46195699999,"167","648",RUS.SIB.NR,Novosibirsk,"0",WSB-OO,West Siberia,WSB,"30","3",Asia-Temperate,RUS,Russian Federation (the)
+"1183",56.11546241620,73.34833152680,141007.18135299999,"72","649",RUS.SIB.OR,Omsk,"0",WSB-OO,West Siberia,WSB,"30","3",Asia-Temperate,RUS,Russian Federation (the)
+"1184",53.55476316580,109.50304505300,352373.84435899998,"156","650",RUS.SIB.RB,Buryat,"0",BRY-OO,Buryatiya,BRY,"30","3",Asia-Temperate,RUS,Russian Federation (the)
+"1185",53.39311950180,89.89780093200,61570.17566940000,"110","651",RUS.SIB.RK,Khakass,"0",KRA-OO,Krasnoyarsk,KRA,"30","3",Asia-Temperate,RUS,Russian Federation (the)
+"1186",51.57963094160,94.79340241540,169686.28868900001,"17","652",RUS.SIB.RT,Republic of Tyva,"0",TVA-OO,Tuva,TVA,"30","3",Asia-Temperate,RUS,Russian Federation (the)
+"1187",58.49741073460,82.14230736240,314770.69898099999,"190","653",RUS.SIB.TO,Tomsk,"0",WSB-OO,West Siberia,WSB,"30","3",Asia-Temperate,RUS,Russian Federation (the)
+"1188",52.84048969000,116.20046506200,431826.69911799999,"22","654",RUS.SIB.ZK,Zabaykalsky Krai,"0",CTA-OO,Chita,CTA,"30","3",Asia-Temperate,RUS,Russian Federation (the)
+"1189",53.89123383820,37.55757744970,25509.76246040000,"151","655",RUS.TL,Tula,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the)
+"1190",57.09414056660,34.71340171460,84465.47334050000,"179","656",RUS.TV,Tver,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the)
+"1191",50.97202321330,40.21942768510,52178.03166190000,"210","657",RUS.VR,Voronezh,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the)
+"1192",-1.99134604551,29.93879739440,24924.72054880000,"331","658",RWA,Rwanda,"0",RWA-OO,Rwanda,RWA,"23","2",Africa,RWA,Rwanda
+"1193",24.12232704060,44.53686366750,1921725.38782000006,"98","659",SAU,Saudi Arabia,"0",SAU-OO,Saudi Arabia,SAU,"35","3",Asia-Temperate,SAU,Saudi Arabia
+"1194",13.83153460050,30.04995151980,2486951.97714000009,"68","660",SDN,Sudan (incl. South Sudan),"0",SUD-OO,Sudan,SUD,"24","2",Africa,SDN,Sudan (the)
+"1195",14.36833906610,-14.46307741020,196705.08530199999,"106","661",SEN,Senegal,"0",SEN-OO,Senegal,SEN,"22","2",Africa,SEN,Senegal
+"1196",1.35659815167,103.82013124300,673.69679967500,"223","662",SGP,Singapore,"1",MLY-SI,Singapore,MLY,"42","4",Asia-Tropical,SGP,Singapore
+"1198",-40.31881132530,-9.94232256375,72.10569556520,"12","665",SHN.GI,Gough Island,"1",TDC-OO,Tristan da Cunha,TDC,"90","9",Antarctic,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+"1199",-37.30050249670,-12.67806529150,14.70431498640,"19","666",SHN.II,Inaccessible Island,"1",TDC-OO,Tristan da Cunha,TDC,"90","9",Antarctic,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+"1200",-37.42453518850,-12.48388001280,3.46303916978,"5","667",SHN.NI,Nightingale,"1",TDC-OO,Tristan da Cunha,TDC,"90","9",Antarctic,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+"1201",-37.11244275220,-12.28510296020,98.05869090950,"83","669",SHN.TC,Tristan da Cunha,"1",TDC-OO,Tristan da Cunha,TDC,"90","9",Antarctic,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+"1202",8.55059520460,-11.77522897950,72808.41144560000,"81","670",SLE,Sierra Leone,"0",SIE-OO,Sierra Leone,SIE,"22","2",Africa,SLE,Sierra Leone
+"1203",6.06654482750,45.84835810350,635246.39608400001,"69","671",SOM,Somalia,"0",SOM-OO,Somalia,SOM,"24","2",Africa,SOM,Somalia
+"1204",46.93020455870,-56.30612700880,255.23439160900,"199","672",SPM,Saint Pierre and Miquelon,"1",NFL-SP,St.Pierre-Miquelon,NFL,"72","7",Northern America,SPM,Saint Pierre and Miquelon
+"1206",4.11600919492,-55.91907519140,142529.31146000000,"101","674",SUR,Suriname,"0",SUR-OO,Surinam,SUR,"82","8",Southern America,SUR,Suriname
+"1207",48.70493530170,19.48038297120,48457.78886280000,"166","675",SVK,Slovakia,"0",CZE-SK,Slovakia,CZE,"11","1",Europe,SVK,Slovakia
+"1208",46.12356417030,14.82653837310,20421.11743010000,"232","676",SVN,Slovenia,"0",YUG-SL,Slovenia,YUG,"13","1",Europe,SVN,Slovenia
+"1209",62.76510661990,16.73138543720,442884.44107000000,"1610","677",SWE,Sweden,"0",SWE-OO,Sweden,SWE,"10","1",Europe,SWE,Sweden
+"1210",-26.57902291970,31.49026616100,16784.11391050000,"587","678",SWZ,Swaziland,"0",SWZ-OO,Swaziland,SWZ,"27","2",Africa,SWZ,Swaziland
+"1211",18.06285473020,-63.06109447940,94.17492756000,"35","679",SXM,Sint Maarten,"1",LEE-NL,Netherlands Leeward Is.,LEE,"81","8",Southern America,ANT,Netherlands Antilles
+"1212",-4.88012684534,53.38679285970,0.06989501538,"2","680",SYC.AFB,"African Banks, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1213",-9.42548334290,46.36881406890,164.22708846800,"53","681",SYC.ALD,"Aldabra, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1214",-7.00618449332,52.72647687590,1.92966384939,"27","682",SYC.ALP,"Alphonse, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1215",-4.21257091387,55.66656933440,0.83386844060,"40","683",SYC.ARI,"Aride, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1216",-9.73086526443,46.51151203790,12.07709085000,"35","684",SYC.ASS,"Assumption, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1217",-10.08660355510,47.74172252410,10.95707039730,"32","685",SYC.AST,"Astove, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1218",-3.72020925513,55.20548701650,1.03496927402,"91","686",SYC.BIR,"Bird, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1219",-4.25860835154,55.67335666990,0.06140355800,"1","687",SYC.BOI,"Booby Island, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1220",-4.31219654102,55.86536322990,0.03707536240,"2","688",SYC.COC,"Cocos, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1221",-7.12963718239,56.27999427580,9.98385983661,"54","689",SYC.COE,"Coetivy, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1222",-4.66376746921,55.36599166570,0.70365008340,"38","690",SYC.CON,"Conception, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1223",-9.72632340293,47.57317522400,6.27331611165,"26","691",SYC.COS,"Cosmoledo, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1224",-4.33123068189,55.66285795460,0.43399591220,"86","692",SYC.COU,"Cousin, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1225",-4.35073594705,55.64772396310,0.31873122768,"3","693",SYC.CSE,"Cousine, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1226",-4.28281780975,55.72523366920,3.34934537257,"111","694",SYC.CUR,"Curieuse, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1227",-5.41573065518,53.29846409170,1.75554917788,"52","695",SYC.DAR,"Darros, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1228",-3.80583527870,55.66664138430,1.67381312225,"94","696",SYC.DEN,"Denis, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1229",-5.68939570715,53.66904018900,4.36249861670,"26","697",SYC.DES,"Desroches, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1230",-6.23487558137,53.04342238880,0.49932720334,"15","698",SYC.DNO,"Desnoefs, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1231",-10.15932087330,51.16556599720,9.13084026684,"39","699",SYC.FAR,"Farquhar, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1232",-4.32806083757,55.87486528780,2.88402955408,"69","700",SYC.FEL,"Felicite, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1233",-4.58633319167,55.94131750200,2.29960718770,"101","701",SYC.FRE,"Fregate, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1234",-4.28991463364,55.86910568540,0.88943828864,"60","702",SYC.GSO,"Grande Soeur, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1235",-4.63478271976,55.50044988030,1.13199508698,"27","703",SYC.IAC,"Ile au Cerf, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1236",-4.65965622905,55.52594032720,2.14009481974,"34","704",SYC.IAN,"Ile Anonyme, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1237",-4.62659880280,55.50821675860,0.24521208368,"21","705",SYC.ILO,"Ile Longue, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1238",-4.60718456626,55.50105801780,1.46107400507,"67","706",SYC.ISA,"Ile St Anne, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1239",-4.68586599157,55.43358088020,0.04575418594,"2","707",SYC.IVM,"Ile aux Vaches Marines, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1240",-4.36089469325,55.83787829570,10.57369149410,"77","708",SYC.LDI,"La Digue, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1241",-4.67644340825,55.46727998310,163.01283129500,"290","709",SYC.MAH,"Mahe, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1242",-4.34199659553,55.92110028930,1.07254157802,"70","710",SYC.MAR,"Marianne, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1243",-6.17923314702,53.14389689690,0.69476691481,"29","711",SYC.MLO,"Marie-Louise, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1244",-4.39299610902,55.24457252340,2.12434218435,"160","712",SYC.NOI,"North Island, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1245",-5.86369111617,55.38466255580,0.56417736710,"21","713",SYC.PLA,"Platte, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1246",-5.76092085450,53.30634159160,3.45751131002,"40","714",SYC.POI,"Poivre, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1247",-4.32387974155,55.73014497230,39.32146559820,"104","715",SYC.PRA,"Praslin, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1248",-9.53196010943,50.98691766580,1.33046886440,"7","716",SYC.PRO,"Providence, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1249",-4.28818192586,55.85551649000,0.51615613171,"2","717",SYC.PSO,"Petit Soeur, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1250",-4.58228305954,55.76360943490,0.29616630402,"2","718",SYC.REC,"Recifs, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1251",-5.11664110791,53.31233649130,0.31456635436,"25","719",SYC.REM,"Remire, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1252",-7.15671817372,52.73813403130,0.72164858588,"4","720",SYC.SFR,"St Francois, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1253",-4.48721069943,55.23066488070,20.55094331120,"133","721",SYC.SIL,"Silhouette, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1254",-5.43712136091,53.35811905080,1.58177684279,"16","722",SYC.SJO,"St Joseph, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1255",-9.33168443265,50.72751426950,1.87770580577,"10","723",SYC.STP,"St Pierre, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1256",-4.67404354442,55.40132487930,0.86315606380,"51","724",SYC.THE,"Therese, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1257",-26.26070254950,-69.46391573810,28550.48442840000,"8","220",CHL.CR,Chañaral,"0",CLN-AT,Atacama,CLN,"85","8",Southern America,CHL,Chile
+"1258",8.54212547358,0.96559985382,55956.21862760000,"71","726",TGO,Togo,"0",TOG-OO,Togo,TOG,"22","2",Africa,TGO,Togo
+"1259",15.11377710250,101.01173175800,513520.42510900000,"337","727",THA,Thailand,"0",THA-OO,Thailand,THA,"41","4",Asia-Tropical,THA,Thailand
+"1260",-19.85670953780,-174.82160503500,763.41722168100,"296","728",TON,Tonga,"1",TON-OO,Tonga,TON,"60","6",Pacific,TON,Tonga
+"1261",34.10349240400,9.56726677799,156557.86439800001,"136","729",TUN,Tunisia,"0",TUN-OO,Tunisia,TUN,"20","2",Africa,TUN,Tunisia
+"1263",23.75105509750,120.96183005600,36021.14876200000,"1222","731",TWN,Taiwan,"1",TAI-OO,Taiwan,TAI,"38","3",Asia-Temperate,TWN,Taiwan (Province of China)
+"1264",-6.29028032043,34.82385941940,938449.24976999999,"774","732",TZA,United Republic of Tanzania,"0",TAN-OO,Tanzania,TAN,"25","2",Africa,TZA,"Tanzania, United Republic of"
+"1265",1.28185343200,32.37819379160,244557.28513800001,"263","733",UGA,Uganda,"0",UGA-OO,Uganda,UGA,"25","2",Africa,UGA,Uganda
+"1266",49.02348695860,31.40786587330,595741.21635000000,"785","734",UKR,Ukraine,"0",UKR-UK,Ukraine,UKR,"14","1",Europe,UKR,Ukraine
+"1267",-32.79821075380,-56.01715506550,177345.12371000001,"190","735",URY,Uruguay,"0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1268",64.82900210100,-153.38353642700,1311407.47506999993,"299","736",USA.AK,Alaska,"0",ASK-OO,Alaska,ASK,"70","7",Northern America,USA,United States of America (the)
+"1269",32.79496204820,-86.82872883570,134385.15313500000,"1166","737",USA.AL,Alabama,"0",ALA-OO,Alabama,ALA,"78","7",Northern America,USA,United States of America (the)
+"1270",34.90074773940,-92.44277812790,137516.95536100000,"730","738",USA.AR,Arkansas,"0",ARK-OO,Arkansas,ARK,"78","7",Northern America,USA,United States of America (the)
+"1271",34.29662425850,-111.65767301700,294322.84072099999,"666","739",USA.AZ,Arizona,"0",ARI-OO,Arizona,ARI,"76","7",Northern America,USA,United States of America (the)
+"1272",37.24201088740,-119.60593684900,409755.82345000003,"1818","740",USA.CA,California,"0",CAL-OO,California,CAL,"76","7",Northern America,USA,United States of America (the)
+"1273",38.99914648880,-105.53370224500,271035.87340799998,"596","741",USA.CO,Colorado,"0",COL-OO,Colorado,COL,"73","7",Northern America,USA,United States of America (the)
+"1274",41.62583995160,-72.72751183230,12840.31199020000,"1159","742",USA.CT,Connecticut,"0",CNT-OO,Connecticut,CNT,"75","7",Northern America,USA,United States of America (the)
+"1275",38.90863991900,-77.01538037960,166.07055051900,"557","743",USA.DC,Washington DC,"0",WDC-OO,District of Columbia,WDC,"78","7",Northern America,USA,United States of America (the)
+"1276",38.99843422320,-75.51291876870,5071.44301791000,"782","744",USA.DE,Delaware,"0",DEL-OO,Delaware,DEL,"78","7",Northern America,USA,United States of America (the)
+"1277",28.65984062430,-82.48428738850,146002.46422900000,"1512","745",USA.FL,Florida,"0",FLA-OO,Florida,FLA,"78","7",Northern America,USA,United States of America (the)
+"1278",32.65517223680,-83.44790481850,152385.08276799999,"976","746",USA.GA,Georgia,"0",GEO-OO,Georgia,GEO,"78","7",Northern America,USA,United States of America (the)
+"1280",42.07861158100,-93.49655048450,145277.21236700000,"649","764",USA.IA,Iowa,"0",IOW-OO,Iowa,IOW,"74","7",Northern America,USA,United States of America (the)
+"1281",44.39430945930,-114.65345626300,216253.45827400000,"629","765",USA.ID,Idaho,"0",IDA-OO,Idaho,IDA,"73","7",Northern America,USA,United States of America (the)
+"1282",40.12095056970,-89.15484481090,150173.14672900000,"1109","766",USA.IL,Illinois,"0",ILL-OO,Illinois,ILL,"74","7",Northern America,USA,United States of America (the)
+"1283",39.91397004800,-86.28558800770,94762.26464540001,"842","767",USA.IN,Indiana,"0",INI-OO,Indiana,INI,"75","7",Northern America,USA,United States of America (the)
+"1284",16.74074445910,-169.52841938400,5.51373731571,"8","768",USA.JI,Johnston Island,"1",HAW-JI,Johnston I.,HAW,"63","6",Pacific,UMI,United States Minor Outlying Islands (the)
+"1285",38.48364846510,-98.36922341550,211982.87542699999,"558","769",USA.KS,Kansas,"0",KAN-OO,Kansas,KAN,"74","7",Northern America,USA,United States of America (the)
+"1286",37.52754118890,-85.28718107370,104139.52558600000,"878","770",USA.KY,Kentucky,"0",KTY-OO,Kentucky,KTY,"78","7",Northern America,USA,United States of America (the)
+"1287",31.07893203150,-92.01951400470,119570.92350200001,"959","771",USA.LA,Louisiana,"0",LOU-OO,Louisiana,LOU,"78","7",Northern America,USA,United States of America (the)
+"1288",42.25920200370,-71.80902764750,21067.90740720000,"1581","772",USA.MA,Massachusetts,"0",MAS-OO,Masachusettes,MAS,"75","7",Northern America,USA,United States of America (the)
+"1289",39.04873980710,-76.79954401660,25917.09469260000,"1233","773",USA.MD,Maryland,"0",MRY-OO,Maryland,MRY,"78","7",Northern America,USA,United States of America (the)
+"1310",33.91783227240,-80.90044821430,80506.49372499999,"1021","794",USA.SC,South Carolina,"0",SCA-OO,South Carolina,SCA,"78","7",Northern America,USA,United States of America (the)
+"1311",44.43750611800,-100.21964175000,198721.09843499999,"372","795",USA.SD,South Dakota,"0",SDA-OO,South Dakota,SDA,"74","7",Northern America,USA,United States of America (the)
+"1312",35.85101868520,-86.34818841490,108971.45906400000,"751","796",USA.TN,Tennessee,"0",TEN-OO,Tennessee,TEN,"78","7",Northern America,USA,United States of America (the)
+"1313",31.49712804250,-99.35740061970,684941.78454799997,"1044","797",USA.TX,Texas,"0",TEX-OO,Texas,TEX,"77","7",Northern America,USA,United States of America (the)
+"1314",39.32520481240,-111.67463154900,219981.84163899999,"667","798",USA.UT,Utah,"0",UTA-OO,Utah,UTA,"76","7",Northern America,USA,United States of America (the)
+"1315",37.51858165770,-78.83991804450,103750.07190200000,"1106","799",USA.VA,Virginia,"0",VRG-OO,Virginia,VRG,"78","7",Northern America,USA,United States of America (the)
+"1317",44.08238290570,-72.65993611000,24712.71655930000,"813","801",USA.VT,Vermont,"0",VER-OO,Vermont,VER,"75","7",Northern America,USA,United States of America (the)
+"1318",47.38651408260,-120.42829472700,174249.61022000000,"1116","802",USA.WA,Washington,"0",WAS-OO,Washington,WAS,"73","7",Northern America,USA,United States of America (the)
+"1319",44.64232129490,-89.73851800060,169729.18169299999,"900","803",USA.WI,Wisconsin,"0",WIS-OO,Wisconsin,WIS,"74","7",Northern America,USA,United States of America (the)
+"1320",38.64142153220,-80.61241112560,62504.59652830000,"798","804",USA.WV,West Virginia,"0",WVA-OO,West Virginia,WVA,"75","7",Northern America,USA,United States of America (the)
+"1321",42.99898837690,-107.53986581700,253507.82085600001,"422","805",USA.WY,Wyoming,"0",WYO-OO,Wyoming,WYO,"73","7",Northern America,USA,United States of America (the)
+"1322",12.83922984320,-61.28381087420,49.14839406800,"63","806",VCT.GR,The Grenadines,"1",WIN-SV,St.Vincent,WIN,"81","8",Southern America,VCT,Saint Vincent and the Grenadines
+"1323",13.25130900010,-61.18897522580,348.61937897100,"205","807",VCT.SV,Saint Vincent,"1",WIN-SV,St.Vincent,WIN,"81","8",Southern America,VCT,Saint Vincent and the Grenadines
+"1324",7.12087424997,-66.17804693860,909729.99925700005,"104","808",VEN,Venezuela,"0",VEN-OO,Venezuela,VEN,"82","8",Southern America,VEN,Venezuela (Bolivarian Republic of)
+"1325",18.72691673190,-64.33738075350,40.24290777290,"4","809",VGB.AN,"Anegada, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British)
+"1326",18.47640140660,-64.57061904130,3.53063165243,"85","810",VGB.GI,"Guana Island, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British)
+"1327",18.44650613330,-64.74685304320,9.20592359659,"9","811",VGB.JD,"Jost van Dyke, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British)
+"1328",18.42407432750,-64.62006394250,65.17101437010,"200","812",VGB.TO,"Tortola, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British)
+"1329",18.47585495110,-64.39921647510,23.90498563450,"109","813",VGB.VG,"Virgin Gorda, British Virgin Islands","1",LEE-BV,British Virgin Is.,LEE,"81","8",Southern America,VGB,Virgin Islands (British)
+"1330",-14.01392316930,-171.39970221100,0.12025403555,"18","814",WSM.FAU,Fanuatapu,"1",SAM-WS,Samoa,SAM,"60","6",Pacific,WSM,Samoa
+"1331",-14.02225865480,-171.41559889100,0.25566655614,"60","815",WSM.NAA,Namua,"1",SAM-WS,Samoa,SAM,"60","6",Pacific,WSM,Samoa
+"1332",-14.07327369650,-171.41005582600,0.37142124792,"16","816",WSM.NUA,Nuulua,"1",SAM-WS,Samoa,SAM,"60","6",Pacific,WSM,Samoa
+"1333",-14.06360230410,-171.42274608000,1.26696832791,"47","817",WSM.NUE,Nuutela,"1",SAM-WS,Samoa,SAM,"60","6",Pacific,WSM,Samoa
+"1334",15.90432751990,47.59574566360,453515.09239200002,"69","818",YEM,Yemen,"0",000-07,Yemen,"6","35","3",Asia-Temperate,YEM,Yemen
+"1335",-32.14188652640,26.46742264290,170114.78989700001,"1129","819",ZAF.EC,Eastern Cape,"0",CPP-EC,Eastern Cape Province,CPP,"27","2",Africa,ZAF,South Africa
+"1336",-28.61011743310,26.86447467520,129989.75285200001,"661","820",ZAF.FS,Orange Free State,"0",OFS-OO,Free State,OFS,"27","2",Africa,ZAF,South Africa
+"1337",-26.04529780980,28.20922867880,18631.63432650000,"846","821",ZAF.GA,Gauteng,"0",TVL-GA,Gauteng,TVL,"27","2",Africa,ZAF,South Africa
+"1338",-28.70838636620,30.72497718390,92709.17431200000,"1143","822",ZAF.KZN,KwaZulu-Natal,"0",NAT-OO,KwaZulu-Natal,NAT,"27","2",Africa,ZAF,South Africa
+"1339",-23.73722739040,29.31278342940,122679.16021500000,"667","823",ZAF.LI,Limpopo,"0",TVL-NP,Northern Province,TVL,"27","2",Africa,ZAF,South Africa
+"1340",-46.90600319530,37.74078872840,295.30316162700,"12","824",ZAF.MI,Marion Island,"1",MPE-OO,Marion-Prince Edward Is.,MPE,"90","9",Antarctic,ZAF,South Africa
+"1341",-25.86612622690,30.23704773370,78144.90118190000,"829","825",ZAF.MP,Mpumalanga,"0",TVL-MP,Mpumalanga,TVL,"27","2",Africa,ZAF,South Africa
+"1342",-29.52579793320,21.34706150390,362330.48966500000,"511","826",ZAF.NC,Northern Cape,"0",CPP-NC,Northern Cape Province,CPP,"27","2",Africa,ZAF,South Africa
+"1343",-26.31898329590,25.33597059370,116289.68172300000,"545","827",ZAF.NW,North West,"0",TVL-NW,North-West Province,TVL,"27","2",Africa,ZAF,South Africa
+"1345",-33.01143576810,20.61418282090,129053.31706700000,"1032","829",ZAF.WC,Western Cape,"0",CPP-WC,Western Cape Province,CPP,"27","2",Africa,ZAF,South Africa
+"1346",-14.17656918900,28.60664220950,94183.65052690000,"36","830",ZMB.CE,Central,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1347",-13.12066801780,27.85093213610,31465.20341070000,"43","831",ZMB.CO,Copperbelt,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1348",-12.96591356090,32.13953488200,69163.13595650000,"53","832",ZMB.EA,Eastern,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1349",-10.69979427150,29.20766358640,49193.16669760000,"20","833",ZMB.LP,Luapula,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1350",-15.35994802600,29.19970066160,22507.68562380000,"77","834",ZMB.LS,Lusaka,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1351",-10.48955480210,31.16076818200,147563.81073200001,"68","835",ZMB.NO,Northern,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1352",-13.02797841800,25.06027621770,125251.48529700001,"34","836",ZMB.NW,North-western,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1353",-16.58445595310,26.66622764860,85441.65911009999,"70","837",ZMB.SO,Southern,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1354",-15.64159230760,23.68037677110,127150.40996500000,"32","838",ZMB.WE,Western,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1355",-18.64923362210,30.52403176180,68782.75656620000,"196","839",ZWE.C,Central region,"0",ZIM-OO,Zimbabwe,ZIM,"26","2",Africa,ZWE,Zimbabwe
+"1356",-19.15938447490,32.57211229950,25365.10265610000,"191","840",ZWE.E,Eastern region,"0",ZIM-OO,Zimbabwe,ZIM,"26","2",Africa,ZWE,Zimbabwe
+"1357",-17.09611649400,29.95597783290,109575.20370300001,"112","841",ZWE.N,Northern region,"0",ZIM-OO,Zimbabwe,ZIM,"26","2",Africa,ZWE,Zimbabwe
+"1358",-20.90772500670,30.72946534570,93679.34344339999,"96","842",ZWE.S,Southern region,"0",ZIM-OO,Zimbabwe,ZIM,"26","2",Africa,ZWE,Zimbabwe
+"1359",-19.49231175780,27.67480022970,92462.20349970000,"117","843",ZWE.W,Western region,"0",ZIM-OO,Zimbabwe,ZIM,"26","2",Africa,ZWE,Zimbabwe
+"1360",40.38929807370,-3.55550482038,494029.07456799998,"763","328",ESP.ESP,Spain (mainland),"0",SPA-SP,Spain,SPA,"12","1",Europe,ESP,Spain
+"1361",39.64838198070,-7.97743435524,88951.29225230000,"486","538",PRT.PRT,Portugal (mainland),"0",POR-OO,Portugal,POR,"12","1",Europe,PRT,Portugal
+"1362",46.62181959760,2.46083191659,540019.52329299995,"735","340",FRA.FRA,France (mainland),"0",FRA-FR,France,FRA,"12","1",Europe,FRA,France
+"699",48.71682825250,-56.03145378910,111537.12649000000,"427","188",CAN.NF,Newfoundland,"1",NFL-NE,Newfoundland,NFL,"72","7",Northern America,CAN,Canada
+"1030",64.48315635240,14.38749441430,293847.34006299998,"604","520",NOR,Norway (mainland),"0",NOR-OO,Norway,NOR,"10","1",Europe,NOR,Norway
+"1205",0.45698584302,6.73658831057,1142.07681891000,"384","673",STP,Sao Tome and Principe,"1",000-06,Sao Tome and Principe,GGI,"23","2",Africa,STP,Sao Tome and Principe
+"826",11.74982229560,42.57794604200,21434.29409130000,"29","317",DJI,Djibouti,"0",DJI-OO,Djibouti,DJI,"24","2",Africa,DJI,Djibouti
+"1344",-46.62951235570,37.92046837370,50.08096699100,"3","828",ZAF.PEI,"Prince Edward Island, South Africa","1",MPE-OO,Marion-Prince Edward Is.,MPE,"90","9",Antarctic,ZAF,South Africa
+"1197",-54.35798160910,-36.71862583270,3614.60256291000,"31","663",SGS.SGI,South Georgia Island,"1",SGE-OO,South Georgia,SGE,"90","9",Antarctic,SGS,South Georgia and the South Sandwich Islands
+"1022",4.03953030241,102.17156932600,131596.79619100000,"180","512",MYS.PEN,MYS_Peninsula,"0",MLY-PM,Peninsular Malaysia,MLY,"42","4",Asia-Tropical,MYS,Malaysia
+"912",53.17822139140,-8.14504461757,69445.01648080000,"385","403",IRL,Ireland,"1",IRE-IR,Ireland,IRE,"10","1",Europe,IRL,Ireland
+"1024",-21.29461418970,165.67184977500,19230.98992160000,"64","514",NCL,New Caledonia,"1",NWC-OO,New Caledonia,NWC,"60","6",Pacific,NCL,New Caledonia
+"668",-5.10290094043,-39.62316019220,149490.59554499999,"155","157",BRA.CE,Ceará,"0",BZE-CE,Cear ,BZE,"84","8",Southern America,BRA,Brazil
+"680",-7.40795284947,-42.98506567110,252176.73125600000,"110","169",BRA.PI,Piauí,"0",BZE-PI,Piau¡,BZE,"84","8",Southern America,BRA,Brazil
+"665",-4.18918209033,-64.71902655040,1566066.00805000006,"153","154",BRA.AM,Amazonas,"0",BZN-AM,Amazonas,BZN,"84","8",Southern America,BRA,Brazil
+"19",-24.26666828060,-69.56766699910,65937.39975139999,"75","203",CHL.AN,Antofagasta,"0",CLN-AN,Antofagasta,CLN,"85","8",Southern America,CHL,Chile
+"713",-23.46939725290,-69.11991556710,124545.06307300000,"3","1221",CHL.RAN,"Región de Antofagasta, Chile","0",CLN-AN,Antofagasta,CLN,"85","8",Southern America,CHL,Chile
+"819",21.62012559370,-79.03522542680,109977.74157000000,"547","310",CUB,Cuba,"1",CUB-OO,Cuba,CUB,"81","8",Southern America,CUB,Cuba
+"1316",17.97169938650,-64.80277370550,362.16062047100,"406","800",USA.VI,United States Virgin Islands,"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.)
+"646",12.18382822570,-68.29014686010,285.90412947000,"38","141",BES.BON,Bonaire,"1",NLA-BO,Bonaire,NLA,"81","8",Southern America,ANT,Netherlands Antilles
+"962",19.27289092520,-99.12879429960,1340.68364059000,"352","452",MEX.DIF,Distrito Federal,"0",MXC-DF,Mexico Distrito Federal,MXC,"79","7",Northern America,MEX,Mexico
+"284",19.35975084070,-99.63098798820,21629.19734410000,"600","458",MEX.MEX,México,"0",MXC-ME,M‚xico State,MXC,"79","7",Northern America,MEX,Mexico
+"543",17.07784287570,-61.79744989620,283.69143861200,"183","36",ATG.AN,Antigua,"1",LEE-AB,Antigua-Barbuda,LEE,"81","8",Southern America,ATG,Antigua and Barbuda
+"544",17.63400215540,-61.79667624260,151.25284256900,"43","37",ATG.BA,Barbuda,"1",LEE-AB,Antigua-Barbuda,LEE,"81","8",Southern America,ATG,Antigua and Barbuda
+"871",-53.09295145020,73.51694003670,360.53838629700,"1","363",HMD.HI,Heard Island,"1",HMD-OO,Heard-McDonald Is.,HMD,"90","9",Antarctic,HMD,Heard Island and McDonald Islands
+"546",-12.26576227900,123.07830081500,17.83601982130,"4","39",AUS.AR,Ashmore Reef,"1",WAU-AC,Ashmore-Cartier Is.,WAU,"50","5",Australasia,AUS,Australia
+"909",30.15378047450,79.21330378650,53242.68974260000,"181","400",IND.UTH,Uttaranchal,"0",WHM-UT,Uttaranchal,WHM,"40","4",Asia-Tropical,IND,India
+"910",26.91588065110,80.56728047890,241862.98559200001,"171","401",IND.UTP,Uttar Pradesh,"0",IND-UP,Uttar Pradesh,IND,"40","4",Asia-Tropical,IND,India
+"956",25.91864017410,-112.04228282600,71961.95641260000,"162","924",MEX.BCS,Baja California Sur,"0",MXN-BS,Baja California Sur,MXN,"79","7",Northern America,MEX,Mexico
+"1369",28.28961169630,-113.60775975900,144612.37961500001,"317","446",MEX.BC,Baja California Peninsula,"0",000-08,Baja California Peninsula,MXN,"79","7",Northern America,MEX,Mexico
+"1389",-12.82399147760,45.14392094420,371.42361957600,"1","999",FRA.MAY,Mayotte,"1",COM-MA,Mayotte,COM,"29","2",Africa,MYT,Mayotte
+"1400",3.37168093579,73.25213837660,140.45710865300,"20","1001",MDV,Maldives,"1",MDV-OO,Maldives,MDV,"40","4",Asia-Tropical,MDV,Maldives
+"1402",-1.55438594569,-71.49178607630,107462.79565900000,"30","1111",COL.AMA,"Department of Amazonas, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1404",4.68044302151,-69.41520228760,100754.83351100000,"24","1142",COL.VIC,"Department of Vichada, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1405",0.77600731614,-73.98605937010,90141.78510210000,"27","1118",COL.CAQ,"Department of Caquetá, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1406",3.31878712338,-72.96614800550,85325.56747830000,"60","1130",COL.MET,"Department of Meta, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1409",2.70987363159,-68.82399046720,68819.30744300000,"13","1125",COL.GUA,"Department of Guainía, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1412",6.91041669307,-75.59169710630,63163.02036120000,"162","1112",COL.ANT,"Department of Antioquia, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1413",1.89760487582,-72.12678881120,55592.21025510000,"18","1126",COL.GUV,"Department of Guaviare, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1414",0.60107212223,-70.56799980080,53242.25153180000,"13","1141",COL.VAU,"Department of Vaupés, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1416",5.98735732716,-76.97111853160,45230.16556770000,"52","1122",COL.CHO,"Department of Chocó, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1418",5.36855767808,-71.62288976400,44621.93404730000,"26","1119",COL.CAS,"Department of Casanare, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1425",-0.73270142836,-76.90437207420,33840.30259900000,"116","1157",ECU.NAP,"Department of Napo, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1427",1.56254760315,-77.86738823970,31952.22311180000,"101","1131",COL.NAR,"Department of Nariño, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1428",6.67539406755,-73.51501536340,30283.87379880000,"115","1137",COL.SAN,"Department of Santander, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1429",-1.70752831744,-76.87324653650,29723.32905400000,"36","1158",ECU.PAS,"Department of Pastaza, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1430",2.38624019002,-76.85724837750,29163.75070390000,"73","1120",COL.CAU,"Department of Cauca, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1431",8.71290746692,-74.51445715410,26034.57037530000,"45","1115",COL.BOL,"Department of Bolívar, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1432",6.54783282825,-70.95462028420,25337.84201750000,"20","1113",COL.ARA,"Department of Arauca, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1434",8.35055744300,-75.79959840420,24920.89024660000,"41","1123",COL.COR,"Department of Córdoba, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1435",4.76467035881,-74.12572224170,24448.61985720000,"190","1124",COL.CUN,"Department of Cundinamarca, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1436",-2.56254928702,-78.00575050880,24054.86653080000,"38","1156",ECU.MOR,"Department of Morona.Santiago, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1437",0.45125981177,-75.87767530000,24034.93633510000,"52","1133",COL.PUT,"Department of Putumayo, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1439",4.04415197125,-75.26617086220,23409.06554950000,"91","1139",COL.TOL,"Department of Tolima, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1440",5.75953218789,-73.12176346940,23375.96366080000,"120","1116",COL.BOY,"Department of Boyacá, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1441",9.51846203168,-73.53626461930,22917.21700690000,"40","1121",COL.CES,"Department of Cesar, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1442",8.07747320589,-72.88932800050,22805.66430220000,"58","1132",COL.NOR,"Department of Norte de Santander, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1444",3.86885547720,-76.53174503110,22001.94884410000,"54","1140",COL.VAL,"Department of Valle del Cauca, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1445",10.18911826740,-74.26465262170,21546.62360490000,"87","1129",COL.MAG,"Department of Magdalena, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1448",11.45658715190,-72.45516700000,21012.19613400000,"41","1128",COL.GUJ,"Department of La Guajira, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1449",-24.16498211960,-56.64677905900,20887.92690450000,"2","1176",PRY.SAN,"Department of San Pedro, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1450",2.53903899478,-75.63988681170,20301.11345970000,"78","1127",COL.HUI,"Department of Huila, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1451",-2.12346509431,-80.01346947510,20143.02436030000,"127","1151",ECU.GUA,"Department of Guayas, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1452",-0.75216503972,-80.13464070080,19333.51762510000,"58","1155",ECU.MAN,"Department of Manabí, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1453",-22.83876087480,-57.11931326920,18772.93428740000,"1","1169",PRY.CON,"Department of Conceptión, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1454",-0.01534098825,-76.56287464090,18045.25982990000,"19","1160",ECU.SUC,"Department of Sucumbíos, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1459",-32.03937626240,-55.80700528210,15673.50728860000,"1","1219",URY.TAC,"Department of Tacuarembó, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1460",0.71611741675,-79.21573646990,15538.36351600000,"63","1150",ECU.ESM,"Department of Esmeraldas, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1461",-24.22757230480,-55.21860606840,15031.96595000000,"1","1167",PRY.CAN,"Department of Canindeyú, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1463",-25.38805388430,-54.95322223140,14127.40718100000,"3","1163",PRY.ALT,"Department of Alto Paraná, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1464",-0.15303837609,-78.78109871270,13685.23749200000,"301","1159",ECU.PIC,"Department of Pichincha, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1465",-32.03252317420,-57.37946999260,13346.55972050000,"5","1211",URY.PAY,"Department of Paysandú, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1466",-32.40241198000,-54.37491641940,13186.99269890000,"3","1203",URY.CER,"Department of Cerro Largo, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1467",-25.18672818500,-55.88273118220,12902.32864130000,"1","1165",PRY.CAG,"Department of Caaguazú, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1468",-22.87580771480,-56.06264951100,12536.98101060000,"1","1164",PRY.AMA,"Department of Amambay, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1469",-32.93534034710,-56.10790138830,12406.89526060000,"2","1205",URY.DUR,"Department of Durazno, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1470",-33.86805700360,-55.00868852860,11519.21320960000,"1","1208",URY.LAV,"Department of Lavelleja, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1471",-26.75998856050,-57.90240671710,11449.77267880000,"3","1174",PRY.NEE,"Department of Ñeembucú, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1472",-4.08873967456,-79.65455133820,11108.67855610000,"123","1153",ECU.LOJ,"Department of Loja, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1473",-33.94321739130,-54.02295850190,10885.87330430000,"2","1214",URY.ROC,"Department of Rocha, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1474",9.06298149435,-75.12276561900,10807.53831050000,"16","1138",COL.SUC,"Department of Sucre, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1475",-33.70327743540,-55.90194246690,10728.92722380000,"8","1207",URY.FLA,"Department of Florida, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1476",-4.16932060825,-78.90215593330,10581.57906820000,"12","1162",ECU.ZAM,"Department of Zamora.Chinchipe, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1477",-31.64749508560,-55.03440945030,9792.02337103000,"1","1213",URY.RIV,"Department of Rivera, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1479",-26.23485601720,-56.05890686180,9544.01479760000,"1","1166",PRY.CAZ,"Department of Caazapá, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1482",-33.47786124990,-57.76432541170,8817.18819761000,"4","1217",URY.SOR,"Department of Soriano, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1483",-32.71725686320,-57.46636882020,8812.75356081000,"5","1212",URY.RIO,"Department of Río Negro, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1484",-26.03942672450,-57.12992727780,8719.09932826000,"2","1175",PRY.PAR,"Department of Paraguarí, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1485",-3.01380939018,-79.14645985580,8006.24374364000,"121","1143",ECU.AZU,"Department of Azuay, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1486",5.33202802908,-75.33899911800,7554.43112270000,"68","1117",COL.CAL,"Department of Caldas, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1487",-1.34418467069,-79.48693417770,7224.26708780000,"155","1154",ECU.RIO,"Department of Los.Ríos, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1488",-1.96847659877,-78.71593693160,6485.65773590000,"99","1147",ECU.CHI,"Department of Chimborazo, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1489",-34.11219384600,-57.67853886090,6361.95028689000,"2","1204",URY.COL,"Department of Colonia, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1490",-0.86112605113,-78.85504485480,6011.48219956000,"86","1148",ECU.COT,"Department of Cotopaxi, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1491",-3.50803630675,-79.82623050750,5817.06135754000,"39","1149",ECU.ORO,"Department of El.Oro, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1492",-34.27395891980,-56.74566960570,5467.80442014000,"3","1216",URY.SAN,"Department of San José, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1494",-34.54699153800,-54.86186900620,5079.08506902000,"3","1209",URY.MAL,"Department of Maldonado, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1495",-34.51916276470,-55.95869146750,4852.64028632000,"8","1202",URY.CAN,"Department of Canelones, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1496",-25.19186162580,-56.94580571490,4798.03087552000,"3","1170",PRY.COR,"Department of Cordillera, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1497",0.40588163464,-78.35585816660,4793.90355031000,"133","1152",ECU.IMB,"Department of Imbabura, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1499",10.71712161070,-74.90317638550,4415.24111552000,"45","1114",COL.ATL,"Department of Atlántico, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1500",5.06808208193,-75.92144949260,4038.30094702000,"47","1135",COL.RIS,"Department of Risaralda, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1501",-1.59053574527,-79.10231809130,3930.27066567000,"65","1144",ECU.BOL,"Department of Bolívar, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1502",-25.82298801570,-56.29539769230,3824.32817989000,"2","1171",PRY.GUA,"Department of Guairá, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1503",0.74040502982,-78.04864566580,3553.29105292000,"73","1146",ECU.CAR,"Department of Carchi, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1504",-1.29086710914,-78.50471573660,3380.50693872000,"151","1161",ECU.TUN,"Department of Tungurahua, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1505",-2.52945565035,-79.02443801280,3323.00029257000,"55","1145",ECU.CAN,"Department of Cañar, Ecuador","0",ECU-OO,Ecuador,ECU,"83","8",Southern America,ECU,Ecuador
+"1506",-25.53489502850,-57.49360615470,2418.53841570000,"4","1168",PRY.CEN,"Department of Central, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1507",4.47823350882,-75.69018259510,1730.56637558000,"64","1134",COL.QUI,"Department of Quindío, Colombia","0",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1508",-34.82581805630,-56.22673021100,474.52750900500,"14","1210",URY.MON,"Department of Montevideo, Uruguay","0",URU-OO,Uruguay,URU,"85","8",Southern America,URY,Uruguay
+"1509",12.95185523310,-81.52318732680,52.36373286850,"33","1136",COL.SPS,"Department of San Andrés, Providencia y Santa Catalina, Colombia","1",CLM-OO,Colombia,CLM,"83","8",Southern America,COL,Colombia
+"1510",-38.69563794000,-72.27993240750,34415.72499870000,"10","1228",CHL.RAR,"Región de La Araucanía, Chile","0",CLC-LA,La Araucania,CLC,"85","8",Southern America,CHL,Chile
+"1511",6.21331337584,-63.48632966900,239937.84950800001,"52","1235",VEN.BOL,"State of Bolívar, Venezuela","0",VEN-OO,Venezuela,VEN,"82","8",Southern America,VEN,Venezuela (Bolivarian Republic of)
+"1512",3.41241095035,-65.93688882900,183048.34321299999,"36","1236",VEN.AMZ,"State of Amazonas, Venezuela","0",VEN-OO,Venezuela,VEN,"82","8",Southern America,VEN,Venezuela (Bolivarian Republic of)
+"1513",8.75975375419,-61.32994214790,40024.28537730000,"34","1237",VEN.AMC,"State of Delta Amacuro, Venezuela","0",VEN-OO,Venezuela,VEN,"82","8",Southern America,VEN,Venezuela (Bolivarian Republic of)
+"1514",-17.29422484890,-61.46098744330,355513.51067900000,"396","1238",BOL.SCR,"Region de Santa Cruz, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of)
+"1515",-13.85661153700,-65.15384976470,219769.43630999999,"164","1239",BOL.BEN,"Region del Beni, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of)
+"1516",-15.22300140190,-68.12551939730,131113.90525200000,"667","1240",BOL.LPA,"Region de La Paz, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of)
+"1517",-20.53805043400,-66.72667155090,119436.44557100000,"56","1241",BOL.POT,"Region de Potosí, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of)
+"1518",-11.09125822040,-67.31771832750,63449.02729490000,"77","1242",BOL.PAN,"Region de Pando, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of)
+"1519",-17.23216484020,-65.63291732160,54260.07286630000,"346","1243",BOL.COC,"Region de Cochabamba, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of)
+"1520",-18.62618565490,-67.69140764390,51674.92626290000,"37","1244",BOL.ORU,"Region de Oruro, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of)
+"1521",-20.03866053370,-64.29023967610,50870.56400670000,"144","1245",BOL.CHU,"Region de Chuquisaca, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of)
+"1522",-21.59258610120,-63.88307570390,37305.09686970000,"135","1246",BOL.TAR,"Region de Tarija, Bolivia","0",BOL-OO,Bolivia,BOL,"83","8",Southern America,BOL,Bolivia (Plurinational State of)
+"1523",53.90474882500,47.96307182770,36840.83737060000,"201","1247",RUS.UL,"Ulyanovsk Oblast, Russian Federation","0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the)
+"1524",-21.90423897490,-61.05816874160,88569.09036810001,"1","1248",PRY.BOQ,"Boquerón, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1525",-20.58976842880,-59.41000903950,77727.69870620000,"3","1249",PRY.ALP,"Alto Paraguay, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1526",-23.61277276290,-58.68596510840,73175.16387200000,"1","1250",PRY.HAY,"Presidente Hayes, Paraguay","0",PAR-OO,Paraguay,PAR,"85","8",Southern America,PRY,Paraguay
+"1530",-46.97978007560,167.90264629300,1618.92426135000,"209","1258",NZL.STI,New Zealand Stewart Island,"1",NZS-OO,New Zealand South,NZS,"51","5",Australasia,NZL,New Zealand
+"1528",-38.58107443520,175.73047974800,114432.43908000000,"1576","1256",NZL.NOI,New Zealand North Island,"1",NZN-OO,New Zealand North,NZN,"51","5",Australasia,NZL,New Zealand
+"1529",-43.98245094820,170.51876894500,150795.96141200000,"1378","1257",NZL.SOI,New Zealand South Island (without Stewart Island etc.),"1",NZS-OO,New Zealand South,NZS,"51","5",Australasia,NZL,New Zealand
+"1531",38.27841020430,73.53641232920,38629.35214090000,"11","1259",TJK.KUR,Kuram,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1532",37.47662247560,72.15526891370,9098.28131845000,"10","1260",TJK.MOG,Mogoltausian,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1533",38.11214983160,69.50562699170,8781.24076624000,"19","1261",TJK.PRI,Prisyrdarian,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1534",37.54842303370,68.39321195150,8317.38394820000,"13","1262",TJK.TUA,Turkestanian A,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1535",39.33013688780,69.46396376450,7216.08558028000,"13","1263",TJK.TUB,Turkestanian B,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1536",39.17808601260,71.31297788180,7114.52837264000,"18","1264",TJK.ZEA,Zeravshanian A,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1537",38.08057755310,72.10587030640,6106.82727652000,"17","1265",TJK.ZEB,Zeravshanian B,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1538",38.52416793480,70.29040095030,5545.91326034000,"16","1266",TJK.ZEC,Zeravshanian C,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1539",40.34687006160,69.97996641260,5062.17178027000,"20","1267",TJK.HDA,Hissaro-Darvasian A,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1540",39.24710435790,68.21071747560,4282.53996376000,"10","1268",TJK.HDB,Hissaro-Darvasian B,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1541",39.02026454830,70.13370636020,4110.27017454000,"11","1269",TJK.HDC,Hissaro-Darvasian C,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1542",38.32870827080,68.58429449190,4055.22879586000,"10","1270",TJK.HDD,Hissaro-Darvasian D,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1543",39.75845901000,69.02420806760,3824.73148733000,"12","1271",TJK.HDE,Hissaro-Darvasian E,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1544",38.76516061910,71.43327546590,3733.26997267000,"12","1272",TJK.HDF,Hissaro-Darvasian F,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1545",38.77999772810,68.66036362640,3713.73541183000,"46","1273",TJK.STA,South Tajikistanian A,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1546",38.43005936480,71.80771942510,3581.54780636000,"21","1274",TJK.STB,South Tajikistanian B,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1547",37.48382597600,69.16362378930,3487.77767217000,"23","1275",TJK.STC,South Tajikistanian C,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1548",40.65598654570,69.88962826720,3154.39415308000,"13","1276",TJK.STD,South Tajikistanian D,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1549",36.95701656010,71.97850671000,2902.37673473000,"12","1277",TJK.ETA,Eastern Tajikistanian A,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1550",38.89257198280,69.45460614950,2619.93963882000,"8","1278",TJK.ETB,Eastern Tajikistanian B,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1551",38.43365634170,70.80601959080,2279.16381227000,"14","1279",TJK.ETC,Eastern Tajikistanian C,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1552",39.37218097420,67.67079205360,1860.67231181000,"15","1280",TJK.WPA,Western Pamirian A,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1553",37.71440981600,70.13281374370,872.46877216400,"19","1281",TJK.WPB,Western Pamirian B,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1554",40.05110338480,70.63900916570,650.07045186600,"13","1282",TJK.WPC,Western Pamirian C,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1555",39.49993385610,71.34338810200,509.47544292200,"1","1283",TJK.EPA,Eastern Pamirian,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1556",40.30353149030,69.47852632140,484.79201584800,"2","1284",TJK.ALA,Alayan,"0",TZK-OO,Tadzhikistan,TZK,"32","3",Asia-Temperate,TJK,Tajikistan
+"1558",48.94621069490,11.42234448390,70505.99735419999,"422","1286",DEU.BY,"Bayern, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1565",52.77034433330,9.16992400295,47767.54597390000,"294","1293",DEU.NI,"Niedersachsen, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1557",48.54189241810,9.05144111988,35989.07108270000,"329","1285",DEU.BW,"Baden-Württemberg, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1566",51.47667337380,7.56652845445,34273.77550420000,"382","1294",DEU.NW,"Nordrhein-Westfalen, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1560",52.47328025000,13.39906636190,29458.37774620000,"276","1288",DEU.BB,"Brandenburg, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1564",53.75312017690,12.53758378440,23193.15829860000,"186","1292",DEU.MV,"Mecklenburg-Vorpommern, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1563",50.60221272090,9.03943801768,20983.45779990000,"357","1291",DEU.HE,"Hessen, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1569",52.01193723030,11.70549563510,20602.67508600000,"600","1297",DEU.ST,"Sachsen-Anhalt, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1567",49.91652330890,7.45364496241,19835.08321900000,"403","1295",DEU.RP,"Rheinland-Pfalz, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1570",51.05125501030,13.35413618920,18417.92417220000,"464","1298",DEU.SN,"Sachsen, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1572",50.90297495170,11.03048453640,16256.10846450000,"369","1300",DEU.TH,"Thüringen, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1571",54.18882681310,9.80582802466,15651.81255600000,"198","1299",DEU.SH,"Schleswig-Holstein, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1568",49.39115878820,6.95720789472,2560.73720667000,"276","1296",DEU.SL,"Saarland, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1559",52.49933630000,13.40878222440,885.31808391000,"185","1287",DEU.BE,"Berlin, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1562",53.55456803080,10.02720903880,768.15674345900,"186","1290",DEU.HH,"Hamburg, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1561",53.11214432390,8.78623449740,318.85793518600,"125","1289",DEU.HB,"Bremen, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany
+"1068",-9.15438848311,-74.37806457070,1289866.40008999989,"366","530",PER,Peru,"0",PER-OO,Peru,PER,"83","8",Southern America,PER,Peru

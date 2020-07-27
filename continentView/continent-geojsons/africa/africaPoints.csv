@@ -1,0 +1,150 @@
+OBJIDsic,LAT,LON,GeodAREA,taxCount,region_id,code,name,island,tdwg4,tdwg4_name,tdwg3,tdwg2,tdwg1,tdwg1_name,country_IS,country
+"32",-7.94351256894,-14.3670313752,99.3572999942,"158","664",SHN.AC,Ascension Island,"1",ASC-OO,Ascension,ASC,"28","2",Africa,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+"102",39.6991045205,-31.1052231489,17.1153039779,"366","992",PRT.AZO.COR,Corvo,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal
+"129",1.69399772861,10.3605115675,26574.9055028,"341","356",GNQ,Equatorial Guinea,"0",EQG-OO,Equatorial Guinea,EQG,"23","2",Africa,GNQ,Equatorial Guinea
+"132",38.5782174948,-28.7013323675,173.090853442,"911","990",PRT.AZO.FAI,Faial,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal
+"146",39.4419501885,-31.2024897483,140.982426384,"621","991",PRT.AZO.FLO,Flores,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal
+"154",13.4327478368,-15.4881354474,9933.26468519,"11","994",GAM,Gambia,"0",GAM-OO,"Gambia, The",GAM,"22","2",Africa,GMB,Gambia (the)
+"160",39.0522937062,-28.011327294,60.6915247988,"608","987",PRT.AZO.GRA,Graciosa,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal
+"243",-21.121661534,55.5381806943,2642.07979318,"760","925",FRA.REU,Reunion,"1",REU-OO,Rβunion,REU,"29","2",Africa,REU,Rβunion
+"796",7.63130984478,-5.56410959172,319718.587334,"306","287",CIV,Cote d'Ivoire,"0",IVO-OO,Ivory Coast,IVO,"22","2",Africa,CIV,Cβte d'Ivoire
+"797",5.69117031525,12.7552596752,464396.488443,"362","288",CMR,Cameroon,"0",CMN-OO,Cameroon,CMN,"23","2",Africa,CMR,Cameroon
+"798",-2.87813552553,23.6542243547,2326430.62005,"681","289",COD,Democratic Republic of the Congo,"0",ZAI-OO,Zaire,ZAI,"23","2",Africa,COD,Congo (the Democratic Republic of the)
+"799",-0.83168788884,15.2272297376,343925.158394,"67","290",COG,Congo,"0",CON-OO,Congo,CON,"23","2",Africa,COG,Congo (the)
+"359",38.4694729615,-28.3335729551,444.974158068,"702","989",PRT.AZO.PIC,Pico,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal
+"373",-19.7163243523,63.4234673494,98.146524732,"289","1233",MUS.RO,Rodrigues (Mauritius),"1",ROD-OO,Rodrigues,ROD,"29","2",Africa,MUS,Mauritius
+"399",36.9713337021,-25.0998229246,96.8918334048,"865","984",PRT.AZO.MAR,Santa Maria,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal
+"405",38.637234313,-28.0292361553,243.780704561,"614","988",PRT.AZO.JOR,SΓ£o Jorge,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal
+"406",37.7954000209,-25.4818912421,744.721488156,"915","985",PRT.AZO.MIG,SΓ£o Miguel,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal
+"432",-15.9594056606,-5.70849369246,168.128007826,"252","668",SHN.SH,St Helena,"1",STH-OO,St.Helena,STH,"28","2",Africa,SHN,"Saint Helena, Ascension and Tristan da Cunha"
+"453",38.7239011109,-27.2122999424,400.562027459,"827","986",PRT.AZO.TER,Terceira,"1",AZO-OO,Aβ‘βres,AZO,"21","2",Africa,PRT,Portugal
+"495",22.2459277296,4.78067715154,6832540.61984,"1","993",ESH,Western Sahara,"0",WSA-OO,Western Sahara,WSA,"20","2",Africa,ESH,Western Sahara*
+"509",-12.2994771184,17.5379648235,1248577.78869,"364","2",AGO,Angola,"0",ANG-OO,Angola,ANG,"26","2",Africa,AGO,Angola
+"643",-3.34033792828,29.9017545612,26979.6162042,"272","138",BDI,Burundi,"0",BUR-OO,Burundi,BUR,"23","2",Africa,BDI,Burundi
+"645",9.63219495254,2.33832055117,118026.776385,"440","140",BEN,Benin,"0",BEN-OO,Benin,BEN,"22","2",Africa,BEN,Benin
+"649",12.264786418,-1.74782469944,272979.859024,"234","144",BFA,Burkina Faso,"0",BKN-OO,Burkina,BKN,"22","2",Africa,BFA,Burkina Faso
+"692",-22.1812383083,23.8066043719,578232.142599,"442","181",BWA,Botswana,"0",BOT-OO,Botswana,BOT,"27","2",Africa,BWA,Botswana
+"693",6.57166284505,20.4921197173,617326.723429,"61","182",CAF,Central African Republic,"0",CAF-OO,Central African Republic,CAF,"23","2",Africa,CAF,Central African Republic (the)
+"719",15.3421245976,18.6671361273,1271745.01175,"199","725",TCD,Chad,"0",CHA-OO,Chad,CHA,"24","2",Africa,TCD,Chad
+"816",-11.8927559832,43.6759222334,1716.24581925,"3","307",COM,Comoros,"1",COM-CO,Comoros,COM,"29","2",Africa,COM,Comoros (the)
+"817",15.9361402422,-23.9672397663,3883.14270751,"84","308",CPV,Cape Verde,"1",CVI-OO,Cape Verde,CVI,"21","2",Africa,CPV,Cabo Verde
+"830",28.1618015889,2.62661464336,2315003.17477,"227","321",DZA,Algeria,"0",ALG-OO,Algeria,ALG,"20","2",Africa,DZA,Algeria
+"833",26.5038646542,29.8669542549,997022.267569,"220","324",EGY,Egypt,"0",EGY-OO,Egypt,EGY,"20","2",Africa,EGY,Egypt
+"834",15.3440753298,38.8373275806,119576.281235,"70","325",ERI,Eritrea,"0",ERI-OO,Eritrea,ERI,"24","2",Africa,ERI,Eritrea
+"837",28.3366251493,-15.6740472089,7555.95992268,"409","327",ESP.CI,Canary Islands,"1",CNY-OO,Canary Is.,CNY,"21","2",Africa,ESP,Spain
+"839",8.61862318494,39.6277838185,1129403.89737,"697","330",ETH,Ethiopia,"0",ETH-OO,Ethiopia,ETH,"24","2",Africa,ETH,Ethiopia
+"852",-0.59750677376,11.7930439195,261815.27254,"114","343",GAB,Gabon,"0",GAB-OO,Gabon,GAB,"23","2",Africa,GAB,Gabon
+"853",-7.33932910265,72.4342634637,37.3177976465,"133","344",GBR.DG,Diego Garcia,"1",CGS-OO,Chagos Archipelago,CGS,"29","2",Africa,IOT,British Indian Ocean Territory (the)
+"859",7.93321638298,-1.21594794485,239300.805881,"507","350",GHA,Ghana,"0",GHA-OO,Ghana,GHA,"22","2",Africa,GHA,Ghana
+"860",10.4301856556,-10.927498327,244529.005807,"93","351",GIN,Guinea,"0",GUI-OO,Guinea,GUI,"22","2",Africa,GIN,Guinea
+"862",12.1560098586,-14.3473269758,15015.8709973,"27","353",GNB.EA,GNB_East,"0",GNB-OO,Guinea-Bissau,GNB,"22","2",Africa,GNB,Guinea-Bissau
+"863",12.2210499625,-15.6372900249,11226.3047924,"40","354",GNB.NO,GNB_North,"0",GNB-OO,Guinea-Bissau,GNB,"22","2",Africa,GNB,Guinea-Bissau
+"864",11.4545273234,-15.2126623756,7015.5018247,"30","355",GNB.SO,GNB_South,"0",GNB-OO,Guinea-Bissau,GNB,"22","2",Africa,GNB,Guinea-Bissau
+"926",0.51708499814,37.8494241776,582172.827545,"433","417",KEN,Kenya,"0",KEN-OO,Kenya,KEN,"25","2",Africa,KEN,Kenya
+"942",6.44204415416,-9.31068120748,95175.5671621,"157","433",LBR,Liberia,"0",LBR-OO,Liberia,LBR,"22","2",Africa,LBR,Liberia
+"943",27.0289433841,18.0225936103,1619009.66008,"48","434",LBY,Libyan Arab Jamahiriya,"0",LBY-OO,Libya,LBY,"20","2",Africa,LBY,Libya
+"947",-29.583136663,28.2227173497,30736.7039196,"580","438",LSO,Lesotho,"0",LES-OO,Lesotho,LES,"27","2",Africa,LSO,Lesotho
+"951",31.8964060925,-6.32364022716,405714.670076,"177","442",MAR,Morocco,"0",MOR-MO,Morocco,MOR,"20","2",Africa,MAR,Morocco
+"953",-19.37316753,46.7059983133,592983.883627,"667","444",MDG,Madagascar,"1",MDG-OO,Madagascar,MDG,"29","2",Africa,MDG,Madagascar
+"992",17.3477449768,-3.52228927293,1256003.59005,"82","482",MLI,Mali,"0",MLI-OO,Mali,MLI,"22","2",Africa,MLI,Mali
+"1007",-13.0710691156,36.4621618073,128705.491298,"68","497",MOZ.A,Nassa,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1008",-19.0398345919,33.4324423949,62852.4426483,"96","498",MOZ.B,Manica,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1009",-23.320108121,32.8002755206,75562.5971099,"89","499",MOZ.G,Gaza,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1010",-22.8087856458,34.5091878328,68116.2990777,"34","500",MOZ.I,Inhambane,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1011",-25.5420085957,32.4493346108,23673.7272488,"325","501",MOZ.L,Maputo,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1012",-14.9636580243,39.2569744282,78281.8806979,"34","502",MOZ.N,Nampula,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1013",-12.4587102915,39.3669424526,78151.9331634,"17","503",MOZ.P,Cabo Delgado,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1014",-16.6595003358,36.9867709491,102689.064212,"44","504",MOZ.Q,Zambezia,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1015",-19.0527431555,34.6783407892,67345.3185283,"84","505",MOZ.S,Sofala,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1016",-15.5217296466,32.7652055845,100961.886528,"73","506",MOZ.T,Tete,"0",MOZ-OO,Mozambique,MOZ,"26","2",Africa,MOZ,Mozambique
+"1017",20.2564673802,-10.3328522127,1037775.53849,"76","507",MRT,Mauritania,"0",MTN-OO,Mauritania,MTN,"22","2",Africa,MRT,Mauritania
+"1020",-20.2518657056,57.8707666407,2144.89428132,"746","510",MUS,Mauritius,"1",MAU-OO,Mauritius,MAU,"29","2",Africa,MUS,Mauritius
+"1021",-13.1971037714,34.2883337034,116981.580809,"56","511",MWI,Malawi,"0",MLW-OO,Malawi,MLW,"26","2",Africa,MWI,Malawi
+"1023",-22.1386821203,17.2185759376,825516.904016,"767","513",NAM,Namibia,"0",NAM-OO,Namibia,NAM,"27","2",Africa,NAM,Namibia
+"1025",17.420612226,9.40502513468,1181786.90839,"41","515",NER,Niger,"0",NGR-OO,Niger,NGR,"22","2",Africa,NER,Niger (the)
+"1027",9.59431755284,8.10129900687,909687.287074,"218","517",NGA,Nigeria,"0",NGA-OO,Nigeria,NGA,"22","2",Africa,NGA,Nigeria
+"1075",32.507628076,-16.5088338161,13.973606469,"16","536",PRT.DES,Desertas,"1",MDR-OO,Madeira,MDR,"21","2",Africa,PRT,Portugal
+"1076",32.7463372486,-16.9991297002,740.937731316,"889","537",PRT.MAD,Madeira,"1",MDR-OO,Madeira,MDR,"21","2",Africa,PRT,Portugal
+"1077",33.0691804206,-16.3421739085,40.3314766049,"101","539",PRT.PSA,Porto Santo,"1",MDR-OO,Madeira,MDR,"21","2",Africa,PRT,Portugal
+"1078",30.1122634366,-15.9192277095,4.84837792457,"17","540",PRT.SIS,Salvage Islands,"1",SEL-OO,Selvagens,SEL,"21","2",Africa,PRT,Portugal
+"1192",-1.99134604551,29.9387973944,24924.7205488,"331","658",RWA,Rwanda,"0",RWA-OO,Rwanda,RWA,"23","2",Africa,RWA,Rwanda
+"1194",13.8315346005,30.0499515198,2486951.97714,"68","660",SDN,Sudan (incl. South Sudan),"0",SUD-OO,Sudan,SUD,"24","2",Africa,SDN,Sudan (the)
+"1195",14.3683390661,-14.4630774102,196705.085302,"106","661",SEN,Senegal,"0",SEN-OO,Senegal,SEN,"22","2",Africa,SEN,Senegal
+"1202",8.5505952046,-11.7752289795,72808.4114456,"81","670",SLE,Sierra Leone,"0",SIE-OO,Sierra Leone,SIE,"22","2",Africa,SLE,Sierra Leone
+"1203",6.0665448275,45.8483581035,635246.396084,"69","671",SOM,Somalia,"0",SOM-OO,Somalia,SOM,"24","2",Africa,SOM,Somalia
+"1210",-26.5790229197,31.490266161,16784.1139105,"587","678",SWZ,Swaziland,"0",SWZ-OO,Swaziland,SWZ,"27","2",Africa,SWZ,Swaziland
+"1212",-4.88012684534,53.3867928597,0.06989501538,"2","680",SYC.AFB,"African Banks, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1213",-9.4254833429,46.3688140689,164.227088468,"53","681",SYC.ALD,"Aldabra, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1214",-7.00618449332,52.7264768759,1.92966384939,"27","682",SYC.ALP,"Alphonse, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1215",-4.21257091387,55.6665693344,0.8338684406,"40","683",SYC.ARI,"Aride, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1216",-9.73086526443,46.5115120379,12.07709085,"35","684",SYC.ASS,"Assumption, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1217",-10.0866035551,47.7417225241,10.9570703973,"32","685",SYC.AST,"Astove, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1218",-3.72020925513,55.2054870165,1.03496927402,"91","686",SYC.BIR,"Bird, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1219",-4.25860835154,55.6733566699,0.061403558,"1","687",SYC.BOI,"Booby Island, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1220",-4.31219654102,55.8653632299,0.0370753624,"2","688",SYC.COC,"Cocos, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1221",-7.12963718239,56.2799942758,9.98385983661,"54","689",SYC.COE,"Coetivy, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1222",-4.66376746921,55.3659916657,0.7036500834,"38","690",SYC.CON,"Conception, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1223",-9.72632340293,47.573175224,6.27331611165,"26","691",SYC.COS,"Cosmoledo, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1224",-4.33123068189,55.6628579546,0.4339959122,"86","692",SYC.COU,"Cousin, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1225",-4.35073594705,55.6477239631,0.31873122768,"3","693",SYC.CSE,"Cousine, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1226",-4.28281780975,55.7252336692,3.34934537257,"111","694",SYC.CUR,"Curieuse, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1227",-5.41573065518,53.2984640917,1.75554917788,"52","695",SYC.DAR,"Darros, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1228",-3.8058352787,55.6666413843,1.67381312225,"94","696",SYC.DEN,"Denis, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1229",-5.68939570715,53.669040189,4.3624986167,"26","697",SYC.DES,"Desroches, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1230",-6.23487558137,53.0434223888,0.49932720334,"15","698",SYC.DNO,"Desnoefs, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1231",-10.1593208733,51.1655659972,9.13084026684,"39","699",SYC.FAR,"Farquhar, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1232",-4.32806083757,55.8748652878,2.88402955408,"69","700",SYC.FEL,"Felicite, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1233",-4.58633319167,55.941317502,2.2996071877,"101","701",SYC.FRE,"Fregate, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1234",-4.28991463364,55.8691056854,0.88943828864,"60","702",SYC.GSO,"Grande Soeur, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1235",-4.63478271976,55.5004498803,1.13199508698,"27","703",SYC.IAC,"Ile au Cerf, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1236",-4.65965622905,55.5259403272,2.14009481974,"34","704",SYC.IAN,"Ile Anonyme, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1237",-4.6265988028,55.5082167586,0.24521208368,"21","705",SYC.ILO,"Ile Longue, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1238",-4.60718456626,55.5010580178,1.46107400507,"67","706",SYC.ISA,"Ile St Anne, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1239",-4.68586599157,55.4335808802,0.04575418594,"2","707",SYC.IVM,"Ile aux Vaches Marines, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1240",-4.36089469325,55.8378782957,10.5736914941,"77","708",SYC.LDI,"La Digue, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1241",-4.67644340825,55.4672799831,163.012831295,"290","709",SYC.MAH,"Mahe, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1242",-4.34199659553,55.9211002893,1.07254157802,"70","710",SYC.MAR,"Marianne, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1243",-6.17923314702,53.1438968969,0.69476691481,"29","711",SYC.MLO,"Marie-Louise, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1244",-4.39299610902,55.2445725234,2.12434218435,"160","712",SYC.NOI,"North Island, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1245",-5.86369111617,55.3846625558,0.5641773671,"21","713",SYC.PLA,"Platte, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1246",-5.7609208545,53.3063415916,3.45751131002,"40","714",SYC.POI,"Poivre, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1247",-4.32387974155,55.7301449723,39.3214655982,"104","715",SYC.PRA,"Praslin, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1248",-9.53196010943,50.9869176658,1.3304688644,"7","716",SYC.PRO,"Providence, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1249",-4.28818192586,55.85551649,0.51615613171,"2","717",SYC.PSO,"Petit Soeur, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1250",-4.58228305954,55.7636094349,0.29616630402,"2","718",SYC.REC,"Recifs, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1251",-5.11664110791,53.3123364913,0.31456635436,"25","719",SYC.REM,"Remire, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1252",-7.15671817372,52.7381340313,0.72164858588,"4","720",SYC.SFR,"St Francois, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1253",-4.48721069943,55.2306648807,20.5509433112,"133","721",SYC.SIL,"Silhouette, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1254",-5.43712136091,53.3581190508,1.58177684279,"16","722",SYC.SJO,"St Joseph, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1255",-9.33168443265,50.7275142695,1.87770580577,"10","723",SYC.STP,"St Pierre, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1256",-4.67404354442,55.4013248793,0.8631560638,"51","724",SYC.THE,"Therese, Seychelles","1",SEY-OO,Seychelles,SEY,"29","2",Africa,SYC,Seychelles
+"1258",8.54212547358,0.96559985382,55956.2186276,"71","726",TGO,Togo,"0",TOG-OO,Togo,TOG,"22","2",Africa,TGO,Togo
+"1261",34.103492404,9.56726677799,156557.864398,"136","729",TUN,Tunisia,"0",TUN-OO,Tunisia,TUN,"20","2",Africa,TUN,Tunisia
+"1264",-6.29028032043,34.8238594194,938449.24977,"774","732",TZA,United Republic of Tanzania,"0",TAN-OO,Tanzania,TAN,"25","2",Africa,TZA,"Tanzania, United Republic of"
+"1265",1.281853432,32.3781937916,244557.285138,"263","733",UGA,Uganda,"0",UGA-OO,Uganda,UGA,"25","2",Africa,UGA,Uganda
+"1335",-32.1418865264,26.4674226429,170114.789897,"1129","819",ZAF.EC,Eastern Cape,"0",CPP-EC,Eastern Cape Province,CPP,"27","2",Africa,ZAF,South Africa
+"1336",-28.6101174331,26.8644746752,129989.752852,"661","820",ZAF.FS,Orange Free State,"0",OFS-OO,Free State,OFS,"27","2",Africa,ZAF,South Africa
+"1337",-26.0452978098,28.2092286788,18631.6343265,"846","821",ZAF.GA,Gauteng,"0",TVL-GA,Gauteng,TVL,"27","2",Africa,ZAF,South Africa
+"1338",-28.7083863662,30.7249771839,92709.174312,"1143","822",ZAF.KZN,KwaZulu-Natal,"0",NAT-OO,KwaZulu-Natal,NAT,"27","2",Africa,ZAF,South Africa
+"1339",-23.7372273904,29.3127834294,122679.160215,"667","823",ZAF.LI,Limpopo,"0",TVL-NP,Northern Province,TVL,"27","2",Africa,ZAF,South Africa
+"1341",-25.8661262269,30.2370477337,78144.9011819,"829","825",ZAF.MP,Mpumalanga,"0",TVL-MP,Mpumalanga,TVL,"27","2",Africa,ZAF,South Africa
+"1342",-29.5257979332,21.3470615039,362330.489665,"511","826",ZAF.NC,Northern Cape,"0",CPP-NC,Northern Cape Province,CPP,"27","2",Africa,ZAF,South Africa
+"1343",-26.3189832959,25.3359705937,116289.681723,"545","827",ZAF.NW,North West,"0",TVL-NW,North-West Province,TVL,"27","2",Africa,ZAF,South Africa
+"1345",-33.0114357681,20.6141828209,129053.317067,"1032","829",ZAF.WC,Western Cape,"0",CPP-WC,Western Cape Province,CPP,"27","2",Africa,ZAF,South Africa
+"1346",-14.176569189,28.6066422095,94183.6505269,"36","830",ZMB.CE,Central,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1347",-13.1206680178,27.8509321361,31465.2034107,"43","831",ZMB.CO,Copperbelt,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1348",-12.9659135609,32.139534882,69163.1359565,"53","832",ZMB.EA,Eastern,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1349",-10.6997942715,29.2076635864,49193.1666976,"20","833",ZMB.LP,Luapula,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1350",-15.359948026,29.1997006616,22507.6856238,"77","834",ZMB.LS,Lusaka,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1351",-10.4895548021,31.160768182,147563.810732,"68","835",ZMB.NO,Northern,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1352",-13.027978418,25.0602762177,125251.485297,"34","836",ZMB.NW,North-western,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1353",-16.5844559531,26.6662276486,85441.6591101,"70","837",ZMB.SO,Southern,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1354",-15.6415923076,23.6803767711,127150.409965,"32","838",ZMB.WE,Western,"0",ZAM-OO,Zambia,ZAM,"26","2",Africa,ZMB,Zambia
+"1355",-18.6492336221,30.5240317618,68782.7565662,"196","839",ZWE.C,Central region,"0",ZIM-OO,Zimbabwe,ZIM,"26","2",Africa,ZWE,Zimbabwe
+"1356",-19.1593844749,32.5721122995,25365.1026561,"191","840",ZWE.E,Eastern region,"0",ZIM-OO,Zimbabwe,ZIM,"26","2",Africa,ZWE,Zimbabwe
+"1357",-17.096116494,29.9559778329,109575.203703,"112","841",ZWE.N,Northern region,"0",ZIM-OO,Zimbabwe,ZIM,"26","2",Africa,ZWE,Zimbabwe
+"1358",-20.9077250067,30.7294653457,93679.3434434,"96","842",ZWE.S,Southern region,"0",ZIM-OO,Zimbabwe,ZIM,"26","2",Africa,ZWE,Zimbabwe
+"1359",-19.4923117578,27.6748002297,92462.2034997,"117","843",ZWE.W,Western region,"0",ZIM-OO,Zimbabwe,ZIM,"26","2",Africa,ZWE,Zimbabwe
+"1205",0.45698584302,6.73658831057,1142.07681891,"384","673",STP,Sao Tome and Principe,"1",000-06,Sao Tome and Principe,GGI,"23","2",Africa,STP,Sao Tome and Principe
+"826",11.7498222956,42.577946042,21434.2940913,"29","317",DJI,Djibouti,"0",DJI-OO,Djibouti,DJI,"24","2",Africa,DJI,Djibouti
+"1389",-12.8239914776,45.1439209442,371.423619576,"1","999",FRA.MAY,Mayotte,"1",COM-MA,Mayotte,COM,"29","2",Africa,MYT,Mayotte

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Home</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: Calibri, Arial, sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 700;
+            line-height: 26.4px;
+
+        }
+
+        #headerImg {
+            width: 40%;
+
+        }
+
+        ul {
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            display: flex;
+            list-style-type: none;
+            font-size: 22px;
+            justify-content: space-evenly;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        li {
+            margin: 20px;
+        }
+
+        li a {
+            text-decoration: none;
+            font-size: 35px;
+            color: black;
+        }
+
+        #mapPart {
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .visual {
+            height: 100px;
+            width: 100%;
+            background: wheat;
+            margin: 0.5rem 0;
+        }
+
+        .card {
+            width: 200px;
+            height: 250px;
+            align-content: center;
+            background: lightpink;
+            padding: 1rem;
+
+        }
+
+        .world {
+            background-image: url('imgs/world2.png');
+        }
+
+        .continent {
+            background-image: url('imgs/continent1.png');
+        }
+
+        .card h3,
+        .card p {
+            background-color: white;
+        }
+
+
+        #page-container {
+            position: relative;
+            min-height: 100vh;
+        }
+
+        #content {
+            padding-bottom: 4.5rem;
+        }
+
+        #about {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+        #footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 4.5rem;
+            background-color: gray
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id='page-container'>
+        <div id='content'>
+            <img id='headerImg' src='imgs/logo1.png'></img>
+            <h1>Interactive Atlas</h1>
+            <nav class='navbar'>
+                <ul>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#mapPart'>Maps</a></li>
+                    <li><a href='#'>Info</a></li>
+                    <li><a href='#'>Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Maps</h1>
+            <div id='mapPart'>
+
+                <div class="card world" onclick="openPage('/Worldview/indexpoints.html')">
+                    <h3>World View</h3>
+                    <p>Get a Global Overview of the GloNAF Dataset</p>
+                    <!-- <div class="visual">
+                        <img src='imgs/worldsmall.png'>
+                    </div> -->
+                </div>
+
+                <div class="card continent" onclick="openPage('/continentView/index.html')">
+                    <h3>Continent View</h3>
+                    <p>Explore the GLoNAF Dataset by Continent </p>
+
+                </div>
+
+            </div>
+            <h1>About</h1>
+            <div id='about'>
+                <h3>This interactive atlas visualizes the GloNAF dataset. <a href='https://glonaf.org/' target="_blank">GloNAF (Global Naturalized Alien Flora)</a> is a living database project about alien plant species and became a synonym for many related projects dealing with all kinds of scientific and policy relevant questions and studies about alien species (also other taxa) and related data.</h3>
+            </div>
+
+        </div>
+        <footer id='footer'>
+            <h2>Created by Sebastian Hancock</h2>
+        </footer>
+    </div>
+
+    <script>
+        function openPage(url) {
+            window.open(url)
+        }
+    </script>
+
+</body>
+
+</html>

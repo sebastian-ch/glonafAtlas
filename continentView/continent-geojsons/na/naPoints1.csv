@@ -1,0 +1,102 @@
+OBJIDsic,LAT,LON,GeodAREA,taxCount,region_id,code,name,island,tdwg4,tdwg4_name,tdwg3,tdwg2,tdwg1,tdwg1_name,country_IS,country,tnorm
+"694",55.2010174997,-114.470172787,654934.756346,"365","183",CAN.AB,Alberta,"0",ABT-OO,Alberta,ABT,"71","7",Northern America,CAN,Canada,0.056
+"695",55.028148276,-124.463583754,769353.692985,"1824","184",CAN.BC,British Columbia,"0",BRC-OO,British Columbia,BRC,"71","7",Northern America,CAN,Canada,0.237
+"696",54.2841035911,-61.9625121817,286972.234777,"131","185",CAN.LB,Labrador,"0",LAB-OO,Labrador,LAB,"72","7",Northern America,CAN,Canada,0.046
+"697",54.9263841395,-97.4301139356,650438.209112,"370","186",CAN.MB,Manitoba,"0",MAN-OO,Manitoba,MAN,"71","7",Northern America,CAN,Canada,0.057
+"698",46.6288911717,-66.3717869215,72787.3429183,"607","187",CAN.NB,New Brunswick,"0",NBR-OO,New Brunswick,NBR,"72","7",Northern America,CAN,Canada,0.834
+"700",45.1511900833,-63.303293454,55176.2096177,"684","189",CAN.NS,Nova Scotia,"0",NSC-OO,Nova Scotia,NSC,"72","7",Northern America,CAN,Canada,1.240
+"701",66.3582940816,-118.995577116,1352704.85638,"120","190",CAN.NT,Northwest Territories,"0",NWT-OO,Northwest Territories,NWT,"70","7",Northern America,CAN,Canada,0.009
+"702",68.7815267671,-92.4728539485,1740317.47616,"14","191",CAN.NU,Nunavut,"0",NUN-OO,Nunavut,NUN,"70","7",Northern America,CAN,Canada,0.001
+"703",50.0670785941,-85.8289180897,1077573.08711,"1153","192",CAN.ON,Ontario,"0",ONT-OO,Ontario,ONT,"72","7",Northern America,CAN,Canada,0.107
+"704",46.396226687,-63.2446040328,5974.82960227,"423","193",CAN.PE,Prince Edward Island,"1",PEI-OO,Prince Edward I.,PEI,"72","7",Northern America,CAN,Canada,7.080
+"705",53.3810449242,-71.7561883499,1513005.96616,"907","194",CAN.QU,QuΞΒ©bec,"0",QUE-OO,QuΞ²ΒΒbec,QUE,"72","7",Northern America,CAN,Canada,0.060
+"706",43.9453784438,-59.9068226564,31.7877683019,"79","195",CAN.SI,Sable Island,"1",NSC-OO,Nova Scotia,NSC,"72","7",Northern America,CAN,Canada,248.523
+"707",54.4190196357,-105.890056292,651955.254697,"384","196",CAN.SK,Saskatchewan,"0",SAS-OO,Saskatchewan,SAS,"71","7",Northern America,CAN,Canada,0.059
+"708",63.7458924934,-135.35680717,464753.845753,"164","197",CAN.YT,Yukon,"0",YUK-OO,Yukon,YUK,"70","7",Northern America,CAN,Canada,0.035
+"867",76.1822127934,-43.6665544088,248822.580367,"146","359",GRL,Greenland,"1",GNL-OO,Greenland,GNL,"70","7",Northern America,GRL,Greenland,0.059
+"954",22.010787177,-102.36249261,5594.61598074,"174","445",MEX.AGU,Aguascalientes,"0",MXE-AG,Aguascalientes,MXE,"79","7",Northern America,MEX,Mexico,3.110
+"955",30.5405381441,-115.093974754,72650.4232124,"265","923",MEX.BCN,Baja California Norte,"0",MXN-BC,Baja California,MXN,"79","7",Northern America,MEX,Mexico,0.365
+"957",18.872453605,-90.4331677935,50080.8996626,"307","447",MEX.CAM,Campeche,"0",MXT-CA,Campeche,MXT,"79","7",Northern America,MEX,Mexico,0.613
+"958",28.8030287827,-106.444314417,247593.30364,"323","448",MEX.CHH,Chihuahua,"0",MXE-CU,Chihuahua,MXE,"79","7",Northern America,MEX,Mexico,0.130
+"959",16.4989734403,-92.4652804076,73520.5173425,"666","449",MEX.CHP,Chiapas,"0",MXT-CI,Chiapas,MXT,"79","7",Northern America,MEX,Mexico,0.906
+"960",27.3066241355,-102.033558514,150595.724945,"343","450",MEX.COA,Coahuila,"0",MXE-CO,Coahuila,MXE,"79","7",Northern America,MEX,Mexico,0.228
+"961",19.1370875791,-103.917965563,5729.71398284,"243","451",MEX.COL,Colima,"0",MXS-CL,Colima,MXS,"79","7",Northern America,MEX,Mexico,4.241
+"963",24.9351945408,-104.920014713,120423.346609,"230","453",MEX.DUR,Durango,"0",MXE-DU,Durango,MXE,"79","7",Northern America,MEX,Mexico,0.191
+"964",17.6669933729,-99.9020644378,64416.736288,"326","454",MEX.GRO,Guerrero,"0",MXS-GR,Guerrero,MXS,"79","7",Northern America,MEX,Mexico,0.506
+"965",20.8936872982,-101.021380708,30381.9736591,"260","455",MEX.GUA,Guanajuato,"0",MXE-GU,Guanajuato,MXE,"79","7",Northern America,MEX,Mexico,0.856
+"966",20.4715168246,-98.8712664216,21220.4929785,"396","456",MEX.HID,Hidalgo,"0",MXE-HI,Hidalgo,MXE,"79","7",Northern America,MEX,Mexico,1.866
+"967",20.5986114108,-103.622110047,79627.7175723,"497","457",MEX.JAL,Jalisco,"0",MXS-JA,Jalisco,MXS,"79","7",Northern America,MEX,Mexico,0.624
+"969",19.2110408027,-101.879532369,59437.2430274,"517","459",MEX.MIC,MichoacΞβn,"0",MXS-MI,MichoacΞΒ n,MXS,"79","7",Northern America,MEX,Mexico,0.870
+"970",18.7581426396,-99.0693349291,4992.12318605,"444","460",MEX.MOR,Morelos,"0",MXC-MO,Morelos,MXC,"79","7",Northern America,MEX,Mexico,8.894
+"971",21.8491747655,-104.913801847,27409.5270965,"291","461",MEX.NAY,Nayarit,"0",MXS-NA,Nayarit,MXS,"79","7",Northern America,MEX,Mexico,1.062
+"972",25.5773652582,-99.9591457854,65042.9830098,"354","462",MEX.NLE,Nuevo LeΞΒ³n,"0",MXE-NL,Nuevo LeΞβn,MXE,"79","7",Northern America,MEX,Mexico,0.544
+"973",16.9594823298,-96.4313243892,92407.4974238,"548","463",MEX.OAX,Oaxaca,"0",MXS-OA,Oaxaca,MXS,"79","7",Northern America,MEX,Mexico,0.593
+"974",19.0016073486,-97.8853447482,34260.2157919,"468","464",MEX.PUE,Puebla,"0",MXC-PU,Puebla,MXC,"79","7",Northern America,MEX,Mexico,1.366
+"975",20.8446611261,-99.8464985207,12061.3051273,"374","465",MEX.QUE,QuerΞΒ©taro,"0",MXE-QU,QuerΞ²ΒΒtaro,MXE,"79","7",Northern America,MEX,Mexico,3.101
+"976",19.5584582007,-88.2551289083,51058.6040158,"248","466",MEX.ROO,Quintana Roo,"0",MXT-QR,Quintana Roo,MXT,"79","7",Northern America,MEX,Mexico,0.486
+"977",25.0217860237,-107.48280192,57519.8102215,"321","467",MEX.SIN,Sinaloa,"0",MXN-SI,Sinaloa,MXN,"79","7",Northern America,MEX,Mexico,0.558
+"978",22.6155781261,-100.438233946,63980.515282,"434","468",MEX.SLP,San Luis PotosΞΒ­,"0",MXE-SL,San Luis PotosΞβ,MXE,"79","7",Northern America,MEX,Mexico,0.678
+"979",18.7917510998,-110.975065551,135.995697992,"47","469",MEX.SOC,Socorro,"1",MXI-RG,Revillagigedo Is.,MXI,"79","7",Northern America,MEX,Mexico,34.560
+"980",29.7129269741,-110.816367998,180607.059373,"342","470",MEX.SON,Sonora,"0",MXN-SO,Sonora,MXN,"79","7",Northern America,MEX,Mexico,0.189
+"981",17.9463043289,-92.575688989,24003.177694,"313","471",MEX.TAB,Tabasco,"0",MXT-TB,Tabasco,MXT,"79","7",Northern America,MEX,Mexico,1.304
+"982",24.298193202,-98.6218103367,79328.6201834,"365","472",MEX.TAM,Tamaulipas,"0",MXE-TA,Tamaulipas,MXE,"79","7",Northern America,MEX,Mexico,0.460
+"1290",45.3871575346,-69.2304646816,84386.1003953,"933","774",USA.ME,Maine,"0",MAI-OO,Maine,MAI,"75","7",Northern America,USA,United States of America (the),1.106
+"1291",44.8804754392,-85.7361383681,250775.92452,"1131","775",USA.MI,Michigan,"0",MIC-OO,Michigan,MIC,"75","7",Northern America,USA,United States of America (the),0.451
+"1292",46.3478823792,-94.1990579988,225001.884914,"633","776",USA.MN,Minnesota,"0",MIN-OO,Minnesota,MIN,"74","7",Northern America,USA,United States of America (the),0.281
+"1293",38.3743105416,-92.4904783528,180413.838228,"944","777",USA.MO,Missouri,"0",MSO-OO,Missouri,MSO,"74","7",Northern America,USA,United States of America (the),0.523
+"1294",32.75758366,-89.6730790912,123923.498571,"826","778",USA.MS,Mississippi,"0",MSI-OO,Mississippi,MSI,"78","7",Northern America,USA,United States of America (the),0.667
+"1295",47.0318359784,-109.637958794,379494.626971,"592","779",USA.MT,Montana,"0",MNT-OO,Montana,MNT,"73","7",Northern America,USA,United States of America (the),0.156
+"1296",35.5512648979,-79.3873865508,127892.55275,"1143","780",USA.NC,North Carolina,"0",NCA-OO,North Carolina,NCA,"78","7",Northern America,USA,United States of America (the),0.894
+"1297",47.4474653296,-100.459355516,182562.369505,"344","781",USA.ND,North Dakota,"0",NDA-OO,North Dakota,NDA,"74","7",Northern America,USA,United States of America (the),0.188
+"1298",41.5278215604,-99.7924089617,200135.014715,"500","782",USA.NE,Nebraska,"0",NEB-OO,Nebraska,NEB,"74","7",Northern America,USA,United States of America (the),0.250
+"1299",43.6905663693,-71.5790853098,24194.3444674,"718","783",USA.NH,New Hampshire,"0",NWH-OO,New Hampshire,NWH,"75","7",Northern America,USA,United States of America (the),2.968
+"1301",40.1929262079,-74.6648512506,19713.4382732,"1229","785",USA.NJ,New Jersey,"0",NWJ-OO,New Jersey,NWJ,"75","7",Northern America,USA,United States of America (the),6.234
+"1302",34.4230264021,-106.107716565,315098.673758,"577","786",USA.NM,New Mexico,"0",NWM-OO,New Mexico,NWM,"77","7",Northern America,USA,United States of America (the),0.183
+"1303",39.3582249336,-116.652089203,286612.21426,"447","787",USA.NV,Nevada,"0",NEV-OO,Nevada,NEV,"76","7",Northern America,USA,United States of America (the),0.156
+"1304",42.9964863012,-75.696485154,136923.375682,"1674","788",USA.NY,New York,"0",NWY-OO,New York,NWY,"75","7",Northern America,USA,United States of America (the),1.223
+"1305",40.4157362385,-82.7074072264,116428.022614,"1189","789",USA.OH,Ohio,"0",OHI-OO,Ohio,OHI,"75","7",Northern America,USA,United States of America (the),1.021
+"1306",35.5843760404,-97.5097226979,181141.224079,"574","790",USA.OK,Oklahoma,"0",OKL-OO,Oklahoma,OKL,"74","7",Northern America,USA,United States of America (the),0.317
+"1307",43.9402097271,-120.541031284,251314.582273,"1157","791",USA.OR,Oregon,"0",ORE-OO,Oregon,ORE,"73","7",Northern America,USA,United States of America (the),0.460
+"1308",40.8984840764,-77.84132464,119356.875114,"1454","792",USA.PA,Pennsylvania,"0",PEN-OO,Pennsylvania,PEN,"75","7",Northern America,USA,United States of America (the),1.218
+"1309",41.6847978523,-71.5598702533,2735.74372131,"717","793",USA.RI,Rhode Island,"0",RHO-OO,Rhode I.,RHO,"75","7",Northern America,USA,United States of America (the),26.209
+"983",19.414874327,-98.1376002124,4078.93457416,"188","473",MEX.TLA,Tlaxcala,"0",MXC-TL,Tlaxcala,MXC,"79","7",Northern America,MEX,Mexico,4.609
+"984",19.3746284308,-96.403082434,71073.1834307,"745","474",MEX.VER,Veracruz,"0",MXG-VC,Veracruz,MXG,"79","7",Northern America,MEX,Mexico,1.048
+"985",20.7781178962,-88.9409799737,37855.7862743,"297","475",MEX.YUC,YucatΞβn,"0",MXT-YU,YucatΞΒ n,MXT,"79","7",Northern America,MEX,Mexico,0.785
+"986",23.3091767723,-102.699628788,74817.1829758,"233","476",MEX.ZAC,Zacatecas,"0",MXE-ZA,Zacatecas,MXE,"79","7",Northern America,MEX,Mexico,0.311
+"1204",46.9302045587,-56.3061270088,255.234391609,"199","672",SPM,Saint Pierre and Miquelon,"1",NFL-SP,St.Pierre-Miquelon,NFL,"72","7",Northern America,SPM,Saint Pierre and Miquelon,77.968
+"1268",64.829002101,-153.383536427,1311407.47507,"299","736",USA.AK,Alaska,"0",ASK-OO,Alaska,ASK,"70","7",Northern America,USA,United States of America (the),0.023
+"1269",32.7949620482,-86.8287288357,134385.153135,"1166","737",USA.AL,Alabama,"0",ALA-OO,Alabama,ALA,"78","7",Northern America,USA,United States of America (the),0.868
+"1270",34.9007477394,-92.4427781279,137516.955361,"730","738",USA.AR,Arkansas,"0",ARK-OO,Arkansas,ARK,"78","7",Northern America,USA,United States of America (the),0.531
+"1271",34.2966242585,-111.657673017,294322.840721,"666","739",USA.AZ,Arizona,"0",ARI-OO,Arizona,ARI,"76","7",Northern America,USA,United States of America (the),0.226
+"1272",37.2420108874,-119.605936849,409755.82345,"1818","740",USA.CA,California,"0",CAL-OO,California,CAL,"76","7",Northern America,USA,United States of America (the),0.444
+"1273",38.9991464888,-105.533702245,271035.873408,"596","741",USA.CO,Colorado,"0",COL-OO,Colorado,COL,"73","7",Northern America,USA,United States of America (the),0.220
+"1274",41.6258399516,-72.7275118323,12840.3119902,"1159","742",USA.CT,Connecticut,"0",CNT-OO,Connecticut,CNT,"75","7",Northern America,USA,United States of America (the),9.026
+"1275",38.908639919,-77.0153803796,166.070550519,"557","743",USA.DC,Washington DC,"0",WDC-OO,District of Columbia,WDC,"78","7",Northern America,USA,United States of America (the),335.400
+"1276",38.9984342232,-75.5129187687,5071.44301791,"782","744",USA.DE,Delaware,"0",DEL-OO,Delaware,DEL,"78","7",Northern America,USA,United States of America (the),15.420
+"1277",28.6598406243,-82.4842873885,146002.464229,"1512","745",USA.FL,Florida,"0",FLA-OO,Florida,FLA,"78","7",Northern America,USA,United States of America (the),1.036
+"1278",32.6551722368,-83.4479048185,152385.082768,"976","746",USA.GA,Georgia,"0",GEO-OO,Georgia,GEO,"78","7",Northern America,USA,United States of America (the),0.640
+"1280",42.078611581,-93.4965504845,145277.212367,"649","764",USA.IA,Iowa,"0",IOW-OO,Iowa,IOW,"74","7",Northern America,USA,United States of America (the),0.447
+"1281",44.3943094593,-114.653456263,216253.458274,"629","765",USA.ID,Idaho,"0",IDA-OO,Idaho,IDA,"73","7",Northern America,USA,United States of America (the),0.291
+"1282",40.1209505697,-89.1548448109,150173.146729,"1109","766",USA.IL,Illinois,"0",ILL-OO,Illinois,ILL,"74","7",Northern America,USA,United States of America (the),0.738
+"1283",39.913970048,-86.2855880077,94762.2646454,"842","767",USA.IN,Indiana,"0",INI-OO,Indiana,INI,"75","7",Northern America,USA,United States of America (the),0.889
+"1285",38.4836484651,-98.3692234155,211982.875427,"558","769",USA.KS,Kansas,"0",KAN-OO,Kansas,KAN,"74","7",Northern America,USA,United States of America (the),0.263
+"1286",37.5275411889,-85.2871810737,104139.525586,"878","770",USA.KY,Kentucky,"0",KTY-OO,Kentucky,KTY,"78","7",Northern America,USA,United States of America (the),0.843
+"1287",31.0789320315,-92.0195140047,119570.923502,"959","771",USA.LA,Louisiana,"0",LOU-OO,Louisiana,LOU,"78","7",Northern America,USA,United States of America (the),0.802
+"1288",42.2592020037,-71.8090276475,21067.9074072,"1581","772",USA.MA,Massachusetts,"0",MAS-OO,Masachusettes,MAS,"75","7",Northern America,USA,United States of America (the),7.504
+"1289",39.0487398071,-76.7995440166,25917.0946926,"1233","773",USA.MD,Maryland,"0",MRY-OO,Maryland,MRY,"78","7",Northern America,USA,United States of America (the),4.757
+"1310",33.9178322724,-80.9004482143,80506.493725,"1021","794",USA.SC,South Carolina,"0",SCA-OO,South Carolina,SCA,"78","7",Northern America,USA,United States of America (the),1.268
+"1311",44.437506118,-100.21964175,198721.098435,"372","795",USA.SD,South Dakota,"0",SDA-OO,South Dakota,SDA,"74","7",Northern America,USA,United States of America (the),0.187
+"1312",35.8510186852,-86.3481884149,108971.459064,"751","796",USA.TN,Tennessee,"0",TEN-OO,Tennessee,TEN,"78","7",Northern America,USA,United States of America (the),0.689
+"1313",31.4971280425,-99.3574006197,684941.784548,"1044","797",USA.TX,Texas,"0",TEX-OO,Texas,TEX,"77","7",Northern America,USA,United States of America (the),0.152
+"1314",39.3252048124,-111.674631549,219981.841639,"667","798",USA.UT,Utah,"0",UTA-OO,Utah,UTA,"76","7",Northern America,USA,United States of America (the),0.303
+"1315",37.5185816577,-78.8399180445,103750.071902,"1106","799",USA.VA,Virginia,"0",VRG-OO,Virginia,VRG,"78","7",Northern America,USA,United States of America (the),1.066
+"1317",44.0823829057,-72.65993611,24712.7165593,"813","801",USA.VT,Vermont,"0",VER-OO,Vermont,VER,"75","7",Northern America,USA,United States of America (the),3.290
+"1318",47.3865140826,-120.428294727,174249.61022,"1116","802",USA.WA,Washington,"0",WAS-OO,Washington,WAS,"73","7",Northern America,USA,United States of America (the),0.640
+"1319",44.6423212949,-89.7385180006,169729.181693,"900","803",USA.WI,Wisconsin,"0",WIS-OO,Wisconsin,WIS,"74","7",Northern America,USA,United States of America (the),0.530
+"1320",38.6414215322,-80.6124111256,62504.5965283,"798","804",USA.WV,West Virginia,"0",WVA-OO,West Virginia,WVA,"75","7",Northern America,USA,United States of America (the),1.277
+"1321",42.9989883769,-107.539865817,253507.820856,"422","805",USA.WY,Wyoming,"0",WYO-OO,Wyoming,WYO,"73","7",Northern America,USA,United States of America (the),0.166
+"699",48.7168282525,-56.0314537891,111537.12649,"427","188",CAN.NF,Newfoundland,"1",NFL-NE,Newfoundland,NFL,"72","7",Northern America,CAN,Canada,0.383
+"962",19.2728909252,-99.1287942996,1340.68364059,"352","452",MEX.DIF,Distrito Federal,"0",MXC-DF,Mexico Distrito Federal,MXC,"79","7",Northern America,MEX,Mexico,26.255
+"284",19.3597508407,-99.6309879882,21629.1973441,"600","458",MEX.MEX,MΞΒ©xico,"0",MXC-ME,MΞ²ΒΒxico State,MXC,"79","7",Northern America,MEX,Mexico,2.774
+"956",25.9186401741,-112.042282826,71961.9564126,"162","924",MEX.BCS,Baja California Sur,"0",MXN-BS,Baja California Sur,MXN,"79","7",Northern America,MEX,Mexico,0.225
+"1369",28.2896116963,-113.607759759,144612.379615,"317","446",MEX.BC,Baja California Peninsula,"0",000-08,Baja California Peninsula,MXN,"79","7",Northern America,MEX,Mexico,0.219
