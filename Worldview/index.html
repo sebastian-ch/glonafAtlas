@@ -60,8 +60,6 @@
             font: 30px;
 
         }
-
-        
     </style>
 </head>
 
@@ -106,12 +104,7 @@
             var width = 1300;
             var height = 720;
 
-            var svg = d3.select("#map")
-                .append("svg")
-                .attr("width", width)
-                .attr("height", height)
 
-            var g = svg.append("g");
 
             var taxList, points, nonislands, islands;
             var circlez;
@@ -121,20 +114,20 @@
                 .style("opacity", 0);
 
 
-            var completeness1 = textures.lines()
-                .lighter()
-                .size(8)
-                .background('#dddddd')
-                .stroke('#cccccc');
+            /*    var completeness1 = textures.lines()
+                    .lighter()
+                    .size(8)
+                    .background('#dddddd')
+                    .stroke('#cccccc');
 
-            var completeness2 = textures.lines()
-                .size(4)
-                .lighter()
-                .background('#dddddd')
-                .stroke('#cccccc')
+                var completeness2 = textures.lines()
+                    .size(4)
+                    .lighter()
+                    .background('#dddddd')
+                    .stroke('#cccccc')
 
-            svg.call(completeness1)
-            svg.call(completeness2)
+                svg.call(completeness1)
+                svg.call(completeness2) */
 
             var promises = [
                 d3.dsv('\t', "tax-list-small.txt"),
@@ -160,7 +153,14 @@
 
             function makeMap(data, polys, backdrop) {
 
-                //console.log(points)
+                console.log(polys)
+
+                var svg = d3.select("#map")
+                    .append("svg")
+                    .attr("width", width)
+                    .attr("height", height)
+
+                var g = svg.append("g");
 
                 var projection = d3.geoRobinson()
                     .fitSize([width - 50, height - 50], polys);
@@ -168,54 +168,57 @@
                 var geoPath = d3.geoPath()
                     .projection(projection);
 
-                var worrrr = svg.selectAll("path")
+                svg
+                    .selectAll("path")
                     .data(polys.features)
                     .enter()
                     .append("path")
                     .attr("d", geoPath)
-                    .attr('class', 'continent')
-                    /*  .attr('fill', function(d) {
-                          if (d.properties.completeness == 1) {
-
-                              return completeness1.url()
-                          } else if (d.properties.completeness == 2) {
-                              return completeness2.url()
-                          } else {
-                              return '#dddddd'
-                          }
-
-                      }) */
                     .attr('fill', '#d6c6aa')
+                    .attr('class', 'continent')
+                /*  .attr('fill', function(d) {
+                      if (d.properties.completeness == 1) {
+
+                          return completeness1.url()
+                      } else if (d.properties.completeness == 2) {
+                          return completeness2.url()
+                      } else {
+                          return '#dddddd'
+                      }
+
+                  }) */
+
                 /*.attr('stroke', 'black')
                 .attr('stroke-width', '0.15') */
 
-                svg.selectAll('circle')
-                    .data(points)
-                    .enter()
-                    .append('circle')
-                    .attr('class', 'points')
-                    .attr('cx', function(d) {
-                        return projection([d.LON, d.LAT])[0]
-                    })
-                    .attr('cy', function(d) {
-                        return projection([d.LON, d.LAT])[1]
-                    })
-                    .attr('r', '3px')
-                    .attr('opacity', 0.8)
-                    .attr('fill', '#d6c6aa')
+                 svg.selectAll('circle')
+                     .data(points)
+                     .enter()
+                     .append('circle')
+                     .attr('class', 'points')
+                     .attr('id', 'points')
+                     .attr('cx', function(d) {
+                         return projection([d.LON, d.LAT])[0]
+                     })
+                     .attr('cy', function(d) {
+                         return projection([d.LON, d.LAT])[1]
+                     })
+                     .attr('r', '3px')
+                     .attr('opacity', 0.8)
+                     .attr('fill', '#d6c6aa') 
 
 
 
-                g //.selectAll("path")
-                    .append('g')
-                    .selectAll('path')
-                    .data(backdrop.features)
-                    .enter()
-                    .append("path")
-                    .attr('class', 'back')
-                    .attr("d", geoPath)
-                    .attr('fill', 'whitesmoke')
-                    .style('opacity', 0.5);
+                   g //.selectAll("path")
+                       .append('g')
+                       .selectAll('path')
+                       .data(backdrop.features)
+                       .enter()
+                       .append("path")
+                       .attr('class', 'back')
+                       .attr("d", geoPath)
+                       .attr('fill', 'whitesmoke')
+                       .style('opacity', 0.5);
 
 
             }
