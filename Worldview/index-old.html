@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World View</title>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/lodash@4.17.19/lodash.min.js'></script>
+    <link rel='stylesheet' href='https://spin.js.org/spin.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"></script>
+    <script src='familyNames.js'></script>
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .parent {
+            display: grid;
+            grid-template-columns: minmax(150px, 20%) 1fr;
+        }
+
+        .left {
+            background: lightyellow;
+            height: 740px;
+            text-align: center;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class='parent'>
+        <div class='left'>
+            <button id='home' onclick="openPage('../index.html')">Back To Home</button><br><br>
+            <label for="fam">Choose a family:</label>
+
+            <select name="fam" id="fam" onChange="getSelected(this);">
+                <option value="start" selected>Choose</option>
+                <!--<option value="Poaceae">Poaceae</option>
+                <option value="Acoraceae">Acoraceae</option>
+                <option value="Adoxaceae">Adoxaceae</option> -->
+            </select>
+
+        </div>
+        <div id='main'>
+        </div>
+
+
+    </div>
+
+
+
+    <script>
+        function openPage(url) {
+            window.open(url)
+        }
+        /*var target = document.getElementById('main');
+        var spinner = new Spinner().spin();
+        target.appendChild(spinner.el); */
+
+        const selectMenu = document.getElementById('fam');
+
+        for (var x in familylist) {
+            var el = document.createElement("option");
+            el.textContent = familylist[x];
+            el.value = familylist[x];
+            selectMenu.appendChild(el);
+        }
+
+
+        var width = window.innerWidth;
+        var height = 740;
+
+
+        var colorScheme = d3.scaleQuantile()
+            .range(d3.schemeOranges[5])
+
+        var svg = d3.select("#main")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .attr('id', 'svg')
+            .style('z-index', 100)
+
+        var g = svg.append("g");
+
+
+        var taxList, geoj;
+        var glonafAreas;
+
+        var promises = [
+            d3.dsv('\t', "tax-list-small.txt"),
+            d3.json('old/nonislandswCompl.geojson'),
+
+        ]
+
+        Promise.all(promises).then(function(values) {
+
+            taxList = values[0]
+            geoj = values[1]
+            //console.log(values[2])
+            addMap(values[1])
+
+
+        })
+
+        function addMap(data) {
+
+            var projection = d3.geoRobinson()
+                .fitSize([width - 50, height - 50], data);
+
+            var geoPath = d3.geoPath()
+                .projection(projection);
+
+            glonafAreas =
+                svg.selectAll("path")
+                .data(data.features)
+                .enter()
+                .append("path")
+                .attr("d", geoPath)
+                .attr('fill', 'whitesmoke')
+
+
+
+        }
+
+
+        function getSelected(sel) {
+            console.log(sel.options[sel.selectedIndex].text)
+
+            if (sel.options[sel.selectedIndex].text != 'Choose') {
+
+                doMath(sel.options[sel.selectedIndex].text)
+            }
+
+        }
+
+        function doMath(selected) {
+
+            var oneFam = []
+
+            if (!geoj.features[0].properties.hasOwnProperty(selected)) {
+
+
+                console.log(selected)
+
+                for (var x in geoj.features) {
+
+                    var thisReg = geoj.features[x].properties.region_id;
+
+                    var filter = _.filter(taxList, function(o) { return o.region_id == thisReg && o.family_tpl == selected });
+                    oneFam.push(filter.length);
+                    geoj.features[x].properties[selected] = filter.length;
+                    //console.log(filter.length)
+                    //console.log(oneFam.length);
+
+                }
+
+                //console.log(oneFam)
+                //console.log(oneFam.length)
+                setNewColor(selected, geoj, oneFam);
+
+            } else {
+
+                console.log('else')
+                for (var x in geoj.features) {
+                    oneFam.push(geoj.features[x].properties[selected])
+                }
+
+                setNewColor(selected, geoj, oneFam);
+
+            }
+
+        }
+
+
+        function setNewColor(selected, geoj, oneFam) {
+
+            var domainVals = d3.extent(oneFam);
+            console.log(domainVals);
+
+            var colorScheme = d3.scaleQuantile()
+                .domain([domainVals[0] + 1, domainVals[1]])
+                .range(d3.schemeOranges[5])
+
+            d3.selectAll('path').attr('fill', function(d) {
+                //console.log(d.properties[selected]);
+                if (d.properties[selected] == 0) {
+                    return 'whitesmoke'
+                } else {
+                    return colorScheme(d.properties[selected])
+                }
+            })
+        }
+    </script>
+
+</body>
+
+</html>
