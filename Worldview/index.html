@@ -60,6 +60,8 @@
             font: 30px;
 
         }
+
+        
     </style>
 </head>
 
@@ -82,307 +84,307 @@
 
         </div>
         <div id='map'>
-            <div id='mapTitle'></div>
+            <div id='mapTitle'></img>
+            </div>
+
+
         </div>
 
+        <script>
+            function openPage(url) {
+                window.open(url)
+            }
+            const selectMenu = document.getElementById('fam');
 
-    </div>
+            for (var x in familylist) {
+                var el = document.createElement("option");
+                el.textContent = familylist[x];
+                el.value = familylist[x];
+                selectMenu.appendChild(el);
+            }
 
-    <script>
-        function openPage(url) {
-            window.open(url)
-        }
-        const selectMenu = document.getElementById('fam');
+            var width = 1300;
+            var height = 720;
 
-        for (var x in familylist) {
-            var el = document.createElement("option");
-            el.textContent = familylist[x];
-            el.value = familylist[x];
-            selectMenu.appendChild(el);
-        }
+            var svg = d3.select("#map")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height)
 
-        var width = 1300;
-        var height = 720;
+            var g = svg.append("g");
 
-        var svg = d3.select("#map")
-            .append("svg")
-            .attr("width", width)
-            .attr("height", height)
+            var taxList, points, nonislands, islands;
+            var circlez;
 
-        var g = svg.append("g");
-
-        var taxList, points, nonislands, islands;
-        var circlez;
-
-        var div = d3.select("body").append("div")
-            .attr("class", "tooltip")
-            .style("opacity", 0);
+            var div = d3.select("body").append("div")
+                .attr("class", "tooltip")
+                .style("opacity", 0);
 
 
-        var completeness1 = textures.lines()
-            .lighter()
-            .size(8)
-            .background('#dddddd')
-            .stroke('#cccccc');
+            var completeness1 = textures.lines()
+                .lighter()
+                .size(8)
+                .background('#dddddd')
+                .stroke('#cccccc');
 
-        var completeness2 = textures.lines()
-            .size(4)
-            .lighter()
-            .background('#dddddd')
-            .stroke('#cccccc')
+            var completeness2 = textures.lines()
+                .size(4)
+                .lighter()
+                .background('#dddddd')
+                .stroke('#cccccc')
 
-        svg.call(completeness1)
-        svg.call(completeness2)
+            svg.call(completeness1)
+            svg.call(completeness2)
 
-        var promises = [
-            d3.dsv('\t', "tax-list-small.txt"),
-            d3.csv('latest/glonafAsCsv1.csv'),
-            d3.json('latest/nonislandswCompl.geojson'),
-            d3.json('latest/level1.json')
-            //d3.csv('latest/islands.csv')
+            var promises = [
+                d3.dsv('\t', "tax-list-small.txt"),
+                d3.csv('latest/glonafAsCsv1.csv'),
+                d3.json('latest/nonislandswCompl.geojson'),
+                d3.json('latest/level1.json')
+                //d3.csv('latest/islands.csv')
 
-        ]
+            ]
 
-        Promise.all(promises).then(function(values) {
+            Promise.all(promises).then(function(values) {
 
-            var topo = topojson.feature(values[3], values[3].objects.level1)
-            taxList = values[0]
-            points = values[1]
-            nonislands = values[2]
-            //islands = values[3]
+                var topo = topojson.feature(values[3], values[3].objects.level1)
+                taxList = values[0]
+                points = values[1]
+                nonislands = values[2]
+                //islands = values[3]
 
-            makeMap(values[1], values[2], topo)
+                makeMap(values[1], values[2], topo)
 
 
-        })
+            })
 
-        function makeMap(data, polys, backdrop) {
+            function makeMap(data, polys, backdrop) {
 
-            //console.log(points)
+                //console.log(points)
 
-            var projection = d3.geoRobinson()
-                .fitSize([width - 50, height - 50], polys);
+                var projection = d3.geoRobinson()
+                    .fitSize([width - 50, height - 50], polys);
 
-            var geoPath = d3.geoPath()
-                .projection(projection);
+                var geoPath = d3.geoPath()
+                    .projection(projection);
 
-            var worrrr = svg.selectAll("path")
-                .data(polys.features)
-                .enter()
-                .append("path")
-                .attr("d", geoPath)
-                .attr('class', 'continent')
-                /*  .attr('fill', function(d) {
-                      if (d.properties.completeness == 1) {
+                var worrrr = svg.selectAll("path")
+                    .data(polys.features)
+                    .enter()
+                    .append("path")
+                    .attr("d", geoPath)
+                    .attr('class', 'continent')
+                    /*  .attr('fill', function(d) {
+                          if (d.properties.completeness == 1) {
 
-                          return completeness1.url()
-                      } else if (d.properties.completeness == 2) {
-                          return completeness2.url()
-                      } else {
-                          return '#dddddd'
-                      }
+                              return completeness1.url()
+                          } else if (d.properties.completeness == 2) {
+                              return completeness2.url()
+                          } else {
+                              return '#dddddd'
+                          }
 
-                  }) */
-                .attr('fill', '#d6c6aa')
+                      }) */
+                    .attr('fill', '#d6c6aa')
                 /*.attr('stroke', 'black')
                 .attr('stroke-width', '0.15') */
 
-            svg.selectAll('circle')
-                .data(points)
-                .enter()
-                .append('circle')
-                .attr('class', 'points')
-                .attr('cx', function(d) {
-                    return projection([d.LON, d.LAT])[0]
-                })
-                .attr('cy', function(d) {
-                    return projection([d.LON, d.LAT])[1]
-                })
-                .attr('r', '3px')
-                .attr('opacity', 0.8)
-                .attr('fill', '#d6c6aa')
-                
+                svg.selectAll('circle')
+                    .data(points)
+                    .enter()
+                    .append('circle')
+                    .attr('class', 'points')
+                    .attr('cx', function(d) {
+                        return projection([d.LON, d.LAT])[0]
+                    })
+                    .attr('cy', function(d) {
+                        return projection([d.LON, d.LAT])[1]
+                    })
+                    .attr('r', '3px')
+                    .attr('opacity', 0.8)
+                    .attr('fill', '#d6c6aa')
 
 
-            g //.selectAll("path")
-                .append('g')
-                .selectAll('path')
-                .data(backdrop.features)
-                .enter()
-                .append("path")
-                .attr('class', 'back')
-                .attr("d", geoPath)
-                .attr('fill', 'whitesmoke')
-                .style('opacity', 0.5);
 
+                g //.selectAll("path")
+                    .append('g')
+                    .selectAll('path')
+                    .data(backdrop.features)
+                    .enter()
+                    .append("path")
+                    .attr('class', 'back')
+                    .attr("d", geoPath)
+                    .attr('fill', 'whitesmoke')
+                    .style('opacity', 0.5);
 
-        }
-
-
-        function getSelected(sel) {
-            //console.log(sel.options[sel.selectedIndex].text)
-
-            if (sel.options[sel.selectedIndex].text != 'Choose') {
-
-                doMath(sel.options[sel.selectedIndex].text)
-            }
-
-        }
-
-        function doMath(selected) {
-
-            var oneFam = []
-
-            if (!points[0].hasOwnProperty(selected)) {
-
-
-                //console.log(selected)
-
-                for (var x in points) {
-
-                    var thisReg = points[x].region_id;
-
-                    var filter = _.filter(taxList, function(o) { return o.region_id == thisReg && o.family_tpl == selected });
-                    oneFam.push(filter.length);
-                    points[x][selected] = filter.length;
-                    //console.log(filter.length)
-                    //console.log(oneFam.length);
-
-                }
-
-                //console.log(oneFam)
-                //console.log(oneFam.length)
-                setNewColor(selected, points, oneFam);
-
-            } else {
-
-                console.log('else')
-                for (var x in points.features) {
-                    oneFam.push(points.features[x].properties[selected])
-                }
-
-                setNewColor(selected, points, oneFam);
 
             }
 
-        }
 
+            function getSelected(sel) {
+                //console.log(sel.options[sel.selectedIndex].text)
 
-        function setNewColor(selected, points, oneFam) {
+                if (sel.options[sel.selectedIndex].text != 'Choose') {
 
-
-            document.getElementById('mapTitle').style.visibility = 'visible';
-            document.getElementById('mapTitle').innerHTML = "<h1>Family " + selected + "</h1>"
-
-            var domainVals = d3.extent(oneFam);
-            console.log(domainVals);
-            //console.log(points)
-
-
-            var sqrtEx = d3.scaleSqrt()
-                .domain(domainVals)
-                .range([1, 20])
-
-
-            d3.selectAll('circle')
-                .transition()
-                .attr('r', function(d) {
-                    return d[selected].toString() + 'px'
-                })
-                .attr('fill', '#8eac8e')
-            d3.selectAll('circle')
-                .on("mouseover", function(d) {
-                    div.transition()
-                        .duration(200)
-                        .style("opacity", .9);
-                    div.html("<b>Name: </b>" + d.name + "<br>" +
-                            "# of " + selected + ": " + d[selected])
-                        .style("left", (d3.event.pageX) + "px")
-                        .style("top", (d3.event.pageY - 28) + "px");
-
-                    d3.select(this).attr('stroke', 'black').attr('stroke-width', 1)
-                })
-                .on("mouseout", function(d) {
-                    div.transition()
-                        .duration(500)
-                        .style("opacity", 0);
-                    d3.select(this).attr('stroke-width', 0)
-                });
-        }
-
-        function gdpStyle() {
-
-            var colorScheme = d3.scaleQuantile()
-                .domain[0, 1]
-                .range(d3.schemeOranges[5]);
-
-            d3.selectAll('.continent').attr('fill', function(d) {
-                colorScheme(d.properties.GDPpcRegion)
-            })
-        }
-
-        function completeness() {
-            d3.selectAll('.continent').attr('fill', function(d) {
-
-                //console.log(d);
-                switch (d.properties.completeness) {
-                    case 1:
-                        return '#fc8d59'
-                        break;
-                    case 2:
-                        return '#ffffbf'
-                        break;
-                    default:
-                        return '#91cf60'
+                    doMath(sel.options[sel.selectedIndex].text)
                 }
-            })
 
-            d3.selectAll('.points').attr('fill', function(d) {
+            }
 
-                    switch (d.completeness) {
-                        case '1':
+            function doMath(selected) {
+
+                var oneFam = []
+
+                if (!points[0].hasOwnProperty(selected)) {
+
+
+                    //console.log(selected)
+
+                    for (var x in points) {
+
+                        var thisReg = points[x].region_id;
+
+                        var filter = _.filter(taxList, function(o) { return o.region_id == thisReg && o.family_tpl == selected });
+                        oneFam.push(filter.length);
+                        points[x][selected] = filter.length;
+                        //console.log(filter.length)
+                        //console.log(oneFam.length);
+
+                    }
+
+                    //console.log(oneFam)
+                    //console.log(oneFam.length)
+                    setNewColor(selected, points, oneFam);
+
+                } else {
+
+                    console.log('else')
+                    for (var x in points.features) {
+                        oneFam.push(points.features[x].properties[selected])
+                    }
+
+                    setNewColor(selected, points, oneFam);
+
+                }
+
+            }
+
+
+            function setNewColor(selected, points, oneFam) {
+
+
+                document.getElementById('mapTitle').style.visibility = 'visible';
+                document.getElementById('mapTitle').innerHTML = "<h1>Family " + selected + "</h1>"
+
+                var domainVals = d3.extent(oneFam);
+                console.log(domainVals);
+                //console.log(points)
+
+
+                var sqrtEx = d3.scaleSqrt()
+                    .domain(domainVals)
+                    .range([1, 20])
+
+
+                d3.selectAll('circle')
+                    .transition()
+                    .attr('r', function(d) {
+                        return d[selected].toString() + 'px'
+                    })
+                    .attr('fill', '#8eac8e')
+                d3.selectAll('circle')
+                    .on("mouseover", function(d) {
+                        div.transition()
+                            .duration(200)
+                            .style("opacity", .9);
+                        div.html("<b>Name: </b>" + d.name + "<br>" +
+                                "# of " + selected + ": " + d[selected])
+                            .style("left", (d3.event.pageX) + "px")
+                            .style("top", (d3.event.pageY - 28) + "px");
+
+                        d3.select(this).attr('stroke', 'black').attr('stroke-width', 1)
+                    })
+                    .on("mouseout", function(d) {
+                        div.transition()
+                            .duration(500)
+                            .style("opacity", 0);
+                        d3.select(this).attr('stroke-width', 0)
+                    });
+            }
+
+            function gdpStyle() {
+
+                var colorScheme = d3.scaleQuantile()
+                    .domain[0, 1]
+                    .range(d3.schemeOranges[5]);
+
+                d3.selectAll('.continent').attr('fill', function(d) {
+                    colorScheme(d.properties.GDPpcRegion)
+                })
+            }
+
+            function completeness() {
+                d3.selectAll('.continent').attr('fill', function(d) {
+
+                    //console.log(d);
+                    switch (d.properties.completeness) {
+                        case 1:
                             return '#fc8d59'
                             break;
-                        case '2':
+                        case 2:
                             return '#ffffbf'
                             break;
                         default:
                             return '#91cf60'
                     }
                 })
-                .attr('r', '3px')
 
-        }
+                d3.selectAll('.points').attr('fill', function(d) {
 
+                        switch (d.completeness) {
+                            case '1':
+                                return '#fc8d59'
+                                break;
+                            case '2':
+                                return '#ffffbf'
+                                break;
+                            default:
+                                return '#91cf60'
+                        }
+                    })
+                    .attr('r', '3px')
 
-        function taxaCount() {
-
-
-            if (document.getElementById('mapTitle').style.visibility == 'visible') {
-                document.getElementById('mapTitle').style.visibility = 'hidden'
             }
-            const colorScheme = d3.scaleQuantile()
-                .domain([0, 1])
-                .range(d3.schemeGreens[5]);
-            d3.selectAll('.continent').attr('fill', function(d) {
-                return colorScheme(d.properties.tnorm)
-            })
 
-            d3.selectAll('.points').attr('fill', function(d) {
-                    //console.log(d);
-                    return colorScheme(d.tnorm)
+
+            function taxaCount() {
+
+
+                if (document.getElementById('mapTitle').style.visibility == 'visible') {
+                    document.getElementById('mapTitle').style.visibility = 'hidden'
+                }
+                const colorScheme = d3.scaleQuantile()
+                    .domain([0, 1])
+                    .range(d3.schemeGreens[5]);
+                d3.selectAll('.continent').attr('fill', function(d) {
+                    return colorScheme(d.properties.tnorm)
                 })
-                .attr('r', '1px')
-        }
+
+                d3.selectAll('.points').attr('fill', function(d) {
+                        //console.log(d);
+                        return colorScheme(d.tnorm)
+                    })
+                    .attr('r', '1px')
+            }
 
 
-        function plain() {
-            document.getElementById('mapTitle').style.visibility = 'hidden';
-            d3.selectAll('.continent').attr('fill', '#dacbb2')
-            d3.selectAll('.points').attr('fill', '#dacbb2')
-                .attr('r', '3px')
-        }
-    </script>
+            function plain() {
+                document.getElementById('mapTitle').style.visibility = 'hidden';
+                d3.selectAll('.continent').attr('fill', '#dacbb2')
+                d3.selectAll('.points').attr('fill', '#dacbb2')
+                    .attr('r', '3px')
+            }
+        </script>
 
 </body>
 
