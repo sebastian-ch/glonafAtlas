@@ -66,9 +66,15 @@
             width: 200px;
             height: 250px;
             align-content: center;
-            background: lightpink;
+            background: lightblue;
             padding: 1rem;
+            border: 2px solid transparent;
 
+        }
+        .card:hover {
+            background-blend-mode: lighten;
+            cursor: pointer;
+            border: 2px black solid;
         }
 
         .world {
@@ -106,6 +112,15 @@
             height: 4.5rem;
             background-color: gray
         }
+
+        #section-caption {
+            margin: 0;
+            padding: 0;
+        }
+        #maps-header {
+            margin: 0;
+            padding-top: 10px;
+        }
     </style>
 
 </head>
@@ -119,11 +134,12 @@
                 <ul>
                     <li><a href='#about'>About</a></li>
                     <li><a href='#mapPart'>Maps</a></li>
-                    <li><a href='#'>Info</a></li>
+                   <!-- <li><a href='#'>Info</a></li> -->
                     <li><a href='#'>Contact</a></li>
                 </ul>
             </nav>
-            <h1>Maps</h1>
+            <h1 id='maps-header'>Maps</h1>
+            <h4 id='section-caption'>Click on a map below to view it</h4>
             <div id='mapPart'>
                 
                 <div class="card world" onclick="openPage('/glonafAtlas/Worldview/index.html')">

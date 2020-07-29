@@ -154,6 +154,9 @@
             height: 50px;
 
         }
+        .world:hover {
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -188,6 +191,7 @@
 
     </div>
     <button id="openbtn" onclick="openSide()">Open Sidebar</button>
+    <div id='legend'></div>
     <div id='infoPanel'>
         <button class='closebtn1' onclick='infoCloseSide()'>x</button>
         <h2>Region Name</h2>
@@ -291,6 +295,7 @@
                 .data(polys.features)
                 .enter()
                 .append("path")
+                .attr("class", 'world')
                 .attr("d", geoPath)
                 .attr('fill', function(d) {
                     return styleContinents(d)
@@ -336,7 +341,7 @@
                     return styleContinents(d)
                 })
 
-            g //.selectAll("path")
+            g 
                 .append('g')
                 .selectAll('path')
                 .data(backdrop.features)
