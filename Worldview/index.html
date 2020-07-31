@@ -13,7 +13,7 @@
     <script src="https://unpkg.com/textures@1.2.0/dist/textures.js" type="text/javascript"></script>
     <script src='https://cdn.jsdelivr.net/npm/lodash@4.17.19/lodash.min.js' type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js" type="text/javascript"></script>
-
+    <script src="https://bundle.run/geojson-rewind@0.3.1"></script>
     <script src='familyNames.js' type="text/javascript"></script>
 
     <style>
@@ -91,6 +91,60 @@
             text-align: center;
             line-height: 700px;
         }
+
+
+        #legend {
+            position: absolute;
+            color: whitesmoke;
+            padding: 8px 15px;
+            background: rgba(25, 25, 25, 0.8);
+            border-radius: 5px;
+            border: 1px solid black;
+            bottom: 40px;
+            left: 250px;
+            visibility: hidden;
+        }
+
+        #legend h2 {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 3px;
+        }
+
+        #legend span {
+            width: 20px;
+            height: 20px;
+            float: left;
+            margin: 0 10px 4px 0;
+           
+        }
+
+
+        #legend label {
+            line-height: 0.5em;
+            font-size: 0.8em;
+        }
+
+        #legend label:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        #circleLegend {
+            position: absolute;
+            bottom: 40px;
+            left: 300px;
+            width: 140px;
+            height: 100px;
+           /* border: 1px solid black;
+            background-color: lightblue; */
+        }
+        #circleLegend text {
+            
+            fill: black;
+            font-size: 1.0em;
+        }
     </style>
 </head>
 
@@ -129,7 +183,9 @@
             <h2>Loading..</h2>
         </div>
 
-
+        <div id='circleLegend'></div>
+        <div id='legend'>
+        </div>
         <div id='map'>
             <div id='mapTitle'></img>
             </div>
@@ -160,7 +216,7 @@
         var div = d3.select("body").append("div")
             .attr("class", "tooltip")
             .style("opacity", 0)
-            
+
 
 
         /*    var completeness1 = textures.lines()
@@ -181,7 +237,7 @@
         var promises = [
             d3.dsv('\t', "tax-list-small.txt"),
             d3.csv('latest/glonafAsCsv1.csv'),
-            d3.json('latest/nonislandswCompl.geojson'),
+            d3.json('latest/test1.geojson'),
             d3.json('latest/level1.json')
             //d3.csv('latest/islands.csv')
 
@@ -195,7 +251,7 @@
             nonislands = values[2]
             //islands = values[3]
 
-            makeMap(values[1], values[2], topo)
+            makeMap(values[1], geojsonRewind(values[2], true), topo)
 
 
         })
@@ -255,7 +311,9 @@
                 .attr('r', '3px')
                 .attr('opacity', 0.8)
                 .attr('fill', '#d6c6aa')
-
+                .on('click', function(d) {
+                    console.log(d.tnorm)
+                })
 
 
             g
@@ -270,6 +328,7 @@
                 .style('opacity', 0.5);
 
             removeLoading()
+
         }
 
 
@@ -288,8 +347,9 @@
 
             if (!points[0].hasOwnProperty(selected)) {
 
+                
 
-                //console.log(selected)
+                console.log(selected)
 
                 for (var x in points) {
 
@@ -300,7 +360,6 @@
                     points[x][selected] = filter.length;
                     //console.log(filter.length)
                     //console.log(oneFam.length);
-
                 }
 
                 //console.log(oneFam)
@@ -323,6 +382,8 @@
 
         function setNewColor(selected, points, oneFam) {
 
+            d3.select('#thisLegend').remove();
+
 
             document.getElementById('mapTitle').style.visibility = 'visible';
             document.getElementById('mapTitle').innerHTML = "<h1>Family " + selected + "</h1>"
@@ -332,17 +393,45 @@
             //console.log(points)
 
 
-            var sqrtEx = d3.scaleSqrt()
+            /* var sqrtEx = d3.scaleSqrt()
+                 .domain([domainVals[0] + 1, domainVals[1]])
+                 .range([1, 20]) */
+
+            var linearScale = d3.scaleLinear()
                 .domain(domainVals)
-                .range([1, 20])
+                .range([0.5, 30])
 
 
-            d3.selectAll('circle')
-                .transition()
-                .attr('r', function(d) {
-                    return d[selected].toString() + 'px'
-                })
-                .attr('fill', '#8eac8e')
+            if (domainVals[1] <= 30) {
+
+                d3.selectAll('circle')
+                    .transition()
+                    .attr('r', function(d) {
+                        return d[selected].toString() + 'px'
+
+                    })
+                    .attr('fill', '#8eac8e')
+
+                valuesToShow = [domainVals[1] / 2, domainVals[1]]
+                console.log(valuesToShow)
+            } else {
+
+                d3.selectAll('circle')
+                    .transition()
+                    .attr('r', function(d) {
+
+                        if (d[selected] == 0) {
+                            return '0px'
+                        } else {
+                            return linearScale(d[selected]) + 'px'
+                        }
+                    })
+                    .attr('fill', '#8eac8e')
+
+                valuesToShow = [Math.round(linearScale(domainVals[1] / 2)), linearScale(domainVals[1])]
+                console.log('vals: ' + valuesToShow);
+            }
+
             d3.selectAll('circle')
                 .on("mouseover", function(d) {
                     div.transition()
@@ -360,15 +449,71 @@
                         .duration(500)
                         .style("opacity", 0);
                     d3.select(this).attr('stroke-width', 0)
-                });
+                })
+                .on('click', function(d) {
+                    console.log(this)
+                })
 
-            removeLoading()
+
+
+            var legend = d3.select('#circleLegend')
+                .append("svg")
+                .attr('id', 'thisLegend')
+                .attr("width", 300)
+                .attr("height", 300)
+
+            var xCircle = 30
+            var xLabel = 80
+            var yCircle = 100
+
+            legend
+                .selectAll("legend")
+                .data(valuesToShow)
+                .enter()
+                .append("circle")
+                .attr("cx", xCircle)
+                .attr("cy", function(d) { return yCircle - d })
+                .attr("r", function(d) { return d })
+                .style("fill", "#8eac8e")
+                .attr('opacity', 0.5)
+                .attr("stroke", "#8eac8e")
+
+            legend
+                .selectAll("legend")
+                .data(valuesToShow)
+                .enter()
+                .append("line")
+                .attr('x1', function(d) { return xCircle + d })
+                .attr('x2', xLabel)
+                .attr('y1', function(d) { return yCircle - d })
+                .attr('y2', function(d) { return yCircle - d })
+                .attr('stroke', 'black')
+                .style('stroke-dasharray', ('2,2'))
+                .attr('shape-rendering', 'crispEdges')
+
+            // Add legend: labels
+            legend
+                .selectAll("legend")
+                .data(valuesToShow)
+                //.data(domainVals)
+                .enter()
+                .append("text")
+                .attr('x', xLabel)
+                .attr('y', function(d) { return yCircle - d })
+                .data([Math.round(domainVals[1] / 2), domainVals[1]])
+                .text(function(d) { return d })
+                .style("font-size", 10)
+                .attr('alignment-baseline', 'middle')
+                .attr('shape-rendering', 'crispEdges')
+
+
+
         }
 
         function gdpStyle() {
 
             var colorScheme = d3.scaleQuantile()
-                .domain[0, 1]
+                .domain[0, 100]
                 .range(d3.schemeOranges[5]);
 
             d3.selectAll('.continent').attr('fill', function(d) {
@@ -377,18 +522,25 @@
         }
 
         function completeness() {
+
+            document.getElementById('legend').innerHTML = ''
+            document.getElementById('legend').style.visibility = 'visible'
+
             d3.selectAll('.continent').attr('fill', function(d) {
 
                 //console.log(d);
                 switch (d.properties.completeness) {
                     case 1:
-                        return '#fc8d59'
+                        //return '#fc8d59'
+                        return '#fcaf8a'
                         break;
                     case 2:
-                        return '#ffffbf'
+                        //return '#ffffbf'
+                        return '#ffffcb'
                         break;
                     default:
-                        return '#91cf60'
+                        //return '#91cf60'
+                        return '#b2dd8f'
                 }
             })
 
@@ -396,22 +548,34 @@
 
                     switch (d.completeness) {
                         case '1':
-                            return '#fc8d59'
+                            return '#fcaf8a'
                             break;
                         case '2':
-                            return '#ffffbf'
+                            return '#ffffcb'
                             break;
                         default:
-                            return '#91cf60'
+                            return '#b2dd8f'
                     }
                 })
                 .attr('r', '3px')
+
+
+
+
+            document.getElementById('legend').innerHTML +=
+                '<h2>Data Completeness</h2>' +
+                `<span style="background:#91cf60"></span>` + '<label>Likely Nearly Complete (>90% naturalized taxa included)</label>' +
+                `<span style="background:#ffffbf"></span>` + '<label>Likely Incomplete (between 50% and 90% of naturalized taxa included)</label>' +
+                `<span style="background:#fc8d59"></span>` + '<label>Likely Very Incomplete(< 50% naturalized taxa included)</label>'
+
 
         }
 
 
         function taxaCount() {
 
+            document.getElementById('legend').innerHTML = ''
+            document.getElementById('legend').style.visibility = 'visible'
 
             if (document.getElementById('mapTitle').style.visibility == 'visible') {
                 document.getElementById('mapTitle').style.visibility = 'hidden'
@@ -423,15 +587,38 @@
                 return colorScheme(d.properties.tnorm)
             })
 
+            console.log(colorScheme.range())
+            console.log(colorScheme.domain())
+            /* console.log(colorScheme(0))
+             console.log(colorScheme(0.3))
+             console.log(colorScheme(0.6))
+             console.log(colorScheme(0.9)) */
+
             d3.selectAll('.points').attr('fill', function(d) {
                     //console.log(d);
                     return colorScheme(d.tnorm)
                 })
                 .attr('r', '1px')
+
+
+                var subscript = "2".sup();
+
+
+            document.getElementById('legend').innerHTML +=
+                '<h2>Normalized Taxa Count Per Area (Km' + subscript + ')</h2>' +
+                `<span style="background:#006d2c; margin: 0 10px 0 0"></span>` + '<label>More Taxa Per Area</label>' +
+                `<span style="background:#31a354; margin: 0 10px 0 0"></span>` + '<label></label>' +
+                `<span style="background:#74c476; margin: 0 10px 0 0"></span>` + '<label></label>' +
+                `<span style="background:#bae4b3; margin: 0 10px 0 0"></span>` + '<label></label>' +
+                `<span style="background:#edf8e9; margin: 0 10px 0 0"></span>` + '<label>Less Taxa Per Area</label>'
+                
         }
 
 
         function plain() {
+            document.getElementById('legend').innerHTML = ''
+            document.getElementById('legend').style.visibility = 'hidden'
+
             document.getElementById('mapTitle').style.visibility = 'hidden';
             d3.selectAll('.continent').attr('fill', '#dacbb2')
             d3.selectAll('.points').attr('fill', '#dacbb2')

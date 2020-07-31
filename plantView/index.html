@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <!--<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"> -->
+    <title>World View</title>
+    <script src="https://d3js.org/d3.v5.min.js" type="text/javascript"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/textures@1.2.0/dist/textures.js" type="text/javascript"></script>
+    <script src='https://cdn.jsdelivr.net/npm/lodash@4.17.19/lodash.min.js' type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js" type="text/javascript"></script>
+    <script src="https://bundle.run/geojson-rewind@0.3.1"></script>
+
+    <script src='pNames.js' type="text/javascript"></script>
+    <script src="autoc.js" type="text/javascript"></script>
+
+    <style>
+        body {
+            background: whitesmoke;
+        }
+
+        #map {
+            width: 90%;
+            margin: 10px auto 10px auto;
+        }
+
+        form {
+            width: 100%;
+            text-align: center;
+        }
+
+        .autocomplete {
+            /*the container must be positioned relative:*/
+            position: relative;
+            display: inline-block;
+        }
+
+        input,
+        button {
+            border: 1px solid transparent;
+            background-color: #f1f1f1;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        input[type=text] {
+            background-color: #f1f1f1;
+            width: 95%;
+            border: 1px solid gray;
+        }
+
+        button {
+            background-color: DodgerBlue;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .autocomplete-items {
+            position: absolute;
+            border: 1px solid #d4d4d4;
+            border-bottom: none;
+            border-top: none;
+            z-index: 99;
+            /*position the autocomplete items to be the same width as the container:*/
+            top: 100%;
+            left: 0;
+            right: 0;
+        }
+
+        .autocomplete-items div {
+            padding: 10px;
+            cursor: pointer;
+            background-color: #fff;
+            border-bottom: 1px solid #d4d4d4;
+        }
+
+        .autocomplete-items div:hover {
+            /*when hovering an item:*/
+            background-color: #e9e9e9;
+        }
+
+        .autocomplete-active {
+            /*when navigating through the items using the arrow keys:*/
+            background-color: DodgerBlue !important;
+            color: #ffffff;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form autocomplete="off" onclick="getSelected(this)">
+        <div class="autocomplete" style="width:300px;">
+            <input id="myInput" type="text" name="myCountry" placeholder="Plant Name">
+        </div>
+        <button>Search</button>
+    </form>
+
+    <div id='map'></div>
+
+    <script>
+        autocomplete(document.getElementById("myInput"), names);
+
+        function getSelected(sel) {
+            if (document.getElementById("myInput").value != '') {
+                console.log(document.getElementById("myInput").value)
+                doMath(document.getElementById("myInput").value)
+            }
+        }
+
+        function doMath(sel) {
+            var oneFam = []
+            for (var x in points) {
+
+                var thisReg = points[x].region_id;
+
+                var filter = _.filter(taxList, function(o) { return o.region_id == thisReg && o.standardized_name == sel });
+                oneFam.push(filter.length);
+                points[x][sel] = filter.length;
+                console.log(filter)
+
+            }
+            //console.log(oneFam)
+            setNewColor(sel, points, oneFam);
+
+        }
+
+        function setNewColor(selected, points, oneFam) {
+            console.log(oneFam)
+            var domainVals = d3.extent(oneFam);
+            console.log(domainVals);
+
+            d3.selectAll('circle')
+                .transition()
+                .attr('r', function(d) {
+                    return d[selected].toString() + 'px'
+
+                })
+                .attr('fill', '#8eac8e')
+
+
+
+
+        }
+
+        var taxList, points;
+
+        var promises = [
+            d3.dsv('\t', "latest/tax-list-small.txt"),
+            d3.csv('latest/glonafAsCsv1.csv'),
+            d3.json('latest/test1.geojson'),
+            d3.json('latest/level1.json')
+
+        ]
+
+        Promise.all(promises).then(function(values) {
+
+            var topo = topojson.feature(values[3], values[3].objects.level1)
+            taxList = values[0];
+            points = values[1];
+
+            makeMap(values[1], geojsonRewind(values[2], true), topo)
+
+
+        })
+
+        function makeMap(data, polys, backdrop) {
+
+            var width = 1400;
+            var height = 720;
+
+            var svg = d3.select("#map")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height)
+
+            var g = svg.append("g");
+
+            var projection = d3.geoRobinson()
+                .fitSize([width - 50, height - 50], polys);
+
+            var geoPath = d3.geoPath()
+                .projection(projection);
+
+            svg
+                .selectAll("path")
+                .data(polys.features)
+                .enter()
+                .append("path")
+                .attr("d", geoPath)
+                .attr('fill', 'lightblue')
+                .attr('class', 'continent')
+
+            svg.selectAll('circle')
+                .data(data)
+                .enter()
+                .append('circle')
+                .attr('class', 'points')
+                .attr('id', 'points')
+                .attr('cx', function(d) {
+                    return projection([d.LON, d.LAT])[0]
+                })
+                .attr('cy', function(d) {
+                    return projection([d.LON, d.LAT])[1]
+                })
+                .attr('r', '2px')
+                .attr('opacity', 0.8)
+                .attr('fill', 'lightblue')
+                .on('click', function(d) {
+                    console.log(d.tnorm)
+                })
+
+
+            g
+                .append('g')
+                .selectAll('path')
+                .data(backdrop.features)
+                .enter()
+                .append("path")
+                .attr('class', 'back')
+                .attr("d", geoPath)
+                .attr('fill', 'white')
+                .style('opacity', 0.5);
+
+        }
+    </script>
+</body>
