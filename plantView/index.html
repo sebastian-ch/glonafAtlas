@@ -7,7 +7,7 @@
     <!--<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"> -->
-    <title>World View</title>
+    <title>Plant View</title>
     <script src="https://d3js.org/d3.v5.min.js" type="text/javascript"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js" type="text/javascript"></script>
     <script src="https://unpkg.com/textures@1.2.0/dist/textures.js" type="text/javascript"></script>
@@ -46,6 +46,16 @@
             padding: 10px;
             font-size: 16px;
         }
+        button {
+            position: absolute;
+            border: 1px solid black;
+            left: 10px;
+            top: 10px;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
 
         input[type=text] {
             background-color: #f1f1f1;
@@ -53,13 +63,8 @@
             border: 1px solid gray;
         }
 
-        button {
-            background-color: DodgerBlue;
-            color: #fff;
-            cursor: pointer;
-        }
-
         .autocomplete-items {
+            font-family: Arial, Helvetica, sans-serif;
             position: absolute;
             border: 1px solid #d4d4d4;
             border-bottom: none;
@@ -94,59 +99,21 @@
 
 <body>
 
+    <button onclick="openPage('../index.html')">Back To Home</button>
     <form autocomplete="off" onclick="getSelected(this)">
         <div class="autocomplete" style="width:300px;">
             <input id="myInput" type="text" name="myCountry" placeholder="Plant Name">
         </div>
-        <button>Search</button>
     </form>
 
     <div id='map'></div>
 
     <script>
+        
+        function openPage(url) {
+            window.open(url)
+        }
         autocomplete(document.getElementById("myInput"), names);
-
-        function getSelected(sel) {
-            if (document.getElementById("myInput").value != '') {
-                console.log(document.getElementById("myInput").value)
-                doMath(document.getElementById("myInput").value)
-            }
-        }
-
-        function doMath(sel) {
-            var oneFam = []
-            for (var x in points) {
-
-                var thisReg = points[x].region_id;
-
-                var filter = _.filter(taxList, function(o) { return o.region_id == thisReg && o.standardized_name == sel });
-                oneFam.push(filter.length);
-                points[x][sel] = filter.length;
-                console.log(filter)
-
-            }
-            //console.log(oneFam)
-            setNewColor(sel, points, oneFam);
-
-        }
-
-        function setNewColor(selected, points, oneFam) {
-            console.log(oneFam)
-            var domainVals = d3.extent(oneFam);
-            console.log(domainVals);
-
-            d3.selectAll('circle')
-                .transition()
-                .attr('r', function(d) {
-                    return d[selected].toString() + 'px'
-
-                })
-                .attr('fill', '#8eac8e')
-
-
-
-
-        }
 
         var taxList, points;
 
@@ -226,6 +193,49 @@
                 .attr("d", geoPath)
                 .attr('fill', 'white')
                 .style('opacity', 0.5);
+
+        }
+
+
+        function getSelected(sel) {
+            if (document.getElementById("myInput").value != '') {
+                console.log(document.getElementById("myInput").value)
+                doMath(document.getElementById("myInput").value)
+            }
+        }
+
+        function doMath(sel) {
+
+            var wherePlantIs = _.filter(taxList, function(o) {return o.standardized_name === sel})
+            //setNewColor(sel, points, oneFam); 
+            wherePlantIsRegions = wherePlantIs.map(x => x.region_id);
+
+            setNewColor(wherePlantIs)
+            //console.log(wherePlantIs.map(x => x.region_id))
+
+        }
+
+        function setNewColor(wherePlantIs) {
+
+           var regions = wherePlantIs.map(x => x.region_id)
+
+            d3.selectAll('circle')
+                .transition()
+                .attr('r', function(d) {
+                    if (regions.includes(d.region_id)) {
+                        
+                        return '4px'
+                    } else {
+                        return '2px'
+                    }
+                })
+                .attr('fill', function(d) {
+                    if (regions.includes(d.region_id)) {
+                        return '#8eac8e'
+                    } else {
+                        return 'lightblue'
+                    }
+                })
 
         }
     </script>
