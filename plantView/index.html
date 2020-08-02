@@ -21,6 +21,7 @@
     <style>
         body {
             background: whitesmoke;
+            overflow: hidden;
         }
 
         #map {
@@ -46,11 +47,13 @@
             padding: 10px;
             font-size: 16px;
         }
+
         button {
             position: absolute;
-            border: 1px solid black;
+            border: 1px solid gray;
+           
             left: 10px;
-            top: 10px;
+           /* top: 10px; */
         }
 
         button:hover {
@@ -60,7 +63,7 @@
         input[type=text] {
             background-color: #f1f1f1;
             width: 95%;
-            border: 1px solid gray;
+            border: 1px solid gray; 
         }
 
         .autocomplete-items {
@@ -93,6 +96,28 @@
             background-color: DodgerBlue !important;
             color: #ffffff;
         }
+
+        #infoPanel {
+            visibility: hidden;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 300px;
+            top: 100px;
+            background: whitesmoke;
+            border: 2px solid black;
+            color: black;
+        }
+
+        .closebtn1 {
+            position: absolute;
+            top: 0;
+            right: 0px;
+            font-size: 28px;
+            margin-left: 155px;
+            background-color: #111;
+            color: whitesmoke;
+        }
     </style>
 
 </head>
@@ -102,14 +127,20 @@
     <button onclick="openPage('../index.html')">Back To Home</button>
     <form autocomplete="off" onclick="getSelected(this)">
         <div class="autocomplete" style="width:300px;">
-            <input id="myInput" type="text" name="myCountry" placeholder="Plant Name">
+            <input id="myInput" type="text" name="myCountry" placeholder="Search for a Taxon Here">
         </div>
     </form>
 
+    <div id='infoPanel'>
+        <button class='closebtn1' onclick='infoCloseSide()'>x</button>
+    </div>
     <div id='map'></div>
 
     <script>
-        
+        function infoCloseSide() {
+            document.getElementById("infoPanel").style.visibility = "hidden";
+        }
+
         function openPage(url) {
             window.open(url)
         }
@@ -160,7 +191,7 @@
                 .enter()
                 .append("path")
                 .attr("d", geoPath)
-                .attr('fill', 'lightblue')
+                .attr('fill', '#e6dccc')
                 .attr('class', 'continent')
 
             svg.selectAll('circle')
@@ -177,10 +208,10 @@
                 })
                 .attr('r', '2px')
                 .attr('opacity', 0.8)
-                .attr('fill', 'lightblue')
+                .attr('fill', '#e6dccc')
                 .on('click', function(d) {
                     console.log(d.tnorm)
-                })
+                }) 
 
 
             g
@@ -191,7 +222,7 @@
                 .append("path")
                 .attr('class', 'back')
                 .attr("d", geoPath)
-                .attr('fill', 'white')
+                .attr('fill', '#b2b2b2')
                 .style('opacity', 0.5);
 
         }
@@ -206,7 +237,7 @@
 
         function doMath(sel) {
 
-            var wherePlantIs = _.filter(taxList, function(o) {return o.standardized_name === sel})
+            var wherePlantIs = _.filter(taxList, function(o) { return o.standardized_name === sel })
             //setNewColor(sel, points, oneFam); 
             wherePlantIsRegions = wherePlantIs.map(x => x.region_id);
 
@@ -217,13 +248,13 @@
 
         function setNewColor(wherePlantIs) {
 
-           var regions = wherePlantIs.map(x => x.region_id)
-
+            var regions = wherePlantIs.map(x => x.region_id)
+            //console.log(regions)
             d3.selectAll('circle')
                 .transition()
                 .attr('r', function(d) {
                     if (regions.includes(d.region_id)) {
-                        
+
                         return '4px'
                     } else {
                         return '2px'
@@ -231,10 +262,23 @@
                 })
                 .attr('fill', function(d) {
                     if (regions.includes(d.region_id)) {
-                        return '#8eac8e'
+                        var cur = _.find(wherePlantIs, function(o) { return o.region_id == d.region_id })
+                        console.log(cur)
+                        if (cur.status == 'alien') {
+                            return '#f55c59'
+                        } else {
+                            return '#8eac8e'
+                        }
+
                     } else {
-                        return 'lightblue'
+                        return '#e6dccc'
                     }
+                })
+
+            d3.selectAll('circle')
+                .on('click', function(d) {
+                    console.log(d);
+                    document.getElementById("infoPanel").style.visibility = 'visible'
                 })
 
         }
