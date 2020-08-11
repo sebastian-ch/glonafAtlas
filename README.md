@@ -1,3 +1,3 @@
 # glonafAtlas
 
-# My Master's Thesis
+## My Master's Thesis
