@@ -16,7 +16,7 @@ function justSa() {
         d3.csv('../continentView/continent-geojsons/sa/saPoints1.csv')
     ]
 
-    if (worldViewFilesData.northamerica == null) {
+    if (worldViewFilesData.sa == null) {
 
         Promise.all(promises).then(function(values) {
 

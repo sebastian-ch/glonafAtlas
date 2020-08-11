@@ -16,7 +16,7 @@ function justAus() {
         d3.csv('../continentView/continent-geojsons/aus/ausPoints1.csv')
     ]
 
-    if (worldViewFilesData.northamerica == null) {
+    if (worldViewFilesData.aus == null) {
 
         Promise.all(promises).then(function(values) {
 

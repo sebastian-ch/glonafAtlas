@@ -2,10 +2,20 @@
 <html lang="en">
 
 <head>
-   <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com">
 
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon"> -->
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <!--<link rel="manifest" href="favicons/site.webmanifest"> -->
+
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atlas Home</title>
 
@@ -71,6 +81,7 @@
             border: 2px solid transparent;
 
         }
+
         .card:hover {
             background-blend-mode: lighten;
             cursor: pointer;
@@ -117,6 +128,7 @@
             margin: 0;
             padding: 0;
         }
+
         #maps-header {
             margin: 0;
             padding-top: 10px;
@@ -134,14 +146,14 @@
                 <ul>
                     <li><a href='#about'>About</a></li>
                     <li><a href='#mapPart'>Maps</a></li>
-                   <!-- <li><a href='#'>Info</a></li> -->
+                    <!-- <li><a href='#'>Info</a></li> -->
                     <li><a href='#'>Contact</a></li>
                 </ul>
             </nav>
             <h1 id='maps-header'>Maps</h1>
             <h4 id='section-caption'>Click on a map below to view it</h4>
             <div id='mapPart'>
-                
+
                 <div class="card world" onclick="openPage('/glonafAtlas/Worldview/index.html')">
                     <h3>World View</h3>
                     <p>Get a Global Overview of the GloNAF Dataset</p>
