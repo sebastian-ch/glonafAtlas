@@ -151,9 +151,9 @@
 
         var promises = [
             d3.dsv('\t', "latest/tax-list-small.txt"),
-            d3.csv('latest/glonafAsCsv1.csv'),
-            d3.json('latest/test1.geojson'),
-            d3.json('latest/level1.json')
+            d3.csv('../universalData/glonafAsCsv1.csv'),
+            d3.json('../universalData/world-nonislands.geojson'),
+            d3.json('../universalData/level1.json')
 
         ]
 
@@ -264,7 +264,7 @@
                 .attr('fill', function(d) {
                     if (regions.includes(d.region_id)) {
                         var cur = _.find(wherePlantIs, function(o) { return o.region_id == d.region_id })
-                        console.log(cur)
+                        //console.log(cur)
                         if (cur.status == 'alien') {
                             return '#f55c59'
                         } else {
@@ -278,7 +278,7 @@
 
             d3.selectAll('circle')
                 .on('click', function(d) {
-                    console.log(d);
+                    //console.log(d);
                     document.getElementById("infoPanel").style.visibility = 'visible'
                 })
 
