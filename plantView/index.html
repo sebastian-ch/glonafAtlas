@@ -12,7 +12,7 @@
     <script src="https://d3js.org/d3-geo-projection.v2.min.js" type="text/javascript"></script>
     <script src="https://unpkg.com/textures@1.2.0/dist/textures.js" type="text/javascript"></script>
     <script src='https://cdn.jsdelivr.net/npm/lodash@4.17.19/lodash.min.js' type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
     <script src="https://bundle.run/geojson-rewind@0.3.1"></script>
 
     <script src='pNames.js' type="text/javascript"></script>
@@ -51,9 +51,9 @@
         button {
             position: absolute;
             border: 1px solid gray;
-           
+
             left: 10px;
-           /* top: 10px; */
+            /* top: 10px; */
         }
 
         button:hover {
@@ -61,10 +61,49 @@
             background-color: #c0c0c0;
         }
 
+        #legend {
+            position: absolute;
+            color: whitesmoke;
+            padding: 8px 15px;
+            background: rgba(25, 25, 25, 0.8);
+            border-radius: 5px;
+            border: 1px solid black;
+            bottom: 40px;
+            left: 100px;
+            visibility: hidden;
+        }
+
+        #legend h2 {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 3px;
+        }
+
+        #legend span {
+            width: 20px;
+            height: 20px;
+            float: left;
+            margin: 0 10px 4px 0;
+            border-radius: 50%;
+
+        }
+
+
+        #legend label {
+            line-height: 1.5em;
+            font-size: 1.0em;
+        }
+
+        #legend label:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
         input[type=text] {
             background-color: #f1f1f1;
             width: 95%;
-            border: 1px solid gray; 
+            border: 1px solid gray;
         }
 
         .autocomplete-items {
@@ -135,6 +174,7 @@
     <div id='infoPanel'>
         <button class='closebtn1' onclick='infoCloseSide()'>x</button>
     </div>
+    <div id='legend'></div>
     <div id='map'></div>
 
     <script>
@@ -212,7 +252,7 @@
                 .attr('fill', '#e6dccc')
                 .on('click', function(d) {
                     console.log(d.tnorm)
-                }) 
+                })
 
 
             g
@@ -245,9 +285,14 @@
             setNewColor(wherePlantIs)
             //console.log(wherePlantIs.map(x => x.region_id))
 
+            addLegend(sel)
+
         }
 
         function setNewColor(wherePlantIs) {
+
+
+
 
             var regions = wherePlantIs.map(x => x.region_id)
             //console.log(regions)
@@ -281,6 +326,22 @@
                     //console.log(d);
                     document.getElementById("infoPanel").style.visibility = 'visible'
                 })
+
+        }
+
+
+        function addLegend(sel) {
+
+            var svg1 = d3.select('#legend').style('visibility', 'visible')
+            document.getElementById('legend').innerHTML +=
+                '<h2>' + sel + '</h2>' +
+                `<span style="background:#8eac8e"></span>` + '<label>Naturalized</label>' +
+                `<span style="background:#f55c59"></span>` + '<label>Alien</label>'
+
+
+
+
+
 
         }
     </script>
