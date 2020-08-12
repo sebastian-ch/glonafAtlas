@@ -60,16 +60,21 @@
             background: whitesmoke;
             height: 720px;
             text-align: center;
+        }
 
+        #explanation {
+            text-align: left;
+            font-size: 15px;
         }
 
         div.tooltip {
             position: absolute;
-            text-align: center;
-            width: 120px;
-            height: 60px;
+            text-align: left;
+            /* width: 140px;
+            height: 60px; */
             padding: 2px;
-            font: 12px sans-serif;
+            font-family: Calibri, Arial, sans-serif;
+            font: 12px;
             background: lightsteelblue;
             border: 0px;
             /* border-radius: 8px; */
@@ -116,7 +121,7 @@
             height: 20px;
             float: left;
             margin: 0 10px 4px 0;
-           
+
         }
 
 
@@ -135,13 +140,20 @@
             position: absolute;
             bottom: 40px;
             left: 300px;
-            width: 140px;
-            height: 100px;
-           /* border: 1px solid black;
-            background-color: lightblue; */
+            width: 142px;
+            height: 104px;
+            border: 1px solid black;
+            /* background-color: lightblue; */
+            visibility: hidden;
         }
+        #circleLegend h2 {
+            margin: 4px;
+            padding: 0;
+            position: absolute;
+        }
+
         #circleLegend text {
-            
+
             fill: black;
             font-size: 1.0em;
         }
@@ -175,7 +187,10 @@
             <br>
             <br>
             <br>
-            <p>This view allows for global visualizations of the GloNAF dataset. The above buttons allow for viewing different maps of the GloNAF regions.</p>
+            <p id='explanation'>This view allows for global visualizations of the GloNAF dataset. The above buttons allow for viewing different maps of the GloNAF regions.
+                <br>
+            Hover over a region to view more specific data on it.
+            </p>
         </div>
 
 
@@ -216,6 +231,7 @@
         var div = d3.select("body").append("div")
             .attr("class", "tooltip")
             .style("opacity", 0)
+
 
 
 
@@ -347,7 +363,7 @@
 
             if (!points[0].hasOwnProperty(selected)) {
 
-                
+
 
                 console.log(selected)
 
@@ -454,13 +470,21 @@
                     console.log(this)
                 })
 
+            d3.selectAll('.continent')
+                .on('mouseover', function(d) {
+                    console.log('hi')
+                })
 
+
+            document.getElementById('circleLegend').style.visibility = 'visible';
+            document.getElementById('circleLegend').innerHTML += '<h2>Legend</h2>'
 
             var legend = d3.select('#circleLegend')
                 .append("svg")
                 .attr('id', 'thisLegend')
-                .attr("width", 300)
-                .attr("height", 300)
+                .attr("width", 100)
+                .attr("height", 100)
+                .style('margin', '4px')
 
             var xCircle = 30
             var xLabel = 80
@@ -544,6 +568,27 @@
                 }
             })
 
+            d3.selectAll('.continent')
+                .on("mouseover", function(d) {
+
+                    div //.transition()
+                        //.duration(100)
+                        .style("opacity", .9);
+                    div.html("<b>Region Name: </b>" + d.properties.name + "<br>" +
+                            "<b>Country: </b>" + d.properties.country + "<br>" +
+                            "<b>Completeness: </b>" + d.properties.completeness)
+                        .style("left", (d3.event.pageX + 50) + "px")
+                        .style("top", (d3.event.pageY - 28) + "px");
+
+                    d3.select(this).raise().attr('stroke', 'black').attr('stroke-width', 1)
+                })
+                .on("mouseout", function(d) {
+                    //div.transition()
+                    //.duration(500)
+                    div.style("opacity", 0);
+                    d3.select(this).attr('stroke-width', 0)
+                })
+
             d3.selectAll('.points').attr('fill', function(d) {
 
                     switch (d.completeness) {
@@ -558,6 +603,27 @@
                     }
                 })
                 .attr('r', '3px')
+
+            d3.selectAll('.points')
+                .on("mouseover", function(d) {
+
+                    div //.transition()
+                        //.duration(100)
+                        .style("opacity", .9);
+                    div.html("<b>Region Name: </b>" + d.name + "<br>" +
+                            "<b>Country: </b>" + d.country + "<br>" +
+                            "<b>Completeness: </b>" + d.completeness)
+                        .style("left", (d3.event.pageX + 50) + "px")
+                        .style("top", (d3.event.pageY - 28) + "px");
+
+                    d3.select(this).raise().attr('stroke', 'black').attr('stroke-width', 1)
+                })
+                .on("mouseout", function(d) {
+                    //div.transition()
+                    //.duration(500)
+                    div.style("opacity", 0);
+                    d3.select(this).attr('stroke-width', 0)
+                })
 
 
 
@@ -583,16 +649,31 @@
             const colorScheme = d3.scaleQuantile()
                 .domain([0, 1])
                 .range(d3.schemeGreens[5]);
+
             d3.selectAll('.continent').attr('fill', function(d) {
                 return colorScheme(d.properties.tnorm)
             })
 
-            console.log(colorScheme.range())
-            console.log(colorScheme.domain())
-            /* console.log(colorScheme(0))
-             console.log(colorScheme(0.3))
-             console.log(colorScheme(0.6))
-             console.log(colorScheme(0.9)) */
+            d3.selectAll('.continent')
+                .on("mouseover", function(d) {
+
+                    div //.transition()
+                        //.duration(100)
+                        .style("opacity", .9);
+                    div.html("<b>Region Name: </b>" + d.properties.name + "<br>" +
+                            "<b>Country: </b>" + d.properties.country + "<br>" +
+                            "<b># of Taxa: </b>" + d.properties.taxCount)
+                        .style("left", (d3.event.pageX + 50) + "px")
+                        .style("top", (d3.event.pageY - 28) + "px");
+
+                    d3.select(this).raise().attr('stroke', 'black').attr('stroke-width', 1)
+                })
+                .on("mouseout", function(d) {
+                    //div.transition()
+                    //.duration(500)
+                    div.style("opacity", 0);
+                    d3.select(this).attr('stroke-width', 0)
+                })
 
             d3.selectAll('.points').attr('fill', function(d) {
                     //console.log(d);
@@ -600,9 +681,27 @@
                 })
                 .attr('r', '1px')
 
+            d3.selectAll('.points')
+                .on("mouseover", function(d) {
+                    div //.transition()
+                        //.duration(100)
+                        .style("opacity", .9);
+                    div.html("<b>Region Name: </b>" + d.name + "<br>" +
+                            "<b>Country: </b>" + d.country + "<br>" +
+                            "<b># of Taxa: </b>" + d.taxCount)
+                        .style("left", (d3.event.pageX + 50) + "px")
+                        .style("top", (d3.event.pageY - 28) + "px");
 
-                var subscript = "2".sup();
+                    d3.select(this).raise().attr('stroke', 'black').attr('stroke-width', 1)
+                })
+                .on("mouseout", function(d) {
+                    //div.transition()
+                    //.duration(500)
+                    div.style("opacity", 0);
+                    d3.select(this).attr('stroke-width', 0)
+                })
 
+            var subscript = "2".sup();
 
             document.getElementById('legend').innerHTML +=
                 '<h2>Normalized Taxa Count Per Area (Km' + subscript + ')</h2>' +
@@ -611,7 +710,7 @@
                 `<span style="background:#74c476; margin: 0 10px 0 0"></span>` + '<label></label>' +
                 `<span style="background:#bae4b3; margin: 0 10px 0 0"></span>` + '<label></label>' +
                 `<span style="background:#edf8e9; margin: 0 10px 0 0"></span>` + '<label>Less Taxa Per Area</label>'
-                
+
         }
 
 
