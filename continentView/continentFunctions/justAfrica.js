@@ -60,33 +60,41 @@ function justAfrica() {
             .append("path")
             .attr('class', 'continent')
             .attr("d", geoPath)
-            .attr('fill', function(d) {
+            .attr('opacity', function(d) {
                 if (d.properties.completeness === 1) {
+                    return '0.5'
+                } else {
+                    return '1'
+                }
+            })
+            .attr('fill', function(d) {
+
+                return '#e6dccc'
+              /*  if (d.properties.completeness === 1) {
 
                     const texture3 = textures.lines()
-                        .orientation('6/8')
-                        .stroke('#fc8d59')
-                        //.size(4)
                         .thicker()
-                        .strokeWidth(0.8)
-                        .background('#f1f1f1');
+                        .stroke('black')
+                        //.thinner()
+                        .strokeWidth(0.6)
+                        .background('#dacbb2');
                     svg.call(texture3)
 
                     return texture3.url()
                 } else if (d.properties.completeness === 2) {
 
                     const texture3 = textures.lines()
-                        //.size(5)
-                        .stroke('#cccc00')
+                        //.thicker()
+                        .stroke('black')
                         //.thinner()
-                        .strokeWidth(0.8)
-                        .background('#f1f1f1');
+                        .strokeWidth(0.6)
+                        .background('#dacbb2');
                     svg.call(texture3)
 
                     return texture3.url()
                 } else {
-                    return '#f1f1f1'
-                }
+                    return '#dacbb2'
+                } */
             })
             .attr('stroke', '#ababab')
             .attr('stroke-width', '0.3')
@@ -108,54 +116,66 @@ function justAfrica() {
                 d3.select(this).style('stroke', '#ababab')
             });
 
-        /*.on('mouseover', function(d){
-            d3.select(this).attr('stroke', 'yellow')
-            console.log(d.properties.country)
-        }) */
-        /*   .on('click', function (d) {
 
-               var clickedReg = d.properties.region_id;
-
-               var clicked = []
-               var naturalized = [];
-               var alien = [];
-               _.find(tax_csv, function (o) {
-                   if (o.region_id == clickedReg)
-                       clicked.push(o)
-
-               })
-               console.log(clicked);
-               for (var x in clicked) {
-                   if (clicked[x].status == 'naturalized') {
-                       naturalized.push(clicked[x])
-                   }
-               }
-
-               console.log(naturalized);
-
-           }) */
-
-        /*svg.selectAll('circle')
-            .data(islands)
+        svg.selectAll('circle')
+            .data(points)
             .enter()
             .append('circle')
-            .attr('class', 'islands')
+            .attr('class', 'points africa')
             .attr('cx', function(d) {
                 return projection([d.LON, d.LAT])[0]
             })
             .attr('cy', function(d) {
                 return projection([d.LON, d.LAT])[1]
             })
-            .attr('r', '6px')
-            .attr('opacity', 0.7)
+            .attr('r', '4px')
+            .attr('opacity', function(d) {
+                if (d.completeness === 1) {
+                    return '0.5'
+                } else {
+                    return '1'
+                }
+            })
             .attr('fill', function(d) {
-                return 'whitesmoke'
+
+                return '#e6dccc'
+
+               /* if (d.completeness === '1') {
+
+                    const texture3 = textures.lines()
+                        .thicker()
+                        .stroke('black')
+                        //.thinner()
+                        .strokeWidth(0.8)
+                        .background('#dacbb2');
+                    svg.call(texture3)
+
+                    return texture3.url()
+
+                } else if (d.completeness === '2') {
+
+                    const texture3 = textures.lines()
+                        //.thicker()
+                        .stroke('black')
+                        //.thinner()
+                        .strokeWidth(0.8)
+                        .background('#dacbb2');
+                    svg.call(texture3)
+
+                    return texture3.url()
+
+                    
+                } else {
+                    return '#dacbb2'
+                } */
+
+
             })
             .on("mouseover", function(d) {
                 tooltip.transition()
                     //.duration(200)
                     .style("opacity", .9);
-                tooltip.html("<b>Name: </br>" + d.name)
+                tooltip.html("<b>Name: </b>" + d.name + "<br>" + d.completeness)
                     .style("left", (d3.event.pageX) + "px")
                     .style("top", (d3.event.pageY - 28) + "px");
             })
@@ -163,71 +183,10 @@ function justAfrica() {
                 tooltip.transition()
                     //.duration(500)
                     .style("opacity", 0);
-            }); */
-
-
-
-          svg.selectAll('circle')
-               .data(points)
-               .enter()
-               .append('circle')
-               .attr('class', 'points africa')
-               .attr('cx', function(d) {
-                   return projection([d.LON, d.LAT])[0]
-               })
-               .attr('cy', function(d) {
-                   return projection([d.LON, d.LAT])[1]
-               })
-               .attr('r', '4px')
-               .attr('opacity', 0.7)
-               .attr('fill', function(d) {
-
-                   if (d.completeness === '1') {
-
-                       const texture3 = textures.lines()
-                           .stroke('black')
-                           .size(3)
-                           .thinner()
-                           .strokeWidth(0.3)
-                           .background('whitesmoke');
-                       svg.call(texture3)
-
-                       return texture3.url()
-                   } else if (d.completeness === '2') {
-
-                       const texture3 = textures.lines()
-                           .stroke('black')
-                           .size(5.5)
-                           .thinner()
-                           .strokeWidth(0.3)
-                           .background('whitesmoke');
-                       svg.call(texture3)
-
-                       return texture3.url()
-                   } else {
-                       return 'whitesmoke'
-                   }
-
-
-
-
-               })
-               .on("mouseover", function(d) {
-                   tooltip.transition()
-                       //.duration(200)
-                       .style("opacity", .9);
-                   tooltip.html("<b>Name: </b>" + d.name + "<br>" + d.completeness)
-                       .style("left", (d3.event.pageX) + "px")
-                       .style("top", (d3.event.pageY - 28) + "px");
-               })
-               .on("mouseout", function(d) {
-                   tooltip.transition()
-                       //.duration(500)
-                       .style("opacity", 0);
-               })
-               .on('click', function(d) {
-                   document.getElementById("infoPanel").style.visibility = 'visible'
-               })
+            })
+            .on('click', function(d) {
+                document.getElementById("infoPanel").style.visibility = 'visible'
+            })  
 
 
         g.append('path')

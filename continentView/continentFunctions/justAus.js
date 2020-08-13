@@ -12,7 +12,7 @@ function justAus() {
     }
 
     var promises = [
-        d3.json('../continentView/continent-geojsons/aus/aus.geojson'),
+        d3.json('../continentView/continent-geojsons/aus/aus1.json'),
         d3.csv('../continentView/continent-geojsons/aus/ausPoints1.csv')
     ]
 
@@ -20,9 +20,9 @@ function justAus() {
 
         Promise.all(promises).then(function(values) {
 
-            worldViewFilesData.aus = values[0];
+            worldViewFilesData.aus = geojsonRewind(values[0], true);
             worldViewFilesData.ausPoints = values[1]
-            addToMap(values[0], values[1]);
+            addToMap(worldViewFilesData.aus, values[1]);
         })
 
     } else {

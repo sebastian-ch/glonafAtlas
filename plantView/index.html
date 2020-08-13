@@ -25,6 +25,7 @@
 
     <style>
         body {
+            font-family: Arial, Helvetica, sans-serif;
             background: whitesmoke;
             overflow: hidden;
         }
@@ -145,10 +146,9 @@
         #infoPanel {
             visibility: hidden;
             width: 200px;
-            height: 200px;
+           /* height: 200px; */
             position: absolute;
-            left: 300px;
-            top: 100px;
+            
             background: whitesmoke;
             border: 2px solid black;
             color: black;
@@ -182,7 +182,7 @@
     </form>
 
     <div id='infoPanel'>
-        <button class='closebtn1' onclick='infoCloseSide()'>x</button>
+        
     </div>
     <div class="loader" id='loader'>
         <h2>Loading..</h2>
@@ -200,13 +200,16 @@
         }
         autocomplete(document.getElementById("myInput"), names);
 
-        var taxList, points;
+        var taxList, points, list, reference;
+        var currentSelect;
 
         var promises = [
             d3.dsv('\t', "latest/tax-list-small.txt"),
             d3.csv('../universalData/glonafAsCsv1.csv'),
             d3.json('../universalData/world-nonislands.geojson'),
-            d3.json('../universalData/level1.json')
+            d3.json('../universalData/level1.json'),
+            d3.csv('latest/list.csv'),
+            d3.csv('latest/ref.csv')
 
         ]
 
@@ -215,6 +218,8 @@
             var topo = topojson.feature(values[3], values[3].objects.level1)
             taxList = values[0];
             points = values[1];
+            list = values[4];
+            reference = values[5]
 
             makeMap(values[1], geojsonRewind(values[2], true), topo)
 
@@ -286,6 +291,7 @@
 
 
         function getSelected(sel) {
+            currentSelect = document.getElementById("myInput").value;
             if (document.getElementById("myInput").value != '') {
                 console.log(document.getElementById("myInput").value)
                 doMath(document.getElementById("myInput").value)
@@ -295,28 +301,30 @@
         function doMath(sel) {
 
             var wherePlantIs = _.filter(taxList, function(o) { return o.standardized_name === sel })
-            //setNewColor(sel, points, oneFam); 
-            wherePlantIsRegions = wherePlantIs.map(x => x.region_id);
+            //setNewColor(sel, points, oneFam);
+            //console.log(wherePlantIs); 
+            //wherePlantIsRegions = wherePlantIs.map(x => x.region_id);
 
-            setNewColor(wherePlantIs)
+            setNewColor(sel, wherePlantIs)
             //console.log(wherePlantIs.map(x => x.region_id))
 
-            addLegend(sel)
+            
 
         }
 
-        function setNewColor(wherePlantIs) {
+        function setNewColor(sel, wherePlantIs) {
 
 
-
+            addLegend(sel)
 
             var regions = wherePlantIs.map(x => x.region_id)
             //console.log(regions)
             d3.selectAll('circle')
                 .transition()
+                
                 .attr('r', function(d) {
                     if (regions.includes(d.region_id)) {
-
+                        d3.select(this).raise()
                         return '4px'
                     } else {
                         return '2px'
@@ -339,14 +347,36 @@
 
             d3.selectAll('circle')
                 .on('click', function(d) {
+                    document.getElementById("infoPanel").innerHTML = '';
                     //console.log(d);
-                    document.getElementById("infoPanel").style.visibility = 'visible'
+                    document.getElementById("infoPanel").style.visibility = 'visible';
+                    document.getElementById("infoPanel").style.left = (d3.event.pageX + 50) + 'px';
+                    document.getElementById("infoPanel").style.top = d3.event.pageY + 'px';
+
+                    
+                    var curr = _.find(wherePlantIs, function(o){ return o.region_id == d.region_id })
+                    //console.log(curr)
+                    var refCurr = _.find(list, function(o){return o.list_id == curr.list_id})
+                    //console.log(refCurr)
+                    var refFinally = _.find(reference, function(o){return o.ref_id == refCurr.ref_id})
+                    //console.log(refFinally)
+                    
+                    
+                    document.getElementById("infoPanel").innerHTML +=
+                    "<button class='closebtn1' onclick='infoCloseSide()'>x</button>" +
+                    '<h2>' + d.tdwg4_name + '</h2>' +
+                    '<h3>' + d.country + '</h3>' +
+                    '<h3>' + curr.status + '</h3>' +
+                    '<p><b>Reference</b>: '+ refFinally.reference +'</p>'
+
+                    
                 })
 
         }
 
 
         function addLegend(sel) {
+            document.getElementById('legend').innerHTML = '';
 
             var svg1 = d3.select('#legend').style('visibility', 'visible')
             document.getElementById('legend').innerHTML +=
