@@ -4,6 +4,10 @@
 <head>
 
     <meta charset="UTF-8">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/glonafAtlas/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/glonafAtlas/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/glonafAtlas/favicons/favicon-16x16.png">
     <!--<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"> -->
@@ -146,6 +150,7 @@
             /* background-color: lightblue; */
             visibility: hidden;
         }
+
         #circleLegend h2 {
             margin: 4px;
             padding: 0;
@@ -189,7 +194,7 @@
             <br>
             <p id='explanation'>This view allows for global visualizations of the GloNAF dataset. The above buttons allow for viewing different maps of the GloNAF regions.
                 <br>
-            Hover over a region to view more specific data on it.
+                Hover over a region to view more specific data on it.
             </p>
         </div>
 
@@ -408,11 +413,6 @@
             console.log(domainVals);
             //console.log(points)
 
-
-            /* var sqrtEx = d3.scaleSqrt()
-                 .domain([domainVals[0] + 1, domainVals[1]])
-                 .range([1, 20]) */
-
             var linearScale = d3.scaleLinear()
                 .domain(domainVals)
                 .range([0.5, 30])
@@ -421,6 +421,7 @@
             if (domainVals[1] <= 30) {
 
                 d3.selectAll('circle')
+                    .raise()
                     .transition()
                     .attr('r', function(d) {
                         return d[selected].toString() + 'px'
@@ -433,6 +434,7 @@
             } else {
 
                 d3.selectAll('circle')
+                    .raise()
                     .transition()
                     .attr('r', function(d) {
 

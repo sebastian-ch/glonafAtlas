@@ -7,6 +7,11 @@
     <!--<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"> -->
+        
+    <link rel="apple-touch-icon" sizes="180x180" href="/glonafAtlas/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/glonafAtlas/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/glonafAtlas/favicons/favicon-16x16.png">
+    
     <title>Plant View</title>
     <script src="https://d3js.org/d3.v5.min.js" type="text/javascript"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js" type="text/javascript"></script>
@@ -158,6 +163,11 @@
             background-color: #111;
             color: whitesmoke;
         }
+
+        .loader {
+            text-align: center;
+            line-height: 700px;
+        }
     </style>
 
 </head>
@@ -173,6 +183,9 @@
 
     <div id='infoPanel'>
         <button class='closebtn1' onclick='infoCloseSide()'>x</button>
+    </div>
+    <div class="loader" id='loader'>
+        <h2>Loading..</h2>
     </div>
     <div id='legend'></div>
     <div id='map'></div>
@@ -266,6 +279,9 @@
                 .attr('fill', '#b2b2b2')
                 .style('opacity', 0.5);
 
+
+            removeLoading()
+
         }
 
 
@@ -338,11 +354,11 @@
                 `<span style="background:#8eac8e"></span>` + '<label>Naturalized</label>' +
                 `<span style="background:#f55c59"></span>` + '<label>Alien</label>'
 
+        }
 
-
-
-
-
+        function removeLoading() {
+            var el = document.getElementById('loader');
+            el.parentNode.removeChild(el);
         }
     </script>
 </body>
