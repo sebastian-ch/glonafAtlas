@@ -136,8 +136,8 @@ OBJIDsic,LAT,LON,GeodAREA,taxCount,region_id,code,name,island,tdwg4,tdwg4_name,t
 "399",36.9713337021,-25.0998229246,96.8918334048,"865","984",PRT.AZO.MAR,Santa Maria,"1",AZO-OO,AΞ²ΒβΞ²ΒΒres,AZO,"21","2",Africa,PRT,Portugal,"3","2","2388",892.748
 "401",-33.6112447808,-70.6438395192,15824.3582004,"9","1232",CHL.RSA,"RegiΞΒ³n Metropolitana de Santiago, Chile","0",CLC-SA,Santiago,CLC,"85","8",Southern America,CHL,Chile,"1","2","2385",0.057
 "403",-0.26624540728,-90.7125462493,577.099751153,"40","982",ECU.GAL.SAN,Santiago,"1",GAL-OO,GalΞΒ pagos,GAL,"83","8",Southern America,ECU,Ecuador,"3","2","52",6.931
-"405",38.637234313,-28.0292361553,243.780704561,"614","988",PRT.AZO.JOR,SΞΒ£o Jorge,"1",AZO-OO,AΞ²ΒβΞ²ΒΒres,AZO,"21","2",Africa,PRT,Portugal,"3","2","2388",251.866
-"406",37.7954000209,-25.4818912421,744.721488156,"915","985",PRT.AZO.MIG,SΞΒ£o Miguel,"1",AZO-OO,AΞ²ΒβΞ²ΒΒres,AZO,"21","2",Africa,PRT,Portugal,"3","2","2388",122.865
+"405",38.637234313,-28.0292361553,243.780704561,"614","988",PRT.AZO.JOR,São Jorge,"1",AZO-OO,AΞ²ΒβΞ²ΒΒres,AZO,"21","2",Africa,PRT,Portugal,"3","2","2388",251.866
+"406",37.7954000209,-25.4818912421,744.721488156,"915","985",PRT.AZO.MIG,São Miguel,"1",AZO-OO,AΞ²ΒβΞ²ΒΒres,AZO,"21","2",Africa,PRT,Portugal,"3","2","2388",122.865
 "431",17.7328595919,-64.7684563079,219.681367592,"3","1303",USA.VI.STC,St. Croix (Virgin Islands),"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.),"2","2","101",1.366
 "432",-15.9594056606,-5.70849369246,168.128007826,"252","668",SHN.SH,St Helena,"1",STH-OO,St.Helena,STH,"28","2",Africa,SHN,"Saint Helena, Ascension and Tristan da Cunha","2","2","72",149.886
 "433",18.3383534594,-64.7367581147,52.0734160954,"2","1302",USA.VI.STJ,St. John (Virgin Islands),"1",LEE-VI,Virgin Is.,LEE,"81","8",Southern America,VIR,Virgin Islands (U.S.),"2","2","101",3.841
@@ -151,7 +151,7 @@ OBJIDsic,LAT,LON,GeodAREA,taxCount,region_id,code,name,island,tdwg4,tdwg4_name,t
 "480",-32.7932900825,-70.9779690415,16073.2921689,"12","1224",CHL.RVA,"RegiΞΒ³n de ValparaΞΒ­so, Chile","0",CLC-VA,ValparaΞβso,CLC,"85","8",Southern America,CHL,Chile,"1","2","2385",0.075
 "484",-36.8567611851,144.308838407,227944.880002,"1539","107",AUS.VIC,Australia Victoria,"0",VIC-OO,Victoria,VIC,"50","5",Australasia,AUS,Australia,"3","2","2398",0.675
 "490",47.250722057,9.89903218655,2686.01279949,"125","918",AUT.VOR,Vorarlberg,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",4.654
-"495",22.2459277296,4.78067715154,6832540.61984,"1","993",ESH,Western Sahara,"0",WSA-OO,Western Sahara,WSA,"20","2",Africa,ESH,Western Sahara*,"1","2","3",0.000
+"495",24.605,-13.657,6832540.61984,"1","993",ESH,Western Sahara,"0",WSA-OO,Western Sahara,WSA,"20","2",Africa,ESH,Western Sahara*,"1","2","3",0.000
 "499",48.2255607869,16.3952385006,461.01724058,"182","911",AUT.VIE,Wien,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",39.478
 "506",17.2176675394,-88.6847669885,22093.3325088,"62","149",BLZ,Belize,"0",BLZ-OO,Belize,BLZ,"80","8",Southern America,BLZ,Belize,"2","2","60",0.281
 "508",12.5156257974,-69.9756401303,199.567242351,"32","1",ABW,Aruba,"1",ARU-OO,Aruba,ARU,"81","8",Southern America,ABW,Aruba,"2","1","130",16.035

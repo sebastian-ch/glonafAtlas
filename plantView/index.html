@@ -119,7 +119,7 @@
             border-bottom: none;
             border-top: none;
             z-index: 99;
-            /*position the autocomplete items to be the same width as the container:*/
+            
             top: 100%;
             left: 0;
             right: 0;
@@ -145,7 +145,7 @@
 
         #infoPanel {
             visibility: hidden;
-            width: 200px;
+            width: 220px;
            /* height: 200px; */
             position: absolute;
             
@@ -159,7 +159,7 @@
             top: 0;
             right: 0px;
             font-size: 28px;
-            margin-left: 155px;
+            margin-left: 175px;
             background-color: #111;
             color: whitesmoke;
         }
@@ -206,7 +206,7 @@
         var promises = [
             d3.dsv('\t', "latest/tax-list-small.txt"),
             d3.csv('../universalData/glonafAsCsv1.csv'),
-            d3.json('../universalData/world-nonislands.geojson'),
+            d3.json('../universalData/world-update.geojson'),
             d3.json('../universalData/level1.json'),
             d3.csv('latest/list.csv'),
             d3.csv('latest/ref.csv')
@@ -348,10 +348,18 @@
             d3.selectAll('circle')
                 .on('click', function(d) {
                     document.getElementById("infoPanel").innerHTML = '';
-                    //console.log(d);
+                    console.log(d);
                     document.getElementById("infoPanel").style.visibility = 'visible';
                     document.getElementById("infoPanel").style.left = (d3.event.pageX + 50) + 'px';
                     document.getElementById("infoPanel").style.top = d3.event.pageY + 'px';
+                    console.log(document.getElementById('infoPanel').offsetTop)
+                    if (document.getElementById('infoPanel').offsetLeft > 1300) {
+                        document.getElementById("infoPanel").style.left = (d3.event.pageX - 150) + 'px';
+                    }
+
+                    if (document.getElementById('infoPanel').offsetTop > 500) {
+                        document.getElementById("infoPanel").style.top = (d3.event.pageY - 150) + 'px';
+                    }
 
                     
                     var curr = _.find(wherePlantIs, function(o){ return o.region_id == d.region_id })
@@ -364,7 +372,7 @@
                     
                     document.getElementById("infoPanel").innerHTML +=
                     "<button class='closebtn1' onclick='infoCloseSide()'>x</button>" +
-                    '<h2>' + d.tdwg4_name + '</h2>' +
+                    '<h2>' + d.name + '</h2>' +
                     '<h3>' + d.country + '</h3>' +
                     '<h3>' + curr.status + '</h3>' +
                     '<p><b>Reference</b>: '+ refFinally.reference +'</p>'

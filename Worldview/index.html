@@ -258,7 +258,7 @@
         var promises = [
             d3.dsv('\t', "tax-list-small.txt"),
             d3.csv('../universalData/glonafAsCsv1.csv'),
-            d3.json('../universalData/world-nonislands.geojson'),
+            d3.json('../universalData/world-update.geojson'),
             d3.json('../universalData/level1.json')
             //d3.csv('latest/islands.csv')
 
@@ -555,7 +555,7 @@
             d3.selectAll('.continent').attr('fill', function(d) {
 
                 //console.log(d);
-                switch (d.properties.completeness) {
+                switch (d.properties.completene) {
                     case 1:
                         //return '#fc8d59'
                         return '#fcaf8a'
@@ -578,7 +578,7 @@
                         .style("opacity", .9);
                     div.html("<b>Region Name: </b>" + d.properties.name + "<br>" +
                             "<b>Country: </b>" + d.properties.country + "<br>" +
-                            "<b>Completeness: </b>" + d.properties.completeness)
+                            "<b>Completeness: </b>" + d.properties.completene)
                         .style("left", (d3.event.pageX + 50) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
 
@@ -614,7 +614,7 @@
                         .style("opacity", .9);
                     div.html("<b>Region Name: </b>" + d.name + "<br>" +
                             "<b>Country: </b>" + d.country + "<br>" +
-                            "<b>Completeness: </b>" + d.completeness)
+                            "<b>Completeness: </b>" + d.completene)
                         .style("left", (d3.event.pageX + 50) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
 
@@ -632,9 +632,9 @@
 
             document.getElementById('legend').innerHTML +=
                 '<h2>Data Completeness</h2>' +
-                `<span style="background:#91cf60"></span>` + '<label>Likely Nearly Complete (>90% naturalized taxa included)</label>' +
-                `<span style="background:#ffffbf"></span>` + '<label>Likely Incomplete (between 50% and 90% of naturalized taxa included)</label>' +
-                `<span style="background:#fc8d59"></span>` + '<label>Likely Very Incomplete(< 50% naturalized taxa included)</label>'
+                `<span style="background:#91cf60"></span>` + '<label><b>3</b>: Likely Nearly Complete (>90% naturalized taxa included)</label>' +
+                `<span style="background:#ffffbf"></span>` + '<label><b>2</b>: Likely Incomplete (between 50% and 90% of naturalized taxa included)</label>' +
+                `<span style="background:#fc8d59"></span>` + '<label><b>1</b>: Likely Very Incomplete(< 50% naturalized taxa included)</label>'
 
 
         }
