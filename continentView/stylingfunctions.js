@@ -190,28 +190,50 @@ function familyStyle(sel) {
 }
 
 function setNewColor(selected, oneFam) {
+
+    var valuesToShow;
+    d3.select('#thisLegend').remove();
+
     var domainVals = d3.extent(oneFam);
-
-    if (domainVals[1] > 100) {
-        console.log('over 100');
-
-        domainVals[1] = 90
-    }
     console.log(domainVals);
     //console.log(points)
 
-
-    var sqrtEx = d3.scaleSqrt()
+    var linearScale = d3.scaleLinear()
         .domain(domainVals)
-        .range([1, 20])
+        .range([2, 30])
 
 
-    d3.selectAll('.points')
-        .transition()
-        .attr('r', function(d) {
-            return d[selected].toString() + 'px'
-        })
-        .attr('fill', '#b2d8b2')
+    if (domainVals[1] <= 30) {
+
+        d3.selectAll('circle')
+            .raise()
+            .transition()
+            .attr('r', function(d) {
+                return d[selected].toString() + 'px'
+
+            })
+            .attr('fill', '#b2d8b2')
+
+        valuesToShow = [domainVals[1] / 2, domainVals[1]]
+        console.log(valuesToShow)
+    } else {
+
+        d3.selectAll('circle')
+            .raise()
+            .transition()
+            .attr('r', function(d) {
+
+                if (d[selected] == 0) {
+                    return '0px'
+                } else {
+                    return linearScale(d[selected]) + 'px'
+                }
+            })
+            .attr('fill', '#b2d8b2')
+
+        valuesToShow = [Math.round(linearScale(domainVals[1] / 2)), linearScale(domainVals[1])]
+        console.log('vals: ' + valuesToShow);
+    }
 
     d3.selectAll('.points')
         .on("mouseover", function(d) {
@@ -234,7 +256,130 @@ function setNewColor(selected, oneFam) {
 
             d3.select(this)
                 .attr('stroke-width', 0)
+        })
 
-        });
+    document.getElementById('circleLegend').style.visibility = 'visible';
+    document.getElementById('circleLegend').innerHTML = ''
+    document.getElementById('circleLegend').innerHTML += '<h2># of ' + selected + ' </h2>'
+
+    var legend = d3.select('#circleLegend')
+        .append("svg")
+        .attr('id', 'thisLegend')
+        .attr("width", 100)
+        .attr("height", 100)
+        .style('margin', '4px')
+
+    var xCircle = 30
+    var xLabel = 80
+    var yCircle = 100
+
+    legend
+        .selectAll("legend")
+        .data(valuesToShow)
+        .enter()
+        .append("circle")
+        .attr("cx", xCircle)
+        .attr("cy", function(d) { return yCircle - d })
+        .attr("r", function(d) { return d })
+        .style("fill", "#b2d8b2")
+        .attr('opacity', 0.5)
+        .attr("stroke", "#b2d8b2")
+
+    legend
+        .selectAll("legend")
+        .data(valuesToShow)
+        .enter()
+        .append("line")
+        .attr('x1', function(d) { return xCircle + d })
+        .attr('x2', xLabel)
+        .attr('y1', function(d) { return yCircle - d })
+        .attr('y2', function(d) { return yCircle - d })
+        .attr('stroke', 'black')
+        .style('stroke-dasharray', ('2,2'))
+        .attr('shape-rendering', 'crispEdges')
+
+    // Add legend: labels
+    legend
+        .selectAll("legend")
+        .data(valuesToShow)
+        //.data(domainVals)
+        .enter()
+        .append("text")
+        .attr('x', xLabel)
+        .attr('y', function(d) { return yCircle - d })
+        .data([Math.round(domainVals[1] / 2), domainVals[1]])
+        .text(function(d) { return d })
+        .style("font-size", 15)
+        .attr('alignment-baseline', 'middle')
+        .attr('shape-rendering', 'crispEdges')
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* var domainVals = d3.extent(oneFam);
+
+                 if (domainVals[1] > 100) {
+                     console.log('over 100');
+
+                     domainVals[1] = 90
+                 }
+                 console.log(domainVals);
+                 //console.log(points)
+
+
+                 d3.selectAll('.points')
+                     .transition()
+                     .attr('r', function(d) {
+                         return d[selected].toString() + 'px'
+                     })
+                     .attr('fill', '#b2d8b2')
+
+                 d3.selectAll('.points')
+                     .on("mouseover", function(d) {
+                         tooltip.transition()
+                             .duration(200)
+                             .style("opacity", .9);
+                         tooltip.html("<b>Name: </b>" + d.name + "<br>" +
+                                 "# of " + selected + ": " + d[selected])
+                             .style("left", (d3.event.pageX) + "px")
+                             .style("top", (d3.event.pageY - 28) + "px");
+
+                         d3.select(this)
+                             .attr('stroke-width', 1)
+                             .attr('stroke', 'black')
+                     })
+                     .on("mouseout", function(d) {
+                         tooltip.transition()
+                             .duration(500)
+                             .style("opacity", 0);
+
+                         d3.select(this)
+                             .attr('stroke-width', 0)
+
+                     });
+
+            } */

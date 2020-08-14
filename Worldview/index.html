@@ -395,16 +395,13 @@
                 }
 
                 setNewColor(selected, points, oneFam);
-
             }
-
         }
 
 
         function setNewColor(selected, points, oneFam) {
 
             d3.select('#thisLegend').remove();
-
 
             document.getElementById('mapTitle').style.visibility = 'visible';
             document.getElementById('mapTitle').innerHTML = "<h1>Family " + selected + "</h1>"

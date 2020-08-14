@@ -15,6 +15,7 @@
             margin: 0;
             background: #c6c6c6;
             overflow: hidden;
+            font-family: Calibri, sans-serif;
         }
 
         h2 {
@@ -147,15 +148,41 @@
 
         #mapTitle {
             position: absolute;
-            visibility: hidden;
+            visibility: visible;
             left: 100px;
-            top: 180px;
+            bottom: 140px;
             width: 300px;
             height: 50px;
+            text-align: left;
 
         }
+
         .world:hover {
             cursor: pointer;
+        }
+
+        #circleLegend {
+            position: absolute;
+            bottom: 40px;
+            left: 300px;
+            width: 145px;
+            height: 104px;
+            border: 1px solid black;
+             background-color: #9e9e9e;
+            visibility: hidden;
+        }
+
+        #circleLegend h2 {
+            margin: 4px;
+            padding: 0;
+            position: absolute;
+            color: black;
+        }
+
+        #circleLegend text {
+
+            fill: black;
+            font-size: 1.5em;
         }
     </style>
 </head>
@@ -192,14 +219,16 @@
     </div>
     <button id="openbtn" onclick="openSide()">Open Sidebar</button>
     <div id='legend'></div>
+    <div id='circleLegend'></div>
     <div id='infoPanel'>
         <button class='closebtn1' onclick='infoCloseSide()'>x</button>
         <h2>Region Name</h2>
         <p>List of Taxa in Searched Family</p>
         <p>References</p>
     </div>
+    <div id='mapTitle'><h1>These are the GloNAF regions divided into TDWG continents. Click on a continent for closer view</h1></div>
     <div id="map">
-        <div id='mapTitle'></div>
+        
     </div>
     </div>
 
@@ -238,7 +267,7 @@
         var svg;
         var worldViewFiles = [
             d3.json('../universalData/level1.json'),
-            d3.json('../universalData/world-nonislands.geojson'),
+            d3.json('../universalData/world-update.geojson'),
             d3.csv('continent-geojsons/islands.csv'),
             d3.dsv('\t', "dsv-data/tax-list-small.txt")
         ]
@@ -271,10 +300,7 @@
             console.log(polys)
             console.log('----')
             console.log(islands)
-
-            /*  document.getElementById('mapTitle').style.visibility = 'visible';
-              document.getElementById('mapTitle').innerHTML = "<h1>Click a Region for a Closer Look</h1>" */
-
+              
             document.getElementById('familySearch').style.visibility = 'hidden';
 
 
@@ -342,7 +368,7 @@
                     return styleContinents(d)
                 })
 
-            g 
+            g
                 .append('g')
                 .selectAll('path')
                 .data(backdrop.features)
@@ -358,6 +384,9 @@
 
         function worldView() {
 
+            /*d3.select('#thisLegend').remove(); */
+            document.getElementById('mapTitle').style.visibility = 'visible';
+            document.getElementById('circleLegend').style.visibility = 'hidden';
             var div = document.getElementById('map');
             while (div.firstChild) {
                 div.removeChild(div.firstChild)
