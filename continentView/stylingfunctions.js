@@ -265,8 +265,8 @@ function setNewColor(selected, oneFam) {
     var legend = d3.select('#circleLegend')
         .append("svg")
         .attr('id', 'thisLegend')
-        .attr("width", 100)
-        .attr("height", 100)
+        .attr("width", 110)
+        .attr("height", 110)
         .style('margin', '4px')
 
     var xCircle = 30
@@ -313,6 +313,7 @@ function setNewColor(selected, oneFam) {
         .attr('alignment-baseline', 'middle')
         .attr('shape-rendering', 'crispEdges')
 
+        spinner.stop()
 
 }
 
