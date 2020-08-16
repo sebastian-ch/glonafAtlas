@@ -113,7 +113,7 @@
             cursor: pointer;
         }
 
-        
+
 
         div.tooltip {
             position: absolute;
@@ -160,14 +160,52 @@
             cursor: pointer;
         }
 
+        #legend {
+            position: absolute;
+            color: whitesmoke;
+            padding: 8px 15px;
+            background: rgba(25, 25, 25, 0.8);
+            border-radius: 5px;
+            border: 1px solid black;
+            bottom: 30px;
+            right: 55px;
+            visibility: hidden;
+        }
+
+        #legend h2 {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 3px;
+        }
+
+        #legend span {
+            width: 20px;
+            height: 20px;
+            float: left;
+            margin: 0 10px 4px 0;
+        }
+
+        #legend label {
+            
+            line-height: 1.7em;
+            font-size: 0.8em;
+        }
+
+        #legend label:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
         #circleLegend {
             position: absolute;
-            bottom: 40px;
+            bottom: 30px;
             left: 300px;
-            width: 145px;
+            width: 195px;
             height: 124px;
             border: 1px solid black;
-            background-color: #9e9e9e;
+            border-radius: 5px;
+            background-color: rgba(25, 25, 25, 0.8);
             visibility: hidden;
         }
 
@@ -175,12 +213,12 @@
             margin: 4px;
             padding: 0;
             position: absolute;
-            color: black;
+            color: whitesmoke;
         }
 
         #circleLegend text {
 
-            fill: black;
+            fill: whitesmoke;
             font-size: 1.5em;
         }
     </style>

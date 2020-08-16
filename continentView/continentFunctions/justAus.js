@@ -3,6 +3,7 @@ function justAus() {
     //document.getElementById('mapTitle').style.visibility = 'hidden';
     document.getElementById('familySearch').style.visibility = 'visible'
     document.getElementById('mapTitle').style.visibility = 'hidden';
+    document.getElementById('panel').style.visibility = 'visible'
 
     var div = document.getElementById('map')
 

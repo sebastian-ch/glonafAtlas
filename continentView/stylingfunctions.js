@@ -2,6 +2,10 @@ function plain() {
     d3.selectAll('.continent').attr('fill', 'whitesmoke')
     d3.selectAll('.points').attr('fill', 'whitesmoke')
         .attr('r', '4px')
+
+    document.getElementById('legend').innerHTML = ''
+    document.getElementById('legend').style.visibility = 'hidden'
+    document.getElementById('circleLegend').style.visibility = 'hidden'
 }
 
 function styleContinents(d) {
@@ -88,17 +92,35 @@ function taxaCountStyle() {
         })
     }
 
+    document.getElementById('legend').innerHTML = ''
+    document.getElementById('legend').style.visibility = 'visible'
+    var subscript = "2".sup();
 
-
+    document.getElementById('legend').innerHTML +=
+        '<h2>Normalized Taxa Count Per Area (Km' + subscript + ')</h2>' +
+        `<span style="background:#006d2c; margin: 0 10px 0 0"></span>` + '<label>More Taxa Per Area</label>' +
+        `<span style="background:#31a354; margin: 0 10px 0 0"></span>` + '<label></label>' +
+        `<span style="background:#74c476; margin: 0 10px 0 0"></span>` + '<label></label>' +
+        `<span style="background:#bae4b3; margin: 0 10px 0 0"></span>` + '<label></label>' +
+        `<span style="background:#edf8e9; margin: 0 10px 0 0"></span>` + '<label>Less Taxa Per Area</label>'
 
 
 }
 
 function completenessStyle() {
+
+    var completenessName = 'completeness';
+
+    if (d3.selectAll('.points').classed('africa')) {
+        completenessName = 'completene';
+    }
+
+
     d3.selectAll('.continent').attr('fill', function(d) {
 
+
         //console.log(d);
-        switch (d.properties.completeness) {
+        switch (d.properties[completenessName]) {
             case 1:
                 return '#fc8d59'
                 break;
@@ -114,7 +136,7 @@ function completenessStyle() {
         d3.selectAll('.points')
             .attr('fill', function(d) {
 
-                switch (d.completeness) {
+                switch (d[completenessName]) {
                     case '1':
                         return '#fc8d59'
                         break;
@@ -127,6 +149,23 @@ function completenessStyle() {
             })
             .attr('r', '4px')
     }
+
+
+    if (d3.selectAll('.points').classed('aus')) {
+       
+        document.getElementById('legend').style.right = '650px';
+    } else {
+        document.getElementById('legend').style.right = '55px';
+    }
+
+    document.getElementById('legend').innerHTML = ''
+    document.getElementById('legend').style.visibility = 'visible'
+
+    document.getElementById('legend').innerHTML +=
+        '<h2>Data Completeness</h2>' +
+        `<span style="background:#91cf60"></span>` + '<label><b>3</b>: Likely Nearly Complete (>90% naturalized taxa included)</label>' +
+        `<span style="background:#ffffbf"></span>` + '<label><b>2</b>: Likely Incomplete (between 50% and 90% of naturalized taxa included)</label>' +
+        `<span style="background:#fc8d59"></span>` + '<label><b>1</b>: Likely Very Incomplete(< 50% naturalized taxa included)</label>'
 
 
 }
@@ -269,7 +308,7 @@ function setNewColor(selected, oneFam) {
         .attr("height", 110)
         .style('margin', '4px')
 
-    var xCircle = 30
+    var xCircle = 40
     var xLabel = 80
     var yCircle = 100
 
@@ -294,7 +333,7 @@ function setNewColor(selected, oneFam) {
         .attr('x2', xLabel)
         .attr('y1', function(d) { return yCircle - d })
         .attr('y2', function(d) { return yCircle - d })
-        .attr('stroke', 'black')
+        .attr('stroke', 'whitesmoke')
         .style('stroke-dasharray', ('2,2'))
         .attr('shape-rendering', 'crispEdges')
 
@@ -313,7 +352,7 @@ function setNewColor(selected, oneFam) {
         .attr('alignment-baseline', 'middle')
         .attr('shape-rendering', 'crispEdges')
 
-        spinner.stop()
+    spinner.stop()
 
 }
 

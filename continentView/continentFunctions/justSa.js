@@ -59,22 +59,7 @@ function justSa() {
             .append("path")
             .attr('class', 'continent')
             .attr("d", geoPath)
-            .attr('fill', function(d) {
-                if (d.properties.completeness === 2) {
-
-                    const texture3 = textures.lines()
-                        .thicker()
-                        .stroke('black')
-                        //.thinner()
-                        .strokeWidth(0.8)
-                        .background('#EDE1D1');
-                    svg.call(texture3)
-
-                    return texture3.url()
-                } else {
-                    return '#EDE1D1'
-                }
-            })
+            .attr('fill', '#e6dccc')
             .attr('stroke', '#ababab')
             .attr('stroke-width', '0.3')
         /*.on('mouseover', function(d){
@@ -115,23 +100,8 @@ function justSa() {
                 return projection([d.LON, d.LAT])[1]
             })
             .attr('r', '4px')
-            .attr('opacity', 0.8)
-            .attr('fill', function(d) {
-                if (d.completeness === '2') {
-
-                    const texture3 = textures.lines()
-                        .thicker()
-                        .stroke('black')
-                        //.thinner()
-                        .strokeWidth(0.8)
-                        .background('#EDE1D1');
-                    svg.call(texture3)
-
-                    return texture3.url()
-                } else {
-                    return '#EDE1D1'
-                }
-            })
+            
+            .attr('fill', '#e6dccc')
             .on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })

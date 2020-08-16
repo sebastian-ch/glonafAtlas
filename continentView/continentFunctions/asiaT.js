@@ -56,35 +56,10 @@ function justAsiaT() {
             .append("path")
             .attr('class', 'continent asiaT')
             .attr("d", geoPath)
-            .attr('fill', 'whitesmoke')
+            .attr('fill', '#e6dccc')
             .attr('stroke', '#ababab')
             .attr('stroke-width', '0.3')
-        /*.on('mouseover', function(d){
-            d3.select(this).attr('stroke', 'yellow')
-            console.log(d.properties.country)
-        }) */
-        /*   .on('click', function (d) {
-
-               var clickedReg = d.properties.region_id;
-
-               var clicked = []
-               var naturalized = [];
-               var alien = [];
-               _.find(tax_csv, function (o) {
-                   if (o.region_id == clickedReg)
-                       clicked.push(o)
-
-               })
-               console.log(clicked);
-               for (var x in clicked) {
-                   if (clicked[x].status == 'naturalized') {
-                       naturalized.push(clicked[x])
-                   }
-               }
-
-               console.log(naturalized);
-
-           }) */
+        
         svg.selectAll('circle')
             .data(points)
             .enter()
@@ -97,8 +72,8 @@ function justAsiaT() {
                 return projection([d.LON, d.LAT])[1]
             })
             .attr('r', '4px')
-            .attr('opacity', 0.8)
-            .attr('fill', 'whitesmoke')
+            //.attr('opacity', 0.8)
+            .attr('fill', '#e6dccc')
             .on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })
