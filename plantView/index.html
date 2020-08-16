@@ -76,7 +76,8 @@
             border: 1px solid black;
             bottom: 40px;
             left: 100px;
-            visibility: hidden;
+            width: 280px;
+            /*visibility: hidden; */
         }
 
         #legend h2 {
@@ -148,7 +149,7 @@
             width: 220px;
            /* height: 200px; */
             position: absolute;
-            
+            padding: 5px;
             background: whitesmoke;
             border: 2px solid black;
             color: black;
@@ -187,7 +188,7 @@
     <div class="loader" id='loader'>
         <h2>Loading..</h2>
     </div>
-    <div id='legend'></div>
+    <div id='legend'><h2>Search for a plant name at the top to visualize its spatial distribution</h2></div>
     <div id='map'></div>
 
     <script>
@@ -252,6 +253,8 @@
                 .attr("d", geoPath)
                 .attr('fill', '#e6dccc')
                 .attr('class', 'continent')
+                /*.attr('stroke', 'black')
+                .attr('stroke-width', 0.5) */
 
             svg.selectAll('circle')
                 .data(data)

@@ -354,8 +354,6 @@
                 .attr('fill', 'whitesmoke')
                 .style('opacity', 0.5);
 
-            removeLoading()
-
         }
 
 
@@ -377,6 +375,8 @@
         function doMath(selected) {
 
             var oneFam = []
+            //console.log(points)
+
 
             if (!points[0].hasOwnProperty(selected)) {
 
@@ -402,9 +402,14 @@
             } else {
 
                 console.log('else')
-                for (var x in points.features) {
-                    oneFam.push(points.features[x].properties[selected])
+                for (var x in points) {
+                    oneFam.push(points[x][selected])
                 }
+                /*for (var x in points.feature) {
+                    console.log(points)
+                    console.log(points.features[x].properties[selected])
+                    oneFam.push(points.features[x].properties[selected])
+                } */
 
                 setNewColor(selected, points, oneFam);
             }
@@ -413,6 +418,9 @@
 
         function setNewColor(selected, points, oneFam) {
 
+            // console.log(points);
+            //console.log(oneFam);
+
             d3.select('#thisLegend').remove();
             spinner.stop()
 
@@ -420,7 +428,7 @@
             document.getElementById('mapTitle').innerHTML = "<h1>Family " + selected + "</h1>"
 
             var domainVals = d3.extent(oneFam);
-            console.log(domainVals);
+            // console.log(domainVals);
             //console.log(points)
 
             var linearScale = d3.scaleLinear()
@@ -439,7 +447,9 @@
                     })
                     .attr('fill', '#8eac8e')
 
-                valuesToShow = [domainVals[1] / 2, domainVals[1]]
+                console.log(domainVals)
+                //valuesToShow = [domainVals[1] / 2, domainVals[1]]
+                valuesToShow = [domainVals[1]]
                 console.log(valuesToShow)
             } else {
 
@@ -457,7 +467,7 @@
                     .attr('fill', '#8eac8e')
 
                 valuesToShow = [Math.round(linearScale(domainVals[1] / 2)), linearScale(domainVals[1])]
-                console.log('vals: ' + valuesToShow);
+                //console.log('vals: ' + valuesToShow);
             }
 
             d3.selectAll('circle')
@@ -482,10 +492,10 @@
                     console.log(this)
                 })
 
-            d3.selectAll('.continent')
-                .on('mouseover', function(d) {
-                    console.log('hi')
-                })
+            /*  d3.selectAll('.continent')
+                  .on('mouseover', function(d) {
+                      console.log('hi')
+                  }) */
 
 
             document.getElementById('circleLegend').style.visibility = 'visible';
@@ -528,21 +538,40 @@
                 .attr('shape-rendering', 'crispEdges')
 
             // Add legend: labels
-            legend
-                .selectAll("legend")
-                .data(valuesToShow)
-                //.data(domainVals)
-                .enter()
-                .append("text")
-                .attr('x', xLabel)
-                .attr('y', function(d) { return yCircle - d })
-                .data([Math.round(domainVals[1] / 2), domainVals[1]])
-                .text(function(d) { return d })
-                .style("font-size", 10)
-                .attr('alignment-baseline', 'middle')
-                .attr('shape-rendering', 'crispEdges')
+
+            if (valuesToShow.length == 1) {
+                legend
+                    .selectAll("legend")
+                    .data(valuesToShow)
+                    //.data(domainVals)
+                    .enter()
+                    .append("text")
+                    .attr('x', xLabel)
+                    .attr('y', function(d) { return yCircle - d })
+                    .data([domainVals[1]])
+                    .text(function(d) { return d })
+                    .style("font-size", 10)
+                    .attr('alignment-baseline', 'middle')
+                    .attr('shape-rendering', 'crispEdges')
+
+            } else {
 
 
+                legend
+                    .selectAll("legend")
+                    .data(valuesToShow)
+                    //.data(domainVals)
+                    .enter()
+                    .append("text")
+                    .attr('x', xLabel)
+                    .attr('y', function(d) { return yCircle - d })
+                    .data([Math.round(domainVals[1] / 2), domainVals[1]])
+                    .text(function(d) { return d })
+                    .style("font-size", 10)
+                    .attr('alignment-baseline', 'middle')
+                    .attr('shape-rendering', 'crispEdges')
+
+            }
 
         }
 
@@ -624,7 +653,7 @@
                         .style("opacity", .9);
                     div.html("<b>Region Name: </b>" + d.name + "<br>" +
                             "<b>Country: </b>" + d.country + "<br>" +
-                            "<b>Completeness: </b>" + d.completene)
+                            "<b>Completeness: </b>" + d.completeness)
                         .style("left", (d3.event.pageX + 50) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
 
@@ -737,19 +766,9 @@
         }
 
 
-        function removeLoading() {
-            var el = document.getElementById('loader');
-            el.parentNode.removeChild(el);
-        }
-
-        function addLoading() {
-            console.log('hi')
-
-        }
-
-        function degToRad(degrees) {
+        /*function degToRad(degrees) {
             return degrees * Math.PI / 180;
-        }
+        } */
 
         // Returns a tween for a transition’s "d" attribute, transitioning any selected
         // arcs from their current angle to the specified new angle.
