@@ -1,8 +1,10 @@
 function justAsiaT() {
 
-    document.getElementById('familySearch').style.visibility = 'visible'
+    document.getElementById('form').style.visibility = 'visible'
     document.getElementById('panel').style.visibility = 'visible'
     document.getElementById('mapTitle').style.visibility = 'hidden';
+    document.getElementById('circleLegend').style.visibility = 'hidden';
+    document.getElementById('legend').style.visibility = 'hidden';
 
     var div = document.getElementById('map')
 

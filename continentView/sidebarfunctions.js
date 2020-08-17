@@ -20,22 +20,4 @@ function closeSide() {
 function infoCloseSide() {
     document.getElementById("infoPanel").style.visibility= "hidden";
     
-
-    // document.getElementById("map").style.marginLeft = "0";
-}
-
-
-function setFamilySearch() {
-
-
-    const selectMenu = document.getElementById('fam');
-
-    for (var x in familylist) {
-        var el = document.createElement("option");
-        el.textContent = familylist[x];
-        el.value = familylist[x];
-        selectMenu.appendChild(el);
-    }
-
-
 }

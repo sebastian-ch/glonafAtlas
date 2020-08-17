@@ -64,24 +64,7 @@ function taxaCountStyle() {
 
         d3.selectAll('.continent').attr('fill', function(d) {
 
-            console.log(d);
-            if (d.properties.completeness == 1) {
-
-                const texture3 = textures.lines()
-                    //.orientation("vertical", "horizontal")
-                    .size(6)
-                    .strokeWidth(0.3)
-                    //.stroke(d3.color(colorScheme(d.properties.tnorm)))
-                    .background(colorScheme(Number(d.properties.tnorm)));
-                svg.call(texture3)
-
-                return texture3.url()
-
-                //return texture2.url()
-                //return texture.stroke(d3.color(colorScheme(d.properties.tnorm))).url()
-            } else {
-                return colorScheme(d.properties.tnorm)
-            }
+            return colorScheme(d.properties.tnorm)
         })
     }
 
@@ -103,7 +86,6 @@ function taxaCountStyle() {
         `<span style="background:#74c476; margin: 0 10px 0 0"></span>` + '<label></label>' +
         `<span style="background:#bae4b3; margin: 0 10px 0 0"></span>` + '<label></label>' +
         `<span style="background:#edf8e9; margin: 0 10px 0 0"></span>` + '<label>Less Taxa Per Area</label>'
-
 
 }
 
@@ -152,7 +134,7 @@ function completenessStyle() {
 
 
     if (d3.selectAll('.points').classed('aus')) {
-       
+
         document.getElementById('legend').style.right = '650px';
     } else {
         document.getElementById('legend').style.right = '55px';
