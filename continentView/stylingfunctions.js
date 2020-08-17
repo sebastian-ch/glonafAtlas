@@ -55,24 +55,67 @@ function styleContinents(d) {
 
 function taxaCountStyle() {
 
-    if (d3.selectAll('.continent').classed('asiaT')) {
-        d3.selectAll('.continent').attr('fill', function(d) {
-            return colorScheme(d.properties.tnorm)
-        })
 
-    } else {
+    d3.selectAll('.continent').attr('fill', function(d) {
 
-        d3.selectAll('.continent').attr('fill', function(d) {
+        return colorScheme(d.properties.tnorm)
+    })
 
-            return colorScheme(d.properties.tnorm)
-        })
-    }
 
     if (d3.selectAll('.points')) {
         d3.selectAll('.points').attr('fill', function(d) {
             //console.log(d)
             return colorScheme(d.tnorm)
         })
+    }
+
+    d3.selectAll('.continent')
+        .on("mouseover", function(d) {
+
+            tooltip //.transition()
+                //.duration(100)
+                .style("opacity", .9);
+            tooltip.html("<b>Region Name: </b>" + d.properties.name + "<br>" +
+                    "<b>Country: </b>" + d.properties.country + "<br>" +
+                    "<b>Taxa Count: </b>" + d.properties.taxCount)
+                .style("left", (d3.event.pageX + 50) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+
+            d3.select(this).raise().attr('stroke', 'black').attr('stroke-width', 1)
+        })
+        .on("mouseout", function(d) {
+            //div.transition()
+            //.duration(500)
+            tooltip.style("opacity", 0);
+            d3.select(this).attr('stroke-width', 0)
+        })
+
+    d3.selectAll('.points')
+        .on("mouseover", function(d) {
+
+            tooltip //.transition()
+                //.duration(100)
+                .style("opacity", .9);
+            tooltip.html("<b>Region Name: </b>" + d.name + "<br>" +
+                    "<b>Country: </b>" + d.country + "<br>" +
+                    "<b>Taxa Count: </b>" + d.taxCount)
+                .style("left", (d3.event.pageX + 50) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+
+            d3.select(this).raise().attr('stroke', 'black').attr('stroke-width', 1)
+        })
+        .on("mouseout", function(d) {
+            //div.transition()
+            //.duration(500)
+            tooltip.style("opacity", 0);
+            d3.select(this).attr('stroke-width', 0)
+        })
+
+    if (d3.selectAll('.points').classed('aus')) {
+
+        document.getElementById('legend').style.right = '650px';
+    } else {
+        document.getElementById('legend').style.right = '55px';
     }
 
     document.getElementById('legend').innerHTML = ''
@@ -113,6 +156,51 @@ function completenessStyle() {
                 return '#91cf60'
         }
     })
+    var comVar = 'completeness';
+    if (d3.selectAll('.points').classed('africa')) {
+        comVar = 'completene'
+    }
+    d3.selectAll('.continent')
+        .on("mouseover", function(d) {
+
+            tooltip //.transition()
+                //.duration(100)
+                .style("opacity", .9);
+            tooltip.html("<b>Region Name: </b>" + d.properties.name + "<br>" +
+                    "<b>Country: </b>" + d.properties.country + "<br>" +
+                    "<b>Completeness: </b>" + d.properties[comVar])
+                .style("left", (d3.event.pageX + 50) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+
+            d3.select(this).raise().attr('stroke', 'black').attr('stroke-width', 1)
+        })
+        .on("mouseout", function(d) {
+            //div.transition()
+            //.duration(500)
+            tooltip.style("opacity", 0);
+            d3.select(this).attr('stroke-width', 0)
+        })
+
+    d3.selectAll('.points')
+        .on("mouseover", function(d) {
+
+            tooltip //.transition()
+                //.duration(100)
+                .style("opacity", .9);
+            tooltip.html("<b>Region Name: </b>" + d.name + "<br>" +
+                    "<b>Country: </b>" + d.country + "<br>" +
+                    "<b>Completeness: </b>" + d[comVar])
+                .style("left", (d3.event.pageX + 50) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+
+            d3.select(this).raise().attr('stroke', 'black').attr('stroke-width', 1)
+        })
+        .on("mouseout", function(d) {
+            //div.transition()
+            //.duration(500)
+            tooltip.style("opacity", 0);
+            d3.select(this).attr('stroke-width', 0)
+        })
 
     if (d3.selectAll('.points')) {
         d3.selectAll('.points')

@@ -346,21 +346,7 @@
                 .attr("d", geoPath)
                 .attr('fill', '#d6c6aa')
                 .attr('class', 'continent')
-            /*  .attr('fill', function(d) {
-                  if (d.properties.completeness == 1) {
-
-                      return completeness1.url()
-                  } else if (d.properties.completeness == 2) {
-                      return completeness2.url()
-                  } else {
-                      return '#dddddd'
-                  }
-
-              }) */
-
-            /*.attr('stroke', 'black')
-            .attr('stroke-width', '0.15') */
-            //document.getElementById('loading').style.visibility = 'hidden';
+    
             svg.selectAll('circle')
                 .data(points)
                 .enter()

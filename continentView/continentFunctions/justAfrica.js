@@ -68,25 +68,7 @@ function justAfrica() {
             .attr('fill', '#e6dccc')
             .attr('stroke', '#ababab')
             .attr('stroke-width', 0.3)
-            .on("mouseover", function(d) {
-                tooltip.transition()
-                    //.duration(200)
-                    .style("opacity", .9);
-                tooltip.html("<b>Region Name: </b>" + d.properties.name + "<br>" +
-                        "<b>Country: </b>" + d.properties.tnorm)
-                    .style("left", (d3.event.pageX) + "px")
-                    .style("top", (d3.event.pageY - 28) + "px");
-                d3.select(this).style('stroke', 'yellow')
-
-            })
-            .on("mouseout", function(d) {
-                tooltip.transition()
-                    .duration(500)
-                    .style("opacity", 0);
-                d3.select(this).style('stroke', '#ababab')
-            });
-
-
+            
         svg.selectAll('circle')
             .data(points)
             .enter()
@@ -102,19 +84,6 @@ function justAfrica() {
             //.attr('opacity', 0.9)
             .attr('fill', '#e6dccc')
             
-            .on("mouseover", function(d) {
-                tooltip.transition()
-                    //.duration(200)
-                    .style("opacity", .9);
-                tooltip.html("<b>Name: </b>" + d.name + "<br>" + d.tnorm)
-                    .style("left", (d3.event.pageX) + "px")
-                    .style("top", (d3.event.pageY - 28) + "px");
-            })
-            .on("mouseout", function(d) {
-                tooltip.transition()
-                    //.duration(500)
-                    .style("opacity", 0);
-            })
             .on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })
