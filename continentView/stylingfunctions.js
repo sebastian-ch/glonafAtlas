@@ -235,7 +235,7 @@ function setNewColor(selected, oneFam) {
             })
             .attr('fill', '#b2d8b2')
 
-        valuesToShow = [domainVals[1] / 2, domainVals[1]]
+        valuesToShow = [domainVals[1]]
         console.log(valuesToShow)
     } else {
 
@@ -320,19 +320,38 @@ function setNewColor(selected, oneFam) {
         .attr('shape-rendering', 'crispEdges')
 
     // Add legend: labels
-    legend
-        .selectAll("legend")
-        .data(valuesToShow)
-        //.data(domainVals)
-        .enter()
-        .append("text")
-        .attr('x', xLabel)
-        .attr('y', function(d) { return yCircle - d })
-        .data([Math.round(domainVals[1] / 2), domainVals[1]])
-        .text(function(d) { return d })
-        .style("font-size", 15)
-        .attr('alignment-baseline', 'middle')
-        .attr('shape-rendering', 'crispEdges')
+    if (valuesToShow.length == 1) {
+        legend
+            .selectAll("legend")
+            .data(valuesToShow)
+            //.data(domainVals)
+            .enter()
+            .append("text")
+            .attr('x', xLabel)
+            .attr('y', function(d) { return yCircle - d })
+            .data([domainVals[1]])
+            .text(function(d) { return d })
+            .style("font-size", 15)
+            .attr('alignment-baseline', 'middle')
+            .attr('shape-rendering', 'crispEdges')
+
+    } else {
+
+        legend
+            .selectAll("legend")
+            .data(valuesToShow)
+            //.data(domainVals)
+            .enter()
+            .append("text")
+            .attr('x', xLabel)
+            .attr('y', function(d) { return yCircle - d })
+            .data([Math.round(domainVals[1] / 2), domainVals[1]])
+            .text(function(d) { return d })
+            .style("font-size", 15)
+            .attr('alignment-baseline', 'middle')
+            .attr('shape-rendering', 'crispEdges')
+
+    }
 
     spinner.stop()
 
