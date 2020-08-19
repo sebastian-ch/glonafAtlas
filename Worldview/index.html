@@ -65,7 +65,9 @@
         .left {
             background: whitesmoke;
             height: 720px;
-            text-align: center;
+            overflow-y: scroll;
+            
+            
         }
 
         #explanation {
@@ -517,10 +519,8 @@
                     console.log(this)
                 })
 
-            /*  d3.selectAll('.continent')
-                  .on('mouseover', function(d) {
-                      console.log('hi')
-                  }) */
+             d3.selectAll('.continent')
+                  .on('mouseover', null)
 
 
             document.getElementById('circleLegend').style.visibility = 'visible';
