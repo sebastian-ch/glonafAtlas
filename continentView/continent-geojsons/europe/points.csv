@@ -1,0 +1,86 @@
+OBJIDsic,LAT,LON,GeodAREA,taxCount,region_id,code,name,island,tdwg4,tdwg4_name,tdwg3,tdwg2,tdwg1,tdwg1_name,country_IS,country,completeness,completeness_judge,ref_id,tnorm
+"60",47.5602174278,16.5395546493,3940.52946059,"166","910",AUT.BUR,Burgenland,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",4.213
+"84",49.3268600551,-2.2912801596,213.607523094,"449","415",JEY_GGY,Channel Islands,"1",FRA-CI,Channel Is.,FRA,"12","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the),"1","2","116",210.199
+"220",46.7749225925,13.9267277365,9522.47912026,"179","915",AUT.CAR,KΞΒΞΏΞΒ½rnten,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",1.88
+"308",48.276969156,15.7493228995,19101.3390839,"211","912",AUT.LOW,NiederΞΒΞΒsterreich,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",1.105
+"323",48.1469222214,13.9695317807,12067.6593256,"188","913",AUT.UPP,OberΞΒΞΒsterreich,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",1.558
+"382",47.3866882268,13.0910958706,7135.10874552,"157","916",AUT.SAL,Salzburg,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",2.2
+"436",47.2784436188,15.0116066507,16431.1158754,"187","914",AUT.STY,Steiermark,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",1.138
+"457",47.1951670985,11.5000589511,12599.8303092,"152","917",AUT.TYR,Tirol,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",1.206
+"490",47.250722057,9.89903218655,2686.01279949,"125","918",AUT.VOR,Vorarlberg,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",4.654
+"499",48.2255607869,16.3952385006,461.01724058,"182","911",AUT.VIE,Wien,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",39.478
+"511",41.1515137133,20.0653661145,28836.2234104,"108","4",ALB,Albania,"0",ALB-OO,Albania,ALB,"13","1",Europe,ALB,Albania,"3","2","10",0.375
+"644",50.6257260902,4.69006376553,30819.5844351,"518","139",BEL,Belgium,"0",BGM-BE,Belgium,BGM,"11","1",Europe,BEL,Belgium,"3","2","29",1.681
+"650",42.7685225822,25.2175126245,112760.698488,"666","145",BGR,Bulgaria,"0",BUL-OO,Bulgaria,BUL,"13","1",Europe,BGR,Bulgaria,"1","2","96",0.591
+"653",53.5317456406,28.0402500595,206790.587406,"192","148",BLR,Belarus,"0",BLR-OO,Belarus,BLR,"14","1",Europe,BLR,Belarus,"2","2","29",0.093
+"710",46.7989568804,8.21535369786,41435.7975873,"170","200",CHE,Switzerland,"0",SWI-OO,Switzerland,SWI,"11","1",Europe,CHE,Switzerland,"2","2","29",0.41
+"824",49.7324482052,15.314103102,78758.8595334,"254","315",CZE,Czech Republic,"0",CZE-CZ,Czech Republic,CZE,"11","1",Europe,CZE,Czech Republic (the),"3","2","29",0.323
+"828",55.9647526718,10.0417114091,41293.816303,"436","319",DNK,Denmark,"0",DEN-OO,Denmark,DEN,"10","1",Europe,DNK,Denmark,"3","2","29",1.056
+"836",39.5596774142,2.89990332606,5099.94324327,"184","326",ESP.BAL,Balearic Islands,"1",BAL-OO,Baleares,BAL,"12","1",Europe,ESP,Spain,"2","2","2322",3.608
+"838",58.6741363008,25.5276165003,45932.1277875,"126","329",EST,Estonia,"0",BLT-ES,Estonia,BLT,"14","1",Europe,EST,Estonia,"3","2","29",0.274
+"840",64.5200155214,26.2893198185,332312.82244,"125","331",FIN,Finland,"0",FIN-OO,Finland,FIN,"10","1",Europe,FIN,Finland,"2","2","29",0.038
+"849",42.1517317134,9.10555865088,8739.2111855,"401","339",FRA.COR,Corsica,"1",COR-OO,Corse,COR,"12","1",Europe,FRA,France,"3","2","29",4.589
+"851",62.0412317639,-6.92983192379,712.620443831,"28","342",FRO,Faroe Islands,"1",FOR-OO,F?royar,FOR,"10","1",Europe,FRO,Faroe Islands (the),"2","2","29",3.929
+"854",52.5897936634,-1.46106775997,130795.511081,"1438","345",GBR.ENG,England,"1",GRB-OO,Great Britain,GRB,"10","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the),"3","2","106",1.099
+"855",54.6120213313,-6.69118577575,14084.640347,"391","346",GBR.NIR,Northern Ireland,"1",IRE-NI,Northern Ireland,IRE,"10","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the),"3","2","29",2.776
+"856",56.8396721539,-4.19064510204,79411.8398242,"904","347",GBR.SCO,Scotland,"1",GRB-OO,Great Britain,GRB,"10","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the),"3","2","106",1.138
+"857",52.3368436527,-3.76161340365,20951.4224374,"878","348",GBR.WAL,Wales,"1",GRB-OO,Great Britain,GRB,"10","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the),"3","2","106",4.191
+"865",39.1184712243,22.8866060497,125655.868501,"140","357",GRC,Greece,"0",GRC-OO,Greece,GRC,"13","1",Europe,GRC,Greece,"3","2","29",0.111
+"873",45.0511628418,16.4117799917,55888.9097498,"99","364",HRV,Croatia,"0",YUG-CR,Croatia,YUG,"13","1",Europe,HRV,Croatia,"2","2","2403",0.177
+"876",47.1677439102,19.4255648013,92352.5969886,"146","367",HUN,Hungary,"0",HUN-OO,Hungary,HUN,"11","1",Europe,HUN,Hungary,"2","2","29",0.158
+"878",54.2284069053,-4.53784753357,576.92268581,"408","369",IMN,Isle of Man,"1",GRB-OO,Great Britain,GRB,"10","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the),"1","2","116",70.72
+"913",65.0974312227,-15.0367210612,15507.2035022,"42","404",ISL.IAU,"East province, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland,"3","0","134",0.271
+"914",64.591330004,-18.3409488983,17424.8978104,"6","405",ISL.IMI,"Central Highlands, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland,"3","0","134",0.034
+"915",65.6070681664,-18.1939896558,24646.2028563,"48","406",ISL.INO,"North province, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland,"3","0","134",0.195
+"916",65.8068755236,-22.7503826288,6937.52677103,"32","407",ISL.INV,"North-West province, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland,"3","0","134",0.461
+"917",63.900233719,-19.8030819059,9931.31471387,"49","408",ISL.ISU,"South province, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland,"3","0","134",0.493
+"918",64.6887033301,-21.8828830329,10470.6330894,"51","409",ISL.IVE,"Westprovince, Iceland","1",ICE-OO,Iceland,ICE,"10","1",Europe,ISL,Iceland,"3","0","134",0.487
+"920",43.5247901062,12.1624490114,250408.926574,"492","411",ITA.ITA,Italy (mainland),"0",ITA-IT,Italy,ITA,"13","1",Europe,ITA,Italy,"3","2","29",0.196
+"921",40.0902244385,9.03622355657,23784.2012987,"120","412",ITA.SAR,Sardinia,"1",SAR-OO,Sardegna,SAR,"12","1",Europe,ITA,Italy,"1","2","2377",0.505
+"922",37.587634527,14.1554966646,25453.6253133,"146","413",ITA.SIC,Sicily,"1",SIC-SI,Sicilia,SIC,"13","1",Europe,ITA,Italy,"2","2","29",0.574
+"945",47.1424631705,9.55380476669,162.039064523,"78","436",LIE,Liechtenstein,"0",AUT-LI,Liechtenstein,AUT,"11","1",Europe,LIE,Liechtenstein,"2","2","29",48.137
+"948",55.3356707045,23.8981208621,65010.3481621,"259","439",LTU,Lithuania,"0",BLT-LI,Lithuania,BLT,"14","1",Europe,LTU,Lithuania,"2","2","29",0.398
+"949",49.7798203192,6.1102038904,2585.61475212,"105","440",LUX,Luxembourg,"0",BGM-LU,Luxembourg,BGM,"11","1",Europe,LUX,Luxembourg,"3","2","29",4.061
+"950",56.8575350439,24.9294257299,64643.1793057,"281","441",LVA,Latvia,"0",BLT-LA,Latvia,BLT,"14","1",Europe,LVA,Latvia,"3","2","29",0.435
+"952",47.1938707866,28.4739305383,33687.7736624,"193","443",MDA,Republic of Moldova,"0",UKR-MO,Moldova,UKR,"14","1",Europe,MDA,Moldova (the Republic of),"2","2","29",0.573
+"991",41.5930785603,21.6995551513,25327.6087915,"6","481",MKD,The former Yugoslav Republic of Macedonia,"0",YUG-MA,Macedonia,YUG,"13","1",Europe,MKD,Macedonia (the former Yugoslav Republic of),"1","2","29",0.024
+"993",35.8905226177,14.4419224618,294.394649465,"105","483",MLT,Malta,"1",SIC-MA,Malta,SIC,"13","1",Europe,MLT,Malta,"2","2","29",35.666
+"1029",52.2346787265,5.62264364879,34534.7188373,"256","519",NLD,Netherlands,"0",NET-OO,Netherlands,NET,"11","1",Europe,NLD,Netherlands (the),"1","2","2354",0.741
+"1031",70.9407212855,-8.5660462814,1.90539943216,"6","521",NOR.JM,Jan Mayen,"1",SVA-OO,Svalbard,SVA,"10","1",Europe,SJM,Svalbard and Jan Mayen,"3","1","46",314.895
+"1032",78.9534002074,22.98493194,1639.43510499,"6","522",NOR.SVA,Svalbard,"1",SVA-OO,Svalbard,SVA,"10","1",Europe,SJM,Svalbard and Jan Mayen,"2","2","29",0.366
+"1070",52.122180742,19.4171293663,313468.493058,"391","532",POL,Poland,"0",POL-OO,Poland,POL,"11","1",Europe,POL,Poland,"3","2","127",0.125
+"1150",45.8464659133,24.9569843652,237672.173387,"110","614",ROU,Romania,"0",ROM-OO,Romania,ROM,"13","1",Europe,ROU,Romania,"2","2","29",0.046
+"1172",60.0046336518,31.6809383644,84805.4555189,"173","637",RUS.LN,Leningrad,"0",RUW-OO,Northwest European Russia,RUW,"14","1",Europe,RUS,Russian Federation (the),"2","2","87",0.204
+"1173",52.646265734,39.1330654968,24203.6669287,"156","638",RUS.LP,Lipetsk,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the),"2","2","87",0.645
+"1174",54.3711341708,44.4725418068,25997.8233413,"164","640",RUS.MR,Mordovia,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the),"2","2","87",0.631
+"1175",55.6580764227,37.6470217957,46880.0844216,"857","641",RUS.MS,Moskva,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the),"2","2","87",1.828
+"1176",54.3283701607,40.6243936258,39767.9926391,"141","642",RUS.RZ,Ryazan,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the),"2","2","87",0.355
+"1189",53.8912338382,37.5575774497,25509.7624604,"151","655",RUS.TL,Tula,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the),"2","2","87",0.592
+"1190",57.0941405666,34.7134017146,84465.4733405,"179","656",RUS.TV,Tver,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the),"2","2","87",0.212
+"1191",50.9720232133,40.2194276851,52178.0316619,"210","657",RUS.VR,Voronezh,"0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the),"2","2","87",0.402
+"1207",48.7049353017,19.4803829712,48457.7888628,"166","675",SVK,Slovakia,"0",CZE-SK,Slovakia,CZE,"11","1",Europe,SVK,Slovakia,"2","2","29",0.343
+"1208",46.1235641703,14.8265383731,20421.1174301,"232","676",SVN,Slovenia,"0",YUG-SL,Slovenia,YUG,"13","1",Europe,SVN,Slovenia,"3","2","2416",1.136
+"1209",62.7651066199,16.7313854372,442884.44107,"1610","677",SWE,Sweden,"0",SWE-OO,Sweden,SWE,"10","1",Europe,SWE,Sweden,"3","2","2355",0.364
+"1266",49.0234869586,31.4078658733,595741.21635,"785","734",UKR,Ukraine,"0",UKR-UK,Ukraine,UKR,"14","1",Europe,UKR,Ukraine,"2","2","2353",0.132
+"1360",40.3892980737,-3.55550482038,494029.074568,"763","328",ESP.ESP,Spain (mainland),"0",SPA-SP,Spain,SPA,"12","1",Europe,ESP,Spain,"3","2","2387",0.154
+"1361",39.6483819807,-7.97743435524,88951.2922523,"486","538",PRT.PRT,Portugal (mainland),"0",POR-OO,Portugal,POR,"12","1",Europe,PRT,Portugal,"3","2","2387",0.546
+"1362",46.6218195976,2.46083191659,540019.523293,"735","340",FRA.FRA,France (mainland),"0",FRA-FR,France,FRA,"12","1",Europe,FRA,France,"3","2","29",0.136
+"1030",64.4831563524,14.3874944143,293847.340063,"604","520",NOR,Norway (mainland),"0",NOR-OO,Norway,NOR,"10","1",Europe,NOR,Norway,"3","2","29",0.206
+"912",53.1782213914,-8.14504461757,69445.0164808,"385","403",IRL,Ireland,"1",IRE-IR,Ireland,IRE,"10","1",Europe,IRL,Ireland,"2","2","29",0.554
+"1523",53.904748825,47.9630718277,36840.8373706,"201","1247",RUS.UL,"Ulyanovsk Oblast, Russian Federation","0",RUC-OO,Central European Russia,RUC,"14","1",Europe,RUS,Russian Federation (the),"2","2","2392",0.546
+"1558",48.9462106949,11.4223444839,70505.9973542,"422","1286",DEU.BY,"Bayern, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",0.599
+"1565",52.7703443333,9.16992400295,47767.5459739,"294","1293",DEU.NI,"Niedersachsen, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",0.615
+"1557",48.5418924181,9.05144111988,35989.0710827,"329","1285",DEU.BW,"Baden-WΞΒΞΒrttemberg, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",0.914
+"1566",51.4766733738,7.56652845445,34273.7755042,"382","1294",DEU.NW,"Nordrhein-Westfalen, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",1.115
+"1560",52.47328025,13.3990663619,29458.3777462,"276","1288",DEU.BB,"Brandenburg, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",0.937
+"1564",53.7531201769,12.5375837844,23193.1582986,"186","1292",DEU.MV,"Mecklenburg-Vorpommern, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",0.802
+"1563",50.6022127209,9.03943801768,20983.4577999,"357","1291",DEU.HE,"Hessen, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",1.701
+"1569",52.0119372303,11.7054956351,20602.675086,"600","1297",DEU.ST,"Sachsen-Anhalt, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",2.912
+"1567",49.9165233089,7.45364496241,19835.083219,"403","1295",DEU.RP,"Rheinland-Pfalz, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",2.032
+"1570",51.0512550103,13.3541361892,18417.9241722,"464","1298",DEU.SN,"Sachsen, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",2.519
+"1572",50.9029749517,11.0304845364,16256.1084645,"369","1300",DEU.TH,"ThΞΒΞΒringen, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",2.27
+"1571",54.1888268131,9.80582802466,15651.812556,"198","1299",DEU.SH,"Schleswig-Holstein, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",1.265
+"1568",49.3911587882,6.95720789472,2560.73720667,"276","1296",DEU.SL,"Saarland, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",10.778
+"1559",52.4993363,13.4087822244,885.31808391,"185","1287",DEU.BE,"Berlin, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",20.896
+"1562",53.5545680308,10.0272090388,768.156743459,"186","1290",DEU.HH,"Hamburg, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",24.214
+"1561",53.1121443239,8.7862344974,318.857935186,"125","1289",DEU.HB,"Bremen, Germany","0",GER-OO,Germany,GER,"11","1",Europe,DEU,Germany,"3","2","2405",39.202

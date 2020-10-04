@@ -114,6 +114,11 @@ function taxaCountStyle() {
     if (d3.selectAll('.points').classed('aus')) {
 
         document.getElementById('legend').style.right = '650px';
+    } else if (d3.selectAll('.points').classed('pacific')) {
+        
+        document.getElementById('legend').style.right = '55px';
+        document.getElementById('legend').style.bottom = '455px';
+        
     } else {
         document.getElementById('legend').style.right = '55px';
     }

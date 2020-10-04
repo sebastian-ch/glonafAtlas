@@ -1,0 +1,135 @@
+OBJIDsic,LAT,LON,GeodAREA,taxCount,region_id,code,name,island,tdwg4,tdwg4_name,tdwg3,tdwg2,tdwg1,tdwg1_name,country_IS,country,completeness,completeness_judge,ref_id,tnorm
+"124",-27.1205073284,-109.356493613,168.13181343,"2","1252",CHL.EAS,"Easter Island, Chile","1",EAS-OO,Easter Is.,EAS,"61","6",Pacific,CHL,Chile,"1","2","2385",1.19
+"151",23.8497920751,-166.2621009,0.25048569727,"24","747",USA.HI.FFS,French Frigate Shoals,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",9581.385
+"213",21.6541437138,-160.541486522,0.74776611583,"12","750",USA.HI.KAR,Ka'ula Rock,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",1604.78
+"214",20.5476115268,-156.609340602,116.658525066,"144","749",USA.HI.KAH,Kaho'olawe,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",123.437
+"801",-19.9956837945,-158.114431777,29.4757657489,"134","292",COK.AT,"Atiu, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),"2","2","2419",454.611
+"802",-21.9281267223,-157.919429454,48.5408656075,"160","293",COK.MA,"Mangaia, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),"2","2","2419",329.619
+"803",-20.1611701676,-157.341429319,20.4195036506,"154","294",COK.MAU,"Mauke, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),"2","2","2419",754.181
+"804",-19.2688006005,-158.937152731,7.46602407972,"16","295",COK.ME,"Manuae, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),"2","2","2419",214.304
+"805",-10.4199021621,-161.00126823,7.9795859838,"42","296",COK.MI,"Manihiki, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the),"2","2","2419",526.343
+"806",-19.8671266883,-157.702197566,24.6957382393,"105","297",COK.MIT,"Mitiaro, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),"2","2","2419",425.175
+"807",-11.5605937154,-165.414581366,1.16153729708,"20","298",COK.NAS,"Nassau, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the),"2","2","2419",1721.856
+"808",-18.0601270781,-163.15227335,2.12327294067,"29","299",COK.PAL,"Palmerston, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),"2","2","2419",1365.816
+"809",-8.98802355399,-157.980508606,17.6328949243,"40","300",COK.PEN,"Penrhyn, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the),"2","2","2419",226.849
+"810",-10.8838152019,-165.845369779,4.09425582597,"40","301",COK.PUK,"Pukapuka, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the),"2","2","2419",976.979
+"811",-21.2346232782,-159.777546117,69.107189475,"222","302",COK.RA,"Rarotonga, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),"2","2","2419",321.24
+"232",28.3928209595,-178.293975017,0.85221067062,"40","752",USA.HI.KUR,Kure,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",4693.675
+"537",-14.172184028,-169.66373061,7.73429053857,"104","30",ASM.OFU,Ofu,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa,"2","2","138",1344.661
+"538",-14.178550932,-169.620375353,7.2701186902,"46","31",ASM.OLO,Olosega,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa,"2","2","138",632.727
+"539",-11.0558763561,-171.078438558,3.71050343407,"38","32",ASM.SWA,Swains,"1",TOK-SW,Swains I.,TOK,"60","6",Pacific,ASM,American Samoa,"2","2","138",1024.12
+"540",-14.2420445121,-169.468213637,59.6163391251,"154","33",ASM.TAU,Tau,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa,"2","2","138",258.318
+"541",-14.3003342515,-170.717618208,142.877457238,"200","34",ASM.TUA,Tutuila,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa,"2","2","138",139.98
+"800",-18.8668385902,-159.776500355,20.4275724387,"98","291",COK.AI,"Aitutaki, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),"2","2","2419",479.744
+"1100",-10.4716346956,-138.639836424,95.2878353514,"214","562",PYF.MI.FHI,"Fatu Hiva, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,"2","2","2375",224.583
+"1101",-9.43680734675,-138.926493737,0.59343086645,"7","563",PYF.MI.FHU,"Fatu Huku, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,"2","2","2375",1179.581
+"1102",-7.91764125559,-140.569691248,8.41008100743,"27","564",PYF.MI.HA,"Hatutaa, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,"2","2","2375",321.043
+"1103",-9.77477747876,-139.013921903,319.393502395,"281","565",PYF.MI.HO,"Hiva Oa, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,"2","2","2375",87.979
+"1104",-9.98529150538,-138.829614855,20.1036483149,"45","566",PYF.MI.MO,"Mohotani, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,"2","2","2375",223.84
+"1105",-8.86623902754,-140.139322512,346.61942925,"299","567",PYF.MI.NH,"Nuku Hiva, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,"2","2","2375",86.262
+"1106",-9.94498826259,-139.088563738,71.9068031273,"135","568",PYF.MI.TA,"Tahuata, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,"2","2","2375",187.743
+"1107",-8.90932310343,-139.551963724,91.6311399955,"203","569",PYF.MI.UH,"Ua Huka, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,"2","2","2375",221.54
+"1108",-9.3978570695,-140.073941947,108.789259183,"183","570",PYF.MI.UP,"Ua Pou, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,"2","2","2375",168.215
+"1109",-23.927746037,-130.740043384,2.90403044171,"2","571",PYF.OE,"Oeno, French Polynesia","1",PIT-OO,Pitcairn Is.,PIT,"61","6",Pacific,PCN,Pitcairn,"1","2","40",68.87
+"1132",-15.8436630697,-148.255586332,30.7521367089,"56","594",PYF.TA.MAK,"Makatea, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"2","2","40",182.101
+"1133",-14.3980841865,-145.949288026,24.7941548646,"3","595",PYF.TA.MAN,"Manihi, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",12.1
+"1134",-21.4739118876,-136.396177886,8.49539098905,"1","596",PYF.TA.MAO,"Matureivavao, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",11.771
+"1135",-21.8494026582,-138.891970986,21.2965648557,"2","597",PYF.TA.MOR,"Moruroa, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",9.391
+"1138",-16.1583345942,-146.348840964,25.3566396043,"17","600",PYF.TA.NIA,"Niau, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",67.044
+"1139",-15.1436604725,-147.570159127,98.7693782731,"9","601",PYF.TA.RAN,"Rangiroa, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",9.112
+"1140",-15.741945926,-144.631571948,6.14400086068,"1","603",PYF.TA.TAI,"Taiaro, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",16.276
+"247",20.8349945464,-156.927065885,366.604163668,"403","753",USA.HI.LAE,LΞΒΞΏΞΒ½na'i,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",109.928
+"249",25.7686890239,-171.734887774,2.92094893033,"12","754",USA.HI.LAY,Laysan,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",410.825
+"251",22.0201003056,-160.095764674,1.28218787021,"40","755",USA.HI.LEH,Lehua,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",3119.668
+"258",26.0639531499,-173.965922309,1.59354471908,"3","756",USA.HI.LIS,Lisianski,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",188.26
+"286",28.2080499329,-177.367191123,6.43351937511,"124","758",USA.HI.MID,Midway,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",1927.405
+"288",21.1331726782,-157.014517575,680.421601482,"522","759",USA.HI.MOL,Moloka'i,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",76.717
+"307",21.8966425852,-160.151830603,197.312532182,"99","761",USA.HI.NII,Ni'ihau,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",50.174
+"309",23.0604558943,-161.922525282,0.65231128283,"6","760",USA.HI.NIH,Nihoa,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",919.806
+"356",27.8227755735,-175.798245491,0.29384643614,"10","763",USA.HI.PEH,Pearl & Hermes,"1",HAW-HI,Hawaiian Is.,HAW,"63","6",Pacific,USA,United States of America (the),"3","2","56",3403.138
+"536",-14.2840392329,-170.553463672,1.74340419344,"89","29",ASM.AUU,Aunuu,"1",SAM-AS,American Samoa,SAM,"60","6",Pacific,ASM,American Samoa,"2","2","138",5104.955
+"812",-10.0173556381,-161.09226604,4.85807417668,"36","303",COK.RAK,"Rakahanga, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the),"2","2","2419",741.034
+"813",-13.2505952414,-163.126821694,1.81625090561,"8","304",COK.SUW,"Suwarrow, Cook Islands","1",TOK-MA,Manihiki Is.,TOK,"60","6",Pacific,COK,Cook Islands (the),"2","2","2419",440.468
+"814",-19.8125129963,-158.289025879,1.12133505592,"3","305",COK.TAK,"Takutea, Cook Islands","1",COO-OO,Cook Is.,COO,"61","6",Pacific,COK,Cook Islands (the),"2","2","2419",267.538
+"841",-18.3284020454,-178.692399733,1.44245649233,"1","332",FJI.AIW,"Aiwa, Lau Islands","1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji,"2","2","43",69.326
+"842",-18.2110926902,-178.789865465,62.1058478822,"32","333",FJI.LAK,"Lakeba, Lau Islands","1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji,"2","2","43",51.525
+"843",-18.1456888986,178.587081868,0.82385363357,"36","334",FJI.NAS,"Nasoata, Fiji Islands","1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji,"3","2","124",4369.708
+"844",-17.9783223333,-179.05240823,19.3412394516,"17","335",FJI.NAY,"Nayau, Lau Islands","1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji,"2","2","43",87.895
+"845",-12.5031652792,177.080374967,47.2096760736,"246","336",FJI.ROT,Rotuma,"1",FIJ-OO,Fiji,FIJ,"60","6",Pacific,FJI,Fiji,"2","2","83",521.08
+"869",13.4435366078,144.77703828,549.410644206,"866","361",GUM,Guam,"1",MRN-GU,Guam,MRN,"62","6",Pacific,GUM,Guam,"2","2","103",157.623
+"928",1.85073687788,-157.353406313,468.965917162,"1","419",KIR.KII,"Kiritimati, Northern Line Islands","1",LIN-KI,Kiribati Line Is.,LIN,"61","6",Pacific,KIR,Kiribati,"1","2","135",0.213
+"929",5.88168184916,-162.074218294,4.2916069452,"8","420",KIR.PAL,"Palmyra, Norther Line Islands","1",LIN-KI,Kiribati Line Is.,LIN,"61","6",Pacific,KIR,Kiribati,"1","2","135",186.41
+"930",-2.81264105214,-171.673013768,12.2830755812,"47","421",KIR.PI.CA,"Canton, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati,"2","2","118",382.64
+"931",-3.12749195243,-171.085398472,6.56324208675,"6","422",KIR.PI.EB,"Enderbury, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati,"2","2","118",91.418
+"932",-4.67478001462,-174.522235657,4.99799539249,"11","423",KIR.PI.GA,"Gardner, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati,"2","2","118",220.088
+"933",-4.51477122346,-172.18303896,8.0994500899,"22","424",KIR.PI.HU,"Hull, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati,"2","2","118",271.623
+"934",-3.59521943725,-174.12274095,0.66126928727,"1","425",KIR.PI.MK,"McKean, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati,"2","2","118",151.224
+"935",-4.45540069052,-171.244439721,9.03161762584,"11","426",KIR.PI.SY,"Sydney, Phoenix Islands","1",PHX-OO,Phoenix Is.,PHX,"60","6",Pacific,KIR,Kiribati,"2","2","118",121.794
+"936",3.85110559835,-159.296777328,31.1907567295,"5","427",KIR.TAB,Tabueran,"1",LIN-KI,Kiribati Line Is.,LIN,"61","6",Pacific,KIR,Kiribati,"1","2","135",16.03
+"937",4.68379800823,-160.379609174,14.7026036895,"4","428",KIR.TER,"Teraina, Norther Line Islands","1",LIN-KI,Kiribati Line Is.,LIN,"61","6",Pacific,KIR,Kiribati,"1","2","135",27.206
+"987",11.1272259024,166.433006505,5.15518265672,"8","477",MHL.AA,Ailinginae Atoll,"1",MRS-OO,Marshall Is.,MRS,"62","6",Pacific,MHL,Marshall Islands (the),"2","2","104",155.184
+"988",11.4977411742,162.296158314,10.1582011062,"21","478",MHL.ENI,"Eniwetok, Mashall Islands","1",MRS-OO,Marshall Is.,MRS,"62","6",Pacific,MHL,Marshall Islands (the),"2","2","115",206.73
+"989",7.11907417352,171.21602431,22.2783885153,"15","479",MHL.MA,"Majuro Atoll, Marshall Islands","1",MRS-OO,Marshall Is.,MRS,"62","6",Pacific,MHL,Marshall Islands (the),"2","2","131",67.33
+"990",11.2942113296,166.875865504,11.3616901786,"35","480",MHL.RA,Rongelap Atoll,"1",MRS-OO,Marshall Is.,MRS,"62","6",Pacific,MHL,Marshall Islands (the),"2","2","104",308.053
+"994",17.5996081654,145.832866593,13.8598013107,"71","484",MNP.AG,"Alamagan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",512.273
+"995",18.7722076476,145.668424314,46.9022905535,"72","485",MNP.AH,"Agrihan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",153.511
+"996",19.6831171211,145.419244598,18.8455634758,"16","486",MNP.AI,"Asuncion Island, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",84.901
+"997",14.8524524206,145.558807068,7.55291954689,"33","487",MNP.AJ,"Aguijan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",436.917
+"998",16.3522456795,145.676875965,35.131149659,"55","488",MNP.AT,"Anatahan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",156.556
+"999",20.5449115984,144.8937948,2.78860589505,"1","489",MNP.FP,"Farallon de Pajaros, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",35.86
+"1000",17.3097820322,145.841330985,4.58141330181,"11","490",MNP.GG,"Guguan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",240.101
+"1001",20.0214906482,145.224531711,4.0766771144,"16","491",MNP.MI,"Maug Islands, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",392.477
+"1002",18.1163545289,145.766700634,48.0368839171,"101","492",MNP.PA,"Pagan, Mariana Islands","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",210.255
+"1003",14.1574354359,145.214092501,89.6881227565,"246","493",MNP.RO,"Rota, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",274.284
+"1004",16.7045096484,145.779158668,5.10864724263,"40","494",MNP.SG,"Sarigan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",782.986
+"1005",15.1891289838,145.753963446,122.542460883,"236","495",MNP.SP,"Saipan, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",192.586
+"1006",15.013350542,145.631566135,103.632954926,"217","496",MNP.TI,"Tinian, Marianas","1",MRN-NM,Northern Marianas,MRN,"62","6",Pacific,MNP,Northern Mariana Islands (the),"2","2","103",209.393
+"1034",-0.52847048405,166.934483675,22.1509387772,"18","524",NRU,Nauru,"1",NRU-OO,Nauru,NRU,"60","6",Pacific,NRU,Nauru,"2","2","2374",81.261
+"1079",-23.1662213913,-135.035578095,0.92096106979,"12","541",PYF.AGA,"Agakauitai, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",1302.987
+"1081",-21.8093324091,-154.702433616,2.04598830748,"3","543",PYF.AI.MAR,"Maria, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia,"1","2","40",146.628
+"1082",-23.8679509699,-147.652582736,19.1116700614,"77","544",PYF.AI.RAI,"Raivavae, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia,"2","2","40",402.895
+"1083",-22.6488383503,-152.805734208,8.42686443898,"89","545",PYF.AI.RIM,"Rimatara, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia,"2","2","40",1056.146
+"1084",-22.4749259648,-151.345840618,34.6606038711,"90","546",PYF.AI.RUR,"Rurutu, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia,"2","2","40",259.661
+"1085",-23.3725999192,-149.479618236,48.4967219841,"68","547",PYF.AI.TUB,"Tubuai, French Polynesia (Austral Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia,"2","2","40",140.216
+"1086",-15.8140970798,-154.522842436,3.65763059829,"1","548",PYF.BEL,"Bellingshausen, French Polynesia","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"1","2","40",27.34
+"1087",-27.6060139506,-144.346834983,48.2552644712,"33","549",PYF.BI.RAP,"Rapa, French Polynesia (Bass Islands)","1",TUB-OO,Tubuai Is.,TUB,"61","6",Pacific,PYF,French Polynesia,"2","2","40",68.386
+"1088",-23.1874352991,-134.913815361,2.70980737771,"16","550",PYF.GI.AKA,"Akamaru, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",590.448
+"1089",-23.1320047739,-134.903556449,1.82651991281,"15","551",PYF.GI.AUK,"Aukena, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",821.234
+"1092",-23.1097407409,-134.970756686,15.7245745121,"41","554",PYF.GI.MAN,"Mangareva, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"2","2","40",260.738
+"1093",-23.1471991349,-135.039577744,5.59326349142,"20","555",PYF.GI.TAR,"Taravai, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",357.573
+"1094",-23.1463843867,-134.851373368,0.03298894782,"1","556",PYF.GI.TAU,"Tauna, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",3031.318
+"1095",-23.1648624949,-134.852518378,0.10229090121,"1","557",PYF.GI.TEK,"Tekava, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",977.604
+"1096",-23.3460038992,-134.479890841,21.8105688751,"1","558",PYF.GI.TEM,"Temoe, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",4.585
+"1097",-23.1097581321,-134.852534052,0.92760585528,"1","559",PYF.GI.TRO,"Tarauru Roa, French Polynesia (Gambier Islands)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",107.804
+"1098",-24.3767258715,-128.322888119,44.5527779804,"4","560",PYF.HE,"Henderson, French Polynesia","1",PIT-OO,Pitcairn Is.,PIT,"61","6",Pacific,PCN,Pitcairn,"1","2","40",8.978
+"1099",-7.99628693432,-140.687405994,41.0649331821,"47","561",PYF.MI.EI,"Eiao, French Polynesia (Marquesas Islands)","1",MRQ-OO,Marquesas,MRQ,"61","6",Pacific,PYF,French Polynesia,"2","2","2375",114.453
+"1110",-25.0696468912,-130.106262679,4.91753279713,"25","572",PYF.PC,"Pitcairn, French Polynesia","1",PIT-OO,Pitcairn Is.,PIT,"61","6",Pacific,PCN,Pitcairn,"1","2","40",508.385
+"1111",-16.4940458275,-151.738948654,32.7461894514,"29","573",PYF.SI.BOR,"Bora Bora, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"1","2","40",88.56
+"1112",-16.7464708775,-151.002510045,82.0542533698,"24","574",PYF.SI.HUA,"Huahine, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"1","2","40",29.249
+"1113",-17.65707106,-150.628686959,13.090723292,"5","575",PYF.SI.MAI,"Maiao, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"1","2","40",38.195
+"1114",-16.4421547547,-152.265035055,13.4647999826,"106","576",PYF.SI.MAU,"Maupiti, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"2","2","41",787.238
+"1115",-17.8752697375,-148.067523464,2.51904435549,"12","577",PYF.SI.MEH,"Mehetia, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"1","2","40",476.371
+"1116",-17.5290550675,-149.833709179,134.378689848,"111","578",PYF.SI.MOO,"Moorea, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"2","2","40",82.602
+"1117",-16.8017706178,-153.944045452,5.99023132554,"1","579",PYF.SI.MOP,"Mopelia, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"1","2","40",16.694
+"1118",-16.822011602,-151.436886069,173.617486149,"84","580",PYF.SI.RAI,"Raiatea, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"2","2","40",48.382
+"1119",-16.62298511,-151.493670905,94.9049606014,"35","581",PYF.SI.TAH,"Tahaa, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"2","2","40",36.879
+"1120",-17.0045201557,-149.566609574,6.2454616871,"4","582",PYF.SI.TET,"Tetiaroa, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"1","2","40",64.047
+"1121",-17.6774861898,-149.400752999,1053.129908,"207","583",PYF.SI.THI,"Tahiti, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"2","2","40",19.656
+"1122",-16.2620429866,-151.816122842,11.1487322119,"3","584",PYF.SI.TUP,"Tupai, French Polynesia (Society Islands)","1",SCI-OO,Society Is.,SCI,"61","6",Pacific,PYF,French Polynesia,"1","2","40",26.909
+"1126",-15.9866663606,-140.133244259,15.6449887469,"1","588",PYF.TA.FAK,"Fakahina, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",6.392
+"1127",-22.2400463527,-138.746419455,11.9311345006,"1","589",PYF.TA.FAN,"Fangataufa, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",8.381
+"1128",-18.2565410518,-140.86958345,46.3268167557,"4","590",PYF.TA.HAO,"Hao, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",8.634
+"1130",-15.7296557484,-146.709510067,20.24603332,"1","592",PYF.TA.KAU,"Kaukura, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",4.939
+"1141",-21.3055475413,-136.74675043,4.15483582289,"1","605",PYF.TA.TEN,"Tenararo, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",24.068
+"1142",-21.3450416839,-136.542968221,5.93850385207,"3","606",PYF.TA.TGA,"Tenarunga, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",50.518
+"1143",-15.0053187482,-148.16513776,36.9385967124,"11","607",PYF.TA.TIK,"Tikehau, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",29.779
+"1144",-14.6287357776,-145.206439466,18.9142103058,"2","604",PYF.TA.TAO,"Takapoto, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",10.574
+"1146",-14.1019964162,-141.42881178,2.6735062777,"2","610",PYF.TA.TNO,"Tepoto North, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",74.808
+"1147",-15.8536367191,-146.01805669,16.5137485199,"3","611",PYF.TA.TOA,"Toau, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",18.167
+"1148",-21.3326308913,-136.653017717,5.47008741703,"2","612",PYF.TA.VAH,"Vahanga, French Polynesia (Tuamotu Archipelago)","1",TUA-OO,Tuamotu,TUA,"61","6",Pacific,PYF,French Polynesia,"1","2","40",36.562
+"1260",-19.8567095378,-174.821605035,763.417221681,"296","728",TON,Tonga,"1",TON-OO,Tonga,TON,"60","6",Pacific,TON,Tonga,"2","2","114",38.773
+"1284",16.7407444591,-169.528419384,5.51373731571,"8","768",USA.JI,Johnston Island,"1",HAW-JI,Johnston I.,HAW,"63","6",Pacific,UMI,United States Minor Outlying Islands (the),"2","2","42",145.092
+"1330",-14.0139231693,-171.399702211,0.12025403555,"18","814",WSM.FAU,Fanuatapu,"1",SAM-WS,Samoa,SAM,"60","6",Pacific,WSM,Samoa,"1","2","136",14968.313
+"1331",-14.0222586548,-171.415598891,0.25566655614,"60","815",WSM.NAA,Namua,"1",SAM-WS,Samoa,SAM,"60","6",Pacific,WSM,Samoa,"1","2","136",23468.068
+"1332",-14.0732736965,-171.410055826,0.37142124792,"16","816",WSM.NUA,Nuulua,"1",SAM-WS,Samoa,SAM,"60","6",Pacific,WSM,Samoa,"1","2","136",4307.777
+"1333",-14.0636023041,-171.42274608,1.26696832791,"47","817",WSM.NUE,Nuutela,"1",SAM-WS,Samoa,SAM,"60","6",Pacific,WSM,Samoa,"1","2","136",3709.643

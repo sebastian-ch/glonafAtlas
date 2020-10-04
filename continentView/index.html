@@ -334,7 +334,9 @@
     <script src='continentFunctions/justAfrica.js' type="text/javascript"></script>
     <script src='continentFunctions/asiaT.js' type="text/javascript"></script>
     <script src='continentFunctions/justAus.js' type="text/javascript"></script>
-    <script src="continentFunctions/justSa.js" type="text/javascript"></script>
+    <script src="continentFunctions/justPc.js" type="text/javascript"></script>
+    <script src="continentFunctions/justEurope.js" type="text/javascript"></script>
+    <script src="continentFunctions/justAsiaTrop.js" type="text/javascript"></script>
 
 
     <script>
@@ -365,7 +367,7 @@
 
 
         var width = document.getElementById('map').offsetWidth; //1300; //window.innerWidth; //1300; //window.innerWidth;
-        var height = 740; //window.innerHeight; //740;
+        var height = window.innerHeight; //740;
         const projection_var = d3.geoRobinson()
 
         const colorScheme = d3.scaleQuantile()
@@ -438,6 +440,9 @@
                 .on('click', function(d) {
 
                     switch (d.properties.tdwg1) {
+                        case 1: 
+                            return justEurope()
+                            break;
                         case 7:
                             return justNA()
                             break;
@@ -449,6 +454,9 @@
                             break;
                         case 5:
                             return justAus()
+                            break;
+                        case 4:
+                            return justAsiaTrop()
                             break;
                         case 8:
                             return justSa()
@@ -474,6 +482,13 @@
                 .attr('opacity', 0.7)
                 .attr('fill', function(d) {
                     return styleContinents(d)
+                })
+                .on('click', function(d) {
+                    if (d.tdwg1 == 6) {
+                        return justPc();
+                    } else {
+                        console.log('big oof');
+                    }
                 })
 
             g
