@@ -9,8 +9,8 @@
     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"> -->
 
     <link rel="apple-touch-icon" sizes="180x180" href="/glonafAtlas/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/glonafAtlas/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/glonafAtlas/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../glonafAtlas/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../glonafAtlas/favicons/favicon-16x16.png">
 
     <title>Plant View</title>
     <script src="https://d3js.org/d3.v5.min.js" type="text/javascript"></script>
@@ -323,52 +323,91 @@
             addLegend(sel)
 
             var regions = wherePlantIs.map(x => x.region_id)
-           
+
             d3.selectAll('.continent').attr('fill', function(d) {
-                //console.log(d.properties.region_id);
-                if (regions.includes(d.properties.region_id.toString())) {
-                    var cur = _.find(wherePlantIs, function(o) { return o.region_id == d.properties.region_id })
-                    //console.log(cur)
-                    if (cur.status == 'alien') {
-                        return '#b2abd2'
+                    //console.log(d.properties.region_id);
+                    if (regions.includes(d.properties.region_id.toString())) {
+                        var cur = _.find(wherePlantIs, function(o) { return o.region_id == d.properties.region_id })
+                        //console.log(cur)
+                        if (cur.status == 'alien') {
+                            return '#b2abd2'
+                        } else {
+                            return '#80cdc1'
+                        }
+
                     } else {
-                        return '#80cdc1'
+                        return '#e6dccc'
                     }
+                })
+                .on('mouseover', function(d) {
 
-                } else {
-                    return '#e6dccc'
-                }
-            })
+                    if (regions.includes(d.properties.region_id.toString())) {
+                        document.getElementById("infoPanel").innerHTML = '';
+                        //console.log(d);
+                        document.getElementById("infoPanel").style.visibility = 'visible';
+                        document.getElementById("infoPanel").style.left = (d3.event.pageX + 50) + 'px';
+                        document.getElementById("infoPanel").style.top = d3.event.pageY + 'px';
+                        //console.log(document.getElementById('infoPanel').offsetTop)
+                        if (document.getElementById('infoPanel').offsetLeft > 1300) {
+                            document.getElementById("infoPanel").style.left = (d3.event.pageX - 350) + 'px';
+                        }
 
-            
-             d3.selectAll('circle')
-                 .transition()
-                 
-                 .attr('r', function(d) {
-                     if (regions.includes(d.region_id)) {
-                         d3.select(this).raise()
-                         return '4px'
-                     } else {
-                         return '2px'
-                     }
-                 })
-                 .attr('fill', function(d) {
-                     if (regions.includes(d.region_id)) {
-                         var cur = _.find(wherePlantIs, function(o) { return o.region_id == d.region_id })
-                         //console.log(cur)
-                         if (cur.status == 'alien') {
-                             return '#b2abd2'
-                         } else {
-                             return '#80cdc1'
-                         }
+                        if (document.getElementById('infoPanel').offsetTop > 500) {
+                            document.getElementById("infoPanel").style.top = (d3.event.pageY - 350) + 'px';
+                        }
 
-                     } else {
-                         return '#e6dccc'
-                     }
-                 })
+
+                        var curr = _.find(wherePlantIs, function(o) { return o.region_id == d.properties.region_id })
+                        //console.log(curr)
+                        var refCurr = _.find(list, function(o) { return o.list_id == curr.list_id })
+                        //console.log(refCurr)
+                        var refFinally = _.find(reference, function(o) { return o.ref_id == refCurr.ref_id })
+                        //console.log(refFinally)
+
+
+                        document.getElementById("infoPanel").innerHTML +=
+                            //"<button class='closebtn1' onclick='infoCloseSide()'>x</button>" +
+                            '<h2>' + d.properties.name + '</h2>' +
+                            '<h3>' + d.properties.country + '</h3>' +
+                            '<h3>' + curr.status + '</h3>' +
+                            '<p><b>Reference</b>: ' + refFinally.reference + '</p>'
+                    }
+                })
+
+                .on('mouseout', function(d) {
+                    document.getElementById("infoPanel").style.visibility = 'hidden';
+                })
+
+
+            d3.selectAll('circle')
+                .transition()
+
+                .attr('r', function(d) {
+                    if (regions.includes(d.region_id)) {
+                        d3.select(this).raise()
+                        return '4px'
+                    } else {
+                        return '2px'
+                    }
+                })
+                .attr('fill', function(d) {
+                    if (regions.includes(d.region_id)) {
+                        var cur = _.find(wherePlantIs, function(o) { return o.region_id == d.region_id })
+                        //console.log(cur)
+                        if (cur.status == 'alien') {
+                            return '#b2abd2'
+                        } else {
+                            return '#80cdc1'
+                        }
+
+                    } else {
+                        return '#e6dccc'
+                    }
+                })
 
             d3.selectAll('circle')
                 .on('mouseover', function(d) {
+                    if (regions.includes(d.region_id.toString())) {
                     document.getElementById("infoPanel").innerHTML = '';
                     //console.log(d);
                     document.getElementById("infoPanel").style.visibility = 'visible';
@@ -398,6 +437,7 @@
                         '<h3>' + d.country + '</h3>' +
                         '<h3>' + curr.status + '</h3>' +
                         '<p><b>Reference</b>: ' + refFinally.reference + '</p>'
+                }
 
                 })
                 .on('mouseout', function(d) {

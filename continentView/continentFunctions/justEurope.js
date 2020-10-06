@@ -13,8 +13,9 @@ function justEurope() {
     }
 
     var promises = [
-        d3.json('../continentView/continent-geojsons/europe/europe.geojson'),
-        d3.csv('../continentView/continent-geojsons/europe/points.csv')
+        d3.json('../continentView/continent-geojsons/europe/europe1.json'),
+        d3.csv('../continentView/continent-geojsons/europe/points.csv'),
+
     ]
 
     if (worldViewFilesData.asiaT == null) {
@@ -23,7 +24,7 @@ function justEurope() {
 
             worldViewFilesData.europe = values[0];
             worldViewFilesData.europePoints = values[1]
-            addToMap(values[0], values[1]);
+            addToMap(geojsonRewind(values[0], true), values[1]);
         })
 
     } else {
@@ -40,9 +41,14 @@ function justEurope() {
 
         var g = svg.append("g");
 
+        console.log(worldViewFilesData.backdrop);
+
         var projection = d3.geoConicConformal()
         //projection.fitSize([width,height], data)
-        projection.fitExtent([[50,50], [width,height]], data)
+        projection.fitExtent([
+            [50, 50],
+            [width, height]
+        ], data)
 
         var geoPath = d3.geoPath()
             .projection(projection);
@@ -60,7 +66,7 @@ function justEurope() {
             .attr('stroke', '#ababab')
             .attr('stroke-width', '0.3')
 
-            svg.selectAll('circle')
+        svg.selectAll('circle')
             .data(points)
             .enter()
             .append('circle')
@@ -87,6 +93,17 @@ function justEurope() {
             .style('stroke-width', 0.2)
             .style('stroke-opacity', 0.5)
 
+        g
+            .append('g')
+            .selectAll('path')
+            .data(worldViewFilesData.backdrop.features)
+            .enter()
+            .append("path")
+            .attr('class', 'back')
+            .attr("d", geoPath)
+            .attr('fill', 'whitesmoke')
+            //.style('opacity', 0.5);
+
 
     }
 
@@ -94,5 +111,5 @@ function justEurope() {
 
 
 
-    
+
 }

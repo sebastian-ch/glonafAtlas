@@ -42,8 +42,8 @@ function justAsiaT() {
 
         var g = svg.append("g");
 
-        var projection = d3.geoCylindricalEqualArea() 
-        .fitSize([width - 50, height - 50], data)
+        var projection = d3.geoMercator()
+            .fitSize([width - 50, height - 50], data)
 
         var geoPath = d3.geoPath()
             .projection(projection);
@@ -61,7 +61,7 @@ function justAsiaT() {
             .attr('fill', '#e6dccc')
             .attr('stroke', '#ababab')
             .attr('stroke-width', '0.3')
-        
+
         svg.selectAll('circle')
             .data(points)
             .enter()
@@ -80,6 +80,11 @@ function justAsiaT() {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })
 
+        d3.selectAll('.asiaT')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
+
         g.append('path')
             .datum(graticule)
             .attr("class", "graticule1")
@@ -88,6 +93,17 @@ function justAsiaT() {
             .style('stroke', 'black')
             .style('stroke-width', 0.2)
             .style('stroke-opacity', 0.5)
+
+        g
+            .append('g')
+            .selectAll('path')
+            .data(worldViewFilesData.backdrop.features)
+            .enter()
+            .append("path")
+            .attr('class', 'back')
+            .attr("d", geoPath)
+            .attr('fill', 'whitesmoke')
+        //.style('opacity', 0.5);
 
         /* .on('click', function (d) {
              _.find(listData, function (o) {
