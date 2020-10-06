@@ -41,7 +41,7 @@ function justEurope() {
 
         var g = svg.append("g");
 
-        console.log(worldViewFilesData.backdrop);
+        //console.log(worldViewFilesData.backdrop);
 
         var projection = d3.geoConicConformal()
         //projection.fitSize([width,height], data)

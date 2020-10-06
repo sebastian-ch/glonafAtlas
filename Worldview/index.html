@@ -59,13 +59,13 @@
 
         .parent {
             display: grid;
-            grid-template-columns: minmax(150px, 15%) 1fr;
+            grid-template-columns: minmax(150px, 17%) 1fr;
         }
 
         .left {
             background: whitesmoke;
             text-align: center;
-            height: 720px;
+            height: 100vh;
             overflow-y: hidden;
             
             
@@ -347,7 +347,7 @@
                 .enter()
                 .append("path")
                 .attr("d", geoPath)
-                .attr('fill', '#d6c6aa')
+                .attr('fill', '#dacbb2') //'#d6c6aa'
                 .attr('class', 'continent')
     
             svg.selectAll('circle')
@@ -364,7 +364,7 @@
                 })
                 .attr('r', '3px')
                 .attr('opacity', 0.8)
-                .attr('fill', '#d6c6aa')
+                .attr('fill', '#dacbb2')
                 .on('click', function(d) {
                     console.log(d.tnorm)
                 })
@@ -599,17 +599,6 @@
 
             }
 
-        }
-
-        function gdpStyle() {
-
-            var colorScheme = d3.scaleQuantile()
-                .domain[0, 100]
-                .range(d3.schemeOranges[5]);
-
-            d3.selectAll('.continent').attr('fill', function(d) {
-                colorScheme(d.properties.GDPpcRegion)
-            })
         }
 
         function completeness() {

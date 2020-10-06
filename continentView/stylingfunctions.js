@@ -87,7 +87,7 @@ function taxaCountStyle() {
             //div.transition()
             //.duration(500)
             tooltip.style("opacity", 0);
-            d3.select(this).attr('stroke-width', 0)
+            d3.select(this).attr('stroke-width', '0.3').attr('stroke', '#ababab')
         })
 
     d3.selectAll('.points')
@@ -183,7 +183,7 @@ function completenessStyle() {
             //div.transition()
             //.duration(500)
             tooltip.style("opacity", 0);
-            d3.select(this).attr('stroke-width', 0)
+            d3.select(this).attr('stroke-width', '0.3').attr('stroke', '#ababab')
         })
 
     d3.selectAll('.points')
@@ -252,17 +252,23 @@ function familyStyle(sel) {
     var currentDataset;
 
 
-    if (d3.selectAll('.points').classed('africa')) {
+    if (d3.selectAll('.points').classed('africa')) { // africa 
         currentDataset = 'africaPoints'
-    } else if (d3.selectAll('.points').classed('asiaT')) {
+    } else if (d3.selectAll('.points').classed('asiaT')) { //asia temperate
         currentDataset = 'asiaTPoints'
-    } else if (d3.selectAll('.points').classed('na')) {
+    } else if (d3.selectAll('.points').classed('na')) { // north america
         currentDataset = 'naPoints'
-    } else if (d3.selectAll('.points').classed('aus')) {
+    } else if (d3.selectAll('.points').classed('aus')) { // aus
         currentDataset = 'ausPoints'
-    } else if (d3.selectAll('.points').classed('sa')) {
+    } else if (d3.selectAll('.points').classed('sa')) { // south america
         currentDataset = 'saPoints'
-    }
+    } else if (d3.selectAll('.points').classed('europe')) { // europe
+        currentDataset = 'europePoints'
+    } else if (d3.selectAll('.points').classed('asiaTrop')) { // asiaTrop
+        currentDataset = 'asiaTropPoints'
+    } else if (d3.selectAll('.points').classed('pacific')) { // pacific
+        currentDataset = 'pacificPoints'
+    } 
 
     if (!worldViewFilesData[currentDataset].hasOwnProperty(sel)) {
 

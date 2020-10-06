@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "fp-bb",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 0, "area": 251.14395401958927, "perimeter": 61.485941927225653 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -144.270981, -28.167135 ], [ -155.361796, -22.113861 ], [ -155.361796, -15.325334 ], [ -140.574043, -7.200181 ], [ -138.19744, -9.1471 ], [ -133.497047, -23.630917 ], [ -144.270981, -28.167135 ] ] ] } }
+]
+}

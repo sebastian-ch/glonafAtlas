@@ -62,7 +62,7 @@ function justAfrica() {
             .data(polys.features)
             .enter()
             .append("path")
-            .attr('class', 'continent')
+            .attr('class', 'continent africa')
             .attr("d", geoPath)
             //.attr('opacity', )
             .attr('fill', '#e6dccc')
@@ -88,6 +88,11 @@ function justAfrica() {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })
 
+            d3.selectAll('.africa', '.back')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
+
 
         g.append('path')
             .datum(graticule)
@@ -97,6 +102,16 @@ function justAfrica() {
             .style('stroke', 'black')
             .style('stroke-width', 0.2)
             .style('stroke-opacity', 0.5)
+
+        g
+            .append('g')
+            .selectAll('path')
+            .data(worldViewFilesData.backdrop.features)
+            .enter()
+            .append("path")
+            .attr('class', 'back')
+            .attr("d", geoPath)
+            .attr('fill', 'whitesmoke')
 
         /* .on('click', function (d) {
              _.find(listData, function (o) {

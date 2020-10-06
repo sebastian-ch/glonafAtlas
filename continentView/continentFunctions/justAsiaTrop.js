@@ -42,7 +42,10 @@ function justAsiaTrop() {
 
         var projection = d3.geoMercator()
         //projection.fitSize([width,height], data)
-        projection.fitExtent([[10,10], [width,height]], data)
+        projection.fitExtent([
+            [10, 10],
+            [width, height]
+        ], data)
 
         var geoPath = d3.geoPath()
             .projection(projection);
@@ -54,17 +57,17 @@ function justAsiaTrop() {
             .data(data.features)
             .enter()
             .append("path")
-            .attr('class', 'continent europe')
+            .attr('class', 'continent asiaTrop')
             .attr("d", geoPath)
             .attr('fill', '#e6dccc')
             .attr('stroke', '#ababab')
             .attr('stroke-width', '0.3')
 
-            svg.selectAll('circle')
+        svg.selectAll('circle')
             .data(points)
             .enter()
             .append('circle')
-            .attr('class', 'points europe')
+            .attr('class', 'points asiaTrop')
             .attr('cx', function(d) {
                 return projection([d.LON, d.LAT])[0]
             })
@@ -78,6 +81,11 @@ function justAsiaTrop() {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })
 
+        d3.selectAll('.asiaTrop')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
+
         g.append('path')
             .datum(graticule)
             .attr("class", "graticule1")
@@ -88,9 +96,20 @@ function justAsiaTrop() {
             .style('stroke-opacity', 0.5)
 
 
+        g
+            .append('g')
+            .selectAll('path')
+            .data(worldViewFilesData.backdrop.features)
+            .enter()
+            .append("path")
+            .attr('class', 'back')
+            .attr("d", geoPath)
+            .attr('fill', 'whitesmoke')
+
+
     }
 
 
 
-    
+
 }

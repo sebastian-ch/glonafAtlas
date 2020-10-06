@@ -47,7 +47,7 @@ function justAus() {
 
         var projection = d3.geoConicConformal()
             //.rotate([-132, 0])
-            .rotate([-140,6])
+            .rotate([-140, 6])
             .center([0, -27])
             .parallels([-18, -36])
             .scale(Math.min(height * 1.2, width * 0.8))
@@ -66,7 +66,7 @@ function justAus() {
             .data(data.features)
             .enter()
             .append("path")
-            .attr('class', 'continent')
+            .attr('class', 'continent aus')
             .attr("d", geoPath)
             .attr('fill', function(d) {
                 if (d.properties.completeness === 2) {
@@ -112,6 +112,12 @@ function justAus() {
                console.log(naturalized);
 
            }) */
+
+           d3.selectAll('.aus')
+           .transition()
+           .duration(500)
+           .attr('opacity', 1.0)
+
         svg.selectAll('circle')
             .data(points)
             .enter()
@@ -138,6 +144,16 @@ function justAus() {
             .style('stroke', 'black')
             .style('stroke-width', 0.2)
             .style('stroke-opacity', 0.5)
+
+        g
+            .append('g')
+            .selectAll('path')
+            .data(worldViewFilesData.backdrop.features)
+            .enter()
+            .append("path")
+            .attr('class', 'back')
+            .attr("d", geoPath)
+            .attr('fill', 'whitesmoke')
 
         /* .on('click', function (d) {
              _.find(listData, function (o) {

@@ -62,7 +62,7 @@ function justSa() {
             .attr('fill', '#e6dccc')
             .attr('stroke', '#ababab')
             .attr('stroke-width', '0.3')
-        
+
         svg.selectAll('circle')
             .data(points)
             .enter()
@@ -75,11 +75,16 @@ function justSa() {
                 return projection([d.LON, d.LAT])[1]
             })
             .attr('r', '4px')
-            
+
             .attr('fill', '#e6dccc')
             .on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })
+
+        d3.selectAll('.sa')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
 
         g.append('path')
             .datum(graticule)
@@ -89,6 +94,16 @@ function justSa() {
             .style('stroke', 'black')
             .style('stroke-width', 0.2)
             .style('stroke-opacity', 0.5)
+
+        g
+            .append('g')
+            .selectAll('path')
+            .data(worldViewFilesData.backdrop.features)
+            .enter()
+            .append("path")
+            .attr('class', 'back')
+            .attr("d", geoPath)
+            .attr('fill', 'whitesmoke')
 
     }
 

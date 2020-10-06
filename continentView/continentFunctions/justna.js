@@ -70,10 +70,7 @@ function justNA() {
             .attr('stroke', '#ababab')
             .attr('stroke-width', '0.3')
             .attr('opacity', '0.1')
-            /*.on('mouseover', function(d){
-                d3.select(this).attr('stroke', 'yellow')
-                console.log(d.properties.country)
-            }) */
+
             .on('click', function(d) {
 
                 var clickedReg = d.properties.region_id;
@@ -131,6 +128,17 @@ function justNA() {
             .style('stroke', 'black')
             .style('stroke-width', 0.2)
             .style('stroke-opacity', 0.5)
+
+        g
+            .append('g')
+            .selectAll('path')
+            .data(worldViewFilesData.backdrop.features)
+            .enter()
+            .append("path")
+            .attr('class', 'back')
+            .attr("d", geoPath)
+            .attr('fill', 'whitesmoke')
+        //.style('opacity', 0.5);
 
         /* .on('click', function (d) {
              _.find(listData, function (o) {
