@@ -119,7 +119,13 @@ function taxaCountStyle() {
         document.getElementById('legend').style.right = '55px';
         document.getElementById('legend').style.bottom = '455px';
         
-    } else {
+    } else if (d3.selectAll('.points').classed('europe')) {
+        
+        document.getElementById('legend').style.right = '650px';
+        
+    } 
+    
+    else {
         document.getElementById('legend').style.right = '55px';
     }
 

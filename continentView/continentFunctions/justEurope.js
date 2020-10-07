@@ -84,6 +84,11 @@ function justEurope() {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })
 
+        d3.selectAll('.europe')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
+
         g.append('path')
             .datum(graticule)
             .attr("class", "graticule1")
@@ -102,7 +107,7 @@ function justEurope() {
             .attr('class', 'back')
             .attr("d", geoPath)
             .attr('fill', 'whitesmoke')
-            //.style('opacity', 0.5);
+        //.style('opacity', 0.5);
 
 
     }

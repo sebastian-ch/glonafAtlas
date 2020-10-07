@@ -57,7 +57,7 @@ function justSa() {
             .data(data.features)
             .enter()
             .append("path")
-            .attr('class', 'continent')
+            .attr('class', 'continent sa')
             .attr("d", geoPath)
             .attr('fill', '#e6dccc')
             .attr('stroke', '#ababab')

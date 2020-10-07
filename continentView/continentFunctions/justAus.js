@@ -113,10 +113,7 @@ function justAus() {
 
            }) */
 
-           d3.selectAll('.aus')
-           .transition()
-           .duration(500)
-           .attr('opacity', 1.0)
+
 
         svg.selectAll('circle')
             .data(points)
@@ -135,6 +132,11 @@ function justAus() {
             .on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })
+
+        d3.selectAll('.aus')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
 
         g.append('path')
             .datum(graticule)

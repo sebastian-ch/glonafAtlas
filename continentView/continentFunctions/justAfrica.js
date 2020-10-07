@@ -88,7 +88,7 @@ function justAfrica() {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })
 
-            d3.selectAll('.africa', '.back')
+            d3.selectAll('.africa')
             .transition()
             .duration(500)
             .attr('opacity', 1.0)
