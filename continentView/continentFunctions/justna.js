@@ -1,6 +1,5 @@
 function justNA() {
 
-
     //document.getElementById('mapTitle').style.visibility = 'hidden';
     document.getElementById('form').style.visibility = 'visible'
     document.getElementById('panel').style.visibility = 'visible'
@@ -78,7 +77,7 @@ function justNA() {
                 var clicked = []
                 var naturalized = [];
                 var alien = [];
-                _.find(tax_csv, function(o) {
+                _.find( worldViewFilesData.taxList, function(o) {
                     if (o.region_id == clickedReg)
                         clicked.push(o)
 
@@ -93,9 +92,6 @@ function justNA() {
                 console.log(naturalized);
 
             })
-
-
-
 
         svg.selectAll('circle')
             .data(points)

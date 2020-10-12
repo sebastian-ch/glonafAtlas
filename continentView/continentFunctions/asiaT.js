@@ -1,3 +1,5 @@
+//Asia-temperate functions
+
 function justAsiaT() {
 
     document.getElementById('form').style.visibility = 'visible'

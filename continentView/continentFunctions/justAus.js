@@ -1,3 +1,4 @@
+//Australia Functions
 function justAus() {
 
     //document.getElementById('mapTitle').style.visibility = 'hidden';

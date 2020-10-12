@@ -1,3 +1,7 @@
+<!--
+    LANDING PAGE INDEX.HTML
+    Created by Sebastian Hancock
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +16,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/glonafAtlas/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/glonafAtlas/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/glonafAtlas/favicons/favicon-16x16.png">
-    <!--<link rel="manifest" href="favicons/site.webmanifest"> -->
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90564282-7"></script>
@@ -21,11 +24,9 @@
 
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-90564282-7');
+
     </script>
-
-
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -167,6 +168,7 @@
             margin-top: 0px;
             margin-bottom: 0px;
         }
+        
 
         #citation {
             margin: 40px;
@@ -183,26 +185,23 @@
             <div id='header'>
                 <img id='headerImg' src='imgs/logo-nobg.png'></img>
             </div>
-            <h1>Interactive Atlas</h1>
-
-
+            <h1>The GloNAF Interactive Atlas</h1>
             <div id='about'>
 
-                
-                <h3>This interactive atlas visualizes the GloNAF dataset. The <a href='https://glonaf.org/' target="_blank">GloNAF (Global Naturalized Alien Flora)</a> is a living database project about alien plant species. This data compendium includes over 13,900 taxa and covers 1,029 different regions, including 381 islands (as of 8/10/2020). It is based on 210 different sources.</h3>
+                <h3>This interactive atlas visualizes the <a href='https://glonaf.org/' target="_blank">GloNAF (Global Naturalized Alien Flora)</a> dataset. The GloNAF is a living database project about alien plant species. This data compendium includes over 13,900 taxa and covers 1,029 different regions, including 381 islands (as of 8/10/2020). It is based on 210 different sources.</h3>
+                <br>
 
                 <h4>The GloNAF dataset and published paper can be found <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecy.2542" target='_blank'> here</a>.</h4>
             </div>
             <br>
-            <h4 id='section-caption'>Click on a map below to view it</h4>
+           
+            <h4 id='section-caption'>Click on a map below to view it</hr>
             <div id='mapPart'>
 
                 <div class="card world" onclick="openPage('/glonafAtlas/Worldview/index.html')">
                     <h3>World View</h3>
                     <p>Get a Global Overview of the GloNAF Dataset</p>
-                    <!-- <div class="visual">
-                        <img src='imgs/worldsmall.png'>
-                    </div> -->
+                    
                 </div>
 
                 <div class="card continent" onclick="openPage('/glonafAtlas/continentView/index.html')">

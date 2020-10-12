@@ -1,3 +1,6 @@
+//Africa functions
+
+
 function justAfrica() {
 
     //document.getElementById('mapTitle').style.visibility = 'hidden';

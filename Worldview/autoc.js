@@ -1,4 +1,6 @@
 //adapted from http://w3schools-fa.ir/howto/howto_js_autocomplete.html
+//used in all views
+
 function autocomplete(inp, arr) {
     /*the autocomplete function takes two arguments,
     the text field element and an array of possible autocompleted values:*/

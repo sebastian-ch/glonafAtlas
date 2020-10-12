@@ -1,3 +1,5 @@
+//Styling Functions for Continent View
+
 function plain() {
     d3.selectAll('.continent').attr('fill', 'whitesmoke')
     d3.selectAll('.points').attr('fill', 'whitesmoke')

@@ -1,3 +1,5 @@
+//Europe Functions
+
 function justEurope() {
 
     document.getElementById('form').style.visibility = 'visible'

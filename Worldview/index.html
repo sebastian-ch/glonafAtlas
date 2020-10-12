@@ -1,3 +1,4 @@
+<!--WORLD VIEW INDEX-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,7 +21,7 @@
     <script src="https://bundle.run/geojson-rewind@0.3.1"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js'></script>
 
-    <script src='familyNames.js' type="text/javascript"></script>
+    <script src='../universalData/familyNames.js' type="text/javascript"></script>
     <script src="autoc.js"></script>
     <style>
         body {
@@ -70,6 +71,12 @@
             overflow-y: hidden;
 
 
+        }
+
+        #legendC {
+            margin: 0;
+            padding: 0;
+            padding-bottom: 2px;
         }
 
         #explanation {
@@ -240,7 +247,6 @@
             <!--<button class='newMap' onclick="gdpStyle()">GDP Per Capita</button> -->
             <button class='newMap' onclick="completeness()">Completeness</button>
             <button class='newMap' onclick="taxaCount()">Taxa Count Per Region</button>
-            <button class='newMap' onclick='nativeCount()'>Native Taxa Per Region</button>
 
             <div id='circleLegend'></div>
         </div>
@@ -287,7 +293,10 @@
 
         var div = d3.select("body").append("div")
             .attr("class", "tooltip")
+            .attr('id', 'tooltip')
             .style("opacity", 0)
+
+
 
 
         var spinner = new Spinner(opts).spin(target);
@@ -310,7 +319,7 @@
             points = values[1]
             nonislands = values[2]
             list = values[4],
-            ref = values[5]
+                ref = values[5]
             //islands = values[3]
 
             makeMap(values[1], geojsonRewind(values[2], true), topo)
@@ -374,9 +383,6 @@
                 .attr('fill', 'whitesmoke')
                 .style('opacity', 0.8);
 
-
-            
-
         }
 
 
@@ -386,7 +392,6 @@
 
             setTimeout(function() {
 
-                //currentSelect = document.getElementById("myInput").value;
                 if (document.getElementById("myInput").value != '') {
                     console.log(document.getElementById("myInput").value)
                     doMath(document.getElementById("myInput").value)
@@ -399,11 +404,9 @@
         function doMath(selected) {
 
             var oneFam = []
-            //console.log(points)
 
 
             if (!points[0].hasOwnProperty(selected)) {
-
 
 
                 console.log(selected)
@@ -429,11 +432,6 @@
                 for (var x in points) {
                     oneFam.push(points[x][selected])
                 }
-                /*for (var x in points.feature) {
-                    console.log(points)
-                    console.log(points.features[x].properties[selected])
-                    oneFam.push(points.features[x].properties[selected])
-                } */
 
                 setNewColor(selected, points, oneFam);
             }
@@ -442,8 +440,6 @@
 
         function setNewColor(selected, points, oneFam) {
 
-            // console.log(points);
-            //console.log(oneFam);
 
             d3.select('#thisLegend').remove();
             spinner.stop()
@@ -452,8 +448,6 @@
             document.getElementById('mapTitle').innerHTML = "<h1>Family " + selected + "</h1>"
 
             var domainVals = d3.extent(oneFam);
-            // console.log(domainVals);
-            //console.log(points)
 
             var linearScale = d3.scaleLinear()
                 .domain(domainVals)
@@ -471,10 +465,9 @@
                     })
                     .attr('fill', '#8eac8e')
 
-                console.log(domainVals)
-                //valuesToShow = [domainVals[1] / 2, domainVals[1]]
+                //console.log(domainVals)
                 valuesToShow = [domainVals[1]]
-                console.log(valuesToShow)
+                //console.log(valuesToShow)
             } else {
 
                 d3.selectAll('circle')
@@ -491,7 +484,7 @@
                     .attr('fill', '#8eac8e')
 
                 valuesToShow = [Math.round(linearScale(domainVals[1] / 2)), linearScale(domainVals[1])]
-                //console.log('vals: ' + valuesToShow);
+                
             }
 
             d3.selectAll('circle')
@@ -503,6 +496,14 @@
                             "# of " + selected + ": " + d[selected])
                         .style("left", (d3.event.pageX) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
+
+                    if (document.getElementById('tooltip').offsetLeft > 1300) {
+                        document.getElementById('tooltip').style.left = (d3.event.pageX - 350) + 'px';
+                    }
+
+                    if (document.getElementById('tooltip').offsetTop > 500) {
+                        document.getElementById('tooltip').style.top = (d3.event.pageY - 350) + 'px';
+                    }
 
                     d3.select(this).attr('stroke', 'black').attr('stroke-width', 1)
                 })
@@ -605,19 +606,36 @@
 
             d3.selectAll('.continent').attr('fill', function(d) {
 
+                var refCurr = _.filter(list, function(o) { return o.region_id == d.properties.region_id })
+                //console.log(refCurr);
+                //var justRefId = refCurr.map(x => x.ref_id)
+                var justComp = refCurr.map(x => Number(x.completeness));
+                //console.log(justComp)
+                if (justComp.length > 1) {
+                    d.properties.Vcompletene = Math.max(...justComp)
+                    //console.log(Math.max(justComp))
+                } else {
+                    d.properties.Vcompletene = d.properties.completene
+                }
+
                 //console.log(d);
-                switch (d.properties.completene) {
+                switch (d.properties.Vcompletene) {
+
                     case 1:
-                        //return '#fc8d59'
+                        
                         return '#fcaf8a'
                         break;
                     case 2:
-                        //return '#ffffbf'
+                        
                         return '#ffffcb'
                         break;
-                    default:
-                        //return '#91cf60'
+                    case 3:
+                        
                         return '#b2dd8f'
+                        break;
+                    default:
+                        
+                        return 'blue'
                 }
             })
 
@@ -629,9 +647,17 @@
                         .style("opacity", .9);
                     div.html("<b>Region Name: </b>" + d.properties.name + "<br>" +
                             "<b>Country: </b>" + d.properties.country + "<br>" +
-                            "<b>Completeness: </b>" + d.properties.completene)
+                            "<b>Completeness: </b>" + d.properties.Vcompletene)
                         .style("left", (d3.event.pageX + 50) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
+
+                    if (document.getElementById('tooltip').offsetLeft > 1300) {
+                        document.getElementById('tooltip').style.left = (d3.event.pageX - 350) + 'px';
+                    }
+
+                    if (document.getElementById('tooltip').offsetTop > 500) {
+                        document.getElementById('tooltip').style.top = (d3.event.pageY - 350) + 'px';
+                    }
 
                     d3.select(this).raise().attr('stroke', 'black').attr('stroke-width', 1)
                 })
@@ -641,50 +667,78 @@
                     div.style("opacity", 0);
                     d3.select(this).attr('stroke-width', 0)
                 })
-                .on('click', function(d){
+                .on('click', function(d) {
 
-                    console.log(d.properties.region_id);
+                    console.log(d.properties);
                     var refCurr = _.filter(list, function(o) { return o.region_id == d.properties.region_id })
-                    console.log(refCurr);
+                    //console.log(refCurr);
                     //var justRefId = refCurr.map(x => x.ref_id)
                     refData = []
                     for (var x in refCurr) {
-                        var refFinally = _.filter(ref, function(o) { return o.ref_id == refCurr[x].ref_id})
+                        var refFinally = _.filter(ref, function(o) { return o.ref_id == refCurr[x].ref_id })
                         refData.push(refFinally)
                     }
-                    
+
                     var flat = _.flatten(refData)
-                    
-                    console.log(flat);
+
+                    console.log(flat.length);
 
                 })
 
             d3.selectAll('.points').attr('fill', function(d) {
 
-                    switch (d.completeness) {
-                        case '1':
-                            return '#fcaf8a'
-                            break;
-                        case '2':
-                            return '#ffffcb'
-                            break;
-                        default:
-                            return '#b2dd8f'
-                    }
+                var refCurr = _.filter(list, function(o) { return o.region_id == d.region_id })
+                //console.log(refCurr);
+                //var justRefId = refCurr.map(x => x.ref_id)
+                var justComp = refCurr.map(x => Number(x.completeness));
+                //console.log(justComp)
+                if (justComp.length > 1) {
+                    d.Vcompletene = Math.max(...justComp)
+                    
+                } else {
+                    d.Vcompletene = Number(d.completeness)
+
+                }
+
+                //console.log(d);
+                switch (d.Vcompletene) {
+
+                    case 1:
+                        //return '#fc8d59'
+                        return '#fcaf8a'
+                        break;
+                    case 2:
+                        //return '#ffffbf'
+                        return '#ffffcb'
+                        break;
+                    case 3:
+                        //return '#ffffbf'
+                        return '#b2dd8f'
+                        break;
+                    default:
+                        //return '#91cf60'
+                        return 'blue'
+                }
                 })
                 .attr('r', '3px')
 
             d3.selectAll('.points')
                 .on("mouseover", function(d) {
 
-                    div //.transition()
-                        //.duration(100)
-                        .style("opacity", .9);
+                    div.style("opacity", .9);
                     div.html("<b>Region Name: </b>" + d.name + "<br>" +
                             "<b>Country: </b>" + d.country + "<br>" +
-                            "<b>Completeness: </b>" + d.completeness)
+                            "<b>Completeness: </b>" + d.Vcompletene)
                         .style("left", (d3.event.pageX + 50) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
+
+                    if (document.getElementById('tooltip').offsetLeft > 1300) {
+                        document.getElementById('tooltip').style.left = (d3.event.pageX - 350) + 'px';
+                    }
+
+                    if (document.getElementById('tooltip').offsetTop > 500) {
+                        document.getElementById('tooltip').style.top = (d3.event.pageY - 350) + 'px';
+                    }
 
                     d3.select(this).raise().attr('stroke', 'black').attr('stroke-width', 1)
                 })
@@ -700,6 +754,8 @@
 
             document.getElementById('legend').innerHTML +=
                 '<h2>Data Completeness</h2>' +
+                '<h3 id="legendC">If a region has two or more sources, </h3>' +
+                '<h3 id="legendC">the highest completeness is displayed</h3>' +
                 `<span style="background:#91cf60"></span>` + '<label><b>3</b>: Likely Nearly Complete (>90% naturalized taxa included)</label>' +
                 `<span style="background:#ffffbf"></span>` + '<label><b>2</b>: Likely Incomplete (between 50% and 90% of naturalized taxa included)</label>' +
                 `<span style="background:#fc8d59"></span>` + '<label><b>1</b>: Likely Very Incomplete(< 50% naturalized taxa included)</label>'
@@ -736,6 +792,13 @@
                             "<b># of Taxa: </b>" + d.properties.standCt)
                         .style("left", (d3.event.pageX + 50) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
+                    if (document.getElementById('tooltip').offsetLeft > 1300) {
+                        document.getElementById('tooltip').style.left = (d3.event.pageX - 350) + 'px';
+                    }
+
+                    if (document.getElementById('tooltip').offsetTop > 500) {
+                        document.getElementById('tooltip').style.top = (d3.event.pageY - 350) + 'px';
+                    }
 
                     d3.select(this).raise().attr('stroke', 'black').attr('stroke-width', 1)
                 })
@@ -763,6 +826,14 @@
                         .style("left", (d3.event.pageX + 50) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
 
+                    if (document.getElementById('tooltip').offsetLeft > 1300) {
+                        document.getElementById('tooltip').style.left = (d3.event.pageX - 350) + 'px';
+                    }
+
+                    if (document.getElementById('tooltip').offsetTop > 500) {
+                        document.getElementById('tooltip').style.top = (d3.event.pageY - 350) + 'px';
+                    }
+
                     d3.select(this).raise().attr('stroke', 'black').attr('stroke-width', 1)
                 })
                 .on("mouseout", function(d) {
@@ -784,12 +855,13 @@
 
         }
 
-        
+
 
 
         function plain() {
             document.getElementById('legend').innerHTML = ''
             document.getElementById('legend').style.visibility = 'hidden'
+            document.getElementById('circleLegend').style.visibility = 'hidden';
 
             document.getElementById('mapTitle').style.visibility = 'hidden';
             d3.selectAll('.continent').attr('fill', '#dacbb2')
