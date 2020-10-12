@@ -17,7 +17,7 @@ function justPc() {
         d3.csv('../continentView/continent-geojsons/pacific/points.csv')
     ]
 
-    if (worldViewFilesData.asiaT == null) {
+    if (worldViewFilesData.pacficPoints == null) {
 
         Promise.all(promises).then(function(values) {
 

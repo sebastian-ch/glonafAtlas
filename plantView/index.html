@@ -153,6 +153,7 @@
             background: whitesmoke;
             border: 2px solid black;
             color: black;
+            z-index: 400;
         }
 
         .closebtn1 {
@@ -168,6 +169,21 @@
         .loader {
             text-align: center;
             line-height: 700px;
+        }
+
+        
+        a {
+            text-decoration: underline;
+            color: whitesmoke;
+            padding-top: 1px;
+            margin-top: 1px;
+            padding-bottom: 1px;
+            margin-bottom: 1px;
+        }
+        a:hover {
+            text-decoration: underline;
+            opacity: 0.5;
+            cursor: pointer;
         }
     </style>
 
@@ -340,6 +356,7 @@
                     }
                 })
                 .on('mouseover', function(d) {
+                    
 
                     if (regions.includes(d.properties.region_id.toString())) {
                         document.getElementById("infoPanel").innerHTML = '';
@@ -448,11 +465,13 @@
 
 
         function addLegend(sel) {
+            var linkUrl = 'http://www.theplantlist.org/tpl1.1/search?q=' + sel;
             document.getElementById('legend').innerHTML = '';
 
             var svg1 = d3.select('#legend').style('visibility', 'visible')
             document.getElementById('legend').innerHTML +=
                 '<h2>' + sel + '</h2>' +
+                '<h3 id="plantLink">' + "<a href='" + linkUrl + "'" + "target='_blank' >The Plant List Link</a></h3>" +
                 `<span style="background:#80cdc1"></span>` + '<label>Naturalized</label>' +
                 `<span style="background:#b2abd2"></span>` + '<label>Alien</label>'
 

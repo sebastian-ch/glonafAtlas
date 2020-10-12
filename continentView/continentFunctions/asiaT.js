@@ -42,7 +42,7 @@ function justAsiaT() {
 
         var g = svg.append("g");
 
-        var projection = d3.geoMercator()
+        var projection = d3.geoRobinson().rotate([270,0])
             .fitSize([width - 50, height - 50], data)
 
         var geoPath = d3.geoPath()
@@ -103,7 +103,7 @@ function justAsiaT() {
             .attr('class', 'back')
             .attr("d", geoPath)
             .attr('fill', 'whitesmoke')
-        //.style('opacity', 0.5);
+            //.style('opacity', 0.5);
 
         /* .on('click', function (d) {
              _.find(listData, function (o) {

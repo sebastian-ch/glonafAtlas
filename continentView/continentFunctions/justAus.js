@@ -68,22 +68,7 @@ function justAus() {
             .append("path")
             .attr('class', 'continent aus')
             .attr("d", geoPath)
-            .attr('fill', function(d) {
-                if (d.properties.completeness === 2) {
-
-                    const texture3 = textures.lines()
-                        //.size(5)
-                        .stroke('black')
-                        //.thinner()
-                        .strokeWidth(0.8)
-                        .background('#EDE1D1');
-                    svg.call(texture3)
-
-                    return texture3.url()
-                } else {
-                    return '#EDE1D1'
-                }
-            })
+            .attr('fill', '#e6dccc')
             .attr('stroke', '#ababab')
             .attr('stroke-width', '0.3')
         /*.on('mouseover', function(d){
@@ -127,13 +112,18 @@ function justAus() {
                 return projection([d.LON, d.LAT])[1]
             })
             .attr('r', '4px')
-            .attr('opacity', 0.8)
-            .attr('fill', '#EDE1D1')
+            .attr('opacity', 0)
+            .attr('fill', '#e6dccc')
             .on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })
 
-        d3.selectAll('.aus')
+        d3.selectAll('.points')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
+
+        d3.selectAll('.continent')
             .transition()
             .duration(500)
             .attr('opacity', 1.0)
@@ -156,6 +146,11 @@ function justAus() {
             .attr('class', 'back')
             .attr("d", geoPath)
             .attr('fill', 'whitesmoke')
+
+        d3.selectAll('.back')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
 
         /* .on('click', function (d) {
              _.find(listData, function (o) {

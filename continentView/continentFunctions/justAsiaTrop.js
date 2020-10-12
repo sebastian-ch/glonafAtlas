@@ -17,7 +17,7 @@ function justAsiaTrop() {
         d3.csv('../continentView/continent-geojsons/asia-tropical/points.csv')
     ]
 
-    if (worldViewFilesData.asiaT == null) {
+    if (worldViewFilesData.asiaTrop == null) {
 
         Promise.all(promises).then(function(values) {
 
@@ -75,13 +75,18 @@ function justAsiaTrop() {
                 return projection([d.LON, d.LAT])[1]
             })
             .attr('r', '4px')
-            //.attr('opacity', 0.8)
+            .attr('opacity', 0)
             .attr('fill', '#e6dccc')
             .on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })
 
-        d3.selectAll('.asiaTrop')
+        d3.selectAll('.points')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
+
+        d3.selectAll('.continent')
             .transition()
             .duration(500)
             .attr('opacity', 1.0)
@@ -105,6 +110,11 @@ function justAsiaTrop() {
             .attr('class', 'back')
             .attr("d", geoPath)
             .attr('fill', 'whitesmoke')
+
+        d3.selectAll('.back')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
 
 
     }

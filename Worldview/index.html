@@ -29,6 +29,7 @@
             font-family: Calibri, Arial, sans-serif;
             overflow: hidden;
             background: #dcdcdc;
+
         }
 
         p {
@@ -67,8 +68,8 @@
             text-align: center;
             height: 100vh;
             overflow-y: hidden;
-            
-            
+
+
         }
 
         #explanation {
@@ -110,7 +111,7 @@
             border-radius: 5px;
             border: 1px solid black;
             bottom: 40px;
-            left: 250px;
+            left: 265px;
             visibility: hidden;
         }
 
@@ -143,7 +144,8 @@
         #circleLegend {
             position: absolute;
             bottom: 40px;
-            left: 300px;
+            left: 25px;
+            /* left: 400px; */
             width: 142px;
             height: 104px;
             border: 1px solid black;
@@ -162,6 +164,7 @@
             fill: black;
             font-size: 1.0em;
         }
+
         .autocomplete {
             /*the container must be positioned relative:*/
             position: relative;
@@ -216,7 +219,7 @@
         <div class='left'>
             <br>
             <br>
-            <button id='home' onclick="openPage('../index.html')">Back To Home</button><br><br>
+            <button id='home'>Back To Home</button><br><br>
 
             <p id='explanation'>This view allows for global visualizations of the GloNAF dataset. The buttons below allow for viewing different maps of the GloNAF regions. Use the Taxon Family filter to view a family's distribution across all the regions.
                 <br><br>
@@ -237,10 +240,12 @@
             <!--<button class='newMap' onclick="gdpStyle()">GDP Per Capita</button> -->
             <button class='newMap' onclick="completeness()">Completeness</button>
             <button class='newMap' onclick="taxaCount()">Taxa Count Per Region</button>
+            <button class='newMap' onclick='nativeCount()'>Native Taxa Per Region</button>
 
+            <div id='circleLegend'></div>
         </div>
 
-        <div id='circleLegend'></div>
+        <!--<div id='circleLegend'></div> -->
         <div id='legend'>
         </div>
         <div id='map'>
@@ -265,10 +270,10 @@
         var target = document.getElementById('map');
 
 
-        function openPage(url) {
-            window.open(url)
+        document.getElementById('home').onclick = function() {
+            location.href = "www.sebastian-ch.github.io/glonafAtlas"
         }
-        
+
 
         var width = document.getElementById('map').offsetWidth;
         var height = 720;
@@ -278,35 +283,22 @@
         var taxList, points, nonislands, islands;
         var circlez;
 
+        var list, ref;
+
         var div = d3.select("body").append("div")
             .attr("class", "tooltip")
             .style("opacity", 0)
 
-
-
-
-        /*    var completeness1 = textures.lines()
-                .lighter()
-                .size(8)
-                .background('#dddddd')
-                .stroke('#cccccc');
-
-            var completeness2 = textures.lines()
-                .size(4)
-                .lighter()
-                .background('#dddddd')
-                .stroke('#cccccc')
-
-            svg.call(completeness1)
-            svg.call(completeness2) */
 
         var spinner = new Spinner(opts).spin(target);
 
         var promises = [
             d3.dsv('\t', "tax-list-small.txt"),
             d3.csv('../universalData/glonafAsCsv1.csv'),
-            d3.json('../universalData/world-update.geojson'),
-            d3.json('../universalData/level1.json')
+            d3.json('../universalData/copy1.geojson'),
+            d3.json('../universalData/level1.json'),
+            d3.csv('../universalData/list.csv'),
+            d3.csv('../universalData/ref.csv')
             //d3.csv('latest/islands.csv')
 
         ]
@@ -317,6 +309,8 @@
             taxList = values[0]
             points = values[1]
             nonislands = values[2]
+            list = values[4],
+            ref = values[5]
             //islands = values[3]
 
             makeMap(values[1], geojsonRewind(values[2], true), topo)
@@ -349,7 +343,7 @@
                 .attr("d", geoPath)
                 .attr('fill', '#dacbb2') //'#d6c6aa'
                 .attr('class', 'continent')
-    
+
             svg.selectAll('circle')
                 .data(points)
                 .enter()
@@ -369,7 +363,6 @@
                     console.log(d.tnorm)
                 })
 
-
             g
                 .append('g')
                 .selectAll('path')
@@ -379,7 +372,10 @@
                 .attr('class', 'back')
                 .attr("d", geoPath)
                 .attr('fill', 'whitesmoke')
-                .style('opacity', 0.5);
+                .style('opacity', 0.8);
+
+
+            
 
         }
 
@@ -520,8 +516,8 @@
                     console.log(this)
                 })
 
-             d3.selectAll('.continent')
-                  .on('mouseover', null)
+            d3.selectAll('.continent')
+                .on('mouseover', null)
 
 
             document.getElementById('circleLegend').style.visibility = 'visible';
@@ -603,6 +599,7 @@
 
         function completeness() {
 
+            document.getElementById('circleLegend').style.visibility = 'hidden';
             document.getElementById('legend').innerHTML = ''
             document.getElementById('legend').style.visibility = 'visible'
 
@@ -643,6 +640,23 @@
                     //.duration(500)
                     div.style("opacity", 0);
                     d3.select(this).attr('stroke-width', 0)
+                })
+                .on('click', function(d){
+
+                    console.log(d.properties.region_id);
+                    var refCurr = _.filter(list, function(o) { return o.region_id == d.properties.region_id })
+                    console.log(refCurr);
+                    //var justRefId = refCurr.map(x => x.ref_id)
+                    refData = []
+                    for (var x in refCurr) {
+                        var refFinally = _.filter(ref, function(o) { return o.ref_id == refCurr[x].ref_id})
+                        refData.push(refFinally)
+                    }
+                    
+                    var flat = _.flatten(refData)
+                    
+                    console.log(flat);
+
                 })
 
             d3.selectAll('.points').attr('fill', function(d) {
@@ -696,6 +710,7 @@
 
         function taxaCount() {
 
+            document.getElementById('circleLegend').style.visibility = 'hidden';
             document.getElementById('legend').innerHTML = ''
             document.getElementById('legend').style.visibility = 'visible'
 
@@ -707,7 +722,7 @@
                 .range(d3.schemeGreens[5]);
 
             d3.selectAll('.continent').attr('fill', function(d) {
-                return colorScheme(d.properties.tnorm)
+                return colorScheme(d.properties.tnorm_n)
             })
 
             d3.selectAll('.continent')
@@ -718,7 +733,7 @@
                         .style("opacity", .9);
                     div.html("<b>Region Name: </b>" + d.properties.name + "<br>" +
                             "<b>Country: </b>" + d.properties.country + "<br>" +
-                            "<b># of Taxa: </b>" + d.properties.taxCount)
+                            "<b># of Taxa: </b>" + d.properties.standCt)
                         .style("left", (d3.event.pageX + 50) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
 
@@ -733,9 +748,9 @@
 
             d3.selectAll('.points').attr('fill', function(d) {
                     //console.log(d);
-                    return colorScheme(d.tnorm)
+                    return colorScheme(d.tnorm_n)
                 })
-                .attr('r', '1px')
+                .attr('r', '2px')
 
             d3.selectAll('.points')
                 .on("mouseover", function(d) {
@@ -744,7 +759,7 @@
                         .style("opacity", .9);
                     div.html("<b>Region Name: </b>" + d.name + "<br>" +
                             "<b>Country: </b>" + d.country + "<br>" +
-                            "<b># of Taxa: </b>" + d.taxCount)
+                            "<b># of Taxa: </b>" + d.standCt)
                         .style("left", (d3.event.pageX + 50) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");
 
@@ -768,6 +783,8 @@
                 `<span style="background:#edf8e9; margin: 0 10px 0 0"></span>` + '<label>Less Taxa Per Area</label>'
 
         }
+
+        
 
 
         function plain() {

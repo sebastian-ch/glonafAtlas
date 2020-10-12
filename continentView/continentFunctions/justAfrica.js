@@ -18,7 +18,7 @@ function justAfrica() {
 
     var files = [
         d3.json('../continentView/continent-geojsons/africa/africa3.geojson'),
-        d3.csv('../continentView/continent-geojsons/africa/africaislands1.csv'),
+        //d3.csv('../continentView/continent-geojsons/africa/africaislands1.csv'),
         d3.csv('../continentView/continent-geojsons/africa/africaPointsW.csv')
 
     ]
@@ -27,17 +27,17 @@ function justAfrica() {
 
         Promise.all(files).then(function(values) {
             worldViewFilesData.africa = values[0];
-            worldViewFilesData.africaislands = values[1];
-            worldViewFilesData.africaPoints = values[2]
+            //worldViewFilesData.africaislands = values[1];
+            worldViewFilesData.africaPoints = values[1]
 
-            addToMap(values[0], values[1], values[2])
+            addToMap(values[0], values[1])
         })
 
     } else {
-        addToMap(worldViewFilesData.africa, worldViewFilesData.africaislands, worldViewFilesData.africaPoints)
+        addToMap(worldViewFilesData.africa, worldViewFilesData.africaPoints)
     }
 
-    function addToMap(polys, islands, points) {
+    function addToMap(polys, points) {
         //console.log(polys)
 
 
@@ -64,7 +64,6 @@ function justAfrica() {
             .append("path")
             .attr('class', 'continent africa')
             .attr("d", geoPath)
-            //.attr('opacity', )
             .attr('fill', '#e6dccc')
             .attr('stroke', '#ababab')
             .attr('stroke-width', 0.3)
@@ -81,17 +80,23 @@ function justAfrica() {
                 return projection([d.LON, d.LAT])[1]
             })
             .attr('r', '4px')
-            //.attr('opacity', 0.9)
             .attr('fill', '#e6dccc')
-            
+            .attr('opacity', 0)
             .on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
             })
 
-            d3.selectAll('.africa')
+            d3.selectAll('.points')
             .transition()
             .duration(500)
             .attr('opacity', 1.0)
+
+            d3.selectAll('.continent')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
+
+            
 
 
         g.append('path')
@@ -112,6 +117,11 @@ function justAfrica() {
             .attr('class', 'back')
             .attr("d", geoPath)
             .attr('fill', 'whitesmoke')
+
+            d3.selectAll('.back')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
 
         /* .on('click', function (d) {
              _.find(listData, function (o) {

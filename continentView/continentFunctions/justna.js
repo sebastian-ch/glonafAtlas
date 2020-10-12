@@ -138,6 +138,11 @@ function justNA() {
             .attr('class', 'back')
             .attr("d", geoPath)
             .attr('fill', 'whitesmoke')
+
+            d3.selectAll('.back')
+            .transition()
+            .duration(500)
+            .attr('opacity', 1.0)
         //.style('opacity', 0.5);
 
         /* .on('click', function (d) {

@@ -55,18 +55,22 @@ function styleContinents(d) {
 
 function taxaCountStyle() {
 
+    document.getElementById('circleLegend').style.visibility = 'hidden';
 
-    d3.selectAll('.continent').attr('fill', function(d) {
 
-        return colorScheme(d.properties.tnorm)
-    })
+    d3.selectAll('.continent').transition()
+        .duration(500).attr('fill', function(d) {
+
+            return colorScheme(d.properties.tnorm)
+        })
 
 
     if (d3.selectAll('.points')) {
-        d3.selectAll('.points').attr('fill', function(d) {
-            //console.log(d)
-            return colorScheme(d.tnorm)
-        })
+        d3.selectAll('.points').transition()
+            .duration(500).attr('fill', function(d) {
+                //console.log(d)
+                return colorScheme(d.tnorm)
+            })
     }
 
     d3.selectAll('.continent')
@@ -111,22 +115,31 @@ function taxaCountStyle() {
             d3.select(this).attr('stroke-width', 0)
         })
 
+
+    //legend configs for each continent
+
     if (d3.selectAll('.points').classed('aus')) {
 
         document.getElementById('legend').style.right = '650px';
     } else if (d3.selectAll('.points').classed('pacific')) {
-        
+
         document.getElementById('legend').style.right = '55px';
         document.getElementById('legend').style.bottom = '455px';
-        
+
     } else if (d3.selectAll('.points').classed('europe')) {
-        
-        document.getElementById('legend').style.right = '650px';
-        
-    } 
-    
-    else {
-        document.getElementById('legend').style.right = '55px';
+
+        document.getElementById('legend').style.right = '920px';
+
+    } else if (d3.selectAll('.points').classed('asiaTrop')) {
+
+        document.getElementById('legend').style.right = '920px';
+
+    } else if (d3.selectAll('.points').classed('asiaT')) {
+
+        document.getElementById('legend').style.right = '50px';
+
+    } else {
+        document.getElementById('legend').style.right = '45px';
     }
 
     document.getElementById('legend').innerHTML = ''
@@ -145,6 +158,8 @@ function taxaCountStyle() {
 
 function completenessStyle() {
 
+    document.getElementById('circleLegend').style.visibility = 'hidden';
+
     var completenessName = 'completeness';
 
     if (d3.selectAll('.points').classed('africa')) {
@@ -152,21 +167,22 @@ function completenessStyle() {
     }
 
 
-    d3.selectAll('.continent').attr('fill', function(d) {
+    d3.selectAll('.continent').transition().duration(500)
 
+        .attr('fill', function(d) {
 
-        //console.log(d);
-        switch (d.properties[completenessName]) {
-            case 1:
-                return '#fc8d59'
-                break;
-            case 2:
-                return '#ffffbf'
-                break;
-            default:
-                return '#91cf60'
-        }
-    })
+            //console.log(d);
+            switch (d.properties[completenessName]) {
+                case 1:
+                    return '#fc8d59'
+                    break;
+                case 2:
+                    return '#ffffbf'
+                    break;
+                default:
+                    return '#91cf60'
+            }
+        })
     var comVar = 'completeness';
     if (d3.selectAll('.points').classed('africa')) {
         comVar = 'completene'
@@ -214,7 +230,9 @@ function completenessStyle() {
         })
 
     if (d3.selectAll('.points')) {
-        d3.selectAll('.points')
+        d3.selectAll('.points').transition()
+            .duration(500)
+
             .attr('fill', function(d) {
 
                 switch (d[completenessName]) {
@@ -231,12 +249,25 @@ function completenessStyle() {
             .attr('r', '4px')
     }
 
-
+    //legend configs for each continent
     if (d3.selectAll('.points').classed('aus')) {
 
         document.getElementById('legend').style.right = '650px';
+
+    } else if (d3.selectAll('.points').classed('europe')) {
+
+        document.getElementById('legend').style.right = '900px';
+
+    } else if (d3.selectAll('.points').classed('asiaTrop')) {
+
+        document.getElementById('legend').style.right = '920px';
+
+    } else if (d3.selectAll('.points').classed('asiaT')) {
+
+        document.getElementById('legend').style.right = '50px';
+
     } else {
-        document.getElementById('legend').style.right = '55px';
+        document.getElementById('legend').style.right = '45px';
     }
 
     document.getElementById('legend').innerHTML = ''
@@ -274,7 +305,7 @@ function familyStyle(sel) {
         currentDataset = 'asiaTropPoints'
     } else if (d3.selectAll('.points').classed('pacific')) { // pacific
         currentDataset = 'pacificPoints'
-    } 
+    }
 
     if (!worldViewFilesData[currentDataset].hasOwnProperty(sel)) {
 
@@ -331,6 +362,7 @@ function setNewColor(selected, oneFam) {
 
     if (domainVals[1] <= 30) {
 
+    
         d3.selectAll('circle')
             .raise()
             .transition()

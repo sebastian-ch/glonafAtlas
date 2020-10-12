@@ -18,7 +18,7 @@ function justEurope() {
 
     ]
 
-    if (worldViewFilesData.asiaT == null) {
+    if (worldViewFilesData.europe == null) {
 
         Promise.all(promises).then(function(values) {
 
