@@ -164,7 +164,7 @@ function completenessStyle() {
 
     var completenessName = 'completeness';
 
-    if (d3.selectAll('.points').classed('africa')) {
+    if (d3.selectAll('.points').classed('africa') || d3.selectAll('.points').classed('europe')) {
         completenessName = 'completene';
     }
 
@@ -186,7 +186,7 @@ function completenessStyle() {
             }
         })
     var comVar = 'completeness';
-    if (d3.selectAll('.points').classed('africa')) {
+    if (d3.selectAll('.points').classed('africa')|| d3.selectAll('.points').classed('europe')) {
         comVar = 'completene'
     }
     d3.selectAll('.continent')

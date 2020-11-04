@@ -1,3 +1,5 @@
+//NA functions
+
 function justNA() {
 
     //document.getElementById('mapTitle').style.visibility = 'hidden';
@@ -107,9 +109,9 @@ function justNA() {
             .attr('r', '2px')
             //.attr('opacity', 0.8)
             .attr('fill', '#e6dccc')
-            .on('click', function(d) {
-                document.getElementById("infoPanel").style.visibility = 'visible'
-            })
+            //.on('click', function(d) {
+            //    document.getElementById("infoPanel").style.visibility = 'visible'
+           // })
 
         d3.selectAll('.na')
             .transition()

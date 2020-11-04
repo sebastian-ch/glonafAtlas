@@ -1,4 +1,4 @@
-OBJIDsic,LAT,LON,GeodAREA,taxCount,region_id,code,name,island,tdwg4,tdwg4_name,tdwg3,tdwg2,tdwg1,tdwg1_name,country_IS,country,completeness,completeness_judge,ref_id,tnorm
+OBJIDsic,LAT,LON,GeodAREA,taxCount,region_id,code,name,island,tdwg4,tdwg4_name,tdwg3,tdwg2,tdwg1,tdwg1_name,country_IS,country,completene,completeness_judge,ref_id,tnorm
 "60",47.5602174278,16.5395546493,3940.52946059,"166","910",AUT.BUR,Burgenland,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",4.213
 "84",49.3268600551,-2.2912801596,213.607523094,"449","415",JEY_GGY,Channel Islands,"1",FRA-CI,Channel Is.,FRA,"12","1",Europe,GBR,United Kingdom of Great Britain and Northern Ireland (the),"1","2","116",210.199
 "220",46.7749225925,13.9267277365,9522.47912026,"179","915",AUT.CAR,KΞΒΞΏΞΒ½rnten,"0",AUT-AU,Austria,AUT,"11","1",Europe,AUT,Austria,"3","2","2376",1.88

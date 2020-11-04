@@ -15,7 +15,7 @@ function justEurope() {
     }
 
     var promises = [
-        d3.json('../continentView/continent-geojsons/europe/europe1.json'),
+        d3.json('../continentView/continent-geojsons/europe/europe2.json'),
         d3.csv('../continentView/continent-geojsons/europe/points.csv'),
 
     ]
@@ -27,6 +27,7 @@ function justEurope() {
             worldViewFilesData.europe = values[0];
             worldViewFilesData.europePoints = values[1]
             addToMap(geojsonRewind(values[0], true), values[1]);
+           
         })
 
     } else {
@@ -82,9 +83,7 @@ function justEurope() {
             .attr('r', '4px')
             //.attr('opacity', 0.8)
             .attr('fill', '#e6dccc')
-            .on('click', function(d) {
-                document.getElementById("infoPanel").style.visibility = 'visible'
-            })
+            //.on('click', function(d) { document.getElementById("infoPanel").style.visibility = 'visible'})
 
         d3.selectAll('.europe')
             .transition()

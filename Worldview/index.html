@@ -226,7 +226,7 @@
         <div class='left'>
             <br>
             <br>
-            <button id='home'>Back To Home</button><br><br>
+            <button id='home' onclick="openPage('../index.html')">Back To Home</button><br><br>
 
             <p id='explanation'>This view allows for global visualizations of the GloNAF dataset. The buttons below allow for viewing different maps of the GloNAF regions. Use the Taxon Family filter to view a family's distribution across all the regions.
                 <br><br>
@@ -275,9 +275,8 @@
 
         var target = document.getElementById('map');
 
-
-        document.getElementById('home').onclick = function() {
-            location.href = "www.sebastian-ch.github.io/glonafAtlas"
+        function openPage(url) {
+            window.open(url)
         }
 
 

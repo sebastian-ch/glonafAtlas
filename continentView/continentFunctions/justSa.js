@@ -1,3 +1,5 @@
+//SA Functions
+
 function justSa() {
 
     //document.getElementById('mapTitle').style.visibility = 'hidden';

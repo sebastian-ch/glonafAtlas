@@ -72,34 +72,6 @@ function justAus() {
             .attr('fill', '#e6dccc')
             .attr('stroke', '#ababab')
             .attr('stroke-width', '0.3')
-        /*.on('mouseover', function(d){
-            d3.select(this).attr('stroke', 'yellow')
-            console.log(d.properties.country)
-        }) */
-        /*   .on('click', function (d) {
-
-               var clickedReg = d.properties.region_id;
-
-               var clicked = []
-               var naturalized = [];
-               var alien = [];
-               _.find(tax_csv, function (o) {
-                   if (o.region_id == clickedReg)
-                       clicked.push(o)
-
-               })
-               console.log(clicked);
-               for (var x in clicked) {
-                   if (clicked[x].status == 'naturalized') {
-                       naturalized.push(clicked[x])
-                   }
-               }
-
-               console.log(naturalized);
-
-           }) */
-
-
 
         svg.selectAll('circle')
             .data(points)
@@ -152,14 +124,6 @@ function justAus() {
             .transition()
             .duration(500)
             .attr('opacity', 1.0)
-
-        /* .on('click', function (d) {
-             _.find(listData, function (o) {
-                 if (o.region_id == d.properties.region_id) {
-                     console.log(o)
-                 }
-             })
-         }) */
 
     }
 
