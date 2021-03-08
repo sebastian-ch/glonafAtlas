@@ -15,7 +15,7 @@ function justAsiaTrop() {
     }
 
     var promises = [
-        d3.json('../continentView/continent-geojsons/asia-tropical/asia-trop.geojson'),
+        d3.json('../continentView/continent-geojsons/asia-tropical/asia-trop1.geojson'),
         d3.csv('../continentView/continent-geojsons/asia-tropical/points.csv')
     ]
 
@@ -42,7 +42,7 @@ function justAsiaTrop() {
 
         var g = svg.append("g");
 
-        var projection = d3.geoMercator()
+        var projection = d3.geoEquirectangular()
         //projection.fitSize([width,height], data)
         projection.fitExtent([
             [10, 10],

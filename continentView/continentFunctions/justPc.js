@@ -76,9 +76,9 @@ function justPc() {
             .attr('r', '4px')
             //.attr('opacity', 0.8)
             .attr('fill', '#e6dccc')
-            .on('click', function(d) {
+           /* .on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
-            })
+            })*/
 
         g.append('path')
             .datum(graticule)

@@ -85,9 +85,9 @@ function justAfrica() {
             .attr('r', '4px')
             .attr('fill', '#e6dccc')
             .attr('opacity', 0)
-            .on('click', function(d) {
+            /*.on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
-            })
+            }) */
 
             d3.selectAll('.points')
             .transition()

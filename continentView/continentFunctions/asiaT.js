@@ -78,9 +78,9 @@ function justAsiaT() {
             .attr('r', '4px')
             //.attr('opacity', 0.8)
             .attr('fill', '#e6dccc')
-            .on('click', function(d) {
+           /* .on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
-            })
+            }) */
 
         d3.selectAll('.asiaT')
             .transition()

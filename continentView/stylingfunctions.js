@@ -149,12 +149,13 @@ function taxaCountStyle() {
     var subscript = "2".sup();
 
     document.getElementById('legend').innerHTML +=
-        '<h2>Normalized Taxa Count Per Area (Km' + subscript + ')</h2>' +
-        `<span style="background:#006d2c; margin: 0 10px 0 0"></span>` + '<label>More Taxa Per Area</label>' +
+        '<h2>Taxa Count Per Area (Km' + subscript + ')</h2>' +
+        '<h4>Normalized between 0 and 1</h4>' +
+        `<span style="background:#006d2c; margin: 0 10px 0 0"></span>` + '<label>1</label>' +
         `<span style="background:#31a354; margin: 0 10px 0 0"></span>` + '<label></label>' +
         `<span style="background:#74c476; margin: 0 10px 0 0"></span>` + '<label></label>' +
         `<span style="background:#bae4b3; margin: 0 10px 0 0"></span>` + '<label></label>' +
-        `<span style="background:#edf8e9; margin: 0 10px 0 0"></span>` + '<label>Less Taxa Per Area</label>'
+        `<span style="background:#edf8e9; margin: 0 10px 0 0"></span>` + '<label>0</label>'
 
 }
 

@@ -45,8 +45,8 @@ function justSa() {
 
         var center = [-36.07, 158.00]
 
-        var projection = d3.geoMercator()
-            .fitSize([width - 50, height - 50], data)
+        var projection = d3.geoNaturalEarth1()
+            .fitSize([width - 50, height - 50], data)//.rotate([10,0])
 
         var geoPath = d3.geoPath()
             .projection(projection);
@@ -79,9 +79,9 @@ function justSa() {
             .attr('r', '4px')
 
             .attr('fill', '#e6dccc')
-            .on('click', function(d) {
+            /*.on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
-            })
+            }) */
 
         d3.selectAll('.sa')
             .transition()

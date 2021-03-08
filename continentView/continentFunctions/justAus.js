@@ -87,9 +87,9 @@ function justAus() {
             .attr('r', '4px')
             .attr('opacity', 0)
             .attr('fill', '#e6dccc')
-            .on('click', function(d) {
+            /*.on('click', function(d) {
                 document.getElementById("infoPanel").style.visibility = 'visible'
-            })
+            }) */
 
         d3.selectAll('.points')
             .transition()
