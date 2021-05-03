@@ -1,3 +1,2 @@
-# glonafAtlas
+# The Combined Atlas Framework
 
-## My Master's Thesis
