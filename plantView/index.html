@@ -187,6 +187,21 @@
             opacity: 0.5;
             cursor: pointer;
         }
+
+
+    #legend-tooltip {
+        display: none;
+        /* NEW */
+        background: rgba(25, 25, 25, 0.8);
+        margin-left: 300px;
+        padding: 10px;
+        position: absolute;
+        z-index: 1000;
+        width: 200px;
+        margin-top: -30px;
+        border-radius: 5px;
+    }
+
     </style>
 
 </head>
@@ -212,6 +227,27 @@
     <div id='map'></div>
 
     <script>
+
+
+        function showdef(t) {
+
+            console.log('show')
+            console.log(t.innerText);
+            document.getElementById('legend-tooltip').style.display = 'block';
+
+            if(t.innerText === 'Naturalized') {
+                document.getElementById('legend-tooltip').innerHTML = 'Naturalized: if the taxa has a self-sustaining population in the wild';
+            } else {
+                document.getElementById('legend-tooltip').innerHTML = 'Alien, or non-naturalized: if the taxa is not self-sustaining in the wild';
+            }
+        }
+
+        function hidedef(t) {
+            console.log('hide')
+            document.getElementById('legend-tooltip').style.display = 'none';
+        }
+
+
         function infoCloseSide() {
             document.getElementById("infoPanel").style.visibility = "hidden";
         }
@@ -474,8 +510,12 @@
             document.getElementById('legend').innerHTML +=
                 '<h2>' + sel + '</h2>' +
                 '<h3 id="plantLink">' + "<a href='" + linkUrl + "'" + "target='_blank' >The Plant List Link</a></h3>" +
-                `<span style="background:#80cdc1"></span>` + '<label>Naturalized</label>' +
-                `<span style="background:#b2abd2"></span>` + '<label>Alien</label>'
+                `<span style="background:#80cdc1"></span>` + '<label onmouseover="showdef(this)" onmouseout="hidedef(this)">Naturalized</label>' + '<div id="legend-tooltip">Content 1</div>' +
+                `<span style="background:#b2abd2"></span>` + '<label onmouseover="showdef(this)" onmouseout="hidedef(this)">Alien</label>' +
+                `<hr>` +
+                `<span style="background:#e6dccc"></span>` + '<label>GloNAF Data Available</label>' +
+                `<span style="background:#d3d3d3"></span>` + '<label>No Data Available</label>'
+
 
         }
 

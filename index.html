@@ -146,7 +146,7 @@
             position: absolute;
             bottom: 0;
             width: 100%;
-            height: 4.5rem;
+           /* height: 4.5rem; */
 
         }
 
@@ -193,7 +193,9 @@
                 <h3>This interactive atlas visualizes the <a href='https://glonaf.org/' target="_blank">GloNAF (Global Naturalized Alien Flora)</a> dataset. The GloNAF is a living database project about alien plant species. This data compendium includes over 13,900 taxa and covers 1,029 different regions, including 381 islands (as of 10.08.2020). It is based on 210 different sources.</h3>
                 <br>
 
-                <h4>The GloNAF dataset and published paper can be found <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecy.2542" target='_blank'> here</a>.</h4>
+                <h4>The GloNAF dataset version 1.2 and the published paper can be found <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecy.2542" target='_blank'> here</a>. Please note, if you would like to use the GloNAF data we encourage users to
+                    get in touch with the <a href="https://glonaf.org/index.php/core-researchers/" target="_blank">GloNAF core team</a> in order to get the most up-to-
+                    date version of the required data in GloNAF.</h4>
             </div>
             <br>
            
@@ -207,6 +209,7 @@
                 </div>
 
                 <div class="card continent" onclick="openPage('../glonafAtlas/continentView/index.html')">
+                    
                     <h3>Continent View</h3>
                     <p>Explore the GLoNAF Dataset by Continent </p>
 
@@ -214,7 +217,7 @@
 
                 <div class="card plant" onclick="openPage('../glonafAtlas/plantView/index.html')">
                     <h3>Plant View</h3>
-                    <p>View Where Specific Plants are Native or Invasive </p>
+                    <p>View of the alien and naturalized alien range of individual plant species </p>
 
                 </div>
 
@@ -230,7 +233,7 @@
 
     <script>
         function openPage(url) {
-            window.open(url)
+            window.open(url,"_self");
         }
     </script>
 
