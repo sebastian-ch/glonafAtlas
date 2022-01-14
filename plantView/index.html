@@ -8,7 +8,7 @@
     <!--<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"> -->
-
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/glonafAtlas/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../glonafAtlas/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../glonafAtlas/favicons/favicon-16x16.png">
@@ -173,7 +173,7 @@
             line-height: 700px;
         }
 
-        
+
         a {
             text-decoration: underline;
             color: whitesmoke;
@@ -182,6 +182,7 @@
             padding-bottom: 1px;
             margin-bottom: 1px;
         }
+
         a:hover {
             text-decoration: underline;
             opacity: 0.5;
@@ -189,19 +190,18 @@
         }
 
 
-    #legend-tooltip {
-        display: none;
-        /* NEW */
-        background: rgba(25, 25, 25, 0.8);
-        margin-left: 300px;
-        padding: 10px;
-        position: absolute;
-        z-index: 1000;
-        width: 200px;
-        margin-top: -30px;
-        border-radius: 5px;
-    }
-
+        #legend-tooltip {
+            display: none;
+            /* NEW */
+            background: rgba(25, 25, 25, 0.8);
+            margin-left: 300px;
+            padding: 10px;
+            position: absolute;
+            z-index: 1000;
+            width: 200px;
+            margin-top: -30px;
+            border-radius: 5px;
+        }
     </style>
 
 </head>
@@ -235,10 +235,10 @@
             console.log(t.innerText);
             document.getElementById('legend-tooltip').style.display = 'block';
 
-            if(t.innerText === 'Naturalized') {
-                document.getElementById('legend-tooltip').innerHTML = 'Naturalized: if the taxa has a self-sustaining population in the wild';
+            if (t.innerText === 'Naturalized ') {
+                document.getElementById('legend-tooltip').innerHTML = '<b>Naturalized</b>: The taxon has been introduced to this region and has been reported to form self-sustaining populations in the wild.';
             } else {
-                document.getElementById('legend-tooltip').innerHTML = 'Alien, or non-naturalized: if the taxa is not self-sustaining in the wild';
+                document.getElementById('legend-tooltip').innerHTML = '<b>Alien</b>: The taxon has been introduced to this region, but there is no record of self-sustaining populations in the wild.';
             }
         }
 
@@ -270,7 +270,7 @@
 
         ]
 
-        Promise.all(promises).then(function(values) {
+        Promise.all(promises).then(function (values) {
 
             var topo = topojson.feature(values[3], values[3].objects.level1)
             taxList = values[0];
@@ -318,16 +318,16 @@
                 .append('circle')
                 .attr('class', 'points')
                 .attr('id', 'points')
-                .attr('cx', function(d) {
+                .attr('cx', function (d) {
                     return projection([d.LON, d.LAT])[0]
                 })
-                .attr('cy', function(d) {
+                .attr('cy', function (d) {
                     return projection([d.LON, d.LAT])[1]
                 })
                 .attr('r', '2px')
                 .attr('opacity', 0.8)
                 .attr('fill', '#e6dccc')
-                .on('click', function(d) {
+                .on('click', function (d) {
                     console.log(d.tnorm)
                 })
 
@@ -359,7 +359,7 @@
 
         function doMath(sel) {
 
-            var wherePlantIs = _.filter(taxList, function(o) { return o.standardized_name === sel })
+            var wherePlantIs = _.filter(taxList, function (o) { return o.standardized_name === sel })
             //setNewColor(sel, points, oneFam);
             //console.log(wherePlantIs); 
             //wherePlantIsRegions = wherePlantIs.map(x => x.region_id);
@@ -378,23 +378,23 @@
 
             var regions = wherePlantIs.map(x => x.region_id)
 
-            d3.selectAll('.continent').attr('fill', function(d) {
-                    //console.log(d.properties.region_id);
-                    if (regions.includes(d.properties.region_id.toString())) {
-                        var cur = _.find(wherePlantIs, function(o) { return o.region_id == d.properties.region_id })
-                        //console.log(cur)
-                        if (cur.status == 'alien') {
-                            return '#b2abd2'
-                        } else {
-                            return '#80cdc1'
-                        }
-
+            d3.selectAll('.continent').attr('fill', function (d) {
+                //console.log(d.properties.region_id);
+                if (regions.includes(d.properties.region_id.toString())) {
+                    var cur = _.find(wherePlantIs, function (o) { return o.region_id == d.properties.region_id })
+                    //console.log(cur)
+                    if (cur.status == 'alien') {
+                        return '#b2abd2'
                     } else {
-                        return '#e6dccc'
+                        return '#80cdc1'
                     }
-                })
-                .on('mouseover', function(d) {
-                    
+
+                } else {
+                    return '#e6dccc'
+                }
+            })
+                .on('mouseover', function (d) {
+
 
                     if (regions.includes(d.properties.region_id.toString())) {
                         document.getElementById("infoPanel").innerHTML = '';
@@ -412,11 +412,11 @@
                         }
 
 
-                        var curr = _.find(wherePlantIs, function(o) { return o.region_id == d.properties.region_id })
+                        var curr = _.find(wherePlantIs, function (o) { return o.region_id == d.properties.region_id })
                         //console.log(curr)
-                        var refCurr = _.find(list, function(o) { return o.list_id == curr.list_id })
+                        var refCurr = _.find(list, function (o) { return o.list_id == curr.list_id })
                         //console.log(refCurr)
-                        var refFinally = _.find(reference, function(o) { return o.ref_id == refCurr.ref_id })
+                        var refFinally = _.find(reference, function (o) { return o.ref_id == refCurr.ref_id })
                         //console.log(refFinally)
 
 
@@ -429,7 +429,7 @@
                     }
                 })
 
-                .on('mouseout', function(d) {
+                .on('mouseout', function (d) {
                     document.getElementById("infoPanel").style.visibility = 'hidden';
                 })
 
@@ -437,7 +437,7 @@
             d3.selectAll('circle')
                 .transition()
 
-                .attr('r', function(d) {
+                .attr('r', function (d) {
                     if (regions.includes(d.region_id)) {
                         d3.select(this).raise()
                         return '4px'
@@ -445,9 +445,9 @@
                         return '2px'
                     }
                 })
-                .attr('fill', function(d) {
+                .attr('fill', function (d) {
                     if (regions.includes(d.region_id)) {
-                        var cur = _.find(wherePlantIs, function(o) { return o.region_id == d.region_id })
+                        var cur = _.find(wherePlantIs, function (o) { return o.region_id == d.region_id })
                         //console.log(cur)
                         if (cur.status == 'alien') {
                             return '#b2abd2'
@@ -461,41 +461,41 @@
                 })
 
             d3.selectAll('circle')
-                .on('mouseover', function(d) {
+                .on('mouseover', function (d) {
                     if (regions.includes(d.region_id.toString())) {
-                    document.getElementById("infoPanel").innerHTML = '';
-                    //console.log(d);
-                    document.getElementById("infoPanel").style.visibility = 'visible';
-                    document.getElementById("infoPanel").style.left = (d3.event.pageX + 50) + 'px';
-                    document.getElementById("infoPanel").style.top = d3.event.pageY + 'px';
-                    //console.log(document.getElementById('infoPanel').offsetTop)
-                    if (document.getElementById('infoPanel').offsetLeft > 1300) {
-                        document.getElementById("infoPanel").style.left = (d3.event.pageX - 350) + 'px';
+                        document.getElementById("infoPanel").innerHTML = '';
+                        //console.log(d);
+                        document.getElementById("infoPanel").style.visibility = 'visible';
+                        document.getElementById("infoPanel").style.left = (d3.event.pageX + 50) + 'px';
+                        document.getElementById("infoPanel").style.top = d3.event.pageY + 'px';
+                        //console.log(document.getElementById('infoPanel').offsetTop)
+                        if (document.getElementById('infoPanel').offsetLeft > 1300) {
+                            document.getElementById("infoPanel").style.left = (d3.event.pageX - 350) + 'px';
+                        }
+
+                        if (document.getElementById('infoPanel').offsetTop > 500) {
+                            document.getElementById("infoPanel").style.top = (d3.event.pageY - 350) + 'px';
+                        }
+
+
+                        var curr = _.find(wherePlantIs, function (o) { return o.region_id == d.region_id })
+                        //console.log(curr)
+                        var refCurr = _.find(list, function (o) { return o.list_id == curr.list_id })
+                        //console.log(refCurr)
+                        var refFinally = _.find(reference, function (o) { return o.ref_id == refCurr.ref_id })
+                        //console.log(refFinally)
+
+
+                        document.getElementById("infoPanel").innerHTML +=
+                            //"<button class='closebtn1' onclick='infoCloseSide()'>x</button>" +
+                            '<h2>' + d.name + '</h2>' +
+                            '<h3>' + d.country + '</h3>' +
+                            '<h3>' + curr.status + '</h3>' +
+                            '<p><b>Reference</b>: ' + refFinally.reference + '</p>'
                     }
-
-                    if (document.getElementById('infoPanel').offsetTop > 500) {
-                        document.getElementById("infoPanel").style.top = (d3.event.pageY - 350) + 'px';
-                    }
-
-
-                    var curr = _.find(wherePlantIs, function(o) { return o.region_id == d.region_id })
-                    //console.log(curr)
-                    var refCurr = _.find(list, function(o) { return o.list_id == curr.list_id })
-                    //console.log(refCurr)
-                    var refFinally = _.find(reference, function(o) { return o.ref_id == refCurr.ref_id })
-                    //console.log(refFinally)
-
-
-                    document.getElementById("infoPanel").innerHTML +=
-                        //"<button class='closebtn1' onclick='infoCloseSide()'>x</button>" +
-                        '<h2>' + d.name + '</h2>' +
-                        '<h3>' + d.country + '</h3>' +
-                        '<h3>' + curr.status + '</h3>' +
-                        '<p><b>Reference</b>: ' + refFinally.reference + '</p>'
-                }
 
                 })
-                .on('mouseout', function(d) {
+                .on('mouseout', function (d) {
                     document.getElementById("infoPanel").style.visibility = 'hidden';
                 })
 
@@ -510,8 +510,8 @@
             document.getElementById('legend').innerHTML +=
                 '<h2>' + sel + '</h2>' +
                 '<h3 id="plantLink">' + "<a href='" + linkUrl + "'" + "target='_blank' >The Plant List Link</a></h3>" +
-                `<span style="background:#80cdc1"></span>` + '<label onmouseover="showdef(this)" onmouseout="hidedef(this)">Naturalized</label>' + '<div id="legend-tooltip">Content 1</div>' +
-                `<span style="background:#b2abd2"></span>` + '<label onmouseover="showdef(this)" onmouseout="hidedef(this)">Alien</label>' +
+                `<span style="background:#b2abd2"></span>` + '<label onmouseover="showdef(this)" onmouseout="hidedef(this)">Alien <i class="icon-info-sign"></i></label>' + '<div id="legend-tooltip">Content 1</div>' +
+                `<span style="background:#80cdc1"></span>` + '<label onmouseover="showdef(this)" onmouseout="hidedef(this)">Naturalized <i class="icon-info-sign"></i></label>' +
                 `<hr>` +
                 `<span style="background:#e6dccc"></span>` + '<label>GloNAF Data Available</label>' +
                 `<span style="background:#d3d3d3"></span>` + '<label>No Data Available</label>'
